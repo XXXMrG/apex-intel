@@ -1,0 +1,474 @@
+{
+  "30-0-designers-notes": {
+    "titleZh": "Marked 设计师笔记",
+    "summaryZh": "了解 Apex 团队对下一赛季 Marked 即将到来的游戏环境变化的见解。"
+  },
+  "marked-game-updates": {
+    "titleZh": "《Apex Legends™：Marked》即将推出的新内容",
+    "summaryZh": "首批详情包括 Bloodhound 重做、World’s Edge 更新、全新 Corrupted Attachments、Loba 与 Rampart 增强等内容！"
+  },
+  "cyberpunk-event": {
+    "titleZh": "Apex Legends x Cyberpunk 活动：全面义体化",
+    "summaryZh": "走上 Night City E-District 的街头，使用全新 Cyberware 模组，并尽量别变成 Cyberpsycho。"
+  },
+  "overclocked-midseason-patch-notes": {
+    "titleZh": "《Apex Legends™：Overclocked》季中补丁说明",
+    "summaryZh": "赛季后半程将带来传奇平衡调整、全新霰弹枪 Hop-Up，以及多项修复和改进；完整内容请见季中补丁说明。"
+  },
+  "29-1-designers-notes": {
+    "titleZh": "Overclocked 季中设计师笔记",
+    "summaryZh": "Overclocked 季中补丁即将带来的游戏环境变化。"
+  },
+  "overclocked-matchmaking-update": {
+    "titleZh": "Apex Legends：匹配测试更新",
+    "summaryZh": "了解团队为改善玩家体验而开展的匹配系统工作。"
+  },
+  "power-trip-event": {
+    "titleZh": "在 Power Trip 活动中突破极限",
+    "summaryZh": "全新 Wildcard 回合修正、Wildcard 地图轮换、活动外观、Ash Prestige 造型等内容即将登场。"
+  },
+  "overclocked-patch-notes": {
+    "titleZh": "《Apex Legends™：Overclocked》补丁说明",
+    "summaryZh": "为 Overclocked 上线做好准备：全新传奇 Axle、匹配与游戏内音频调整、通过死亡箱重生和链式治疗、Vantage 与 Conduit 更新等内容，详见完整补丁说明。"
+  },
+  "29-0-designers-notes": {
+    "titleZh": "Overclocked 设计师笔记",
+    "summaryZh": "解读 Overclocked 的游戏环境变化。"
+  },
+  "overclocked-game-updates": {
+    "titleZh": "《Apex Legends™：Overclocked》即将推出的新内容",
+    "summaryZh": "首批详情包括最新传奇 Axle、死亡箱重生机制、链式治疗等内容！"
+  },
+  "aftershock-event": {
+    "titleZh": "Aftershock 活动与季中补丁说明",
+    "summaryZh": "冲入全新 Wildcard，体验传奇更新、Elite Hemlok 等内容。"
+  },
+  "28-1-designers-notes": {
+    "titleZh": "Breach 季中设计师笔记",
+    "summaryZh": "深入介绍团队为各传奇或武器设定的目标、已经发现的挑战，以及为实现这些目标所做的改动。"
+  },
+  "breach-anti-cheat-update": {
+    "titleZh": "Apex Legends™：反作弊更新",
+    "summaryZh": "查看 Apex Legends 最新反作弊更新。"
+  },
+  "apex-gundam-event": {
+    "titleZh": "Apex Legends x Gundam 活动",
+    "summaryZh": "全新 Wildcard 玩法、Gundam 造型等内容。"
+  },
+  "2026-roadmap": {
+    "titleZh": "Apex Legends：前路展望",
+    "summaryZh": "这一切以及更多内容，都将在 2026 年及以后加入 Apex Legends。"
+  },
+  "7-year-anniversary": {
+    "titleZh": "庆祝 Apex 七周年",
+    "summaryZh": "赢取社区创作奖励，并解锁最多 4 位传奇。"
+  },
+  "breach-patch-notes": {
+    "titleZh": "《Apex Legends™：Breach》补丁说明",
+    "summaryZh": "为 Breach 上线做好准备：全新 Hardlight Meshes、Fuse、Catalyst 与 Bloodhound 更新、击倒护盾和背包调整、神射手武器削弱与霰弹枪增强等内容，详见完整补丁说明。"
+  },
+  "28-0-designers-notes": {
+    "titleZh": "Breach 设计师笔记",
+    "summaryZh": "解读 Breach 的游戏环境变化。"
+  },
+  "breach-game-updates": {
+    "titleZh": "《Apex Legends™：Breach》即将推出的新内容",
+    "summaryZh": "首批详情包括 Hardlight、Fuse 重做、Bloodhound 与 Catalyst 更新、运输舰回归排位赛等内容！"
+  },
+  "update-on-nintendo-switch-support": {
+    "titleZh": "Nintendo Switch 支持情况更新",
+    "summaryZh": "这里有一项关于 Nintendo Switch 版 Apex Legends 的重要更新。"
+  },
+  "27-1-designers-notes": {
+    "titleZh": "Amped 季中设计师笔记",
+    "summaryZh": "解读即将到来的游戏环境变化。"
+  },
+  "winter-wipeout-event": {
+    "titleZh": "带上悬浮滑板，参加 Winter Wipeout 活动",
+    "summaryZh": "并深入了解 Amped 季中补丁说明。"
+  },
+  "merry-mayhem-event": {
+    "titleZh": "在 Merry Mayhem 活动中感受节日狂欢",
+    "summaryZh": "Olympus 化身冬日仙境，带来 Guarded Airdrops、冬季 Wild Cards 等内容。"
+  },
+  "amped-matchmaking-update": {
+    "titleZh": "Apex Legends™：匹配测试更新",
+    "summaryZh": "欢迎回到最新一期 Apex Legends 匹配开发更新！找把舒适的椅子，端上你最喜欢的热饮，坐下来阅读本次更新。"
+  },
+  "supersonic-event": {
+    "titleZh": "在 Supersonic 活动中突破音障",
+    "summaryZh": "Wildcard 将迎来更新后的 Olympus 地图、可发射导弹的 Mythic R-99、提供速度加成的 Wild Cards 等内容。"
+  },
+  "amped-patch-notes": {
+    "titleZh": "《Apex Legends™：Amped》补丁说明",
+    "summaryZh": "为 Amped 上线做好准备：Olympus 重做、Valkyrie、Rampart 与 Horizon 增强、排位赛调整等内容，详见完整补丁说明。"
+  },
+  "amped-game-updates": {
+    "titleZh": "《Apex Legends™：Amped》即将推出的新内容",
+    "summaryZh": "为 Amped 上线做好准备：Olympus 重做、Valkyrie、Rampart 与 Horizon 更新、Double Tap Alternator、Mantle Boost 等内容即将到来。"
+  },
+  "showdown-audio-update": {
+    "titleZh": "Apex Legends™：音频更新",
+    "summaryZh": "下一期开发更新将深入介绍 Apex Legends 的音频。"
+  },
+  "raise-hell-event": {
+    "titleZh": "Raise Hell 活动：让弹壳轰鸣",
+    "summaryZh": "Rev Shell Grenades 回归，并带来全新 Wild Cards、诡趣十足的季节惊喜、Mad Mag 的 Prestige 造型“Apex Warrior”等内容！"
+  },
+  "wild-iron-event": {
+    "titleZh": "在 Wild Iron 活动中引爆火力",
+    "summaryZh": "使用全新 Mythic Flatline 尽情出击，在 Wildcard 中体验八张全新 Wild Cards，并深入了解季中补丁说明。"
+  },
+  "showdown-anti-cheat-update": {
+    "titleZh": "Apex Legends™：反作弊更新",
+    "summaryZh": "Apex Legends 反作弊工作的最新进展。"
+  },
+  "showdown-matchmaking-update": {
+    "titleZh": "Apex Legends™：匹配测试更新",
+    "summaryZh": "Apex Legends 最新匹配测试的结果。"
+  },
+  "galactic-games-event": {
+    "titleZh": "全心投入 Galactic Games 活动",
+    "summaryZh": "Wildcard 将加入活动玩法体验与一项全新机制，Grand Slam Bat 也将登陆 Outlands，另有更多内容。"
+  },
+  "showdown-patch-notes": {
+    "titleZh": "《Apex Legends™：Showdown》补丁说明",
+    "summaryZh": "为 Showdown 上线做好准备：Caustic 与 Bangalore 增强、排位赛更新等内容，详见完整补丁说明。"
+  },
+  "showdown-game-updates": {
+    "titleZh": "《Apex Legends™：Showdown》即将推出的新内容",
+    "summaryZh": "查看 Showdown 的重点内容，包括 Legend Amps、Elite RE-45、Locked Hop-Ups 等。"
+  },
+  "game-update-wildcard": {
+    "titleZh": "Wildcard 将随《Apex Legends™：Showdown》登场",
+    "summaryZh": "在这一最新模式中放开手脚、火力全开，体验简化战利品、传奇叠选、更新后的 Kings Canyon 等内容。"
+  },
+  "haute-shot-event": {
+    "titleZh": "在 Haute Shot 活动中点燃热力",
+    "summaryZh": "Arenas: Duels 携传奇技能回归，换上全新海滩装束，并解锁全新通用近战武器 Sky Piercer。"
+  },
+  "future-icons-event": {
+    "titleZh": "在 Future Icons 活动中正面对决",
+    "summaryZh": "挑战 Arenas: Duels，解锁 Wattson 的 Prestige 造型“Apex Icon”，在 2025 年 6 月 24 日至 7 月 15 日试用 Wattson 与 Vantage，另有更多内容！"
+  },
+  "dev-update-0625": {
+    "titleZh": "Apex Legends™：游戏可靠性更新",
+    "summaryZh": "今年的下一期开发更新将重点介绍团队在游戏可靠性（包括稳定性）方面所做的工作。"
+  },
+  "apex-legends-bocek-blast": {
+    "titleZh": "Apex Legends Bocek Blast 竞赛",
+    "summaryZh": "用 Bocek 射出你的最佳一箭，争取赢得 Prodigy Split 2 高级战斗通行证。"
+  },
+  "prodigy-patch-notes": {
+    "titleZh": "《Apex Legends™：Prodigy》补丁说明",
+    "summaryZh": "为 Prodigy 上线做好准备，了解音频更新、Death By Design 等内容的详情；更多信息请见完整补丁说明。"
+  },
+  "introducing-sparrow": {
+    "titleZh": "《Apex Legends™：Sparrow》即将推出的新内容",
+    "summaryZh": "看看 Prodigy 的天才新星、他的技能套组，以及如何解锁他并获得他的造型。"
+  },
+  "takeover-spotlight-4": {
+    "titleZh": "Apex Legends™：社区艺术聚焦",
+    "summaryZh": "展示 Apex Legends™ 社区各地的艺术领军创作者。"
+  },
+  "takeover-spotlight-3": {
+    "titleZh": "Apex Legends™：社区 Cosplay 聚焦",
+    "summaryZh": "展示 Apex Legends™ 社区各地的 Cosplay 领军创作者。"
+  },
+  "fight-force-event": {
+    "titleZh": "Fight Force 活动：全接触出击",
+    "summaryZh": "在 EPG Extreme LTM 中引爆火力，迎接 Kaminari Qpi 的挑战，并解锁 Mirage 的 Prestige 造型“Apex Adonis”。"
+  },
+  "takeover-spotlight-2": {
+    "titleZh": "Apex Legends™：社区空间与倡议聚焦",
+    "summaryZh": "展示 Apex Legends™ 社区各地的空间与倡议。"
+  },
+  "takeover-spotlight-1": {
+    "titleZh": "Apex Legends™：社区手工艺与制作聚焦",
+    "summaryZh": "展示 Apex Legends™ 社区各地的创意领军者。"
+  },
+  "celebrate-6-years-of-apex": {
+    "titleZh": "庆祝 Apex 六周年",
+    "summaryZh": "通过免费社区创作奖励进度、Mythic Mayhem Royale、全新 Mythic R-301 等内容庆祝六周年！"
+  },
+  "takeover-twitch-drops": {
+    "titleZh": "Apex Legends™：Takeover Twitch 掉宝",
+    "summaryZh": "前往 Twitch 观看直播，赢取掉宝！"
+  },
+  "takeover-patch-notes": {
+    "titleZh": "《Apex Legends™：Takeover》补丁说明",
+    "summaryZh": "为 Takeover 上线做好准备：传奇与武器增强、突击兵种特长等内容，详见完整补丁说明。"
+  },
+  "takeover-game-updates": {
+    "titleZh": "《Apex Legends™：Takeover》即将推出的新内容",
+    "summaryZh": "了解 Takeover 的游戏更新，包括 Creator Commissioners、Arsenals、游戏环境变化等内容。"
+  },
+  "dev-update-0225": {
+    "titleZh": "Apex Legends™：反作弊与匹配更新",
+    "summaryZh": "2025 年首期开发更新聚焦反作弊与匹配系统。"
+  },
+  "lunar-rebirth-event": {
+    "titleZh": "在 Lunar Rebirth 收集活动中斩穿敌阵",
+    "summaryZh": "使用 Buster Sword R2R5，借助 Materia Hop-Ups 取得优势，并通过收集解锁 Alter 的 Prestige 造型“Voidsnake”。"
+  },
+  "astral-anomaly-event": {
+    "titleZh": "在 Astral Anomaly 活动中超越异界",
+    "summaryZh": "Launch Royale 以全新变化回归，还可赢取 Exotic Shards，并查看季中更新。"
+  },
+  "matchmaking-update-0924": {
+    "titleZh": "Apex Legends™：2024 匹配更新",
+    "summaryZh": "最新一期匹配开发更新将介绍新增和改进的功能，并回答玩家的问题。"
+  },
+  "rather-be-apexing-sweepstakes-blog": {
+    "titleZh": "Rather be Apexing 抽奖活动",
+    "summaryZh": "参与活动，即有机会为你和队友赢得 Nessie 组合包。"
+  },
+  "winters-haunt-event": {
+    "titleZh": "在 Winter’s Haunt 活动中直面严寒",
+    "summaryZh": "在 Winter Express LTM 中迎接轨道试炼，收集 Bloodhound 的“Winter’s Bane”，并赢取 150 个传家宝碎片。"
+  },
+  "holiday-gift-guide-2024": {
+    "titleZh": "Apex Legends™ 2024 节日礼物指南",
+    "summaryZh": "人人都有传奇战利品，无需补给箱。"
+  },
+  "creator-hub": {
+    "titleZh": "Apex Legends™：创作者中心",
+    "summaryZh": "全球创作者社区一直是 Apex Legends™ 的重要组成部分。团队正扩大对创作者体验的支持。"
+  },
+  "from-the-rift-season-updates": {
+    "titleZh": "《Apex Legends™：From The Rift》即将推出的新内容",
+    "summaryZh": "重温第一次火热空降，借助焕新后的 Lifeline 重整小队，并查看 From The Rift 即将带来的全部更新。"
+  },
+  "techno-terror-event": {
+    "titleZh": "Techno Terror 收集活动：暮色降临 E-District",
+    "summaryZh": "Trick N’ Treat Trios 回归，带来惊悚乐趣；还有 Pathfinder 的 Prestige 造型“Apex Mecha”，并可看看哪些传奇换上了节日装扮！"
+  },
+  "global-drop-rates": {
+    "titleZh": "Apex Legends™：全球最低掉落率",
+    "summaryZh": "了解 Apex 组合包全球最低掉落率所需的一切信息。"
+  },
+  "space-hunt-event": {
+    "titleZh": "在 Space Hunt 活动中横扫银河",
+    "summaryZh": "体验全新目标制 LTM 与通用近战物品“Serpent’s Sting”，赢取 Bounty Bucks，并查看季中补丁的更多内容。"
+  },
+  "anti-cheat-update-082124": {
+    "titleZh": "Apex Legends™：反作弊",
+    "summaryZh": "向社区介绍团队在对局质量方面的最新进展。"
+  },
+  "temporal-chaos-event": {
+    "titleZh": "在 Temporal Chaos 收集活动中迎战乱局",
+    "summaryZh": "在 Straight Shot Revival 中考验实力，在全新 TDM 变体中体验双持，并解锁 Bangalore 的传家宝“Emerald Edge”。"
+  },
+  "shockwave-patch-notes": {
+    "titleZh": "《Apex Legends™：Shockwave》补丁说明",
+    "summaryZh": "蓄势迎接 Shockwave 上线，了解兵种特长、平衡调整、传奇更新等内容。"
+  },
+  "welcome-to-edistrict": {
+    "titleZh": "欢迎来到 E-District",
+    "summaryZh": "自 2024 年 8 月 6 日起火热空降，探索 Suotamo 市这座建筑密集的都市岛屿。"
+  },
+  "shockwave-game-updates": {
+    "titleZh": "《Apex Legends™：Shockwave》即将推出的新内容",
+    "summaryZh": "提前感受 Shockwave 的能量，重点内容包括 Revival、霓虹闪耀的全新 E-District 地图、双持武器等。"
+  },
+  "void-reckoning-event": {
+    "titleZh": "在 Void Reckoning 活动中坚守阵地",
+    "summaryZh": "在全新 BIG TDM 中迎战 12 名对手，赢取 Void Points，并解锁 Newcastle 的传奇造型“Galactic Garrison”等里程碑奖励。"
+  },
+  "apex-legends-battle-pass-update": {
+    "titleZh": "Apex Legends™：战斗通行证更新",
+    "summaryZh": "了解即将到来的战斗通行证更新所需的一切信息。"
+  },
+  "double-take-collection-event": {
+    "titleZh": "在 Double Take 收集活动中加倍出击",
+    "summaryZh": "组队参加四人小队模式，赢取 Lifeline 的“Apex Corruptor”，以 1.5 倍进度推进 Prestige 挑战，并查看季中补丁的更多内容。"
+  },
+  "community-made-stickers": {
+    "titleZh": "Apex Legends™：社区创作夏日贴纸",
+    "summaryZh": "传奇们，准备好吧！全新社区创作贴纸包从今天起开放获取。"
+  },
+  "chaos-cup": {
+    "titleZh": "Apex Legends™ 英国 Chaos Cup",
+    "summaryZh": "英国首个官方 Apex Legends™ 社区活动。"
+  },
+  "upheaval-patch-notes": {
+    "titleZh": "《Apex Legends™：Upheaval》补丁说明",
+    "summaryZh": "为 Upheaval 上线做好准备，了解平衡与传奇更新、Alter 相关内容等。"
+  },
+  "apex-artifacts": {
+    "titleZh": "Apex Legends™：Apex Artifacts（Apex 神器）",
+    "summaryZh": "使用可自定义的 Apex Artifacts 刻写命运。你的近战武器，由你定义。"
+  },
+  "upheaval-game-updates": {
+    "titleZh": "《Apex Legends™：Upheaval》即将推出的新内容",
+    "summaryZh": "深入了解《Apex Legends™：Upheaval》即将到来的游戏更新，包括单排、Alter，以及 Broken Moon 的全新黎明！"
+  },
+  "urban-assault-event": {
+    "titleZh": "在 Urban Assault 收集活动中席卷街头",
+    "summaryZh": "整装迎接 Three Strikes、全新 Apex Rumble、Octane 的“Apex Riptide”等内容！"
+  },
+  "shadow-society-event": {
+    "titleZh": "在 Shadow Society 活动中统治地下世界",
+    "summaryZh": "在 Lockdown 中守住地盘，赢取 Reputation，并挥舞全新“Cobalt Katar”。"
+  },
+  "inner-beast-event": {
+    "titleZh": "Inner Beast 收集活动：狩猎开始",
+    "summaryZh": "在 The Hunt 中成为猎人或猎物，并通过完成挑战向 Allfather 致敬。"
+  },
+  "apex-legends-nessie-cup": {
+    "titleZh": "Apex Legends™ Nessie 杯",
+    "summaryZh": "传奇们，准备好为 Apex Legends™ Nessie Cup 而战吧！"
+  },
+  "breakout-patch-notes": {
+    "titleZh": "《Apex Legends™：Breakout》补丁说明",
+    "summaryZh": "为 Breakout 上线做好准备，全面了解制造系统 2.0、传奇升级、平衡调整等内容。"
+  },
+  "fifth-anniversary-collection-event": {
+    "titleZh": "通过周年收集活动庆祝 Apex Legends 五周年",
+    "summaryZh": "庆祝五周年，游玩全新 LTM、推进社区创作奖励进度并赢取外观，另有更多内容！"
+  },
+  "breakout-rewards": {
+    "titleZh": "Apex Legends™：Breakout 奖励",
+    "summaryZh": "了解 Apex Legends™ 即将推出的 Breakout 奖励所需的一切信息。"
+  },
+  "breakout-season-game-updates": {
+    "titleZh": "《Apex Legends™：Breakout》即将推出的新内容",
+    "summaryZh": "抢先了解 Breakout 即将带来的游戏更新，包括传奇升级、排位赛、Thunderdome 等内容。"
+  },
+  "cross-progression": {
+    "titleZh": "Apex Legends™ 中的跨平台进度",
+    "summaryZh": "抢先了解跨平台进度功能将在 Apex Legends™ 中如何运作。"
+  },
+  "ignite-season-game-updates": {
+    "titleZh": "《Apex Legends™：Ignite》即将推出的新内容",
+    "summaryZh": "深入了解《Apex Legends™：Ignite》即将带来的游戏更新，包括 Conduit、Storm Point 地图更新、跨平台进度等内容！"
+  },
+  "july-2023-ranked-dev-blog": {
+    "titleZh": "Apex Legends™：2023 年 7 月排位赛开发博客",
+    "summaryZh": "进一步了解 Apex Legends™ 排位赛、团队从 Arsenal 更新中获得的经验，以及即将到来的内容。"
+  },
+  "global-price-adjustment-update": {
+    "titleZh": "全球价格调整更新",
+    "summaryZh": "关于 Apex Legends 即将进行的全球价格调整的最新消息。"
+  },
+  "arsenal-ranked-update": {
+    "titleZh": "Apex Legends™：Arsenal 排位赛更新",
+    "summaryZh": "进一步了解 Apex Legends 排位赛，以及团队近期为改进排位赛和匹配系统所做的调整。"
+  },
+  "matchmaking-2023": {
+    "titleZh": "Apex Legends 匹配系统更新",
+    "summaryZh": "进一步了解 Apex Legends 的匹配方式，以及团队近期为改进匹配系统所做的调整。"
+  },
+  "iron-sight-update": {
+    "titleZh": "机械瞄具更新",
+    "summaryZh": "了解 Apex Legends™ 现在及未来将如何提升机械瞄具的竞技公平性。"
+  },
+  "saviors-ranked-update": {
+    "titleZh": "Saviors 上线，Apex Legends 排位赛全面焕新！",
+    "summaryZh": "查看 Saviors 上线时排位赛重大更新的完整解析。"
+  },
+  "anniversary-collection-event": {
+    "titleZh": "通过周年收集活动庆祝 Apex Legends 三周年",
+    "summaryZh": "以小队造型、社区创作奖励进度和 Prestige 造型首次亮相庆祝三周年！"
+  },
+  "servers-netcode-developer-deep-dive": {
+    "titleZh": "Apex 如何运转：服务器与网络代码开发者深度解析",
+    "summaryZh": "Apex Legends 首席工程师 Ricklesauceur 将探讨玩家常遇到的网络问题、问题成因，以及团队为解决这些问题所做的努力。"
+  },
+  "two-years-of-apex-legends": {
+    "titleZh": "回顾 Apex Legends 的两年历程",
+    "summaryZh": "两年过去，我们才刚刚开始。"
+  },
+  "ranked-series-3-details": {
+    "titleZh": "Apex Legends 排位赛系列 3 公布",
+    "summaryZh": "了解第 4 赛季 Assimilation 于 2 月 4 日上线时，排位联赛将迎来哪些内容。"
+  },
+  "progression-changes": {
+    "titleZh": "等级上限提高、成长系统调整、更多可赢取的 Apex 组合包等内容",
+    "summaryZh": "进一步了解将于 12 月 3 日推出的玩家等级成长与奖励调整。"
+  },
+  "ranked-league-series-2": {
+    "titleZh": "Apex Legends 排位联赛系列 2 于 10 月 1 日开启",
+    "summaryZh": "查看 Respawn 团队带来的系列 2 全部详情。"
+  },
+  "ranked-leagues-mode-details": {
+    "titleZh": "Apex Legends 排位联赛介绍",
+    "summaryZh": "查看 Respawn 团队带来的排位联赛全部详情。"
+  },
+  "weapon-mastery-explained": {
+    "titleZh": "武器精通详解",
+    "summaryZh": "武器精通会分别记录每把枪的击杀、爆头和完成情况。选择一把武器，在赢取奖励的同时提升技巧。"
+  },
+  "choosing-your-next-legend": {
+    "titleZh": "选择你的下一位传奇",
+    "summaryZh": "找出你的传奇轮换中缺少的定位，选择下一个解锁目标：生存、转点、空间控制或进攻。"
+  },
+  "the-road-to-ranked": {
+    "titleZh": "通往排位赛之路",
+    "summaryZh": "了解“通往排位赛之路”挑战所需的一切信息，以及排位分和首次参加排位赛的技巧。"
+  },
+  "what-to-chase-next": {
+    "titleZh": "接下来追求什么",
+    "summaryZh": "完成入门后，可以把重点放在排位模式、传奇解锁、武器精通或小队配合上。选定一个目标，然后出发。"
+  },
+  "welcome-pass-101": {
+    "titleZh": "Welcome Pass 入门指南",
+    "summaryZh": "了解 Apex Legends Welcome Pass 的运作方式、应该优先完成哪些挑战，以及过程中会解锁哪些传奇。"
+  },
+  "finding-your-legend": {
+    "titleZh": "找到适合你的传奇",
+    "summaryZh": "不确定该玩哪位传奇？了解五种兵种、各定位的作用，以及如何找到适合你的传奇。"
+  },
+  "standing-out-in-the-apex-games": {
+    "titleZh": "在 Apex Games 中脱颖而出",
+    "summaryZh": "让你在 Apex Legends 中发挥作用的 5 个习惯：紧跟队友、经常标记、快速搜刮、使用技能并及时治疗。"
+  },
+  "welcome-to-the-apex-games": {
+    "titleZh": "欢迎来到 Apex Games",
+    "summaryZh": "Apex Legends 新手路线图：选择一位顺手的传奇、学习基础，并跟随 Welcome Pass 前进。"
+  },
+  "anti-cheat-developer-update-may-2019": {
+    "titleZh": "反作弊开发者更新——5 月 2 日",
+    "summaryZh": "查看最新开发者更新，了解 Respawn 团队本周开展的工作。"
+  },
+  "keeping-your-welcome-pass-moving": {
+    "titleZh": "持续推进 Welcome Pass",
+    "summaryZh": "把 Welcome Pass 变成专注的单次游玩计划。每场选择一项挑战，并利用 Bot Royale Evolved 在没有真人大厅压力的情况下磨炼技巧。"
+  },
+  "how-squads-win-games": {
+    "titleZh": "小队如何赢下比赛",
+    "summaryZh": "帮助小队取胜的 6 个习惯：保持集结、及时呼叫重整、共享情报、同步出击、分享战利品，以及没有麦克风时使用标记。"
+  },
+  "building-your-legend-pool": {
+    "titleZh": "建立你的传奇池",
+    "summaryZh": "建立均衡的传奇轮换，让自己在更多对局中发挥作用：顺手之选、施压之选和小队价值之选。"
+  },
+  "level-up-fast": {
+    "titleZh": "快速提升水平",
+    "summaryZh": "在 Apex Legends 中提升技巧的 6 个习惯：热身、有计划地落地、快速搜刮、依托掩体作战、及早治疗，并保持足够近的距离以便互相补枪。"
+  },
+  "a-letter-to-our-community": {
+    "titleZh": "致社区的一封信",
+    "summaryZh": "执行制作人 Drew McCoy 谈论 Apex Legends 的上线、它对团队的意义，以及未来的方向。"
+  },
+  "respawn-credits": {
+    "titleZh": "Respawn 制作人员名单",
+    "summaryZh": "衷心感谢每一位为打造 Apex Legends 倾注心血的人。"
+  },
+  "ea-credits": {
+    "titleZh": "EA 制作人员名单",
+    "summaryZh": "衷心感谢每一位为打造 Apex Legends 倾注心血的人。"
+  },
+  "localization-credits": {
+    "titleZh": "本地化制作人员名单",
+    "summaryZh": "衷心感谢每一位为打造 Apex Legends 倾注心血的人。"
+  },
+  "partners-credits": {
+    "titleZh": "合作伙伴名单",
+    "summaryZh": "衷心感谢每一位为打造 Apex Legends 倾注心血的人。"
+  },
+  "open-source-credits": {
+    "titleZh": "法律声明／开源软件鸣谢",
+    "summaryZh": "衷心感谢每一位为打造 Apex Legends 倾注心血的人。"
+  }
+}

@@ -1,0 +1,1104 @@
+{
+  "meta": {
+    "gameVersion": "Season 29 · Overclocked (post-midseason snapshot)",
+    "fetchedAt": "2026-07-31T16:02:39Z",
+    "sourceName": "The Apex Legends Wiki",
+    "sourceUrl": "https://apexlegends.wiki.gg/wiki/Legend",
+    "license": "CC BY-NC-SA 4.0",
+    "count": 28
+  },
+  "items": [
+    {
+      "id": "bloodhound",
+      "name": "Bloodhound",
+      "nameZh": "寻血猎犬",
+      "title": "Technological Tracker",
+      "class": "Recon",
+      "releaseDate": "2019-02-04",
+      "description": "Bloodhound is a Recon Legend who has been available since launch. They specialize in hunting down opponents thanks to clues left by Tracker and wide-reaching scans via Eye of the Allfather . Their Beast of the Hunt summons ravens to track down enemies and buffs Bloodhound's speed and vision.",
+      "abilities": [
+        {
+          "id": "bloodhound-passive",
+          "name": "Tracker",
+          "type": "passive",
+          "description": "Foes leave behind clues for you to find. White Ravens may appear to guide you to battle and charge your abilities.",
+          "cooldown": null
+        },
+        {
+          "id": "bloodhound-tactical",
+          "name": "Eye of the Allfather",
+          "type": "tactical",
+          "description": "Briefly reveal enemies, traps, and clues through all structures in front of you.",
+          "cooldown": "25 seconds"
+        },
+        {
+          "id": "bloodhound-ultimate",
+          "name": "Beast of the Hunt",
+          "type": "ultimate",
+          "description": "Transform into the ultimate hunter. Launches a White Raven and enhances senses to see cold tracks and move faster. Knocks will refresh your tactical and extend the hunt duration",
+          "cooldown": "2.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Bloodhound",
+        "revision": 125404,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "gibraltar",
+      "name": "Gibraltar",
+      "nameZh": "直布罗陀",
+      "title": "Shielded Fortress",
+      "class": "Support",
+      "releaseDate": "2019-02-04",
+      "description": "Gibraltar is a Support Legend who has been available since launch. He is able to protect himself with his Gun Shield , and can create a temporary safe zone with his Dome of Protection . He can also call in a Defensive Bombardment to create a temporary unsafe zone for enemies.",
+      "abilities": [
+        {
+          "id": "gibraltar-passive",
+          "name": "Gun Shield",
+          "type": "passive",
+          "description": "Aiming down sights deploys a gun shield that blocks incoming fire.",
+          "cooldown": null
+        },
+        {
+          "id": "gibraltar-tactical",
+          "name": "Dome of Protection",
+          "type": "tactical",
+          "description": "Blocks incoming and outgoing attacks.",
+          "cooldown": "13 seconds"
+        },
+        {
+          "id": "gibraltar-ultimate",
+          "name": "Defensive Bombardment",
+          "type": "ultimate",
+          "description": "Call in a concentrated mortar strike on a marked position.",
+          "cooldown": "3 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Gibraltar",
+        "revision": 124828,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "lifeline",
+      "name": "Lifeline",
+      "nameZh": "命脉",
+      "title": "Combat Medic",
+      "class": "Support",
+      "releaseDate": "2019-02-04",
+      "description": "Lifeline is a Support Legend who was released with the game's launch, and was heavily reworked in Season 23 . She can use her Combat Glide to save downed allies automatically and briefly glide. Her D.O.C. Heal Drone can be deployed to restore health without using items, and her D.O.C. Halo can allow herself and teammates to use healing items faster and behind cover.",
+      "abilities": [
+        {
+          "id": "lifeline-passive",
+          "name": "Combat Glide",
+          "type": "passive",
+          "description": "Hold mid-air to use D.O.C. to briefly glide. Deploy D.O.C to revive teammates, leaving Lifeline free to defend.",
+          "cooldown": null
+        },
+        {
+          "id": "lifeline-tactical",
+          "name": "D.O.C. Heal Drone",
+          "type": "tactical",
+          "description": "D.O.C. heals all nearby allies. D.O.C. can be assigned to follow allies once deployed.",
+          "cooldown": "45 seconds"
+        },
+        {
+          "id": "lifeline-ultimate",
+          "name": "D.O.C. Halo",
+          "type": "ultimate",
+          "description": "Throw D.O.C. to activate his Halo Shield System. All players inside use Health & Shield consumables faster.",
+          "cooldown": "3 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Lifeline",
+        "revision": 123693,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "pathfinder",
+      "name": "Pathfinder",
+      "nameZh": "探路者",
+      "title": "Forward Scout",
+      "class": "Skirmisher",
+      "releaseDate": "2019-02-04",
+      "description": "Pathfinder is a Skirmisher Legend who has been available since launch. His Grappling Hook is a powerful and quick mobility tool, as is his Zipline Gun , a quick and simple way to get his whole squad from one spot to another. His Insider Knowledge gives him a way to quickly charge a new zipline.",
+      "abilities": [
+        {
+          "id": "pathfinder-passive",
+          "name": "Insider Knowledge",
+          "type": "passive",
+          "description": "Scan a Care Package, Ring Console, or Survey Beacon to recharge 25% of the Zipline Gun and permanently reduce its cooldown by 10s.",
+          "cooldown": null
+        },
+        {
+          "id": "pathfinder-tactical",
+          "name": "Grappling Hook",
+          "type": "tactical",
+          "description": "Grapple to get to out-of-reach places quickly.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "pathfinder-ultimate",
+          "name": "Zipline Gun",
+          "type": "ultimate",
+          "description": "Create a zipline for everyone to use. Riders take 50% less damage while its energized.",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Pathfinder",
+        "revision": 125307,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "wraith",
+      "name": "Wraith",
+      "nameZh": "恶灵",
+      "title": "Interdimensional Skirmisher",
+      "class": "Skirmisher",
+      "releaseDate": "2019-02-04",
+      "description": "Wraith is a Skirmisher Legend who has been available since launch. She is able to escape dangerous situations with Into the Void , and can create safe passage for her squad using a Dimensional Rift . Her Voices from the Void warn her in advance when enemies or traps are near.",
+      "abilities": [
+        {
+          "id": "wraith-passive",
+          "name": "Voices from the Void",
+          "type": "passive",
+          "description": "A voice warns you when danger approaches. As far as you can tell, it's on your side.",
+          "cooldown": null
+        },
+        {
+          "id": "wraith-tactical",
+          "name": "Into the Void",
+          "type": "tactical",
+          "description": "Reposition quickly through the safety of void space, avoiding all damage.",
+          "cooldown": "15 seconds"
+        },
+        {
+          "id": "wraith-ultimate",
+          "name": "Dimensional Rift",
+          "type": "ultimate",
+          "description": "Link two locations with portals for 45 seconds, allowing anyone to use them.",
+          "cooldown": "1.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Wraith",
+        "revision": 125032,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "bangalore",
+      "name": "Bangalore",
+      "nameZh": "班加罗尔",
+      "title": "Professional Soldier",
+      "class": "Assault",
+      "releaseDate": "2019-02-04",
+      "description": "Bangalore is an Assault Legend who has been available since launch. She can blind enemies with her Smoke Launcher and deploy Rolling Thunder to force them to take cover. When enemies open fire at her, Double Time kicks in to give her the speed to escape.",
+      "abilities": [
+        {
+          "id": "bangalore-passive",
+          "name": "Double Time",
+          "type": "passive",
+          "description": "Taking fire while sprinting makes you move faster for a brief time.",
+          "cooldown": null
+        },
+        {
+          "id": "bangalore-tactical",
+          "name": "Smoke Launcher",
+          "type": "tactical",
+          "description": "Fire a high-velocity smoke canister that explodes into a smoke wall on impact.",
+          "cooldown": "30 seconds"
+        },
+        {
+          "id": "bangalore-ultimate",
+          "name": "Rolling Thunder",
+          "type": "ultimate",
+          "description": "Call in an artillery strike that slowly creeps across the landscape, starting left from the flare's position.",
+          "cooldown": "3.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Bangalore",
+        "revision": 124700,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "caustic",
+      "name": "Caustic",
+      "nameZh": "腐蚀",
+      "title": "Toxic Trapper",
+      "class": "Controller",
+      "releaseDate": "2019-02-04",
+      "description": "Caustic is a Controller Legend who has been available since launch. He can use his Nox Gas Traps and Nox Gas Grenade to coat a wide area in toxic gas, slowing and blinding enemies while his Nox Vision gives him immunity.",
+      "abilities": [
+        {
+          "id": "caustic-passive",
+          "name": "Field Research",
+          "type": "passive",
+          "description": "Gain extra upgrade points by causing damage with gas, opening deathboxes and scanning ring consoles.",
+          "cooldown": null
+        },
+        {
+          "id": "caustic-tactical",
+          "name": "Nox Gas Trap",
+          "type": "tactical",
+          "description": "Place up to 6 canisters that release deadly Nox gas when shot or triggered by enemies. Nox Gas damages and grounds enemies.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "caustic-ultimate",
+          "name": "Nox Gas Grenade",
+          "type": "ultimate",
+          "description": "Blankets a large area in Nox Gas. Nox Gas damages and grounds enemies",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Caustic",
+        "revision": 122260,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "mirage",
+      "name": "Mirage",
+      "nameZh": "幻象",
+      "title": "Holographic Trickster",
+      "class": "Support",
+      "releaseDate": "2019-02-04",
+      "description": "Mirage is a Support Legend who has been available since launch. He can make decoys of himself using Psyche Out and Life of the Party to distract and confuse enemies, and can turn invisible while reviving squadmates thanks to Now You See Me... .",
+      "abilities": [
+        {
+          "id": "mirage-passive",
+          "name": "Now You See Me...",
+          "type": "passive",
+          "description": "Automatically cloak when using Respawn Beacons and reviving teammates. Spawn a decoy and cloak when downed.",
+          "cooldown": null
+        },
+        {
+          "id": "mirage-tactical",
+          "name": "Psyche Out",
+          "type": "tactical",
+          "description": "Send out a holographic decoy to confuse the enemy. Press ⧄ to control the decoy.",
+          "cooldown": "15 seconds"
+        },
+        {
+          "id": "mirage-ultimate",
+          "name": "Life of the Party",
+          "type": "ultimate",
+          "description": "Mirage deploys a team of controllable decoys to distract enemies.",
+          "cooldown": "1 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Mirage",
+        "revision": 123555,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "octane",
+      "name": "Octane",
+      "nameZh": "辛烷",
+      "title": "High-Speed Daredevil",
+      "class": "Skirmisher",
+      "releaseDate": "2019-03-19",
+      "description": "Octane is a Skirmisher Legend who was introduced in Season 1 . He can use Stim to bolster his speed at the cost of his health, and his Swift Mend helps by regenerating his health over time. He can also throw down a Launch Pad to boost himself and his squad across long distances.",
+      "abilities": [
+        {
+          "id": "octane-passive",
+          "name": "Swift Mend",
+          "type": "passive",
+          "description": "Automatically restores health over time.",
+          "cooldown": null
+        },
+        {
+          "id": "octane-tactical",
+          "name": "Stim",
+          "type": "tactical",
+          "description": "Increase walk speed by 30% and sprint speed by 40% for 6 seconds. Costs Health to use. Reduction to slows while active.",
+          "cooldown": "0.7 seconds"
+        },
+        {
+          "id": "octane-ultimate",
+          "name": "Launch Pad",
+          "type": "ultimate",
+          "description": "Deploy a jump pad that catapults anyone through the air. Press the jump button to double jump.",
+          "cooldown": "1.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Octane",
+        "revision": 125031,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "wattson",
+      "name": "Wattson",
+      "nameZh": "沃特森",
+      "title": "Static Defender",
+      "class": "Controller",
+      "releaseDate": "2019-07-02",
+      "description": "Wattson is a Controller Legend who was introduced in Season 2 . She can defend against advancing squads by placing Perimeter Security to shock intruders, and an Interception Pylon to shoot down ordnance. She can also use Spark of Genius to recharge her ultimate and her shields.",
+      "abilities": [
+        {
+          "id": "wattson-passive",
+          "name": "Spark of Genius",
+          "type": "passive",
+          "description": "Ultimate Accelerant s fully charge Wattson's ultimate. She can also carry more Ultimate Accelerants and use them faster. Wattson slowly restores her shields over time.",
+          "cooldown": null
+        },
+        {
+          "id": "wattson-tactical",
+          "name": "Perimeter Security",
+          "type": "tactical",
+          "description": "Create electrified fences by connecting nodes. Fences damage and slow enemies. Fences near doors will electrify them.",
+          "cooldown": "4 seconds"
+        },
+        {
+          "id": "wattson-ultimate",
+          "name": "Interception Pylon",
+          "type": "ultimate",
+          "description": "Place an electrified pylon (Max: 1) that destroys incoming ordnance and repairs damaged shields. Intercepted ordnances are converted into Arc Stars.",
+          "cooldown": "3 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Wattson",
+        "revision": 125434,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "crypto",
+      "name": "Crypto",
+      "nameZh": "密客",
+      "title": "Surveillance Expert",
+      "class": "Recon",
+      "releaseDate": "2019-10-01",
+      "description": "Crypto is a Recon Legend who was introduced in Season 3 . He can fly his Surveillance Drone to spy on and distract enemies, and fly close to scan them with Neurolink . He can also activate a Drone EMP to remotely destroy enemy defenses and shields.",
+      "abilities": [
+        {
+          "id": "crypto-passive",
+          "name": "Neurolink",
+          "type": "passive",
+          "description": "Crypto and his teammates see what his Surveillance Drone detects up to a 30m distance.",
+          "cooldown": null
+        },
+        {
+          "id": "crypto-tactical",
+          "name": "Surveillance Drone",
+          "type": "tactical",
+          "description": "Deploy an aerial camera drone that can remotely interact with Survey Beacons , Respawn Beacons , and ally Banner cards.",
+          "cooldown": "40 seconds"
+        },
+        {
+          "id": "crypto-ultimate",
+          "name": "Drone EMP",
+          "type": "ultimate",
+          "description": "Charge up an EMP from your drone. The blast deals 50 shield damage, slows players, and destroys traps.",
+          "cooldown": "3 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Crypto",
+        "revision": 125431,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "revenant",
+      "name": "Revenant",
+      "nameZh": "亡灵",
+      "title": "Synthetic Nightmare",
+      "class": "Assault",
+      "releaseDate": "2020-02-04",
+      "description": "Revenant is an Assault Legend who was introduced in Season 4 , and was heavily reworked in Season 18 . He specializes in closing the distance between himself and enemies with Shadow Pounce . His Assassin's Instinct passive allows him to crouch walk faster, climb higher, and see nearby low health enemies. He can also activate Forged Shadows to give himself a larger health pool.",
+      "abilities": [
+        {
+          "id": "revenant-passive",
+          "name": "Assassin's Instinct",
+          "type": "passive",
+          "description": "Highlights nearby visible enemies that are low on health. You crouch walk faster and have improved wall climbing.",
+          "cooldown": null
+        },
+        {
+          "id": "revenant-tactical",
+          "name": "Shadow Pounce",
+          "type": "tactical",
+          "description": "Unleash a powerful pounce forwards. Hold to charge for further distance.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "revenant-ultimate",
+          "name": "Forged Shadows",
+          "type": "ultimate",
+          "description": "Forge a shroud of hardened shadows around you that block damage and regenerate. Knockdowns will start regenerating your shadows.",
+          "cooldown": "3 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Revenant",
+        "revision": 124312,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "loba",
+      "name": "Loba",
+      "nameZh": "罗芭",
+      "title": "Translocating Thief",
+      "class": "Support",
+      "releaseDate": "2020-05-12",
+      "description": "Loba is a Support Legend who was introduced in Season 5 . She is excellent at finding high-tier items with her Eye for Quality and safely stealing them with her Black Market Boutique . She can also use her Burglar's Best Friend to teleport through even the smallest gaps in a wall.",
+      "abilities": [
+        {
+          "id": "loba-passive",
+          "name": "Eye for Quality",
+          "type": "passive",
+          "description": "Nearby epic and legendary loot can be seen through walls. The range is the same as Black Market Boutique . Open loot vaults without a key.",
+          "cooldown": null
+        },
+        {
+          "id": "loba-tactical",
+          "name": "Burglar's Best Friend",
+          "type": "tactical",
+          "description": "Teleport to hard-to-reach places or escape trouble quickly by throwing your jump drive bracelet.",
+          "cooldown": "25 seconds"
+        },
+        {
+          "id": "loba-ultimate",
+          "name": "Black Market Boutique",
+          "type": "ultimate",
+          "description": "Place a portable device that allows you to teleport nearby loot to your inventory. Ammo, small meds and teammate banners are free.",
+          "cooldown": "2.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Loba",
+        "revision": 123785,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "rampart",
+      "name": "Rampart",
+      "nameZh": "兰伯特",
+      "title": "Amped Modder",
+      "class": "Controller",
+      "releaseDate": "2020-08-18",
+      "description": "Rampart is a Controller Legend who was introduced in Season 6 . She can place Amped Cover to both defend her squad and boost her firepower. She can mow down enemies with light machine guns bolstered by Modded Loader , or with her signature Mobile Minigun \"Sheila\" .",
+      "abilities": [
+        {
+          "id": "rampart-passive",
+          "name": "Battle Modder",
+          "type": "passive",
+          "description": "Increased magazine / heat capacity and faster reloads / recharge when using LMGs and the Minigun. Amped Cover permanently gains health with each Evo level.",
+          "cooldown": null
+        },
+        {
+          "id": "rampart-tactical",
+          "name": "Amped Cover",
+          "type": "tactical",
+          "description": "Build a crouch-cover wall, which deploys a full-cover amped wall that blocks incoming shots and amps outgoing shots. Damage through or to Amped Cover charges the wall. Passing over the wall converts charges to a speed boost. (Max: 5)",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "rampart-ultimate",
+          "name": "Mobile Minigun \"Sheila\"",
+          "type": "ultimate",
+          "description": "Wield a mobile minigun with a single high capacity magazine. Place it down for anyone to use as a stationary and reloadable turret (Max: [1])",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Rampart",
+        "revision": 125127,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "horizon",
+      "name": "Horizon",
+      "nameZh": "地平线",
+      "title": "Gravitational Manipulator",
+      "class": "Skirmisher",
+      "releaseDate": "2020-11-04",
+      "description": "Horizon is a Skirmisher Legend who was introduced in Season 7 . Specializing in vertical movement, she can use her Gravity Lift to ascend easily and her Spacewalk to better control her descent. She can also throw out a Black Hole to pull in fleeing enemies.",
+      "abilities": [
+        {
+          "id": "horizon-passive",
+          "name": "Spacewalk",
+          "type": "passive",
+          "description": "Increase air control and reduce fall impacts with Horizon’s custom spacesuit.",
+          "cooldown": null
+        },
+        {
+          "id": "horizon-tactical",
+          "name": "Gravity Lift",
+          "type": "tactical",
+          "description": "Reverses the flow of gravity, lifting players upward and boosting them outward when they exit.",
+          "cooldown": "25 seconds"
+        },
+        {
+          "id": "horizon-ultimate",
+          "name": "Black Hole",
+          "type": "ultimate",
+          "description": "Deploy N.E.W.T. to create a micro black hole that pulls players in towards it.",
+          "cooldown": "3.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Horizon",
+        "revision": 122572,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "fuse",
+      "name": "Fuse",
+      "nameZh": "暴雷",
+      "title": "Bombastic Explosives Expert",
+      "class": "Assault",
+      "releaseDate": "2021-02-02",
+      "description": "Fuse is an Assault Legend who was introduced in Season 8 . He can make better use of grenades thanks to his Grenadier ability, and can add to the pressure with his Knuckle Cluster . He can also launch The Motherlode to cover an area in explosives.",
+      "abilities": [
+        {
+          "id": "fuse-passive",
+          "name": "Grenadier",
+          "type": "passive",
+          "description": "Stack an extra grenade per inventory slot. Fire grenades farther, faster, and more accurately.",
+          "cooldown": null
+        },
+        {
+          "id": "fuse-tactical",
+          "name": "Knuckle Cluster",
+          "type": "tactical",
+          "description": "Launch a cluster bomb that continuously expels airburst explosives on impact.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "fuse-ultimate",
+          "name": "The Motherlode",
+          "type": "ultimate",
+          "description": "Launch a bomb that scatters explosives around its landing point. Aim down sights to launch a cover-piercing bomb.",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Fuse",
+        "revision": 124200,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "nameZh": "瓦尔基里",
+      "title": "Winged Avenger",
+      "class": "Recon",
+      "releaseDate": "2021-05-04",
+      "description": "Valkyrie is a Recon Legend who was introduced in Season 9 . Her VTOL Jets give her excellent mobility in the air, and her Skyward Dive can be used to reposition her team and land on unsuspecting squads. She can also use her Missile Swarm to flush out enemies hiding behind cover.",
+      "abilities": [
+        {
+          "id": "valkyrie-passive",
+          "name": "VTOL Jets",
+          "type": "passive",
+          "description": "Press the jump key while in the air to engage jetpack. You can switch between hold and toggle mode in the options menu.",
+          "cooldown": null
+        },
+        {
+          "id": "valkyrie-tactical",
+          "name": "Missile Swarm",
+          "type": "tactical",
+          "description": "Fire a swarm of mini-rockets that damage and disorient the enemy.",
+          "cooldown": "25 seconds"
+        },
+        {
+          "id": "valkyrie-ultimate",
+          "name": "Skyward Dive",
+          "type": "ultimate",
+          "description": "Press once to prepare for launch. Teammates can interact with Valkyrie to join the launch. Press again to launch into the air and skydive.",
+          "cooldown": "2.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Valkyrie",
+        "revision": 125279,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "seer",
+      "name": "Seer",
+      "nameZh": "希尔",
+      "title": "Ambush Artist",
+      "class": "Recon",
+      "releaseDate": "2021-08-03",
+      "description": "Seer is a Recon Legend who was introduced in Season 10 . He can detect nearby enemies with his Heart Seeker and hit them with his Focus of Attention , revealing them and disabling their abilities. He can also deploy an Exhibit to reveal loud enemies.",
+      "abilities": [
+        {
+          "id": "seer-passive",
+          "name": "Heart Seeker",
+          "type": "passive",
+          "description": "Hear and visualize the heartbeats of enemies within 75m when aiming down sights, if enemies are beyond this range the marker turns blue and pulsates with less intensity with a limit of ~90m",
+          "cooldown": null
+        },
+        {
+          "id": "seer-tactical",
+          "name": "Focus of Attention",
+          "type": "tactical",
+          "description": "Summon micro-drones to emit a delayed blast that goes through walls silencing and revealing enemies.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "seer-ultimate",
+          "name": "Exhibit",
+          "type": "ultimate",
+          "description": "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within. You can double jump while inside the sphere.",
+          "cooldown": "3 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Seer",
+        "revision": 125276,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "ash",
+      "name": "Ash",
+      "nameZh": "艾许",
+      "title": "Incisive Instigator",
+      "class": "Skirmisher",
+      "releaseDate": "2021-11-02",
+      "description": "Ash is a Skirmisher Legend who was introduced in Season 11 . She received a passive rework in Season 24 . She can throw an Arc Snare to prevent an opponent from escaping, and can quickly advance with her squad through a Phase Breach . She can also use her Predator's Pursuit to dash in the air.",
+      "abilities": [
+        {
+          "id": "ash-passive",
+          "name": "Predator's Pursuit",
+          "type": "passive",
+          "description": "Press while in the air to perform a dash.",
+          "cooldown": null
+        },
+        {
+          "id": "ash-tactical",
+          "name": "Arc Snare",
+          "type": "tactical",
+          "description": "Throw a spinning snare that damages and tethers the first enemy that gets too close.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "ash-ultimate",
+          "name": "Phase Breach",
+          "type": "ultimate",
+          "description": "Tear open a one-way portal to a targeted location.",
+          "cooldown": "2.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Ash",
+        "revision": 125092,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "mad-maggie",
+      "name": "Mad Maggie",
+      "nameZh": "疯玛吉",
+      "title": "Rebel Warlord",
+      "class": "Assault",
+      "releaseDate": "2022-02-08",
+      "description": "Mad Maggie is an Assault Legend who was introduced in Season 12 . She can breach buildings by firing a Riot Drill to damage enemies through walls or by tossing a Wrecking Ball to burst through defenses. Her Warlord's Ire passive lets her run faster when wielding shotguns.",
+      "abilities": [
+        {
+          "id": "mad-maggie-passive",
+          "name": "Warlord's Ire",
+          "type": "passive",
+          "description": "Temporarily highlight enemies you've damaged. / Move faster with shotguns.",
+          "cooldown": null
+        },
+        {
+          "id": "mad-maggie-tactical",
+          "name": "Riot Drill",
+          "type": "tactical",
+          "description": "Fire a drill that attaches to an obstacle and burns enemies on the other side.",
+          "cooldown": "28 seconds"
+        },
+        {
+          "id": "mad-maggie-ultimate",
+          "name": "Wrecking Ball",
+          "type": "ultimate",
+          "description": "Throw a ball that releases speed-boosting pads and detonates near enemies.",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Mad_Maggie",
+        "revision": 125278,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle",
+      "nameZh": "纽卡斯尔",
+      "title": "Heroic Defender",
+      "class": "Support",
+      "releaseDate": "2022-05-10",
+      "description": "Newcastle is a Support Legend who was introduced in Season 13 . He specializes in creating cover for his squadmates using his Mobile Shield and his Castle Wall , and can revive downed squadmates while moving and holding up a Knockdown Shield thanks to his passive, Retrieve the Wounded .",
+      "abilities": [
+        {
+          "id": "newcastle-passive",
+          "name": "Retrieve the Wounded",
+          "type": "passive",
+          "description": "Drag downed allies as you revive and protect them with your Revive Shield.",
+          "cooldown": null
+        },
+        {
+          "id": "newcastle-tactical",
+          "name": "Mobile Shield",
+          "type": "tactical",
+          "description": "Throw a drone that projects a moveable energy shield.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "newcastle-ultimate",
+          "name": "Castle Wall",
+          "type": "ultimate",
+          "description": "Leap to an ally or target area and slam down, creating a fortified stronghold.",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Newcastle",
+        "revision": 125423,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "vantage",
+      "name": "Vantage",
+      "nameZh": "万蒂奇",
+      "title": "Sniper Savant",
+      "class": "Recon",
+      "releaseDate": "2022-08-09",
+      "description": "Vantage is a Recon Legend who was introduced in Season 14 . She excels at using sniper rifles thanks to her Spotter's Lens , and can weaken enemies from afar with shots from her Sniper's Mark . She can also use Echo Relocation to cross long distances with ease.",
+      "abilities": [
+        {
+          "id": "vantage-passive",
+          "name": "Spotter's Lens",
+          "type": "passive",
+          "description": "Aim down sights to scout with your eyepiece to see enemy healthbars and team shield levels. Ping to track multiple far away targets. Mid- to long-range scopes show bullet drop indicator to see where your shots will land.",
+          "cooldown": null
+        },
+        {
+          "id": "vantage-tactical",
+          "name": "Echo Relocation",
+          "type": "tactical",
+          "description": "Position your winged companion Echo and then Launch toward him. Must be looking towards Echo to launch. Gain a Double Jump when you reach Echo, or crouch to cancel the jump early.",
+          "cooldown": "17 seconds"
+        },
+        {
+          "id": "vantage-ultimate",
+          "name": "Sniper's Mark",
+          "type": "ultimate",
+          "description": "Use your custom sniper rifle to mark enemy targets which applies a damage bonus for you and your team. Shooting will enable a targeting laser for a short duration when aiming down sights.",
+          "cooldown": "4 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Vantage",
+        "revision": 125089,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "catalyst",
+      "name": "Catalyst",
+      "nameZh": "催化姬",
+      "title": "Defensive Conjurer",
+      "class": "Controller",
+      "releaseDate": "2022-11-01",
+      "description": "Catalyst is a Controller Legend who was introduced in Season 15 . She is able to quickly lock down an area by reinforcing doorways with Barricade , laying hazardous Piercing Spikes , and blocking out vision with her Dark Veil .",
+      "abilities": [
+        {
+          "id": "catalyst-passive",
+          "name": "Barricade",
+          "type": "passive",
+          "description": "Reinforce doors, strengthening them and locking them to enemies. Spaces where doors have been destroyed can also be reinforced.",
+          "cooldown": null
+        },
+        {
+          "id": "catalyst-tactical",
+          "name": "Piercing Spikes",
+          "type": "tactical",
+          "description": "Throw out a patch of ferrofluid which turns in to spikes when enemies are near. Catalyst remains immune to enemy spikes.",
+          "cooldown": "20 seconds"
+        },
+        {
+          "id": "catalyst-ultimate",
+          "name": "Dark Veil",
+          "type": "ultimate",
+          "description": "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time.",
+          "cooldown": "2.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Catalyst",
+        "revision": 125140,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "ballistic",
+      "name": "Ballistic",
+      "nameZh": "弹道",
+      "title": "Refined Gunslinger",
+      "class": "Assault",
+      "releaseDate": "2023-05-09",
+      "description": "Ballistic is an Assault Legend who was introduced in Season 17 . He is able to bolster his weapon use by carrying an additional weapon in his Sling , and powers up his reloading and weapon handling with Tempest . He can also briefly disable an enemy's weapon with his Whistler .",
+      "abilities": [
+        {
+          "id": "ballistic-passive",
+          "name": "Sling",
+          "type": "passive",
+          "description": "Store a third weapon in the sling. Access either via inventory or Character Utility Action. The sling weapon cannot take attachments.",
+          "cooldown": null
+        },
+        {
+          "id": "ballistic-tactical",
+          "name": "Whistler",
+          "type": "tactical",
+          "description": "Shoots a projectile that heats up an enemy's gun as they shoot. Overheating causes damage. Hold the tactical to lock-on.",
+          "cooldown": "25 seconds"
+        },
+        {
+          "id": "ballistic-ultimate",
+          "name": "Tempest",
+          "type": "ultimate",
+          "description": "When activated, nearby teammates get faster reloads and infinite ammo. Ballistic's sling weapon will be equipped and upgraded to gold .",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Ballistic",
+        "revision": 125272,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "conduit",
+      "name": "Conduit",
+      "nameZh": "导管",
+      "title": "Shield Healer",
+      "class": "Support",
+      "releaseDate": "2023-10-31",
+      "description": "Conduit is a Support Legend who was introduced in Season 19 . She can use Radiant Transfer on herself and a teammate to generate shields for both, and can use her Savior's Speed to catch up with distant allies. Her Energy Barricade can be used to slow enemies in a wide area.",
+      "abilities": [
+        {
+          "id": "conduit-passive",
+          "name": "Savior's Speed",
+          "type": "passive",
+          "description": "Sprint faster towards allies that are out of range of your tactical.",
+          "cooldown": null
+        },
+        {
+          "id": "conduit-tactical",
+          "name": "Radiant Transfer",
+          "type": "tactical",
+          "description": "Send a surge of energy to a teammate and yourself, temporarily regenerating shields when in danger.",
+          "cooldown": "30 seconds"
+        },
+        {
+          "id": "conduit-ultimate",
+          "name": "Energy Barricade",
+          "type": "ultimate",
+          "description": "Deploy an array of shield jamming devices which damage and slow enemies.",
+          "cooldown": "2.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Conduit",
+        "revision": 125277,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "alter",
+      "name": "Alter",
+      "nameZh": "变幻",
+      "title": "Void Breacher",
+      "class": "Skirmisher",
+      "releaseDate": "2024-05-07",
+      "description": "Alter is a Skirmisher Legend who was introduced in Season 21 . A master of the Void, she can open a portal through a solid surface with her Void Passage and use Gift From The Rift to snatch an item from a distant Death Box. When in a tough spot, her Void Nexus device allows her teammates to teleport back to a safe point.",
+      "abilities": [
+        {
+          "id": "alter-passive",
+          "name": "Gift From The Rift",
+          "type": "passive",
+          "description": "Can remotely interact with a deathbox to claim one item. Cannot be a shield core.",
+          "cooldown": null
+        },
+        {
+          "id": "alter-tactical",
+          "name": "Void Passage",
+          "type": "tactical",
+          "description": "Creates a portal passageway through a surface.",
+          "cooldown": "25 seconds"
+        },
+        {
+          "id": "alter-ultimate",
+          "name": "Void Nexus",
+          "type": "ultimate",
+          "description": "Create a regroup point that all allies can remotely interact with to open a phase tunnel back to that location.",
+          "cooldown": "2 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Alter",
+        "revision": 124962,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "sparrow",
+      "name": "Sparrow",
+      "nameZh": "麻雀",
+      "title": "Agile Archer",
+      "class": "Recon",
+      "releaseDate": "2025-05-06",
+      "description": "Sparrow is a Recon Legend introduced in Season 25 .",
+      "abilities": [
+        {
+          "id": "sparrow-passive",
+          "name": "Double Jump",
+          "type": "passive",
+          "description": "Allows the character to jump again while in the air. Jumping while climbing will launch Sparrow up the wall. The character can carry additional arrows and explosive arrows for the Bocek.",
+          "cooldown": null
+        },
+        {
+          "id": "sparrow-tactical",
+          "name": "Tracker Dart",
+          "type": "tactical",
+          "description": "Shoots a tracker from the gauntlet to reveal enemies who walk within its line of sight. These darts can also activate Survey Beacons from a distance.",
+          "cooldown": "35 seconds"
+        },
+        {
+          "id": "sparrow-ultimate",
+          "name": "Stinger Bolt",
+          "type": "ultimate",
+          "description": "Shoots a large arrow that anchors where it lands. After charging up, it will shock anyone within its range, causing damage and slowing down opponents it hits.",
+          "cooldown": "2.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Sparrow",
+        "revision": 125406,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "axle",
+      "name": "Axle",
+      "nameZh": null,
+      "title": "Combat Racer",
+      "class": "Skirmisher",
+      "releaseDate": "2026-05-05",
+      "description": "Axle is a Skirmisher Legend introduced in Season 29 . She can deploy a Nitro Gate to give anyone that steps on it a massive speed boost that also forces them into a slide. Her sliding control and duration are improved by her Passive - Drift . She can also deploy Kickstart , an enemy-seeking drone that displaces and stuns enemies.",
+      "abilities": [
+        {
+          "id": "axle-passive",
+          "name": "Drift",
+          "type": "passive",
+          "description": "Increased control while sliding.",
+          "cooldown": null
+        },
+        {
+          "id": "axle-tactical",
+          "name": "Nitro Gate",
+          "type": "tactical",
+          "description": "Deploy a speed gate that sends users into a boosted slide.",
+          "cooldown": "25 seconds"
+        },
+        {
+          "id": "axle-ultimate",
+          "name": "Kickstart",
+          "type": "ultimate",
+          "description": "Deploy an enemy-seeking drone that displaces targets on impact.",
+          "cooldown": "1.5 minutes"
+        }
+      ],
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Axle",
+        "revision": 125271,
+        "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    }
+  ]
+}

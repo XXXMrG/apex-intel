@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "gameVersion": "Season 29 map catalogue; current pools plus retired Arenas/history",
+    "fetchedAt": "2026-07-31T17:00:50Z",
+    "sourceName": "The Apex Legends Wiki map catalogue",
+    "sourceUrl": "https://apexlegends.wiki.gg/wiki/Map",
+    "license": "CC BY-NC-SA 4.0",
+    "count": 34
+  },
+  "items": [
+    {
+      "id": "broken-moon",
+      "name": "Broken Moon",
+      "mode": "Battle Royale",
+      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "releaseDate": "2022-11-01",
+      "description": "Broken Moon is a map released in Season 15 located on Cleo, the moon of the planet Boreas.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Broken_Moon",
+        "revision": 118117,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "e-district",
+      "name": "E-District",
+      "mode": "Battle Royale",
+      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "releaseDate": "2024-08-06",
+      "description": "E-District is a map released in Season 22 located in Suotamo, a large city on Gaea.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/E-District",
+        "revision": 122039,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "kings-canyon",
+      "name": "Kings Canyon",
+      "mode": "Battle Royale",
+      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "releaseDate": "2019-02-04",
+      "description": "Kings Canyon is a map for Apex Legends located on the planet Solace.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Kings_Canyon",
+        "revision": 118126,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "olympus",
+      "name": "Olympus",
+      "mode": "Battle Royale",
+      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "releaseDate": "2020-11-04",
+      "description": "Olympus is a map released in Season 7 that was originally located on the planet Psamathe. It was moved to Págos in Season 27.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Olympus",
+        "revision": 125454,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "storm-point",
+      "name": "Storm Point",
+      "mode": "Battle Royale",
+      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "releaseDate": "2021-11-02",
+      "description": "Storm Point is a map released in Season 11 located on the planet Gaea.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Storm_Point",
+        "revision": 118119,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "world-s-edge",
+      "name": "World's Edge",
+      "mode": "Battle Royale",
+      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "releaseDate": "2019-10-01",
+      "description": "World's Edge is a map introduced in Season 3 located on the planet Talos.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/World%27s_Edge",
+        "revision": 118125,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "barometer",
+      "name": "Barometer",
+      "mode": "Control",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2021-11-02",
+      "description": "Barometer is a location found on Storm Point. It is also used as a standalone map in Control.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Barometer",
+        "revision": 118190,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "caustic-treatment",
+      "name": "Caustic Treatment",
+      "mode": "Control",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2021-03-09",
+      "description": "Caustic Treatment is a Caustic-themed Town Takeover found on Kings Canyon. It is also used as a standalone map in Control. It was added to Kings Canyon as part of the Chaos Theory event, replacing Water Treatment. Gameplay Caustic Treatment is a massive processing plant on the south end of Kings Canyon. The bottom layer of the interior is filled with a layer of toxins, which deals tick damage similar to lava on World's Edge.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Caustic_Treatment",
+        "revision": 118191,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "hammond-labs",
+      "name": "Hammond Labs",
+      "mode": "Control",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2020-11-04",
+      "description": "Hammond Labs is a location found on Olympus. It is also used as a standalone map in Control.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Hammond_Labs",
+        "revision": 118192,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "lava-siphon",
+      "name": "Lava Siphon",
+      "mode": "Control",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2021-08-03",
+      "description": "Lava Siphon is a location found on World's Edge. It is also used as a standalone map in Control. It was added in Season 10 , replacing Sorting Factory.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Lava_Siphon",
+        "revision": 118193,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "production-yard",
+      "name": "Production Yard",
+      "mode": "Control",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2022-11-01",
+      "description": "Production Yard is a location found on Broken Moon. It is also used as a standalone map in Control.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Production_Yard",
+        "revision": 118194,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "thunderdome",
+      "name": "Thunderdome",
+      "mode": "Control / Gun Run / Team Deathmatch / Lockdown",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2024-02-13",
+      "description": "Thunderdome is a map added in Season 20 . It is the first map designed primarily for Mixtape game modes, such as Control, Gun Run, and Team Deathmatch.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Thunderdome_%28map%29",
+        "revision": 121749,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "autumn-estates",
+      "name": "Autumn Estates",
+      "mode": "Gun Run / Arenas (retired)",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2020-11-04",
+      "description": "Autumn Estates is a location found on Olympus. It is also used as a standalone map in Gun Run, and was briefly available as an Arenas map in the Rampart Arenas Takeover, during the Evolution event.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Autumn_Estates",
+        "revision": 118206,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "fragment-east",
+      "name": "Fragment East",
+      "mode": "Gun Run / Team Deathmatch",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2020-02-04",
+      "description": "Fragment East is a location found on World's Edge. It is also used as a standalone map in Gun Run and Team Deathmatch.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Fragment_East",
+        "revision": 118196,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "monument",
+      "name": "Monument",
+      "mode": "Gun Run / Team Deathmatch / Lockdown",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2023-05-09",
+      "description": "Monument is a location found on World's Edge. It was added in Season 17 , replacing Fragment West.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Monument",
+        "revision": 118197,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "skull-town",
+      "name": "Skull Town",
+      "mode": "Gun Run / Team Deathmatch / Lockdown / Arenas (retired)",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2019-02-04",
+      "description": "Skull Town is a map located within Kings Canyon. It was part of the Battle Royale map until its destruction in Season 5 , but has since returned as a standalone map in Arenas, Gun Run, and Team Deathmatch.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Skull_Town",
+        "revision": 118198,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "perpetual-core",
+      "name": "Perpetual Core",
+      "mode": "Gun Run / Team Deathmatch / Lockdown",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2022-11-01",
+      "description": "Perpetual Core is a location found on Broken Moon. It is also used as a standalone map in Gun Run and Team Deathmatch.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Perpetual_Core",
+        "revision": 118199,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "wattson-s-pylon",
+      "name": "Wattson's Pylon",
+      "mode": "Gun Run / Team Deathmatch",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2023-10-31",
+      "description": "Wattson's Pylon is a Wattson-themed Town Takeover found on Storm Point. It is also used as a standalone map in Gun Run and Team Deathmatch. It was added to Storm Point as part of Season 19 , replacing The Antenna.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Wattson%27s_Pylon",
+        "revision": 118200,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "zeus-station",
+      "name": "ZEUS Station",
+      "mode": "Gun Run / Team Deathmatch / Lockdown",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2023-10-31",
+      "description": "ZEUS Station is an Apex Legends map used for Gun Run, Team Deathmatch, Lockdown.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/ZEUS_Station",
+        "revision": 118201,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "habitat-4",
+      "name": "Habitat 4",
+      "mode": "Team Deathmatch / Arenas (retired)",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2022-01-11",
+      "description": "Habitat 4 is a custom Arenas map introduced in Season 11 during the Dark Depths event. The map is located on the planet Gaea.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Habitat_4",
+        "revision": 54344,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "overflow",
+      "name": "Overflow",
+      "mode": "Team Deathmatch / Arenas (retired)",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2021-07-13",
+      "description": "Overflow is a custom Arenas map introduced in the Thrillseekers event located on the planet Talos. Some time after Arenas' removal, it became playable in Team Deathmatch.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Overflow",
+        "revision": 118202,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "party-crasher",
+      "name": "Party Crasher",
+      "mode": "Team Deathmatch / Arenas (retired)",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2021-05-04",
+      "description": "Party Crasher is a custom Arenas map introduced in Season 9 located on the planet Solace.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Party_Crasher",
+        "revision": 3627,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "phase-runner",
+      "name": "Phase Runner",
+      "mode": "Team Deathmatch / Arenas (retired)",
+      "status": "当前模式地图 · 轮换随赛季变化",
+      "releaseDate": "2021-05-04",
+      "description": "Phase Runner is a custom Arenas map introduced in Season 9 located on the planet Talos.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Phase_Runner_%28map%29",
+        "revision": 117919,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "encore",
+      "name": "Encore",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2021-10-12",
+      "description": "Encore is a custom Arenas map introduced in the Monsters Within event located on the planet Boreas.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Encore",
+        "revision": 63783,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "drop-off",
+      "name": "Drop-Off",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2022-03-29",
+      "description": "Drop-Off is a custom Arenas map introduced in Season 12 during the Warriors Collection Event. The map is located on the planet Psamathe.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Drop-Off",
+        "revision": 13129,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "the-dome",
+      "name": "The Dome",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2021-08-03",
+      "description": "The Dome is a location found on World's Edge. It was also used as a standalone map in Arenas in Season 10 .",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/The_Dome",
+        "revision": 117771,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "high-desert",
+      "name": "High Desert",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2021-08-03",
+      "description": "High Desert is a location found on Kings Canyon. It was also used as a standalone map in Arenas in Season 10 . Gameplay High Desert is a high tier loot zone located on the west side of Kings Canyon, between Airbase and Bunker Pass. It is two large clusters of buildings, one sitting atop a tall hill while the other is at the foot. The higher half contains a short tower which can be scaled, overlooking the surrounding desert.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/High_Desert",
+        "revision": 117748,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "velvet-oasis",
+      "name": "Velvet Oasis",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2021-08-03",
+      "description": "Velvet Oasis is a location found on Olympus. It was also used as a standalone map in Arenas in Season 10 .",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Velvet_Oasis",
+        "revision": 117775,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "artillery-battery",
+      "name": "Artillery Battery",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2021-05-04",
+      "description": "Artillery Battery is a location found on Kings Canyon. It was also used as a standalone map in Arenas in Season 9 .",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Artillery_Battery",
+        "revision": 117729,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "golden-gardens",
+      "name": "Golden Gardens",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2021-05-04",
+      "description": "Golden Gardens is a location found on Olympus. It was also used as a standalone map in Arenas in Season 9 .",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Golden_Gardens",
+        "revision": 117745,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "thermal-station",
+      "name": "Thermal Station",
+      "mode": "Arenas (retired)",
+      "status": "已退役竞技场 / 历史地图",
+      "releaseDate": "2021-05-04",
+      "description": "Thermal Station is a location found on World's Edge. It was also used as a standalone map in Arenas in Season 9 .",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Thermal_Station",
+        "revision": 118285,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "firing-range",
+      "name": "Firing Range",
+      "mode": "Firing Range / Training",
+      "status": "常驻训练地图",
+      "releaseDate": "2019-02-04",
+      "description": "Firing Range is the map used in the Firing Range and Training game modes. Ballistic is the Announcer for this mode.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Firing_Range",
+        "revision": 125446,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "the-wall",
+      "name": "The Wall",
+      "mode": "Gun Run (historical)",
+      "status": "历史模式地图",
+      "releaseDate": "2021-11-02",
+      "description": "The Wall is a location found on Storm Point. It was also previously used as a standalone map in Gun Run prior to Season 19 .",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/The_Wall",
+        "revision": 117773,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "winter-express",
+      "name": "Winter Express",
+      "mode": "Limited-time mode",
+      "status": "限时 / 赛季地图",
+      "releaseDate": "2019-12-12",
+      "description": "Winter Express is a Limited Time Mode introduced in Season 3 's Holo-Day Bash Collection Event .",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Winter_Express",
+        "revision": 118981,
+        "fetchedAt": "2026-07-31T17:00:50Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    }
+  ]
+}

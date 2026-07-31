@@ -1,0 +1,226 @@
+{
+  "bloodhound": {
+    "descriptionZh": "Bloodhound 是自游戏上线起即可使用的侦察型英雄。凭借 Tracker 提供的线索和 Eye of the Allfather 的大范围扫描，他们擅长追猎对手。Beast of the Hunt 会召来乌鸦追踪敌人，并提升 Bloodhound 的速度与视觉感知。",
+    "abilities": {
+      "bloodhound-passive": "敌人会留下可供你追踪的线索。White Ravens 可能出现，引导你前往战斗并为技能充能。",
+      "bloodhound-tactical": "短暂透视你前方所有建筑结构，显现敌人、陷阱和线索。",
+      "bloodhound-ultimate": "化身终极猎手。放出一只 White Raven，并强化感官，使你能看见冰冷踪迹且移动更快。击倒敌人会刷新战术技能并延长狩猎持续时间。"
+    }
+  },
+  "gibraltar": {
+    "descriptionZh": "Gibraltar 是自游戏上线起即可使用的支援型英雄。他能用 Gun Shield 保护自己，以 Dome of Protection 创建临时安全区域，还能呼叫 Defensive Bombardment，暂时封锁一片区域，使敌人难以进入。",
+    "abilities": {
+      "gibraltar-passive": "瞄准时会展开枪盾，阻挡来袭火力。",
+      "gibraltar-tactical": "阻挡由外向内和由内向外的攻击。",
+      "gibraltar-ultimate": "对标记位置呼叫密集迫击炮轰炸。"
+    }
+  },
+  "lifeline": {
+    "descriptionZh": "Lifeline 是随游戏首发的支援型英雄，并在第 23 赛季经历大幅重做。她能通过 Combat Glide 自动救助倒地队友并短暂滑翔；D.O.C. Heal Drone 可在不使用物品的情况下恢复生命值；D.O.C. Halo 则能提供掩护，并让她与队友更快使用治疗物品。",
+    "abilities": {
+      "lifeline-passive": "在空中按住对应操作，可使用 D.O.C. 短暂滑翔。部署 D.O.C. 复活队友，让 Lifeline 能腾出手进行防守。",
+      "lifeline-tactical": "D.O.C. 治疗附近所有友军。部署后，可指定 D.O.C. 跟随友军。",
+      "lifeline-ultimate": "投掷 D.O.C.，启动其 Halo Shield System。范围内所有玩家使用生命值与护盾消耗品的速度都会加快。"
+    }
+  },
+  "pathfinder": {
+    "descriptionZh": "Pathfinder 是自游戏上线起即可使用的游击型英雄。Grappling Hook 是强力而迅速的机动工具，Zipline Gun 则能让全队快速、便捷地从一处转移到另一处。Insider Knowledge 还能帮助他迅速为新的滑索充能。",
+    "abilities": {
+      "pathfinder-passive": "扫描补给舱、圆环控制台或侦察信标，可为 Zipline Gun 充能 25%，并永久将其冷却时间缩短 10s。",
+      "pathfinder-tactical": "使用抓钩，快速抵达原本难以到达的位置。",
+      "pathfinder-ultimate": "创建一条所有人都能使用的滑索。滑索通电时，使用者受到的伤害降低 50%。"
+    }
+  },
+  "wraith": {
+    "descriptionZh": "Wraith 是自游戏上线起即可使用的游击型英雄。她能用 Into the Void 逃离危险，也能通过 Dimensional Rift 为小队建立安全通道。附近出现敌人或陷阱时，Voices from the Void 会提前发出警告。",
+    "abilities": {
+      "wraith-passive": "危险临近时，会有声音向你示警。就你所知，它站在你这边。",
+      "wraith-tactical": "进入安全的虚空空间迅速转移，避开所有伤害。",
+      "wraith-ultimate": "用传送门连接两个地点，持续 45 秒，任何人都能使用。"
+    }
+  },
+  "bangalore": {
+    "descriptionZh": "Bangalore 是自游戏上线起即可使用的突击型英雄。她能用 Smoke Launcher 遮蔽敌人视野，并部署 Rolling Thunder 迫使敌人寻找掩体。敌人向她开火时，Double Time 会触发，提供逃离所需的速度。",
+    "abilities": {
+      "bangalore-passive": "冲刺时受到火力攻击，会短暂提高移动速度。",
+      "bangalore-tactical": "发射高速烟雾罐，命中后爆炸并形成一道烟墙。",
+      "bangalore-ultimate": "呼叫一轮缓慢横扫地面的炮击，从信号弹位置的左侧开始推进。"
+    }
+  },
+  "caustic": {
+    "descriptionZh": "Caustic 是自游戏上线起即可使用的控场型英雄。他能用 Nox Gas Traps 和 Nox Gas Grenade 让大片区域充满毒气，使敌人减速并遮蔽其视野，而 Nox Vision 则让他免受毒气影响。",
+    "abilities": {
+      "caustic-passive": "通过毒气造成伤害、开启死亡箱和扫描圆环控制台，可获得额外升级点数。",
+      "caustic-tactical": "最多放置 6 个罐体；被射击或由敌人触发时，罐体会释放致命 Nox Gas。Nox Gas 会伤害敌人并将其压制在地面。",
+      "caustic-ultimate": "用 Nox Gas 覆盖大片区域。Nox Gas 会伤害敌人并将其压制在地面。"
+    }
+  },
+  "mirage": {
+    "descriptionZh": "Mirage 是自游戏上线起即可使用的支援型英雄。他能通过 Psyche Out 和 Life of the Party 制造自身诱饵，分散并扰乱敌人；借助 Now You See Me...，他在复活队友时还能进入隐身状态。",
+    "abilities": {
+      "mirage-passive": "使用重生信标和复活队友时会自动隐身。倒地时生成一个诱饵并隐身。",
+      "mirage-tactical": "派出全息诱饵迷惑敌人。按 ⧄ 控制诱饵。",
+      "mirage-ultimate": "Mirage 部署一队可控制的诱饵来分散敌人注意力。"
+    }
+  },
+  "octane": {
+    "descriptionZh": "Octane 是在第 1 赛季加入的游击型英雄。他能以生命值为代价使用 Stim 提升速度，Swift Mend 则会随时间恢复生命值。他还能部署 Launch Pad，将自己和小队远距离弹射出去。",
+    "abilities": {
+      "octane-passive": "随时间自动恢复生命值。",
+      "octane-tactical": "持续 6 秒将步行速度提高 30%、冲刺速度提高 40%。使用时消耗生命值；激活期间减弱减速效果。",
+      "octane-ultimate": "部署一块跳板，将任何人弹射到空中。按跳跃键可进行二段跳。"
+    }
+  },
+  "wattson": {
+    "descriptionZh": "Wattson 是在第 2 赛季加入的控场型英雄。她能布置 Perimeter Security 电击闯入者，以 Interception Pylon 击落投掷物，从而阻挡敌方小队推进。她还可通过 Spark of Genius 为终极技能和护盾充能。",
+    "abilities": {
+      "wattson-passive": "终极促能剂可为 Wattson 的终极技能完全充能。她还能携带更多终极促能剂并更快使用。Wattson 会随时间缓慢恢复护盾。",
+      "wattson-tactical": "连接节点以创建电网。电网会伤害并减速敌人；门附近的电网会使门通电。",
+      "wattson-ultimate": "放置一座通电的拦截塔（Max: 1），摧毁飞来的投掷物并修复受损护盾。被拦截的投掷物会转化为电弧星。"
+    }
+  },
+  "crypto": {
+    "descriptionZh": "Crypto 是在第 3 赛季加入的侦察型英雄。他能操控 Surveillance Drone 侦察并干扰敌人，靠近目标后通过 Neurolink 扫描他们；也能启动 Drone EMP，远程摧毁敌方防御与护盾。",
+    "abilities": {
+      "crypto-passive": "Crypto 与队友可看到 Surveillance Drone 在 30m 范围内侦测到的目标。",
+      "crypto-tactical": "部署一架空中摄像无人机，可远程与侦察信标、重生信标和友军旗帜互动。",
+      "crypto-ultimate": "通过无人机为 EMP 充能。爆炸造成 50 点护盾伤害、减速玩家并摧毁陷阱。"
+    }
+  },
+  "revenant": {
+    "descriptionZh": "Revenant 是在第 4 赛季加入、并于第 18 赛季经历大幅重做的突击型英雄。他擅长用 Shadow Pounce 拉近与敌人的距离。Assassin's Instinct 让他蹲行更快、攀爬更高，并看见附近生命值较低的敌人；Forged Shadows 还能为他提供更多生命值。",
+    "abilities": {
+      "revenant-passive": "高亮附近可见且生命值较低的敌人。蹲行速度更快，墙面攀爬能力更强。",
+      "revenant-tactical": "向前发动强力扑袭。按住充能可跃出更远。",
+      "revenant-ultimate": "在身边锻造一层硬化暗影护罩，可阻挡伤害并自行恢复。击倒敌人后，暗影护罩会开始恢复。"
+    }
+  },
+  "loba": {
+    "descriptionZh": "Loba 是在第 5 赛季加入的支援型英雄。她擅长用 Eye for Quality 寻找高品质物品，并通过 Black Market Boutique 安全取走；还可使用 Burglar's Best Friend 穿过墙上极小的缝隙进行传送。",
+    "abilities": {
+      "loba-passive": "附近的史诗和传说级战利品可隔墙看见，范围与 Black Market Boutique 相同。无需钥匙即可开启战利品宝库。",
+      "loba-tactical": "投掷跃迁手环，传送到难以抵达的位置，或迅速脱离险境。",
+      "loba-ultimate": "放置一台便携设备，将附近战利品传送进物品栏。弹药、小型治疗品和队友旗帜可免费取用。"
+    }
+  },
+  "rampart": {
+    "descriptionZh": "Rampart 是在第 6 赛季加入的控场型英雄。她能放置 Amped Cover，在保护小队的同时增强火力；也能使用受 Modded Loader 强化的轻机枪，或她的标志性 Mobile Minigun \"Sheila\" 扫倒敌人。",
+    "abilities": {
+      "rampart-passive": "使用 LMG 和 Minigun 时，弹匣／热容量提高，装填／充能更快。Amped Cover 会随每级 Evo 永久获得生命值。",
+      "rampart-tactical": "建造一面半身掩体，展开后形成完整的强化墙，阻挡射入的子弹并增强射出的子弹。子弹穿过或击中 Amped Cover 都会为墙体充能；越过墙体会将充能转化为速度加成。（Max: 5）",
+      "rampart-ultimate": "手持一挺配有单个大容量弹匣的移动式机枪。可将其架设为任何人都能使用、可重新装填的固定炮塔（Max: [1]）。"
+    }
+  },
+  "horizon": {
+    "descriptionZh": "Horizon 是在第 7 赛季加入的游击型英雄。她擅长垂直移动，可用 Gravity Lift 轻松升空，并通过 Spacewalk 更好地控制落地；还能投出 Black Hole，将试图逃离的敌人拉回来。",
+    "abilities": {
+      "horizon-passive": "借助 Horizon 的定制太空服，提高空中控制力并减轻落地冲击。",
+      "horizon-tactical": "逆转重力流向，将玩家向上抬升，并在离开时向外推出。",
+      "horizon-ultimate": "部署 N.E.W.T. 制造一个微型黑洞，将玩家拉向黑洞。"
+    }
+  },
+  "fuse": {
+    "descriptionZh": "Fuse 是在第 8 赛季加入的突击型英雄。Grenadier 让他能更有效地使用手雷，Knuckle Cluster 可进一步施压，The Motherlode 则能用爆炸物覆盖一片区域。",
+    "abilities": {
+      "fuse-passive": "每个物品栏格可额外堆叠一枚手雷。发射手雷时距离更远、速度更快、精度更高。",
+      "fuse-tactical": "发射一枚集束炸弹，命中后持续释放空爆炸药。",
+      "fuse-ultimate": "发射一枚炸弹，在落点周围散布爆炸物。瞄准时可发射能穿透掩体的炸弹。"
+    }
+  },
+  "valkyrie": {
+    "descriptionZh": "Valkyrie 是在第 9 赛季加入的侦察型英雄。VTOL Jets 赋予她出色的空中机动性，Skyward Dive 可让全队重新转移并降落到毫无防备的敌方小队附近；Missile Swarm 则能逼出躲在掩体后的敌人。",
+    "abilities": {
+      "valkyrie-passive": "在空中按跳跃键启动喷气背包。可在选项菜单中切换按住模式与开关模式。",
+      "valkyrie-tactical": "发射一群微型火箭，伤害敌人并使其失去方向感。",
+      "valkyrie-ultimate": "按一次准备升空。队友可与 Valkyrie 互动以加入升空；再按一次飞上天空并开始跳伞。"
+    }
+  },
+  "seer": {
+    "descriptionZh": "Seer 是在第 10 赛季加入的侦察型英雄。他能通过 Heart Seeker 侦测附近敌人，并用 Focus of Attention 命中、显现敌人并禁用其技能；还可部署 Exhibit，显现发出明显动静的敌人。",
+    "abilities": {
+      "seer-passive": "瞄准时可听见并可视化 75m 内敌人的心跳。敌人超出该范围时，标记会变为蓝色，脉动强度减弱，上限为 ~90m。",
+      "seer-tactical": "召唤微型无人机，延迟发出可穿墙的冲击，使敌人沉默并显现。",
+      "seer-ultimate": "创建一个微型无人机球体，显现其中快速移动或开火的敌人位置。你可在球体内进行二段跳。"
+    }
+  },
+  "ash": {
+    "descriptionZh": "Ash 是在第 11 赛季加入的游击型英雄，并于第 24 赛季重做了被动技能。她能投掷 Arc Snare 阻止对手逃脱，通过 Phase Breach 与小队迅速推进，还能使用 Predator's Pursuit 在空中冲刺。",
+    "abilities": {
+      "ash-passive": "在空中按下对应操作即可冲刺。",
+      "ash-tactical": "投掷一个旋转的束缚装置，伤害并牵制首个靠得过近的敌人。",
+      "ash-ultimate": "撕开一道通往目标位置的单向传送门。"
+    }
+  },
+  "mad-maggie": {
+    "descriptionZh": "Mad Maggie 是在第 12 赛季加入的突击型英雄。她能发射 Riot Drill 隔墙伤害敌人，或投出 Wrecking Ball 冲破防御，从而突破建筑。Warlord's Ire 则让她持霰弹枪时跑得更快。",
+    "abilities": {
+      "mad-maggie-passive": "短暂高亮你伤害过的敌人；持霰弹枪时移动更快。",
+      "mad-maggie-tactical": "发射一枚钻头，附着在障碍物上并灼烧另一侧的敌人。",
+      "mad-maggie-ultimate": "投出一个球体，沿途释放速度加成踏板，并在敌人附近引爆。"
+    }
+  },
+  "newcastle": {
+    "descriptionZh": "Newcastle 是在第 13 赛季加入的支援型英雄。他擅长用 Mobile Shield 和 Castle Wall 为小队创造掩体；凭借被动 Retrieve the Wounded，他还能在移动和举起击倒护盾的同时复活倒地队友。",
+    "abilities": {
+      "newcastle-passive": "复活倒地友军时拖动他们，并用复活护盾提供保护。",
+      "newcastle-tactical": "投出一架无人机，投射可移动的能量护盾。",
+      "newcastle-ultimate": "跃向友军或目标区域并猛击地面，建立一座加固据点。"
+    }
+  },
+  "vantage": {
+    "descriptionZh": "Vantage 是在第 14 赛季加入的侦察型英雄。Spotter's Lens 让她善于使用狙击步枪，Sniper's Mark 可从远处射击并削弱敌人，Echo Relocation 则让她轻松跨越长距离。",
+    "abilities": {
+      "vantage-passive": "瞄准时使用目镜侦察，可查看敌人的生命条和队伍护盾等级。通过标记追踪多个远处目标。中远程瞄具会显示弹道下坠指示，帮助判断弹着点。",
+      "vantage-tactical": "让飞行伙伴 Echo 就位，然后朝他发射移动。必须看向 Echo 才能出发；到达 Echo 时获得一次二段跳，或蹲下以提前取消跳跃。",
+      "vantage-ultimate": "使用定制狙击步枪标记敌方目标，为你和队友施加伤害加成。开火后，瞄准时会短暂启用瞄准激光。"
+    }
+  },
+  "catalyst": {
+    "descriptionZh": "Catalyst 是在第 15 赛季加入的控场型英雄。她能用 Barricade 加固门口、铺设危险的 Piercing Spikes，并通过 Dark Veil 阻挡视野，迅速封锁一片区域。",
+    "abilities": {
+      "catalyst-passive": "加固门，使其更坚固并对敌人锁定。门被破坏后留下的空缺也能加固。",
+      "catalyst-tactical": "投出一片磁流体；敌人靠近时，磁流体会变成尖刺。Catalyst 不受敌方尖刺影响。",
+      "catalyst-ultimate": "升起一道可穿过的磁流体墙。敌人穿墙后会短暂减速，并部分失明。"
+    }
+  },
+  "ballistic": {
+    "descriptionZh": "Ballistic 是在第 17 赛季加入的突击型英雄。他可在 Sling 中携带额外武器，并用 Tempest 提升装填与武器操控能力；Whistler 还能短暂干扰敌人的武器。",
+    "abilities": {
+      "ballistic-passive": "在 Sling 中存放第三把武器，可通过物品栏或角色功能操作取用。Sling 中的武器无法安装配件。",
+      "ballistic-tactical": "发射一枚弹体，使敌人的枪在射击时升温；过热会造成伤害。按住战术技能可锁定目标。",
+      "ballistic-ultimate": "激活后，附近队友装填更快并获得无限弹药。Ballistic 会装备 Sling 中的武器，并将其升级为金色品质。"
+    }
+  },
+  "conduit": {
+    "descriptionZh": "Conduit 是在第 19 赛季加入的支援型英雄。她能对自己和一名队友使用 Radiant Transfer，为双方生成护盾；Savior's Speed 可帮助她追上远处队友；Energy Barricade 则能在大片区域内减速敌人。",
+    "abilities": {
+      "conduit-passive": "朝超出战术技能范围的友军冲刺时，速度更快。",
+      "conduit-tactical": "向一名队友和自己输送能量，在陷入危险时暂时恢复护盾。",
+      "conduit-ultimate": "部署一组护盾干扰装置，伤害并减速敌人。"
+    }
+  },
+  "alter": {
+    "descriptionZh": "Alter 是在第 21 赛季加入的游击型英雄。作为虚空大师，她能用 Void Passage 穿过实体表面开启传送通道，通过 Gift From The Rift 从远处死亡箱取走一件物品；身陷险境时，Void Nexus 可让队友传送回安全地点。",
+    "abilities": {
+      "alter-passive": "可远程与死亡箱互动并取走一件物品，但不能选择护盾核心。",
+      "alter-tactical": "创建一条穿过物体表面的传送通道。",
+      "alter-ultimate": "创建一个集结点，所有友军都可远程与之互动，打开返回该位置的相位隧道。"
+    }
+  },
+  "sparrow": {
+    "descriptionZh": "Sparrow 是在第 25 赛季加入的侦察型英雄。",
+    "abilities": {
+      "sparrow-passive": "允许角色在空中再次跳跃。攀爬时跳跃会让 Sparrow 沿墙向上跃起。角色可为 Bocek 携带更多箭矢和爆炸箭。",
+      "sparrow-tactical": "从臂铠发射追踪器，显现进入其视线范围的敌人。这些追踪器还能远程启动侦察信标。",
+      "sparrow-ultimate": "射出一支大型箭矢，命中后固定在落点。完成充能后，它会电击范围内的所有人，造成伤害并减速命中的对手。"
+    }
+  },
+  "axle": {
+    "descriptionZh": "Axle 是在第 29 赛季加入的游击型英雄。她能部署 Nitro Gate，为踩上去的任何人提供大幅速度加成，并迫使其进入滑行。被动 Drift 会改善她的滑行操控与持续时间。她还能部署 Kickstart，让这架自动追踪敌人的无人机击退并击晕目标。",
+    "abilities": {
+      "axle-passive": "滑行时的操控能力提高。",
+      "axle-tactical": "部署一道加速门，让使用者进入加速滑行。",
+      "axle-ultimate": "部署一架自动追踪敌人的无人机，命中时击退目标。"
+    }
+  }
+}

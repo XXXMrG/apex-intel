@@ -1,0 +1,104 @@
+{
+  "broken-moon": {
+    "descriptionZh": "Broken Moon 是第 15 赛季推出的地图，位于 Boreas 行星的卫星 Cleo 上。"
+  },
+  "e-district": {
+    "descriptionZh": "E-District 是第 22 赛季推出的地图，位于 Gaea 行星的大型城市 Suotamo。"
+  },
+  "kings-canyon": {
+    "descriptionZh": "Kings Canyon 是《Apex Legends》的一张地图，位于 Solace 行星。"
+  },
+  "olympus": {
+    "descriptionZh": "Olympus 是第 7 赛季推出的地图，最初位于 Psamathe 行星；第 27 赛季迁至 Págos。"
+  },
+  "storm-point": {
+    "descriptionZh": "Storm Point 是第 11 赛季推出的地图，位于 Gaea 行星。"
+  },
+  "world-s-edge": {
+    "descriptionZh": "World's Edge 是第 3 赛季推出的地图，位于 Talos 行星。"
+  },
+  "barometer": {
+    "descriptionZh": "Barometer 是 Storm Point 上的一处地点，也作为 Control 的独立地图使用。"
+  },
+  "caustic-treatment": {
+    "descriptionZh": "Caustic Treatment 是 Kings Canyon 上以 Caustic 为主题的 Town Takeover 地点，也作为 Control 的独立地图使用。该地点随 Chaos Theory 活动加入并取代 Water Treatment。它是位于 Kings Canyon 南端的大型处理设施，内部底层覆盖着一层毒性物质，会像 World's Edge 上的熔岩一样持续造成伤害。"
+  },
+  "hammond-labs": {
+    "descriptionZh": "Hammond Labs 是 Olympus 上的一处地点，也作为 Control 的独立地图使用。"
+  },
+  "lava-siphon": {
+    "descriptionZh": "Lava Siphon 是 World's Edge 上的一处地点，也作为 Control 的独立地图使用。它于第 10 赛季加入，取代了 Sorting Factory。"
+  },
+  "production-yard": {
+    "descriptionZh": "Production Yard 是 Broken Moon 上的一处地点，也作为 Control 的独立地图使用。"
+  },
+  "thunderdome": {
+    "descriptionZh": "Thunderdome 于第 20 赛季加入，是首张主要为 Mixtape 模式设计的地图，例如 Control、Gun Run 和 Team Deathmatch。"
+  },
+  "autumn-estates": {
+    "descriptionZh": "Autumn Estates 是 Olympus 上的一处地点，也作为 Gun Run 的独立地图使用；在 Evolution 活动期间的 Rampart Arenas Takeover 中，它曾短暂作为 Arenas 地图开放。"
+  },
+  "fragment-east": {
+    "descriptionZh": "Fragment East 是 World's Edge 上的一处地点，也作为 Gun Run 和 Team Deathmatch 的独立地图使用。"
+  },
+  "monument": {
+    "descriptionZh": "Monument 是 World's Edge 上的一处地点，于第 17 赛季加入并取代 Fragment West。"
+  },
+  "skull-town": {
+    "descriptionZh": "Skull Town 位于 Kings Canyon 内。第 5 赛季遭到摧毁前，它曾是大逃杀地图的一部分；后来又作为 Arenas、Gun Run 和 Team Deathmatch 的独立地图回归。"
+  },
+  "perpetual-core": {
+    "descriptionZh": "Perpetual Core 是 Broken Moon 上的一处地点，也作为 Gun Run 和 Team Deathmatch 的独立地图使用。"
+  },
+  "wattson-s-pylon": {
+    "descriptionZh": "Wattson's Pylon 是 Storm Point 上以 Wattson 为主题的 Town Takeover 地点，也作为 Gun Run 和 Team Deathmatch 的独立地图使用。它于第 19 赛季加入 Storm Point，取代了 The Antenna。"
+  },
+  "zeus-station": {
+    "descriptionZh": "ZEUS Station 是《Apex Legends》中用于 Gun Run、Team Deathmatch 和 Lockdown 的地图。"
+  },
+  "habitat-4": {
+    "descriptionZh": "Habitat 4 是一张为 Arenas 打造的地图，于第 11 赛季 Dark Depths 活动期间推出，位于 Gaea 行星。"
+  },
+  "overflow": {
+    "descriptionZh": "Overflow 是一张为 Arenas 打造的地图，在 Thrillseekers 活动中推出，位于 Talos 行星。Arenas 移除一段时间后，它开始用于 Team Deathmatch。"
+  },
+  "party-crasher": {
+    "descriptionZh": "Party Crasher 是一张为 Arenas 打造的地图，于第 9 赛季推出，位于 Solace 行星。"
+  },
+  "phase-runner": {
+    "descriptionZh": "Phase Runner 是一张为 Arenas 打造的地图，于第 9 赛季推出，位于 Talos 行星。"
+  },
+  "encore": {
+    "descriptionZh": "Encore 是一张为 Arenas 打造的地图，在 Monsters Within 活动中推出，位于 Boreas 行星。"
+  },
+  "drop-off": {
+    "descriptionZh": "Drop-Off 是一张为 Arenas 打造的地图，于第 12 赛季 Warriors Collection Event 期间推出，位于 Psamathe 行星。"
+  },
+  "the-dome": {
+    "descriptionZh": "The Dome 是 World's Edge 上的一处地点，第 10 赛季也曾作为 Arenas 的独立地图使用。"
+  },
+  "high-desert": {
+    "descriptionZh": "High Desert 是 Kings Canyon 上的一处地点，第 10 赛季也曾作为 Arenas 的独立地图使用。它位于 Kings Canyon 西侧、Airbase 与 Bunker Pass 之间，属于高级物资区域。这里由两大片建筑群组成，一片位于高丘顶部，另一片位于山脚；高处有一座可攀登的矮塔，可俯瞰周边沙漠。"
+  },
+  "velvet-oasis": {
+    "descriptionZh": "Velvet Oasis 是 Olympus 上的一处地点，第 10 赛季也曾作为 Arenas 的独立地图使用。"
+  },
+  "artillery-battery": {
+    "descriptionZh": "Artillery Battery 是 Kings Canyon 上的一处地点，第 9 赛季也曾作为 Arenas 的独立地图使用。"
+  },
+  "golden-gardens": {
+    "descriptionZh": "Golden Gardens 是 Olympus 上的一处地点，第 9 赛季也曾作为 Arenas 的独立地图使用。"
+  },
+  "thermal-station": {
+    "descriptionZh": "Thermal Station 是 World's Edge 上的一处地点，第 9 赛季也曾作为 Arenas 的独立地图使用。"
+  },
+  "firing-range": {
+    "descriptionZh": "Firing Range 是射击场与训练模式使用的地图，Ballistic 在该模式中担任播报员。"
+  },
+  "the-wall": {
+    "descriptionZh": "The Wall 是 Storm Point 上的一处地点，第 19 赛季之前也曾作为 Gun Run 的独立地图使用。"
+  },
+  "winter-express": {
+    "descriptionZh": "Winter Express 是第 3 赛季 Holo-Day Bash Collection Event 中推出的限时模式。"
+  }
+}

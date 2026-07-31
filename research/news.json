@@ -1,0 +1,1901 @@
+{
+  "meta": {
+    "gameVersion": "EA official news · complete paginated index snapshot",
+    "fetchedAt": "2026-07-31T17:32:43Z",
+    "sourceName": "EA official Apex Legends News / DROP API",
+    "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news",
+    "license": "EA copyrighted content; metadata and outbound links only",
+    "count": 118,
+    "totalAvailable": 117
+  },
+  "items": [
+    {
+      "id": "30-0-designers-notes",
+      "title": "Marked Designer’s Notes",
+      "summary": "Read about the Apex team's insight for the meta changes coming in our next season, Marked.",
+      "date": "2026-07-30",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/30-0-designers-notes",
+      "image": "https://drop-assets.ea.com/images/5uCFWOM7mt8GaS4vOAqmzA/831ed306c62a47adb5d3694f22c10c95/Apex_S30-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.565625,yPosition=0.9388888888888889",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/30-0-designers-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "marked-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Marked",
+      "summary": "First details on Bloodhound’s rework, a World’s Edge’s update, new Corrupted Attachments, buffs to Loba and Rampart, and more!",
+      "date": "2026-07-28",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-game-updates",
+      "image": "https://drop-assets.ea.com/images/3dK3vDXEdXMTd223TD9FpJ/8bfb10faa77bca4f923a5f4794d0c99d/Apex_S30-Season_Bloodhound-Rework-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7026041666666667,yPosition=0.44907407407407407",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "cyberpunk-event",
+      "title": "Chrome up in the Apex Legends x Cyberpunk Event",
+      "summary": "Hit the streets of Night City E-District, wield new Cyberware mods, and try not to go Cyberpsycho.",
+      "date": "2026-07-07",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/cyberpunk-event",
+      "image": "https://drop-assets.ea.com/images/gAJBlJcTXnwSFQkoCny7R/7f0d08f4a35b07e31b637d0850c7f6a5/Apex_S29_Clockup_PrimaryArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.45989583333333334,yPosition=0.2310185185185185",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/cyberpunk-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "overclocked-midseason-patch-notes",
+      "title": "Apex Legends™: Overclocked Midseason Patch Notes",
+      "summary": "To start the latter half of the season, we’re bringing legend balancing changes, new shotgun hop-ups, and various fixes and improvements, plus more in our full midseason Patch Notes.",
+      "date": "2026-06-22",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-midseason-patch-notes",
+      "image": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-midseason-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "29-1-designers-notes",
+      "title": "Overclocked Midseason Designer’s Notes",
+      "summary": "Meta changes coming to the Overclocked mid-season patch.",
+      "date": "2026-06-18",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/29-1-designers-notes",
+      "image": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/29-1-designers-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "overclocked-matchmaking-update",
+      "title": "Apex Legends: Matchmaking Tests Update",
+      "summary": "Read on the work being done on matchmaking to provide an even better experience for our players.",
+      "date": "2026-06-08",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-matchmaking-update",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-matchmaking-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "power-trip-event",
+      "title": "Push past your limits in the Power Trip Event",
+      "summary": "New Wildcard round modifiers, Wildcard map rotation, Event cosmetics, an Ash Prestige Skin, and more.",
+      "date": "2026-05-28",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/power-trip-event",
+      "image": "https://drop-assets.ea.com/images/7upR0dy2N8VE4FRPYL6mmD/7a686000a68b5fe80cfa83a59cf498af/ApexS29_PowerTrip_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.765625,yPosition=0.4388888888888889",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/power-trip-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "overclocked-patch-notes",
+      "title": "Apex Legends™: Overclocked Patch Notes",
+      "summary": "Prepare for Overclocked’s launch with the new legend Axle, adjustments to matchmaking and in-game audio, respawning from deathboxes and chain healing, legend updates to Vantage and Conduit, plus more in our full Patch Notes.",
+      "date": "2026-05-04",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-patch-notes",
+      "image": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "29-0-designers-notes",
+      "title": "Overclocked Designer’s Notes",
+      "summary": "Contextualizing Overclocked’s meta changes",
+      "date": "2026-05-01",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/29-0-designers-notes",
+      "image": "https://drop-assets.ea.com/images/bkMLMqEITjTrdGhB8iEut/de1c3ebe1345f4bf67c4cf2c8d3a95fa/Apex_S29-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.32864583333333336,yPosition=0.4898148148148148",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/29-0-designers-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "overclocked-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Overclocked",
+      "summary": "First details on the newest Legend Axle, Respawn for Deathbox Mechanic, Chained Healing, and more!",
+      "date": "2026-04-30",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-game-updates",
+      "image": "https://drop-assets.ea.com/images/7z260yIivfPYqjsZ7mveli/869eda5de0d3872c07b0af39f14008ba/Apex_S29-Season_Axle_Gameplay-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.3484375,yPosition=0.4287037037037037",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/overclocked-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "aftershock-event",
+      "title": "Aftershock Event + Midseason Patch Notes",
+      "summary": "Charge into a new Wildcard, Legend Updates, an Elite Hemlok and more.",
+      "date": "2026-03-23",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/aftershock-event",
+      "image": "https://drop-assets.ea.com/images/fOkvGVFHjJtLUslOGpl5p/5efaaf8d81761455d988143dd858d407/ApexS28_Aftershock_KeyArt_3840x2160_UPDATE.jpg?im=AspectCrop=(16,9),xPosition=0.47994791666666664,yPosition=0.4898148148148148",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/aftershock-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "28-1-designers-notes",
+      "title": "Breach Midseason Designer’s Notes",
+      "summary": "Insights into our goals for each Legend or Weapon, challenges we’ve identified, and what changes we are making in pursuit of those goals.",
+      "date": "2026-03-23",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/28-1-designers-notes",
+      "image": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/28-1-designers-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "breach-anti-cheat-update",
+      "title": "Apex Legends™: Anti-Cheat Update",
+      "summary": "View our latest Anti-Cheat update in Apex Legends.",
+      "date": "2026-03-04",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breach-anti-cheat-update",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breach-anti-cheat-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "apex-gundam-event",
+      "title": "Apex Legends x Gundam Event",
+      "summary": "New Wildcard gameplay, Gundam Skins, and more",
+      "date": "2026-03-03",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-gundam-event",
+      "image": "https://drop-assets.ea.com/images/7jN4sZ21Jg0QbyZkB75ok1/2461d2f932b040bcd587c481f4b36189/Apex_S28_Gundam_KeyArt-3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.6286458333333333,yPosition=0.4439814814814815",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-gundam-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "2026-roadmap",
+      "title": "Apex Legends: The Road Ahead",
+      "summary": "All of this (and more) coming to Apex Legends in 2026 and beyond.",
+      "date": "2026-02-12",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/2026-roadmap",
+      "image": "https://drop-assets.ea.com/images/7t4PdVfLxEdBsqjuxyqqhY/e78c4182cb2258d39dbe89418017ca6a/Apex_TheRoadAhead_Thumbnail_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.8541666666666666,yPosition=0.44907407407407407",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/2026-roadmap",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "7-year-anniversary",
+      "title": "Celebrate 7 Years of Apex",
+      "summary": "Earn Community-made rewards and unlock up to 4 Legends",
+      "date": "2026-02-10",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/7-year-anniversary",
+      "image": "https://drop-assets.ea.com/images/3mMRjURtukweEhsMqC4dJ8/eb94347b55db2d8adbf38c261a045cfb/APEX_Legends_S28_Screenshots_Launch_CommRewardsTrack_B_v01.png?im=AspectCrop=(16,9),xPosition=0.6286458333333333,yPosition=0.47962962962962963",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/7-year-anniversary",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "breach-patch-notes",
+      "title": "Apex Legends™: Breach Patch Notes",
+      "summary": "Prepare for Breach’s launch with new Hardlight Meshes, legend updates to Fuse, Catalyst and Bloodhound, along with changes to knockdown shields and backpacks, and Marksman nerfs and Shotgun buffs, plus more in our full Patch Notes.",
+      "date": "2026-02-09",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breach-patch-notes",
+      "image": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breach-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "28-0-designers-notes",
+      "title": "Breach Designer’s Notes",
+      "summary": "Contextualizing Breach’s meta changes",
+      "date": "2026-02-06",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/28-0-designers-notes",
+      "image": "https://drop-assets.ea.com/images/2pC6PrxAU7MO1dpHaMpeW6/430da1e34e62cbf39e0c9c1fe0df45b6/Apex_S28-Season-Page-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7802083333333333,yPosition=0.3574074074074074",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/28-0-designers-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "breach-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Breach",
+      "summary": "First details on Hardlight, Fuse’s rework, updates to Bloodhound and Catalyst, the return of dropships in Ranked, and more!",
+      "date": "2026-02-03",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breach-game-updates",
+      "image": "https://drop-assets.ea.com/images/5eFtUN2cXqLUvYWOYx70ov/6c034f70da60ca7f0b9f2fed2e0904a2/Thumbnail.png?im=AspectCrop=(16,9),xPosition=0.3143229166666667,yPosition=0.4439814814814815",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breach-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "update-on-nintendo-switch-support",
+      "title": "An Update on Nintendo Switch Support",
+      "summary": "We have an important update about Apex Legends on the Nintendo Switch.",
+      "date": "2026-01-30",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/update-on-nintendo-switch-support",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/update-on-nintendo-switch-support",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "27-1-designers-notes",
+      "title": "Amped Midseason Designer’s Notes",
+      "summary": " Contextualizing incoming meta changes.",
+      "date": "2026-01-06",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/27-1-designers-notes",
+      "image": "https://drop-assets.ea.com/images/3QOpTVfEIKMmeph8ilm7Wq/d6427c543797e9a8f3da1d23d9f9fcb5/27.1_Desginer-s_Notes_thumb.png?im=AspectCrop=(16,9),xPosition=0.7114583333333333,yPosition=0.40879629629629627",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/27-1-designers-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "winter-wipeout-event",
+      "title": "Grab your Hoverboard for the Winter Wipeout Event",
+      "summary": "And delve into our Amped mid-season patch notes.",
+      "date": "2026-01-05",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/winter-wipeout-event",
+      "image": "https://drop-assets.ea.com/images/1QtYMsyZab1oJSqd6Twzyd/d4abe37f1fd1cc1f9f66f085ad56f5bf/ApexS27_WinterWipeout_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5028645833333333,yPosition=0.46944444444444444",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/winter-wipeout-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "merry-mayhem-event",
+      "title": "Feel the holiday rush in the Merry Mayhem Event",
+      "summary": "Olympus turns into a winter wonderland with Guarded Airdrops, winter Wild Cards, and more.",
+      "date": "2025-12-11",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/merry-mayhem-event",
+      "image": "https://drop-assets.ea.com/images/2flmN52gSQ1ghhOST7dxBp/d333befd0c8374c0d822d6d0cdbb7fc2/Apex_S28_MerryMayhem_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/merry-mayhem-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "amped-matchmaking-update",
+      "title": "Apex Legends™: Matchmaking Test Update",
+      "summary": "Welcome back to the latest Apex Legends Matchmaking dev update! Grab a comfy chair, your favourite warm beverage, and settle in for our latest update.",
+      "date": "2025-11-26",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/amped-matchmaking-update",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/amped-matchmaking-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "supersonic-event",
+      "title": "Break the sound barrier in the Supersonic Event",
+      "summary": "Wildcard gets an updated Olympus map, a missile-launching Mythic R-99, speed-boosting Wild Cards, and more.",
+      "date": "2025-11-13",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/supersonic-event",
+      "image": "https://drop-assets.ea.com/images/3DfV5YQfOLZ8qET5ghQKjV/2acae0acfab149d7e6d5369f7662ba5c/ApexS27_Supersonic_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.6541666666666667,yPosition=0.44907407407407407",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/supersonic-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "amped-patch-notes",
+      "title": "Apex Legends™: Amped Patch Notes",
+      "summary": "Prepare for Amped’s launch with Olympus reworks, Valkyrie, Rampart, and Horizon buffs, Ranked tuning, and more in our full Patch Notes.",
+      "date": "2025-11-03",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/amped-patch-notes",
+      "image": "https://drop-assets.ea.com/images/51Wqn0CGbVH2Ad2BxOzGNF/3880d56b241f7bcde2ff1dcd8bdca777/Apex_S27-SeasonsPage-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7114583333333333,yPosition=0.4444444444444444",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/amped-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "amped-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Amped",
+      "summary": "Prepare for Amped’s launch with Olympus reworks, Valkyrie, Rampart, and Horizon updates, the Double Tap Alternator, Mantle Boost, and more.",
+      "date": "2025-10-30",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/amped-game-updates",
+      "image": "https://drop-assets.ea.com/images/5YvYMxZAx6msNFNvF8cbZY/43e3cd6cecec1b9de773cd555c1b1bb1/Apex_S27-Season_Mantle-Boost-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.3802083333333333,yPosition=0.4388888888888889",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/amped-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "showdown-audio-update",
+      "title": "Apex Legends™: Audio Update",
+      "summary": "Our next dev update delves into Apex Legends audio.",
+      "date": "2025-10-21",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-audio-update",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-audio-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "raise-hell-event",
+      "title": "Rev your shells in the Raise Hell Event",
+      "summary": "Rev Shell Grenades return, new Wild Cards, spooky seasonal surprises, Mad Mag’s Prestige “Apex Warrior,” and more!",
+      "date": "2025-10-09",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/raise-hell-event",
+      "image": "https://drop-assets.ea.com/images/27DSVkMmw09iF2aOa0x3Sw/dd1608df9092db2127516d1440a97915/ApexS26_Raise_Hell_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.4713541666666667,yPosition=0.5050925925925925",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/raise-hell-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "wild-iron-event",
+      "title": "Get explosive in the Wild Iron Event",
+      "summary": "Go wild with the new Mythic Flatline, switch things up with eight new Wild Cards in Wildcard, and dive into our mid-season patch notes.",
+      "date": "2025-09-10",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/wild-iron-event",
+      "image": "https://drop-assets.ea.com/images/4Rbw9mBnjtm1CEAUoSfGUx/a70369a5db42beab40516a276c746cd5/ApexS26_Wild_Iron_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5114583333333333,yPosition=0.5611111111111111",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/wild-iron-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "showdown-anti-cheat-update",
+      "title": "Apex Legends™: Anti-Cheat Update",
+      "summary": "Our latest updates on Apex Legends anti-cheat.",
+      "date": "2025-09-02",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-anti-cheat-update",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-anti-cheat-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "showdown-matchmaking-update",
+      "title": "Apex Legends™: Matchmaking Test Update",
+      "summary": "The results from our latest matchmaking test in Apex Legends",
+      "date": "2025-08-21",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-matchmaking-update",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-matchmaking-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "galactic-games-event",
+      "title": "Get your head in the Galactic Games Event",
+      "summary": "Wildcard gets the event experience with a new mechanic, the Grand Slam Bat enters the Outlands, and more.",
+      "date": "2025-08-14",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/galactic-games-event",
+      "image": "https://drop-assets.ea.com/images/2jLQ4Nwz3wjEo6qGZuskjJ/49b8b1ba2301b3d6807c26bf0121aa5e/Copy_of_ApexS26_GalacticGames_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.29322916666666665,yPosition=0.293287037037037",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/galactic-games-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "showdown-patch-notes",
+      "title": "Apex Legends™: Showdown Patch Notes",
+      "summary": "Prepare for Showdown’s launch with details on Caustic and Bangalore buffs, Ranked updates, and more in our full Patch Notes.",
+      "date": "2025-08-04",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-patch-notes",
+      "image": "https://drop-assets.ea.com/images/521yDIeYuc1ZgrWKa3Ldg9/5c8c793dc45004395db3dc4de6119b10/Apex_S26_Primary_Art_Showdown_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.234375,yPosition=0.4337962962962963",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "showdown-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Showdown",
+      "summary": "Checkout Showdown’s spotlights including Legend Amps, Elite RE-45, Locked Hop-Ups, and more.",
+      "date": "2025-07-30",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-game-updates",
+      "image": "https://drop-assets.ea.com/images/7eEKFlZ3sqmWSEdUU2MKnM/72cdea5d6503adb635e6e77648f9a959/APEX_Legends_S26_Screenshots_s26_Launch_Shot_EDistrictDay_8_v01.png?im=AspectCrop=(16,9),xPosition=0.29322916666666665,yPosition=0.293287037037037",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/showdown-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "game-update-wildcard",
+      "title": "Wildcard Coming with Apex Legends™: Showdown",
+      "summary": "Play big and play loud in our latest mode with simplified loot, Legend stacking, updated Kings Canyon, and more.",
+      "date": "2025-07-30",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/game-update-wildcard",
+      "image": "https://drop-assets.ea.com/images/3ceoOCGZ02dlDQA40hJMuV/9d0e7c12522a0b2d36fb9b3497fcf885/APEX_Legends_S26_Screenshots_s26_Launch_Shot_WildcardOTMapToys_A_v01a__1_.png?im=AspectCrop=(16,9),xPosition=0.17604166666666668,yPosition=0.32592592592592595",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/game-update-wildcard",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "haute-shot-event",
+      "title": "Bring the heat in the Haute Shot Event",
+      "summary": "Arenas: Duels returns with Legend abilities, break out new beach fits, and unlock the new Universal Melee: Sky Piercer.",
+      "date": "2025-07-10",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/haute-shot-event",
+      "image": "https://drop-assets.ea.com/images/0164G5DoZzVH3AIbE4cy3A/2ab9f4b2ea5c6bf229e456a29b4f8e98/Copy_of_ApexS25_HauteShot_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.25703125,yPosition=0.4847222222222222",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/haute-shot-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "future-icons-event",
+      "title": "Face Off in the Future Icons Event",
+      "summary": "Take on Arenas: Duels, unlock Wattson’s “Apex Icon” Prestige skin, try out Wattson and Vantage from June 24-July 15, 2025, and more!",
+      "date": "2025-06-20",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/future-icons-event",
+      "image": "https://drop-assets.ea.com/images/3BpVjRFhTetbHgeZhGKptE/1c63e040aa5051184ac51a4a30ba717b/ApexS25_FutureIcons_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.4942708333333333,yPosition=0.40879629629629627",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/future-icons-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "dev-update-0625",
+      "title": "Apex Legends™: Game Reliability Update",
+      "summary": "Our next dev update of the year shines a light on our efforts with game reliability including stability.",
+      "date": "2025-06-17",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/dev-update-0625",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/dev-update-0625",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "apex-legends-bocek-blast",
+      "title": "Apex Legends Bocek Blast Contest",
+      "summary": "Shoot your best shot with the Bocek for a chance to win a Premium Battle Pass for Prodigy Split 2.",
+      "date": "2025-05-23",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-legends-bocek-blast",
+      "image": "https://drop-assets.ea.com/images/6T4uNbRo3GGUMrs6KjAnEK/062628113c6f80c67edf9830325ebf86/Archery_Fest_001_16x9-LEGAL_v6.jpg?im=AspectCrop=(16,9),xPosition=0.18854166666666666,yPosition=0.4847222222222222",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-legends-bocek-blast",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "prodigy-patch-notes",
+      "title": "Apex Legends™: Prodigy Patch Notes",
+      "summary": "Prepare for Prodigy’s launch with details on audio updates, Death By Design even, and more in our full Patch Notes.",
+      "date": "2025-05-05",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/prodigy-patch-notes",
+      "image": "https://drop-assets.ea.com/images/5xrAVWiYu4AQWgBaN7co6H/9d6e5306bccd7ac01f072b3bbfe70a97/Copy_of_Apex_S25_Primary_Art_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.29322916666666665,yPosition=0.293287037037037",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/prodigy-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "introducing-sparrow",
+      "title": "New Updates Coming with Apex Legends™: Sparrow",
+      "summary": "Taking a look at Prodigy’s prodigy, his ability kit, and how you can unlock him and get his look.",
+      "date": "2025-05-02",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/introducing-sparrow",
+      "image": "https://drop-assets.ea.com/images/7G10Qh25MkXqcLkmSBTSha/ab4775c2cbaa444210fdb8bdb7b37800/Apex-SeasonsPage_Gameplay-Sparrow_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5864583333333333,yPosition=0.586574074074074",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/introducing-sparrow",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "takeover-spotlight-4",
+      "title": "Apex Legends™: Community Art Spotlight",
+      "summary": "Showcasing artistic leaders from across the Apex Legends™ community.",
+      "date": "2025-04-23",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-4",
+      "image": "https://drop-assets.ea.com/images/7IulhAdxHuKOJXbc1CIUi1/d33a004c93de7bfc269350f90ed5ad0e/S24_-_Spotlight_4_-_art.jpg?im=AspectCrop=(16,9),xPosition=0.27717782577393807,yPosition=0.4286628278950736",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-4",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "takeover-spotlight-3",
+      "title": "Apex Legends™: Community Cosplay Spotlight",
+      "summary": "Showcasing cosplay leaders from across the Apex Legends™ community.",
+      "date": "2025-04-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-3",
+      "image": "https://drop-assets.ea.com/images/6Kyztr0GcfcuZtHwM9Se4K/e9ceaaf224fb2e1ef4655a788411e9ff/S24_-_Spotlight_3_-_cosplay.jpg?im=AspectCrop=(16,9),xPosition=0.38912886969042476,yPosition=0.40115163147792704",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-3",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "fight-force-event",
+      "title": "Go Full Contact in the Fight Force Event",
+      "summary": "Bring the boom with EPG Extreme LTM, take on Kaminari Qpi’s challenges, and unlock Mirage’s Prestige skin: “Apex Adonis.”",
+      "date": "2025-04-10",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/fight-force-event",
+      "image": "https://drop-assets.ea.com/images/5p1WVS30Rc4iDeD9SEvE3T/23a4962044fbfad480a63a3b31a17f33/Apex_S24_FightForce_KeyArt_Primary_update.jpg?im=AspectCrop=(16,9),xPosition=0.18671875,yPosition=0.15833333333333333",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/fight-force-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "takeover-spotlight-2",
+      "title": "Apex Legends™: Community Spaces/Initiatives Spotlight",
+      "summary": "Showcasing spaces and initiatives from across the Apex Legends™ community.",
+      "date": "2025-04-09",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-2",
+      "image": "https://drop-assets.ea.com/images/7wWfo3YiiFVKwaY9L34QnI/15a6bbb57563f2aa501a202db3ca6da3/S24--Community-Spotlights--Spaces.jpg?im=AspectCrop=(16,9),xPosition=0.2570194384449244,yPosition=0.5713371721049264",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-2",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "takeover-spotlight-1",
+      "title": "Apex Legends™: Community Handcrafts/Builds Spotlight",
+      "summary": "Showcasing creative leaders from across the Apex Legends™ community.",
+      "date": "2025-04-02",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-1",
+      "image": "https://drop-assets.ea.com/images/3zS6SaZuBuERCseTNzEZOJ/1b9435d3cee55a81ea50d8b431cb9345/S24__Community_Spotlights__BuildsHandcrafts.png?im=AspectCrop=(16,9),xPosition=0.69150467962563,yPosition=0.4849648112603967",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-spotlight-1",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "celebrate-6-years-of-apex",
+      "title": "Celebrate 6 Years of Apex",
+      "summary": "Celebrate our 6th Anniversary with a free community-made reward tracker, Mythic Mayhem Royale, the all new Mythic R-301, and more! ",
+      "date": "2025-02-11",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/celebrate-6-years-of-apex",
+      "image": "https://drop-assets.ea.com/images/2CCq6rqw9CjKWbk8WuYRO/add4d1b650f67f9747c1cf86f5a6ebee/R5_S24_Launch_Anniversary4Man_v01.png?im=AspectCrop=(16,9),xPosition=0.42291666666666666,yPosition=0.4949074074074074",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/celebrate-6-years-of-apex",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "takeover-twitch-drops",
+      "title": "Apex Legends™: Takeover Twitch Drops",
+      "summary": "Tune in on Twitch to earn drops!",
+      "date": "2025-02-11",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-twitch-drops",
+      "image": "https://drop-assets.ea.com/images/AGhhkfwxfr4ZK31ktBsBo/89c9e395bd6686c551fdabb43f2e7442/Apex-S24_feature-image-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.42552083333333335,yPosition=0.44907407407407407",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-twitch-drops",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "takeover-patch-notes",
+      "title": "Apex Legends™: Takeover Patch Notes",
+      "summary": "Prepare for Takeover’s launch with details on Legend and weapon buffs, Assault class perks, and more in our full Patch Notes.",
+      "date": "2025-02-10",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-patch-notes",
+      "image": "https://drop-assets.ea.com/images/AGhhkfwxfr4ZK31ktBsBo/89c9e395bd6686c551fdabb43f2e7442/Apex-S24_feature-image-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.42552083333333335,yPosition=0.44907407407407407",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "takeover-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Takeover",
+      "summary": "Taking a look at Takeover’s game updates including Creator Commissioners, Arsenals, meta changes, and more.",
+      "date": "2025-02-06",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-game-updates",
+      "image": "https://drop-assets.ea.com/images/5e5BfyaSXPWbLmPnXBEC3y/fd326d48ed72119086b84bcebd632121/R5_S24_Launch_ArsenalALRV_v01.png?im=AspectCrop=(16,9),xPosition=0.47994791666666664,yPosition=0.5050925925925925",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "dev-update-0225",
+      "title": "Apex Legends™: Anti-cheat and Matchmaking Update",
+      "summary": "Our first dev update of 2025 focuses on anti-cheat and matchmaking.",
+      "date": "2025-02-05",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/dev-update-0225",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/dev-update-0225",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "lunar-rebirth-event",
+      "title": "Slice through squads in the Lunar Rebirth Collection Event",
+      "summary": "Bring on the Buster Sword R2R5, gain an edge with Materia Hop-Ups, and collect your way to Alter’s “Voidsnake” Prestige.",
+      "date": "2025-01-16",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/lunar-rebirth-event",
+      "image": "https://drop-assets.ea.com/images/5vZyZnPewRhJLlfBPvfNTy/97c493ae121f60ccd7fa35bd94a542b8/ApexS23_LunarRebirth_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/lunar-rebirth-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "astral-anomaly-event",
+      "title": "Transcend the Otherworld in the Astral Anomaly Event",
+      "summary": "Launch Royale returns with a twist, earn Exotic Shards, and review the mid-season updates.",
+      "date": "2025-01-06",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/astral-anomaly-event",
+      "image": "https://drop-assets.ea.com/images/2Qfatj3avVRDMbAnCLGGu0/ab5231a6775722fc90ae23fa082a4c79/ApexS23_AstralAnomaly_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.4439814814814815",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/astral-anomaly-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "matchmaking-update-0924",
+      "title": "Apex Legends™: Matchmaking Update 2024",
+      "summary": "Our latest dev update on matchmaking with a look at new and improved features, and answers to your questions.",
+      "date": "2024-12-18",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/matchmaking-update-0924",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/matchmaking-update-0924",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "rather-be-apexing-sweepstakes-blog",
+      "title": "Rather be Apexing Sweepstakes",
+      "summary": "Enter for a chance to win a Nessie bundle for you and your squadmates.",
+      "date": "2024-12-17",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/rather-be-apexing-sweepstakes-blog",
+      "image": "https://drop-assets.ea.com/images/2v3CbE5i0JUKhiN0ZeEEL8/d98f53d7359036c1528ebafb3ea74c57/s23_generic_collection_text.jpg?im=AspectCrop=(16,9),xPosition=0.6140625,yPosition=0.39351851851851855",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/rather-be-apexing-sweepstakes-blog",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "winters-haunt-event",
+      "title": "Face the Frost in the Winter’s Haunt Event",
+      "summary": "Take on a trial by tracks with the Winter Express LTM, collect Bloodhound’s “Winter’s Bane,” and earn 150 Heirloom Shards.",
+      "date": "2024-12-12",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/winters-haunt-event",
+      "image": "https://drop-assets.ea.com/images/48xd49HsxRzGvbm1DAJ4RN/b769ae66edc59a687c35e7a1aec247be/apex-s23-wintershaunt-keyart-3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.25703125,yPosition=0.36064814814814816",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/winters-haunt-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "holiday-gift-guide-2024",
+      "title": "Apex Legends™ Holiday Gift Guide 2024",
+      "summary": "Legendary loot for all. No loot bin required.",
+      "date": "2024-11-27",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/holiday-gift-guide-2024",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/holiday-gift-guide-2024",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "creator-hub",
+      "title": "Apex Legends™: Creator Hub",
+      "summary": "The Global Creator Community has been a vital part of Apex Legends™. We are expanding the support for the creator experience.",
+      "date": "2024-11-08",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/creator-hub",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/creator-hub",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "from-the-rift-season-updates",
+      "title": "New Updates Coming with Apex Legends™: From The Rift",
+      "summary": "Relive that first hot drop, restore your squad with Lifeline revived, and review all of the updates coming in From the Rift.",
+      "date": "2024-11-05",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/from-the-rift-season-updates",
+      "image": "https://drop-assets.ea.com/images/7AWlvtRm9T48pSb0zps2dP/820c3b6d1066490d81ce3a7dc253e747/apex-section-bg-from-the-rift-blogpage-xl.jpg?im=AspectCrop=(16,9),xPosition=0.7829861111111112,yPosition=0.4981481481481482",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/from-the-rift-season-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "techno-terror-event",
+      "title": "Twilight Befalls E-District in the Techno Terror Collection Event",
+      "summary": "Have a scary good time with Trick N’ Treat Trios returning, Pathfinder’s Prestige Skin “Apex Mecha”, and see which Legends are dressing up!",
+      "date": "2024-10-10",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/techno-terror-event",
+      "image": "https://drop-assets.ea.com/images/VkvTlAfb7lG0ZdsjbvxQm/e4da6be295b82a80ae65c347f63e40b6/apexs22-technoterror-keyart-3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/techno-terror-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "global-drop-rates",
+      "title": "Apex Legends™: Minimum Global Drop Rates",
+      "summary": "Everything you need to know about minimum global drop rates for Apex Packs.",
+      "date": "2024-10-08",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/global-drop-rates",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/global-drop-rates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "space-hunt-event",
+      "title": "Knockout the Galaxy in the Space Hunt Event",
+      "summary": "An all-new objective based LTM and “Serpent’s Sting” universal melee item, earn Bounty Bucks, and more with our mid-season patch.",
+      "date": "2024-09-12",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/space-hunt-event",
+      "image": "https://drop-assets.ea.com/images/1Ar5svqo6GSmnwfR2QgM4B/75681486ba2aa0bc55d9be8c7eecd03e/ApexS22_SpaceHunt_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.4627604166666667,yPosition=0.5152777777777777",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/space-hunt-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "anti-cheat-update-082124",
+      "title": "Apex Legends™: Anti-Cheat",
+      "summary": "Updating our community on our latest match quality progress.",
+      "date": "2024-08-22",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/anti-cheat-update-082124",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/anti-cheat-update-082124",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "temporal-chaos-event",
+      "title": "Take on Turmoil in the Temporal Chaos Collection Event",
+      "summary": "Test your mettle in Straight Shot Revival, go Akimbo in a new TDM variant, and unlock Bangalore’s “Emerald Edge” Heirloom.",
+      "date": "2024-08-08",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/temporal-chaos-event",
+      "image": "https://drop-assets.ea.com/images/5BDy3KSejsOpRXPh9FD8Ts/509b969b0b259a1db806c7c2a20c1286/ApexS22_TemporalChaos_Trailer_Thumbnails_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.7057291666666666,yPosition=0.33240740740740743",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/temporal-chaos-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "shockwave-patch-notes",
+      "title": "Apex Legends™: Shockwave Patch Notes",
+      "summary": "Get charged up for Shockwave’s launch with class perks, balance and Legend updates, and more.",
+      "date": "2024-08-05",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/shockwave-patch-notes",
+      "image": "https://drop-assets.ea.com/images/73LZcTvYbM3uhhh9OC2yzP/7a50693cdf275227f9944c8ce0d42934/apex-hero-md-s22-articles-7x2-xl.jpg?im=AspectCrop=(16,9),xPosition=0.23125,yPosition=0.2234567901234568",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/shockwave-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "welcome-to-edistrict",
+      "title": "Welcome to E-District",
+      "summary": "Drop in hot and explore the dense urban island in the city of Suotamo starting August 6, 2024.",
+      "date": "2024-08-02",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/welcome-to-edistrict",
+      "image": "https://drop-assets.ea.com/images/7CQIy0Ni0ehDp64CJ5BXkC/30e29dc610a31d423febd36d1d8367b8/district-establishing-shot.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/welcome-to-edistrict",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "shockwave-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Shockwave",
+      "summary": "Catch an early feel of Shockwave’s energy with spotlights on Revival, the new neon-lit E-District map, Akimbo weapons, and more.",
+      "date": "2024-08-01",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/shockwave-game-updates",
+      "image": "https://drop-assets.ea.com/images/29IGKP0WYjarTNoQO1mKEg/47d22224f8d0da8ec8209476aaabac89/R5_S22_Launch_Map-Wide_v01.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/shockwave-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "void-reckoning-event",
+      "title": "Stand Steadfast in the Void Reckoning Event",
+      "summary": "Take on 12 in the new BIG TDM, earn Void Points, and unlock milestone rewards like Newcastle’s Legendary “Galactic Garrison.”",
+      "date": "2024-07-18",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/void-reckoning-event",
+      "image": "https://drop-assets.ea.com/images/1V8W9jHVD5EfZTnxMZfgBd/27f2089f42ad9a710dc4410bbcb6d551/Copy_of_ApexS21_VoidReckoning_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.54296875,yPosition=0.45925925925925926",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/void-reckoning-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "apex-legends-battle-pass-update",
+      "title": "Apex Legends™: Battle Pass Updates",
+      "summary": "Everything to know about the upcoming Battle Pass updates.",
+      "date": "2024-07-08",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-legends-battle-pass-update",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-legends-battle-pass-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "double-take-collection-event",
+      "title": "Double down in the Double Take Collection Event",
+      "summary": "Squad up with Quads, earn Lifeline’s “Apex Corruptor,” level up with 1.5x towards Prestige challenges, and more with our mid-season patch.",
+      "date": "2024-06-20",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/double-take-collection-event",
+      "image": "https://drop-assets.ea.com/images/60WdmcwEdKjkTvR9q76gXy/0df83a928861af46ed19be8bf8a28fec/ApexS21_Doubletake_KeyArt_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.35989583333333336,yPosition=0.4949074074074074",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/double-take-collection-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "community-made-stickers",
+      "title": "Apex Legends™: Community Made Summer Stickers",
+      "summary": "Get excited, legends! A brand new community made sticker pack is available beginning today.",
+      "date": "2024-06-11",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/community-made-stickers",
+      "image": "https://drop-assets.ea.com/images/4Vd5JSQ4U9ma6LrnN3iwtv/63bc14cf9395d88634201058d51c7211/image__16_.png?im=AspectCrop=(16,9),xPosition=0.2689295039164491,yPosition=0.42923433874709976",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/community-made-stickers",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "chaos-cup",
+      "title": "Apex Legends™ Chaos Cup UK",
+      "summary": "The UK's first official Apex Legends™ Community Event",
+      "date": "2024-05-23",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/chaos-cup",
+      "image": "https://drop-assets.ea.com/images/3Ob1NrfYl93NyuHLxSitnj/dab3c47a511f2933f7da9ea91a774f67/chaos_cup_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.23151041666666666,yPosition=0.5712962962962963",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/chaos-cup",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "upheaval-patch-notes",
+      "title": "Apex Legends™: Upheaval Patch Notes",
+      "summary": "Ready yourself for Upheaval’s launch with balance and Legend updates, insight into Alter, and more.",
+      "date": "2024-05-06",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/upheaval-patch-notes",
+      "image": "https://drop-assets.ea.com/images/7mE1PV6muggqqPiKn6ZzQ1/fb9c015b0f24877f3ec0fc34856565c4/apex-s21-feature-image-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.7201388888888889,yPosition=0.24382716049382716",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/upheaval-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "apex-artifacts",
+      "title": "Apex Legends™: Apex Artifacts",
+      "summary": "Carve your destiny with customizable Apex Artifacts. Your melee, your way.",
+      "date": "2024-05-03",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-artifacts",
+      "image": "https://drop-assets.ea.com/images/hAvhWGnOBa42ZqoThxtN9/223972345eca22c62f1f9742d220faa4/R5_S21_Launch_Action_LineupArtifacts_v03__1_.png?im=AspectCrop=(16,9),xPosition=0.32578125,yPosition=0.4847222222222222",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-artifacts",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "upheaval-game-updates",
+      "title": "New Updates Coming with Apex Legends™: Upheaval",
+      "summary": "Get insights into game updates coming in Apex Legends™: Upheaval including Solos, Alter, and a new dawn of Broken Moon!",
+      "date": "2024-05-03",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/upheaval-game-updates",
+      "image": "https://drop-assets.ea.com/images/5QPYuimOXMYVlSZfeJEuFO/702db6c48c2ad23cc94f9dc06036b72f/R5_S21_Launch_Action_ALvsWR_v02.png?im=AspectCrop=(16,9),xPosition=0.35989583333333336,yPosition=0.5458333333333333",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/upheaval-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "urban-assault-event",
+      "title": "Storm the streets in the Urban Assault Collection Event",
+      "summary": "Gear up for Three Strikes, the new Apex Rumble, Octane’s “Apex Riptide” and more!",
+      "date": "2024-04-18",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/urban-assault-event",
+      "image": "https://drop-assets.ea.com/images/4MrWy5CKkqlEPHkm3Xv2lr/222120871f85a242a419b6d369a83cdc/Apex_UrbanAssault_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.21432291666666667,yPosition=0.47962962962962963",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/urban-assault-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "shadow-society-event",
+      "title": "Rule the underground in the Shadow Society Event",
+      "summary": "Protect your turf in Lockdown, earn Reputation, and wield the all new “Cobalt Katar” in the Shadow Society Event.",
+      "date": "2024-03-21",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/shadow-society-event",
+      "image": "https://drop-assets.ea.com/images/2JNCcTrNIPxJtuER4BLQJw/d7255b2b03e3afba24ba7132484c1508/Apex_Shadow-Society-Event_Primary_Art_3840x2160.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/shadow-society-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "inner-beast-event",
+      "title": "The Hunt is on in the Inner Beast Collection Event",
+      "summary": "Become the Hunter or the Prey in The Hunt and honor the Allfather by completing challenges.",
+      "date": "2024-03-04",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/inner-beast-event",
+      "image": "https://drop-assets.ea.com/images/1PAn9B0a1yGZG5L6kYsxG1/94510691bd6fb323b4cbbe98cadfd836/Apex_InnerBeast_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/inner-beast-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "apex-legends-nessie-cup",
+      "title": "Apex Legends™ Nessie Cup",
+      "summary": "Get ready to fight for the Apex Legends™ Nessie Cup, Legends!",
+      "date": "2024-02-26",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-legends-nessie-cup",
+      "image": "https://drop-assets.ea.com/images/6yNumXzIqMn4ci4pNTthCo/7ce2b0b59f02b0bf114e0aabfbad9e30/weekly-tournament-asset.jpg?im=AspectCrop=(16,9),xPosition=0.3143229166666667,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/apex-legends-nessie-cup",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "breakout-patch-notes",
+      "title": "Apex Legends™: Breakout Patch Notes",
+      "summary": "Brace for Breakout’s launch with full specs on Crafting 2.0, Legend Upgrades, balance changes, and more.",
+      "date": "2024-02-12",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breakout-patch-notes",
+      "image": "https://drop-assets.ea.com/images/4qHfCkiMWXm20ZMGKXdAlZ/5884583d53c018da1c0da379add43085/Apex-S20_feature-image-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.3229166666666667,yPosition=0.44938271604938274",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breakout-patch-notes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "fifth-anniversary-collection-event",
+      "title": "Celebrate 5 Years of Apex Legends With the Anniversary Collection Event",
+      "summary": "Celebrate our 5th Anniversary and play to earn cosmetics with a new LTM, community-created reward track, and more!",
+      "date": "2024-02-08",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/fifth-anniversary-collection-event",
+      "image": "https://drop-assets.ea.com/images/5FSJHQJbREzoEr6CLj5IP3/b0607d8a3920f0aa07cf904aef2fc4e7/S20_Launch_Anniversary_LB-WT-CR_A2_R03_v03.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/fifth-anniversary-collection-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "breakout-rewards",
+      "title": "APEX LEGENDS™: BREAKOUT REWARDS",
+      "summary": "Everything to know about the upcoming Breakout Rewards in Apex Legends™.",
+      "date": "2024-02-06",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breakout-rewards",
+      "image": "https://drop-assets.ea.com/images/4aAPXxs90CxHtNsajlkoAw/5563068d65f87d0a6b893edf60874077/BreakoutRewards.png?im=AspectCrop=(16,9),xPosition=0.6372395833333333,yPosition=0.37824074074074077",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breakout-rewards",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "breakout-season-game-updates",
+      "title": "NEW UPDATES COMING WITH APEX LEGENDS™: BREAKOUT",
+      "summary": "Get a peek at game updates coming in Breakout including Legend Upgrades, Ranked, Thunderdome, and more.",
+      "date": "2024-02-05",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breakout-season-game-updates",
+      "image": "https://drop-assets.ea.com/images/bbL9KUnr7omUfiSLwhi3H/282ad4338d87f80258cc085af7cb454f/S20_HIGHLIGHTS_THUMBNAIL.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/breakout-season-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "cross-progression",
+      "title": "Cross Progression in Apex Legends™",
+      "summary": "Get a first look at how Cross Progression will work with Apex Legends™.",
+      "date": "2023-10-26",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/cross-progression",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/cross-progression",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "ignite-season-game-updates",
+      "title": "New Updates Coming With Apex Legends™: Ignite",
+      "summary": "Get insights into game updates coming in Apex Legends™: Ignite including Conduit, Storm Point map updates, Cross Progression, and more!",
+      "date": "2023-10-26",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ignite-season-game-updates",
+      "image": "https://drop-assets.ea.com/images/21ZpanNWjoBcw5fnSJtY16/902af29e4d209abceafbb8a2478ae0f3/title.jpg?im=AspectCrop=(16,9),xPosition=0.7026041666666667,yPosition=0.5555555555555556",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ignite-season-game-updates",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "july-2023-ranked-dev-blog",
+      "title": "Apex Legends™: July 2023 Ranked Dev Blog",
+      "summary": "Learn more about Ranked on Apex Legends™, what we’ve learned so far with Arsenal updates, and a peek at what’s to come.",
+      "date": "2023-08-04",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/july-2023-ranked-dev-blog",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/july-2023-ranked-dev-blog",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "global-price-adjustment-update",
+      "title": "Global Price Adjustment Update",
+      "summary": "An update on the upcoming global price adjustments for Apex Legends.",
+      "date": "2023-05-19",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/global-price-adjustment-update",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/global-price-adjustment-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "arsenal-ranked-update",
+      "title": "Apex Legends™: Arsenal Ranked Update",
+      "summary": "Learn more about Ranked on Apex Legends and what recent changes we’ve made to improve on our Ranked and matchmaking systems",
+      "date": "2023-05-02",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/arsenal-ranked-update",
+      "image": "https://drop-assets.ea.com/images/7GRluLzRx0khGFXRflqdz3/523188a0555a694ecfc22887a5863553/apex-s17-feature-image-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.8743491843110032,yPosition=0.24367674275138804",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/arsenal-ranked-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "matchmaking-2023",
+      "title": "Apex Legends Matchmaking Update",
+      "summary": "Learn more about how matchmaking is done on Apex Legends and what recent changes we’ve made to improve on our matchmaking system.",
+      "date": "2023-01-17",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/matchmaking-2023",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/matchmaking-2023",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "iron-sight-update",
+      "title": "An update on iron sights",
+      "summary": "Learn how Apex Legends™ will be improving the competitive integrity of iron sights now and in the future.",
+      "date": "2022-09-16",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/iron-sight-update",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/iron-sight-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "saviors-ranked-update",
+      "title": "Apex Legends Ranked gets reloaded with the launch of Saviors!",
+      "summary": "Check out a full breakdown of the big updates coming to Ranked play with the launch of Saviors.",
+      "date": "2022-05-06",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/saviors-ranked-update",
+      "image": "https://drop-assets.ea.com/images/3xafCtcsUVdsiSOcfdK7Bi/dfe10879b91ff6503d0863bd771b6323/apex-media-news-saviors-patch-keyart.jpg?im=AspectCrop=(16,9),xPosition=0.2828125,yPosition=0.20833333333333334",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/saviors-ranked-update",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "anniversary-collection-event",
+      "title": "Celebrate 3 years of Apex Legends with the Anniversary Collection Event.",
+      "summary": "We’re celebrating our 3rd anniversary with Squad Skins, a community-made reward tracker, and the debut of Prestige Skins!",
+      "date": "2022-02-10",
+      "category": "Events",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/anniversary-collection-event",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/anniversary-collection-event",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "servers-netcode-developer-deep-dive",
+      "title": "What Makes Apex Tick: A Developer Deep Dive into Servers and Netcode",
+      "summary": "Apex Legends lead engineer Ricklesauceur explores common online issues that players face, their causes, and our efforts to address them.",
+      "date": "2021-04-28",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/servers-netcode-developer-deep-dive",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/servers-netcode-developer-deep-dive",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "two-years-of-apex-legends",
+      "title": "Looking Back on Two Years of Apex Legends",
+      "summary": "Two years later, we’re just getting started.",
+      "date": "2021-02-02",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/two-years-of-apex-legends",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/two-years-of-apex-legends",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "ranked-series-3-details",
+      "title": "Announcing Apex Legends Ranked Series 3",
+      "summary": "Get the details on what’s in store for Ranked Leagues when Season 4 - Assimilation launches on February 4.",
+      "date": "2020-01-23",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ranked-series-3-details",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ranked-series-3-details",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "progression-changes",
+      "title": "Level Cap Increase, Progression Changes, More Earnable Apex Packs, and more",
+      "summary": "Learn more about the upcoming changes to Player Level progression and rewards coming December 3rd.",
+      "date": "2019-11-26",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/progression-changes",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/progression-changes",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "ranked-league-series-2",
+      "title": "Apex Legends Ranked League Series 2 Kicks Off October 1",
+      "summary": "Get all the details on Series 2 from the Respawn team",
+      "date": "2019-09-19",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ranked-league-series-2",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ranked-league-series-2",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "ranked-leagues-mode-details",
+      "title": "Introducing Apex Legends Ranked Leagues",
+      "summary": "Get all the details on Ranked Leagues from the team at Respawn.",
+      "date": "2019-07-01",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ranked-leagues-mode-details",
+      "image": "https://drop-assets.ea.com/images/BXNaQAXzHbJpVIHJjOVA5/bdf6f99ace81e828d45b7c5bfb5c6c73/ranking-icons-ca.jpg?im=AspectCrop=(16,9),xPosition=0.19114583333333332,yPosition=0.4675925925925926",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ranked-leagues-mode-details",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "weapon-mastery-explained",
+      "title": "Weapon Mastery Explained",
+      "summary": "Weapon Mastery tracks your kills, headshots, and completions per gun. Choose a weapon and build skill as you earn rewards.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/weapon-mastery-explained",
+      "image": "https://drop-assets.ea.com/images/3oFVvKxsVD9tz6PqX8XwGY/8e467f354737e69aba9e3dc449dd5ac1/Weapon_Mastery_Explained.png?im=AspectCrop=(16,9),xPosition=0.2859375,yPosition=0.5458333333333333",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/weapon-mastery-explained",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "choosing-your-next-legend",
+      "title": "Choosing Your Next Legend",
+      "summary": "Find your next unlock by identifying the gap in your rotation: Survivability, rotation, space control, or aggression.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/choosing-your-next-legend",
+      "image": "https://drop-assets.ea.com/images/2KD5F5HwNp8F8jbpxpCaxA/004270cc0571cb5f616f3c6d413510f8/Choosing_Your_Next_Legend.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/choosing-your-next-legend",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "the-road-to-ranked",
+      "title": "The Road to Ranked",
+      "summary": "Everything you need about the Road to Ranked challenges, plus info on Ranked Points and tips for your first Ranked match.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/the-road-to-ranked",
+      "image": "https://drop-assets.ea.com/images/3UpRA3Tarcpem1TMdUEkeu/8f0cd7c30449f32d9a8df481ab56e08f/The_Road_To_Ranked.png?im=AspectCrop=(16,9),xPosition=0.365625,yPosition=0.3680555555555556",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/the-road-to-ranked",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "what-to-chase-next",
+      "title": "What to Chase Next",
+      "summary": "Finished onboarding? Here's what to focus on next: Ranked mode, Legend unlocks, Weapon Mastery, and squad play. Pick one target and go.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/what-to-chase-next",
+      "image": "https://drop-assets.ea.com/images/791uFf2lJtZ6inhAOcq4mm/417c3a01d1d1b02260bef0078d1bbd4a/What_To_Chase_Next.png?im=AspectCrop=(16,9),xPosition=0.27421875,yPosition=0.39861111111111114",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/what-to-chase-next",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "welcome-pass-101",
+      "title": "Welcome Pass 101",
+      "summary": "Learn how the Apex Legends Welcome Pass works, which challenges to focus on first, and which Legends you unlock along the way.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/welcome-pass-101",
+      "image": "https://drop-assets.ea.com/images/6biS3pA8abdPpzLBP5kwHB/1009de9b4429545b3b1d214a2fb2b73e/Keeping_Your_Welcome_Pass_Moving.png?im=AspectCrop=(16,9),xPosition=0.6796875,yPosition=0.4847222222222222",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/welcome-pass-101",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "finding-your-legend",
+      "title": "Finding your Legend",
+      "summary": "Not sure which Legend to play? Learn the five classes, what each role does, and how to find the right Legend for you.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/finding-your-legend",
+      "image": "https://drop-assets.ea.com/images/mnHo2HmfaRIgfswZy6fJE/437f265ce8ce26001cfa5175ec960b3c/Finding_Your_Legend.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/finding-your-legend",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "standing-out-in-the-apex-games",
+      "title": "Standing out in the Apex Games",
+      "summary": "5 habits that make you useful in Apex Legends: Stay close, ping often, loot fast, use abilities, and heal up.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/standing-out-in-the-apex-games",
+      "image": "https://drop-assets.ea.com/images/3du8ivsNLOvuUmjhkgR54q/27574d8b97b74c12e47570bf5ac282cd/Standing_Out_in_the_Apex_Games.png?im=AspectCrop=(16,9),xPosition=0.46015625,yPosition=0.3680555555555556",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/standing-out-in-the-apex-games",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "welcome-to-the-apex-games",
+      "title": "Welcome to the Apex Games",
+      "summary": "Your roadmap for starting out in Apex Legends: Pick a comfort Legend, learn the basics, and follow the Welcome Pass.",
+      "date": "2019-06-16",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/welcome-to-the-apex-games",
+      "image": "https://drop-assets.ea.com/images/4UKxoHBv2nPIGICYdPJxVw/0332ddb4fc52b97d52d5174a11091520/Welcome_to_the_Apex_Games.png?im=AspectCrop=(16,9),xPosition=0.503125,yPosition=0.4083333333333333",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/welcome-to-the-apex-games",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "anti-cheat-developer-update-may-2019",
+      "title": "Anti-Cheat Developer Update – May 2",
+      "summary": "Take a look at the latest developer update to see what the Respawn team has been working on this week.",
+      "date": "2019-05-02",
+      "category": "Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/anti-cheat-developer-update-may-2019",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/anti-cheat-developer-update-may-2019",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "keeping-your-welcome-pass-moving",
+      "title": "Keeping Your Welcome Pass Moving",
+      "summary": "Turn your Welcome Pass into a focused session plan. Pick one challenge per match and use Bot Royale Evolved to build skills without the pressure of a live lobby.",
+      "date": "2019-02-14",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/keeping-your-welcome-pass-moving",
+      "image": "https://drop-assets.ea.com/images/583UvO7UmIErgWAY4KULzN/21f1e3f1cd029424d416242e458f0ccf/Keeping_Your_Welcome_Pass_Moving.png?im=AspectCrop=(16,9),xPosition=0.66015625,yPosition=0.525",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/keeping-your-welcome-pass-moving",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "how-squads-win-games",
+      "title": "How Squads Win Games",
+      "summary": "6 squad habits that help you win: stay together, call resets, share intel, swing together, share loot, and ping when you have no mic.",
+      "date": "2019-02-14",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/how-squads-win-games",
+      "image": "https://drop-assets.ea.com/images/27g5bujoGFubsq17QQGpo7/5cd20237050180271995c0bab0c7170f/How_Squads_Win_Games.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/how-squads-win-games",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "building-your-legend-pool",
+      "title": "Building Your Legend Pool",
+      "summary": "Be useful in more matches by building a well-rounded Legend rotation: a comfort pick, pressure pick, and squad-value pick.",
+      "date": "2019-02-14",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/building-your-legend-pool",
+      "image": "https://drop-assets.ea.com/images/1r05dCSAjtLlhWCAM4Kd51/0d4b3b3493b7ef8e145c51db83b793cd/Building_Your_Legend_Pool.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/building-your-legend-pool",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "level-up-fast",
+      "title": "Leveling Up Fast",
+      "summary": "6 habits that level up your skills in Apex Legends: warm up, land with a plan, loot fast, fight from cover, heal early, and stay close enough to trade.",
+      "date": "2019-02-14",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/level-up-fast",
+      "image": "https://drop-assets.ea.com/images/16QIS8JZB7YLDviWmB46w0/34b19c57e0319a4780f73ac01fa95a10/Leveling_Up_Fast.png?im=AspectCrop=(16,9),xPosition=0.32578125,yPosition=0.5152777777777777",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/level-up-fast",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "a-letter-to-our-community",
+      "title": "A Letter to Our Community",
+      "summary": "Executive Producer Drew McCoy talks about the launch of Apex Legends, what it means to the team, and what the future holds.",
+      "date": "2019-02-04",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/a-letter-to-our-community",
+      "image": "https://drop-assets.ea.com/images/5wmwmxnYpzriVQWWNCSEja/ac52bc01414c673c0844456f7992cc1e/apex-price-change-key-art.jpg?im=AspectCrop=(16,9),xPosition=0.29140625,yPosition=0.22870370370370371",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/a-letter-to-our-community",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "respawn-credits",
+      "title": "Respawn Credits",
+      "summary": "A huge thanks to everyone who put their heart and soul into creating Apex Legends.",
+      "date": "2019-02-04",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/respawn-credits",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/respawn-credits",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "ea-credits",
+      "title": "EA Credits",
+      "summary": "A huge thanks to everyone who put their heart and soul into creating Apex Legends.",
+      "date": "2019-02-04",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ea-credits",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/ea-credits",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "localization-credits",
+      "title": "Localization Credits",
+      "summary": "A huge thanks to everyone who put their heart and soul into creating Apex Legends.",
+      "date": "2019-02-04",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/localization-credits",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/localization-credits",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "partners-credits",
+      "title": "Partners Credits",
+      "summary": "A huge thanks to everyone who put their heart and soul into creating Apex Legends.",
+      "date": "2019-02-04",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/partners-credits",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/partners-credits",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    },
+    {
+      "id": "open-source-credits",
+      "title": "Legal Notices/Open Source Credits",
+      "summary": "A huge thanks to everyone who put their heart and soul into creating Apex Legends.",
+      "date": "2019-02-04",
+      "category": "Official News",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/open-source-credits",
+      "image": "https://drop-assets.ea.com/images/2YcU8XoDXd5Ir7WpX5P2yR/b78b8cfafabfd58d631c009ac0a41379/apex-legends-generic-keyart-16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "source": {
+        "name": "EA official Apex Legends News",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/open-source-credits",
+        "revision": null,
+        "fetchedAt": "2026-07-31T17:32:43Z",
+        "license": "EA copyrighted content; metadata and outbound links only"
+      }
+    }
+  ]
+}

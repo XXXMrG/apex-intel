@@ -1,0 +1,1170 @@
+{
+  "meta": {
+    "gameVersion": "Season 29 · Overclocked (post-midseason snapshot)",
+    "fetchedAt": "2026-07-31T16:01:56Z",
+    "sourceName": "Wiki stat snapshots + EA Season 28/29 patch notes",
+    "sourceUrl": "https://apexlegends.wiki.gg/wiki/Weapon",
+    "license": "CC BY-NC-SA 4.0",
+    "count": 29
+  },
+  "items": [
+    {
+      "id": "havoc-rifle",
+      "name": "HAVOC Rifle",
+      "category": "AR",
+      "ammo": "Energy Ammo",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 20,
+      "headDamage": 26,
+      "legDamage": 15,
+      "damage": {
+        "body": 20,
+        "head": 26,
+        "legs": 15
+      },
+      "rpm": 672,
+      "magazineSizes": [
+        18,
+        21,
+        25,
+        29
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Extended Energy Magazine",
+        "Optics",
+        "Standard Stock",
+        "Turbocharger"
+      ],
+      "description": "Full-auto charged energy rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/HAVOC_Rifle",
+        "revision": 125455,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "vk-47-flatline",
+      "name": "VK-47 Flatline",
+      "category": "AR",
+      "ammo": "Heavy Rounds",
+      "fireModes": [
+        "Auto",
+        "Single"
+      ],
+      "bodyDamage": 20,
+      "headDamage": 26,
+      "legDamage": 15,
+      "damage": {
+        "body": 20,
+        "head": 26,
+        "legs": 15
+      },
+      "rpm": 600,
+      "magazineSizes": [
+        19,
+        23,
+        27,
+        29
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Extended Heavy Magazine",
+        "Optics",
+        "Standard Stock",
+        "Accelerator"
+      ],
+      "description": "Full-auto with a punch.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/VK-47_Flatline",
+        "revision": 125248,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "hemlok-breach-ar",
+      "name": "Hemlok Breach AR",
+      "category": "AR",
+      "ammo": "Heavy Rounds",
+      "fireModes": [
+        "Full-auto",
+        "Breach Charge"
+      ],
+      "bodyDamage": 22,
+      "headDamage": 31,
+      "legDamage": 17,
+      "damage": {
+        "body": 22,
+        "head": 31,
+        "legs": 17
+      },
+      "rpm": 462,
+      "magazineSizes": [
+        18,
+        20,
+        22,
+        25
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Special muzzle module",
+        "Extended Heavy Magazine",
+        "Optics",
+        "Standard Stock",
+        "Elite Hop-Up"
+      ],
+      "description": "Full Auto assault rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Hemlok_Breach_AR",
+        "revision": 125252,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "r-301-carbine",
+      "name": "R-301 Carbine",
+      "category": "AR",
+      "ammo": "Light Rounds",
+      "fireModes": [
+        "Auto",
+        "Single"
+      ],
+      "bodyDamage": 15,
+      "headDamage": 20,
+      "legDamage": 11,
+      "damage": {
+        "body": 15,
+        "head": 20,
+        "legs": 11
+      },
+      "rpm": 810,
+      "magazineSizes": [
+        21,
+        23,
+        28,
+        31
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Barrel Stabilizer",
+        "Extended Light Magazine",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Full-auto and high accuracy.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/R-301_Carbine",
+        "revision": 125449,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "nemesis-burst-ar",
+      "name": "Nemesis Burst AR",
+      "category": "AR",
+      "ammo": "Energy Ammo",
+      "fireModes": [
+        "Automatic Burst (4)"
+      ],
+      "bodyDamage": 17,
+      "headDamage": 22,
+      "legDamage": 13,
+      "damage": {
+        "body": 17,
+        "head": 22,
+        "legs": 13
+      },
+      "rpm": "451~582",
+      "magazineSizes": [
+        20,
+        24,
+        28,
+        32
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Barrel Stabilizer",
+        "Extended Energy Magazine",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Auto-trigger 4-round burst energy rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Nemesis_Burst_AR",
+        "revision": 125243,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "alternator-smg",
+      "name": "Alternator SMG",
+      "category": "SMG",
+      "ammo": "Light Rounds",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 19,
+      "headDamage": 24,
+      "legDamage": 15,
+      "damage": {
+        "body": 19,
+        "head": 24,
+        "legs": 15
+      },
+      "rpm": 600,
+      "magazineSizes": [
+        20,
+        24,
+        26,
+        30
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Laser Sight",
+        "Extended Light Magazine",
+        "Optics",
+        "Standard Stock",
+        "Double Tap Trigger"
+      ],
+      "description": "Twin barrel full-auto SMG.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Alternator_SMG",
+        "revision": 125249,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "prowler-burst-pdw",
+      "name": "Prowler Burst PDW",
+      "category": "SMG",
+      "ammo": "Heavy Rounds",
+      "fireModes": [
+        "Burst (5)",
+        "Auto"
+      ],
+      "bodyDamage": "16 / 17",
+      "headDamage": "20 / 21",
+      "legDamage": "13 / 14",
+      "damage": {
+        "body": "16 / 17",
+        "head": "20 / 21",
+        "legs": "13 / 14"
+      },
+      "rpm": "579 / 795",
+      "magazineSizes": [
+        20,
+        25,
+        30,
+        35
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Laser Sight",
+        "Extended Heavy Magazine",
+        "Optics",
+        "Standard Stock",
+        "Selectfire Receiver"
+      ],
+      "description": "5-round burst SMG.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Prowler_Burst_PDW",
+        "revision": 125188,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "r-99-smg",
+      "name": "R-99 SMG",
+      "category": "SMG",
+      "ammo": "Light Rounds",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 13,
+      "headDamage": 16,
+      "legDamage": 10,
+      "damage": {
+        "body": 13,
+        "head": 16,
+        "legs": 10
+      },
+      "rpm": 1080,
+      "magazineSizes": [
+        18,
+        21,
+        24,
+        27
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Laser Sight",
+        "Extended Light Magazine",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Rapid-fire automatic SMG.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/R-99_SMG",
+        "revision": 124835,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "volt-smg",
+      "name": "Volt SMG",
+      "category": "SMG",
+      "ammo": "Energy Ammo",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 16,
+      "headDamage": 20,
+      "legDamage": 13,
+      "damage": {
+        "body": 16,
+        "head": 20,
+        "legs": 13
+      },
+      "rpm": 720,
+      "magazineSizes": [
+        20,
+        22,
+        24,
+        27
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Laser Sight",
+        "Extended Energy Magazine",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Energy actuated SMG.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Volt_SMG",
+        "revision": 125453,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "c-a-r-smg",
+      "name": "C.A.R. SMG",
+      "category": "SMG",
+      "ammo": "Heavy / Light Rounds",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 14,
+      "headDamage": 18,
+      "legDamage": 11,
+      "damage": {
+        "body": 14,
+        "head": 18,
+        "legs": 11
+      },
+      "rpm": 930,
+      "magazineSizes": [
+        20,
+        23,
+        26,
+        30
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Laser Sight",
+        "Extended Light/Heavy Magazine",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Adaptable SMG. Uses light and heavy ammo.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/C.A.R._SMG",
+        "revision": 125192,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "devotion-lmg",
+      "name": "Devotion LMG",
+      "category": "LMG",
+      "ammo": "Energy Ammo",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 16,
+      "headDamage": 20,
+      "legDamage": 14,
+      "damage": {
+        "body": 16,
+        "head": 20,
+        "legs": 14
+      },
+      "rpm": "300–900",
+      "magazineSizes": [
+        36,
+        40,
+        44,
+        48
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Barrel Stabilizer",
+        "Extended Energy Magazine",
+        "Optics",
+        "Standard Stock",
+        "Turbocharger"
+      ],
+      "description": "Full-auto energy LMG.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Devotion_LMG",
+        "revision": 125240,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "l-star-emg",
+      "name": "L-STAR EMG",
+      "category": "LMG",
+      "ammo": "Energy Ammo",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 19,
+      "headDamage": 24,
+      "legDamage": 16,
+      "damage": {
+        "body": 19,
+        "head": 24,
+        "legs": 16
+      },
+      "rpm": 600,
+      "magazineSizes": [
+        24,
+        26,
+        28,
+        30
+      ],
+      "currentLootTier": "补给箱",
+      "lootStatus": "补给箱",
+      "supplyDrop": true,
+      "attachments": [
+        "Extended Energy Magazine",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Plasma-fueled heavy MG.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/L-STAR_EMG",
+        "revision": 123568,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "m600-spitfire",
+      "name": "M600 Spitfire",
+      "category": "LMG",
+      "ammo": "Light Rounds",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 21,
+      "headDamage": 26,
+      "legDamage": 18,
+      "damage": {
+        "body": 21,
+        "head": 26,
+        "legs": 18
+      },
+      "rpm": 540,
+      "magazineSizes": [
+        35,
+        40,
+        45,
+        50
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Barrel Stabilizer",
+        "Extended Light Magazine",
+        "Optics",
+        "Standard Stock",
+        "Gun Shield Generator"
+      ],
+      "description": "Full-auto LMG.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/M600_Spitfire",
+        "revision": 123788,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "rampage-lmg",
+      "name": "Rampage LMG",
+      "category": "LMG",
+      "ammo": "Heavy Rounds",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": 29,
+      "headDamage": 36,
+      "legDamage": 25,
+      "damage": {
+        "body": 29,
+        "head": 36,
+        "legs": 25
+      },
+      "rpm": "300 / 390",
+      "magazineSizes": [
+        28,
+        32,
+        36,
+        40
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Barrel Stabilizer",
+        "Extended Heavy Magazine",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Fire Powered LMG. Charge with Thermites.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Rampage_LMG",
+        "revision": 125212,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "g7-scout",
+      "name": "G7 Scout",
+      "category": "Marksman",
+      "ammo": "Light Rounds",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": 36,
+      "headDamage": 58,
+      "legDamage": 27,
+      "damage": {
+        "body": 36,
+        "head": 58,
+        "legs": 27
+      },
+      "rpm": 246,
+      "magazineSizes": [
+        10,
+        15,
+        18,
+        20
+      ],
+      "currentLootTier": "补给箱",
+      "lootStatus": "补给箱",
+      "supplyDrop": true,
+      "attachments": [
+        "Barrel Stabilizer",
+        "Extended Light Magazine",
+        "Optics",
+        "Sniper Stock"
+      ],
+      "description": "Semi-auto light marksman rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/G7_Scout",
+        "revision": 123284,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "triple-take",
+      "name": "Triple Take",
+      "category": "Marksman",
+      "ammo": "Energy Ammo",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": "23×3",
+      "headDamage": "37×3",
+      "legDamage": "21×3",
+      "damage": {
+        "body": "23×3",
+        "head": "37×3",
+        "legs": "21×3"
+      },
+      "rpm": 105,
+      "magazineSizes": [
+        12
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Extended Energy Magazine",
+        "Optics",
+        "Sniper Stock"
+      ],
+      "description": "Triple-barrel marksman rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Triple_Take",
+        "revision": 123870,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "30-30-repeater",
+      "name": "30-30 Repeater",
+      "category": "Marksman",
+      "ammo": "Heavy Rounds",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": "43~65",
+      "headDamage": "69~104 / 86~130",
+      "legDamage": "37~55",
+      "damage": {
+        "body": "43~65",
+        "head": "69~104 / 86~130",
+        "legs": "37~55"
+      },
+      "rpm": 139,
+      "magazineSizes": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Extended Heavy Magazine",
+        "Optics",
+        "Sniper Stock",
+        "Skullpiercer Rifling"
+      ],
+      "description": "Semi-auto heavy repeater.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/30-30_Repeater",
+        "revision": 123792,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "bocek-compound-bow",
+      "name": "Bocek Compound Bow",
+      "category": "Marksman",
+      "ammo": "Arrows",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": "35–65 / 55 + 25 (80)",
+      "headDamage": "56–104 / 88 + 25 (112)",
+      "legDamage": "28–52 / 44 + 25 (69)",
+      "damage": {
+        "body": "35–65 / 55 + 25 (80)",
+        "head": "56–104 / 88 + 25 (112)",
+        "legs": "28–52 / 44 + 25 (69)"
+      },
+      "rpm": null,
+      "magazineSizes": [
+        40
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Optics",
+        "Sniper Stock"
+      ],
+      "description": "Hold fire to increase power.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Bocek_Compound_Bow",
+        "revision": 123573,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "charge-rifle",
+      "name": "Charge Rifle",
+      "category": "Sniper",
+      "ammo": "Sniper Ammo",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": "75–110 / 56–83",
+      "headDamage": "135–198 / 101–149",
+      "legDamage": "68–99 / 50-74",
+      "damage": {
+        "body": "75–110 / 56–83",
+        "head": "135–198 / 101–149",
+        "legs": "68–99 / 50-74"
+      },
+      "rpm": "26 / 84",
+      "magazineSizes": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Extended Sniper Magazine",
+        "Optics",
+        "Sniper Stock",
+        "Selectfire Receiver"
+      ],
+      "description": "Charged beam sniper rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Charge_Rifle",
+        "revision": 125448,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "longbow-dmr",
+      "name": "Longbow DMR",
+      "category": "Sniper",
+      "ammo": "Sniper Ammo",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": 60,
+      "headDamage": "108 / 129",
+      "legDamage": 48,
+      "damage": {
+        "body": 60,
+        "head": "108 / 129",
+        "legs": 48
+      },
+      "rpm": 78,
+      "magazineSizes": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Extended Sniper Magazine",
+        "Optics",
+        "Sniper Stock",
+        "Skullpiercer Rifling"
+      ],
+      "description": "Semi-auto sniper rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Longbow_DMR",
+        "revision": 125405,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "kraber-50-cal-sniper",
+      "name": "Kraber .50-Cal Sniper",
+      "category": "Sniper",
+      "ammo": "Mythic Sniper Ammo",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": 150,
+      "headDamage": 210,
+      "legDamage": 120,
+      "damage": {
+        "body": 150,
+        "head": 210,
+        "legs": 120
+      },
+      "rpm": 25,
+      "magazineSizes": [
+        4
+      ],
+      "currentLootTier": "补给箱",
+      "lootStatus": "补给箱",
+      "supplyDrop": true,
+      "attachments": [],
+      "description": "Powerful bolt-action sniper rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Kraber_.50-Cal_Sniper",
+        "revision": 123795,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "category": "Sniper",
+      "ammo": "Sniper Ammo",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": "70 / 88",
+      "headDamage": "126 / 141",
+      "legDamage": "63 / 79",
+      "damage": {
+        "body": "70 / 88",
+        "head": "126 / 141",
+        "legs": "63 / 79"
+      },
+      "rpm": "37 / 45",
+      "magazineSizes": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Extended Sniper Magazine",
+        "Optics",
+        "Sniper Stock"
+      ],
+      "description": "Bolt-action sniper rifle.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Sentinel",
+        "revision": 123489,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "eva-8-auto",
+      "name": "EVA-8 Auto",
+      "category": "Shotgun",
+      "ammo": "Shotgun Shells",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": "7×8",
+      "headDamage": "7×8",
+      "legDamage": "7×8",
+      "damage": {
+        "body": "7×8",
+        "head": "7×8",
+        "legs": "7×8"
+      },
+      "rpm": null,
+      "magazineSizes": [
+        8
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Shotgun Bolt",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Full-auto shotgun.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/EVA-8_Auto",
+        "revision": 125251,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "mastiff-shotgun",
+      "name": "Mastiff Shotgun",
+      "category": "Shotgun",
+      "ammo": "Shotgun Shells",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": "16×6 (96)",
+      "headDamage": "16×6 (96)",
+      "legDamage": "16×6 (96)",
+      "damage": {
+        "body": "16×6 (96)",
+        "head": "16×6 (96)",
+        "legs": "16×6 (96)"
+      },
+      "rpm": "66 / 73 / 76 / 79",
+      "magazineSizes": [
+        5
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Shotgun Bolt",
+        "Optics",
+        "Standard Stock"
+      ],
+      "description": "Powerful semi-auto shotgun.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Mastiff_Shotgun",
+        "revision": 125246,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "mozambique-shotgun",
+      "name": "Mozambique Shotgun",
+      "category": "Shotgun",
+      "ammo": "Shotgun Shells",
+      "fireModes": [
+        "Auto"
+      ],
+      "bodyDamage": "17×3",
+      "headDamage": "21×3",
+      "legDamage": "17×3",
+      "damage": {
+        "body": "17×3",
+        "head": "21×3",
+        "legs": "17×3"
+      },
+      "rpm": "160 / 176 / 184 / 192 / 175 / 193 / 201 / 210",
+      "magazineSizes": [
+        5
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Shotgun Bolt",
+        "Optics"
+      ],
+      "description": "Triple-barrel shotgun pistol.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Mozambique_Shotgun",
+        "revision": 125238,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "peacekeeper",
+      "name": "Peacekeeper",
+      "category": "Shotgun",
+      "ammo": "Shotgun Shells",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": "12×9 (108)",
+      "headDamage": "12×9 (108)",
+      "legDamage": "12×9 (108)",
+      "damage": {
+        "body": "12×9 (108)",
+        "head": "12×9 (108)",
+        "legs": "12×9 (108)"
+      },
+      "rpm": null,
+      "magazineSizes": [
+        5
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Shotgun Bolt",
+        "Optics",
+        "Standard Stock",
+        "Disruptor Rounds"
+      ],
+      "description": "Lever-action shotgun.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Peacekeeper",
+        "revision": 125245,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "re-45-burst",
+      "name": "RE-45 Burst",
+      "category": "Pistol",
+      "ammo": "Energy Ammo",
+      "fireModes": [
+        "Burst (3)"
+      ],
+      "bodyDamage": 17,
+      "headDamage": 21,
+      "legDamage": 15,
+      "damage": {
+        "body": 17,
+        "head": 21,
+        "legs": 15
+      },
+      "rpm": null,
+      "magazineSizes": [
+        15,
+        18,
+        21,
+        27
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Laser Sight",
+        "Extended Energy Magazine",
+        "Optics"
+      ],
+      "description": "Auto-trigger 3-round burst charge pistol.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/RE-45_Burst",
+        "revision": 124562,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "p2020",
+      "name": "P2020",
+      "category": "Pistol",
+      "ammo": "Light Rounds",
+      "fireModes": [
+        "Single",
+        "Auto"
+      ],
+      "bodyDamage": 24,
+      "headDamage": 30,
+      "legDamage": 22,
+      "damage": {
+        "body": 24,
+        "head": 30,
+        "legs": 22
+      },
+      "rpm": "420 / 480",
+      "magazineSizes": [
+        11
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Optics",
+        "Kinetic Feeder"
+      ],
+      "description": "Semi-auto pistol.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/P2020",
+        "revision": 124833,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    },
+    {
+      "id": "wingman",
+      "name": "Wingman",
+      "category": "Pistol",
+      "ammo": "Sniper Ammo",
+      "fireModes": [
+        "Single"
+      ],
+      "bodyDamage": 50,
+      "headDamage": 75,
+      "legDamage": 45,
+      "damage": {
+        "body": 50,
+        "head": 75,
+        "legs": 45
+      },
+      "rpm": 168,
+      "magazineSizes": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
+      "attachments": [
+        "Laser Sight",
+        "Extended Sniper Magazine",
+        "Optics",
+        "Graffiti Mod"
+      ],
+      "description": "High-powered revolver.",
+      "source": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Wingman",
+        "revision": 125235,
+        "fetchedAt": "2026-07-31T16:01:56Z",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    }
+  ]
+}
