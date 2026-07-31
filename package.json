@@ -10,7 +10,8 @@
     "typecheck": "tsc -b --pretty false",
     "test": "npm run data:audit && npm run typecheck",
     "data:audit": "node scripts/audit-data.cjs",
-    "data:generate": "python3 scripts/generate-data.py"
+    "data:generate": "python3 scripts/generate-data.py",
+    "media:sync": "python3 scripts/sync-media.py"
   },
   "dependencies": {
     "react": "19.1.1",

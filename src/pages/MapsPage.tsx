@@ -57,8 +57,9 @@ export function MapsPage() {
         <section className="map-grid" aria-live="polite">
           {filtered.map((map, index) => (
             <button className="map-card" type="button" key={map.id} onClick={() => setSelectedMap(map)}>
-              <div className="map-graphic" aria-hidden="true">
-                <i /><i /><i /><span>{String(index + 1).padStart(2, '0')}</span>
+              <div className="map-graphic">
+                {map.media && <img src={map.media.src} alt="" loading="lazy" decoding="async" />}
+                <span>{String(index + 1).padStart(2, '0')}</span>
               </div>
               <div className="map-card-copy">
                 <div><span>{map.mode}</span><small>{map.status}</small></div>
@@ -86,11 +87,14 @@ export function MapsPage() {
               <div><dt>状态</dt><dd>{selectedMap.status}</dd></div>
               <div><dt>发布日期</dt><dd>{formatDate(selectedMap.releaseDate)}</dd></div>
             </dl>
-            <div className="map-coordinate-panel" aria-hidden="true">
-              <div className="coordinate-radar"><i /><i /><i /></div>
+            {selectedMap.media && (
+              <figure className="drawer-visual map-drawer-visual">
+                <img src={selectedMap.media.src} alt={`${selectedMap.nameZh || selectedMap.name}地图资料图`} />
               <span>ARCHIVE / {selectedMap.id.toUpperCase()}</span>
               <b>{maps.meta.gameVersion}</b>
-            </div>
+                <a href={selectedMap.media.sourceUrl} target="_blank" rel="noreferrer">查看图片来源 ↗</a>
+              </figure>
+            )}
             <p className="drawer-note">当前站点记录地图基础资料与版本状态。实时轮换需要单独接入可用的轮换接口，此页不会把静态快照伪装成实时数据。</p>
           </>
         )}

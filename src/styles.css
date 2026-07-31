@@ -194,15 +194,17 @@ main > * { padding: 52px clamp(24px, 4vw, 68px) 80px; }
 .news-rail-item p { margin: 0; color: #8d918e; font-size: 11px; line-height: 1.7; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .news-rail-arrow { margin-top: auto; color: var(--red); align-self: end; }
 
-.record-grid { display: grid; gap: 1px; margin-top: 28px; background: var(--line); border: 1px solid var(--line); }
+.record-grid { display: grid; gap: 1px; margin-top: 28px; background: var(--ink); border: 1px solid var(--line); }
 .legend-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .record-card { position: relative; min-width: 0; padding: 0; color: var(--paper); text-align: left; background: #111313; border: 0; cursor: pointer; overflow: hidden; }
-.record-card:hover .record-art::after { transform: translateX(25%); }
+.record-card:hover .record-image { transform: scale(1.035); }
 .record-card:hover .record-open { color: var(--paper); background: var(--red); }
 .record-art { position: relative; height: 205px; display: grid; place-items: center; overflow: hidden; background: #252928; isolation: isolate; }
-.record-art::before { position: absolute; inset: 0; z-index: -1; content: ''; background: repeating-linear-gradient(122deg, transparent 0 38px, rgba(255,255,255,.045) 39px, transparent 40px); }
-.record-art::after { position: absolute; width: 45%; height: 140%; right: 0; content: ''; background: rgba(255,255,255,.08); transform: skew(-12deg); transition: transform .3s ease; }
-.record-art > strong { color: rgba(255,255,255,.72); font: 900 70px var(--font-display); letter-spacing: -.06em; text-shadow: 0 10px 35px rgba(0,0,0,.35); }
+.record-art::before { position: absolute; inset: 0; z-index: 1; content: ''; background: linear-gradient(0deg, rgba(8,10,10,.78), transparent 48%), linear-gradient(90deg, rgba(8,10,10,.24), transparent 45%); pointer-events: none; }
+.record-art::after { position: absolute; inset: 0; z-index: 1; content: ''; background: repeating-linear-gradient(122deg, transparent 0 38px, rgba(255,255,255,.035) 39px, transparent 40px); pointer-events: none; }
+.record-art > strong { position: relative; z-index: 2; color: rgba(255,255,255,.72); font: 900 70px var(--font-display); letter-spacing: -.06em; text-shadow: 0 10px 35px rgba(0,0,0,.35); }
+.record-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+.legend-portrait { object-position: center 16%; }
 .class-assault { background: linear-gradient(135deg, #5e2422, #1d2020 68%); }
 .class-skirmisher { background: linear-gradient(135deg, #4f4425, #1d2020 68%); }
 .class-recon { background: linear-gradient(135deg, #244653, #1d2020 68%); }
@@ -223,12 +225,10 @@ main > * { padding: 52px clamp(24px, 4vw, 68px) 80px; }
 .weapon-card { min-height: 365px; padding: 20px; }
 .weapon-card-head { display: flex; justify-content: space-between; color: #6e726f; font: 700 10px var(--font-display); letter-spacing: .1em; }
 .weapon-card-head small { color: var(--paper-dim); }
-.weapon-silhouette { position: relative; height: 122px; margin: 18px -20px 2px; overflow: hidden; background: linear-gradient(135deg, #202423, #141616); }
-.weapon-silhouette::before { position: absolute; top: 42%; left: 13%; width: 62%; height: 18px; content: ''; background: #777b78; transform: skew(-12deg); box-shadow: 36px 7px 0 -4px #555957; }
-.weapon-silhouette::after { position: absolute; top: 51%; left: 51%; width: 27px; height: 45px; content: ''; background: #616562; transform: skew(-18deg); }
-.weapon-silhouette i:nth-child(1) { position: absolute; width: 14%; height: 8px; top: 36%; right: 12%; background: #858986; }
-.weapon-silhouette i:nth-child(2) { position: absolute; width: 32px; height: 13px; top: 29%; left: 31%; border: 5px solid #696d6a; }
-.weapon-silhouette i:nth-child(3) { position: absolute; left: 0; right: 0; bottom: 12px; height: 1px; background: rgba(255,255,255,.08); }
+.weapon-silhouette { position: relative; height: 132px; margin: 14px -20px 2px; display: grid; place-items: center; overflow: hidden; background: radial-gradient(circle at 50% 46%, #303534, #171918 68%); }
+.weapon-silhouette::after { position: absolute; inset: 0; content: ''; background: linear-gradient(0deg, rgba(0,0,0,.38), transparent 42%), repeating-linear-gradient(90deg, transparent 0 39px, rgba(255,255,255,.025) 40px); pointer-events: none; }
+.weapon-silhouette img { position: absolute; inset: 5% 6%; width: 88%; height: 90%; object-fit: contain; filter: drop-shadow(0 14px 15px rgba(0,0,0,.55)); transition: transform .25s ease; }
+.weapon-card:hover .weapon-silhouette img { transform: scale(1.045) translateY(-2px); }
 .weapon-card .record-copy { min-height: 165px; padding: 18px 28px 0 0; }
 .weapon-quick-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin: 19px 0 0; }
 .weapon-quick-stats div { min-width: 0; padding-right: 8px; border-right: 1px solid var(--line); }
@@ -261,8 +261,10 @@ main > * { padding: 52px clamp(24px, 4vw, 68px) 80px; }
 .fact-line dt { color: #6d716e; font-size: 9px; }
 .fact-line dd { margin: 5px 0 0; font: 700 13px var(--font-display); }
 .ability-list { margin-top: 24px; }
-.ability-list article { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 23px 0; border-bottom: 1px solid var(--line); }
-.ability-index { color: var(--red); font: 800 12px var(--font-display); }
+.ability-list article { display: grid; grid-template-columns: 62px 1fr; gap: 16px; padding: 23px 0; border-bottom: 1px solid var(--line); }
+.ability-icon { position: relative; width: 56px; height: 56px; display: grid; place-items: center; background: #1b1e1d; border: 1px solid var(--line); }
+.ability-icon img { width: 44px; height: 44px; object-fit: contain; filter: invert(1) grayscale(1) brightness(1.25); opacity: .84; }
+.ability-list .ability-icon span { position: absolute; right: -4px; bottom: -5px; padding: 2px 4px; color: var(--red); background: #111313; font: 800 9px var(--font-display); }
 .ability-list span { color: #747875; font: 700 9px var(--font-display); letter-spacing: .15em; }
 .ability-list h3 { margin: 5px 0 8px; font: 800 23px var(--font-display); text-transform: uppercase; }
 .ability-list p { margin: 0; color: #a6aaa6; font-size: 12px; line-height: 1.7; }
@@ -277,18 +279,25 @@ main > * { padding: 52px clamp(24px, 4vw, 68px) 80px; }
 .drawer-section h3 { margin: 0 0 11px; color: #777b78; font: 700 10px var(--font-display); letter-spacing: .14em; text-transform: uppercase; }
 .value-chips, .attachment-list { display: flex; flex-wrap: wrap; gap: 6px; }
 .value-chips span, .attachment-list span { min-height: 32px; padding: 0 11px; display: inline-flex; align-items: center; color: #a9ada9; background: #1b1e1d; border: 1px solid var(--line); font-size: 10px; }
+.attachment-list span { min-height: 48px; gap: 9px; padding: 5px 11px 5px 7px; }
+.attachment-list img { width: 34px; height: 34px; flex: 0 0 34px; object-fit: contain; filter: invert(1) grayscale(1) brightness(1.25); opacity: .84; }
 .drawer-note { padding: 16px; color: #8e928e; background: rgba(238,64,53,.06); border-left: 2px solid var(--red); font-size: 11px; line-height: 1.7; }
 
-.map-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 28px; background: var(--line); border: 1px solid var(--line); }
+.drawer-visual { position: relative; height: 280px; margin: 0 0 24px; overflow: hidden; background: #1b1e1d; border: 1px solid var(--line); }
+.drawer-visual > img { width: 100%; height: 100%; object-fit: cover; }
+.drawer-visual > a { position: absolute; right: 12px; bottom: 12px; z-index: 2; min-height: 32px; padding: 0 10px; display: inline-flex; align-items: center; color: white; background: rgba(9,11,11,.82); border: 1px solid rgba(255,255,255,.18); font: 700 9px var(--font-display); }
+.drawer-visual > a:hover { background: var(--red); border-color: var(--red); }
+.legend-drawer-visual::after, .map-drawer-visual::after { position: absolute; inset: 0; content: ''; background: linear-gradient(0deg, rgba(7,9,9,.72), transparent 50%); pointer-events: none; }
+.legend-drawer-visual > img { object-position: center 18%; }
+.weapon-drawer-visual { height: 230px; background: radial-gradient(circle, #303534, #171918 70%); }
+.weapon-drawer-visual > img { padding: 24px; object-fit: contain; filter: drop-shadow(0 18px 18px rgba(0,0,0,.5)); }
+
+.map-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 28px; background: var(--ink); border: 1px solid var(--line); }
 .map-card { min-width: 0; padding: 0; color: var(--paper); text-align: left; background: #111313; border: 0; cursor: pointer; }
-.map-card:hover .map-graphic { background-color: #2c302e; }
-.map-graphic { position: relative; height: 210px; overflow: hidden; background-color: #202322; transition: background-color .18s ease; }
-.map-graphic::before, .map-graphic::after, .map-graphic i { position: absolute; content: ''; border: 1px solid rgba(235,231,222,.14); transform: rotate(-10deg); }
-.map-graphic::before { width: 72%; height: 75%; top: 4%; left: 13%; clip-path: polygon(15% 2%, 78% 0, 100% 40%, 78% 100%, 16% 86%, 0 42%); border: 0; background: linear-gradient(145deg, rgba(238,64,53,.42), rgba(255,255,255,.02)); }
-.map-graphic::after { width: 46%; height: 47%; top: 22%; left: 27%; }
-.map-graphic i:nth-child(1) { width: 32%; height: 34%; top: 30%; left: 34%; }
-.map-graphic i:nth-child(2) { width: 18%; height: 20%; top: 37%; left: 41%; }
-.map-graphic i:nth-child(3) { width: 2px; height: 2px; top: 47%; left: 50%; background: var(--paper); border-radius: 50%; box-shadow: 0 0 0 8px rgba(238,64,53,.24); }
+.map-card:hover .map-graphic img { transform: scale(1.035); }
+.map-graphic { position: relative; height: 210px; overflow: hidden; background-color: #202322; }
+.map-graphic::after { position: absolute; inset: 0; content: ''; background: linear-gradient(0deg, rgba(7,9,9,.72), transparent 60%), linear-gradient(90deg, rgba(7,9,9,.32), transparent 52%); pointer-events: none; }
+.map-graphic img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
 .map-graphic > span { position: absolute; top: 15px; left: 15px; z-index: 2; color: rgba(255,255,255,.56); font: 700 10px var(--font-display); }
 .map-card-copy { position: relative; min-height: 153px; padding: 20px; }
 .map-card-copy > div { display: flex; align-items: center; justify-content: space-between; color: var(--red); font: 700 9px var(--font-display); letter-spacing: .1em; }
@@ -307,6 +316,9 @@ main > * { padding: 52px clamp(24px, 4vw, 68px) 80px; }
 .coordinate-radar i:nth-child(3) { width: 6px; height: 6px; top: 36px; right: 26px; background: var(--red); }
 .map-coordinate-panel > span { position: absolute; bottom: 14px; left: 14px; color: #6e726f; font: 700 9px var(--font-display); }
 .map-coordinate-panel > b { position: absolute; top: 14px; right: 14px; color: var(--paper); font: 700 9px var(--font-display); }
+.map-drawer-visual > span, .map-drawer-visual > b { position: absolute; z-index: 2; color: white; font: 700 9px var(--font-display); }
+.map-drawer-visual > span { left: 13px; bottom: 14px; }
+.map-drawer-visual > b { top: 13px; right: 13px; max-width: 62%; text-align: right; }
 
 .news-lead { min-height: 460px; margin-top: 28px; display: grid; grid-template-columns: 1.4fr .6fr; border: 1px solid var(--line); background: #111313; }
 .news-lead-image { position: relative; min-height: 430px; background-color: #252827; background-size: cover; background-position: center; }
@@ -470,6 +482,8 @@ main > * { padding: 52px clamp(24px, 4vw, 68px) 80px; }
   .weapon-card { min-height: 345px; }
   .map-graphic { height: 230px; }
   .detail-drawer { width: 100%; padding: 40px 20px 32px; }
+  .drawer-visual { height: 235px; }
+  .weapon-drawer-visual { height: 190px; }
   .fact-line { grid-template-columns: 1fr; }
   .fact-line > div, .fact-line > div:first-child { padding: 12px 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .fact-line > div:last-child { border-bottom: 0; }

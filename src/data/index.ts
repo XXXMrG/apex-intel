@@ -1,21 +1,30 @@
 import legendsJson from './legends.json'
 import mapsJson from './maps.json'
+import mediaJson from './media-manifest.json'
 import newsJson from './news.json'
 import weaponsJson from './weapons.json'
 import legendTranslationsJson from './translations-legends.zh-CN.json'
 import mapTranslationsJson from './translations-maps.zh-CN.json'
 import newsTranslationsJson from './translations-news.zh-CN.json'
 import weaponTranslationsJson from './translations-weapons.zh-CN.json'
-import type { Dataset, Legend, MapRecord, NewsItem, Weapon } from '../types'
+import type { Dataset, Legend, MapRecord, MediaAsset, NewsItem, Weapon } from '../types'
 
 type LegendTranslation = { descriptionZh: string; abilities: Record<string, string> }
 type DescriptionTranslation = { descriptionZh: string }
 type NewsTranslation = { titleZh: string; summaryZh: string }
+type MediaManifest = {
+  legends: Record<string, MediaAsset>
+  abilities: Record<string, MediaAsset>
+  weapons: Record<string, MediaAsset>
+  maps: Record<string, MediaAsset>
+  attachments: Record<string, MediaAsset>
+}
 
 const legendTranslations = legendTranslationsJson as Record<string, LegendTranslation>
 const weaponTranslations = weaponTranslationsJson as Record<string, DescriptionTranslation>
 const mapTranslations = mapTranslationsJson as Record<string, DescriptionTranslation>
 const newsTranslations = newsTranslationsJson as Record<string, NewsTranslation>
+const media = mediaJson as MediaManifest
 
 const rawLegends = legendsJson as Dataset<Legend>
 const rawWeapons = weaponsJson as Dataset<Weapon>
@@ -27,9 +36,11 @@ export const legends: Dataset<Legend> = {
   items: rawLegends.items.map((legend) => ({
     ...legend,
     descriptionZh: legendTranslations[legend.id]?.descriptionZh,
+    media: media.legends[legend.id],
     abilities: legend.abilities.map((ability) => ({
       ...ability,
       descriptionZh: legendTranslations[legend.id]?.abilities[ability.id],
+      media: media.abilities[ability.id],
     })),
   })),
 }
@@ -39,6 +50,7 @@ export const weapons: Dataset<Weapon> = {
   items: rawWeapons.items.map((weapon) => ({
     ...weapon,
     descriptionZh: weaponTranslations[weapon.id]?.descriptionZh,
+    media: media.weapons[weapon.id],
   })),
 }
 
@@ -47,8 +59,11 @@ export const maps: Dataset<MapRecord> = {
   items: rawMaps.items.map((map) => ({
     ...map,
     descriptionZh: mapTranslations[map.id]?.descriptionZh,
+    media: media.maps[map.id],
   })),
 }
+
+export const attachmentMedia = media.attachments
 
 export const news: Dataset<NewsItem> = {
   ...rawNews,

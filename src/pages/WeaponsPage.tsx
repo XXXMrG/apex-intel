@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { DatabaseToolbar, EmptyState, PageHeader } from '../components/Common'
 import { DetailDrawer } from '../components/DetailDrawer'
-import { weapons } from '../data'
+import { attachmentMedia, weapons } from '../data'
 import type { Weapon } from '../types'
 import { matchesSearch } from '../utils'
 
@@ -70,7 +70,9 @@ export function WeaponsPage() {
                 <span>{String(index + 1).padStart(2, '0')}</span>
                 <small>{categoryLabels[weapon.category] ?? weapon.category}</small>
               </div>
-              <div className="weapon-silhouette" aria-hidden="true"><i /><i /><i /></div>
+              <div className="weapon-silhouette">
+                {weapon.media && <img src={weapon.media.src} alt="" loading="lazy" decoding="async" />}
+              </div>
               <div className="record-copy">
                 <span>{weapon.ammo}</span>
                 <h2>{weapon.nameZh || weapon.name}</h2>
@@ -97,6 +99,12 @@ export function WeaponsPage() {
       >
         {selectedWeapon && (
           <>
+            {selectedWeapon.media && (
+              <figure className="drawer-visual weapon-drawer-visual">
+                <img src={selectedWeapon.media.src} alt={`${selectedWeapon.nameZh || selectedWeapon.name}武器资料图`} />
+                <a href={selectedWeapon.media.sourceUrl} target="_blank" rel="noreferrer">查看图片来源 ↗</a>
+              </figure>
+            )}
             <dl className="fact-line weapon-facts">
               <div><dt>弹药</dt><dd>{selectedWeapon.ammo}</dd></div>
               <div><dt>射击模式</dt><dd>{selectedWeapon.fireModes.join(' / ') || '—'}</dd></div>
@@ -115,7 +123,16 @@ export function WeaponsPage() {
             </section>
             <section className="drawer-section">
               <h3>可用配件</h3>
-              <div className="attachment-list">{selectedWeapon.attachments.length ? selectedWeapon.attachments.map((item) => <span key={item}>{item}</span>) : <span>来源未提供</span>}</div>
+              <div className="attachment-list">
+                {selectedWeapon.attachments.length
+                  ? selectedWeapon.attachments.map((item) => (
+                    <span key={item}>
+                      {attachmentMedia[item] && <img src={attachmentMedia[item].src} alt="" loading="lazy" />}
+                      {item}
+                    </span>
+                  ))
+                  : <span>来源未提供</span>}
+              </div>
             </section>
           </>
         )}

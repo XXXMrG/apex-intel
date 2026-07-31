@@ -68,6 +68,7 @@ export function SourcesPage() {
           <span className="eyebrow">LICENSE</span>
           <h2>许可与品牌说明</h2>
           <p>EA 官方新闻仅聚合标题、摘要、发布日期、图片链接与原文地址。社区 Wiki 衍生描述和结构化数据按其页面许可署名；代码许可与数据许可分开管理。</p>
+          <p>英雄、技能、枪械、地图与配件图片使用站内优化副本，逐项保留 Wiki 文件来源和校验值，不在用户浏览时抓取第三方页面。</p>
           <p>简体中文说明是本站基于固定来源快照制作的非官方编辑翻译；具体事实以页面保存的英文来源和 revision 为准。</p>
           <p>Apex Legends、相关角色、图像和标志均为 Electronic Arts Inc. 的商标或版权内容。本项目为非官方社区项目。</p>
           <a href="https://apexlegends.wiki.gg/wiki/Apex_Legends_Wiki:Copyrights" target="_blank" rel="noreferrer">Wiki 版权说明 ↗</a>

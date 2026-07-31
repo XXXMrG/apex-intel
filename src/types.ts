@@ -10,6 +10,17 @@ export interface SourceRef {
   license?: string
 }
 
+export interface MediaAsset {
+  src: string
+  sourceFile: string
+  sourceUrl: string
+  sourceSha1: string
+  localSha256: string
+  width: number
+  height: number
+  rights: string
+}
+
 export interface Ability {
   id: string
   type: AbilityType
@@ -17,6 +28,7 @@ export interface Ability {
   description: string
   descriptionZh?: string
   cooldown?: string | null
+  media?: MediaAsset
 }
 
 export interface Legend {
@@ -29,6 +41,7 @@ export interface Legend {
   description: string
   descriptionZh?: string
   abilities: Ability[]
+  media?: MediaAsset
   source: SourceRef
 }
 
@@ -57,6 +70,7 @@ export interface Weapon {
   attachments: string[]
   description: string
   descriptionZh?: string
+  media?: MediaAsset
   source: SourceRef
 }
 
@@ -69,6 +83,7 @@ export interface MapRecord {
   releaseDate?: string | null
   description: string
   descriptionZh?: string
+  media?: MediaAsset
   source: SourceRef
 }
 

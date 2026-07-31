@@ -1,4 +1,6 @@
 const assert = require('node:assert/strict')
+const crypto = require('node:crypto')
+const fs = require('node:fs')
 const path = require('node:path')
 
 const dataDir = path.join(__dirname, '..', 'src', 'data')
@@ -10,6 +12,7 @@ const legendTranslations = require(path.join(dataDir, 'translations-legends.zh-C
 const weaponTranslations = require(path.join(dataDir, 'translations-weapons.zh-CN.json'))
 const mapTranslations = require(path.join(dataDir, 'translations-maps.zh-CN.json'))
 const newsTranslations = require(path.join(dataDir, 'translations-news.zh-CN.json'))
+const media = require(path.join(dataDir, 'media-manifest.json'))
 
 function validateDataset(name, dataset) {
   assert.equal(dataset.meta.count, dataset.items.length, `${name}: meta count mismatch`)
@@ -82,6 +85,36 @@ assert.deepEqual(
   ['G7 Scout', 'Kraber .50-Cal Sniper', 'L-STAR EMG'],
 )
 
+const expectedMediaKeys = {
+  legends: legends.items.map((item) => item.id),
+  abilities: legends.items.flatMap((item) => item.abilities.map((ability) => ability.id)),
+  weapons: weapons.items.map((item) => item.id),
+  maps: maps.items.map((item) => item.id),
+  attachments: [...new Set(weapons.items.flatMap((item) => item.attachments))],
+}
+assert.equal(media.meta.runtimeHotlinks, false, 'media must be locally hosted at runtime')
+const mediaHashes = new Map()
+let mediaBytes = 0
+for (const [group, expectedKeys] of Object.entries(expectedMediaKeys)) {
+  assert.deepEqual(Object.keys(media[group]).sort(), expectedKeys.sort(), `${group}: media key mismatch`)
+  assert.equal(media.meta.counts[group], expectedKeys.length, `${group}: media count mismatch`)
+  for (const [key, asset] of Object.entries(media[group])) {
+    assert.ok(asset.src.startsWith('/media/apex/'), `${group}/${key}: media must use a local static path`)
+    assert.ok(asset.sourceUrl.startsWith('https://apexlegends.wiki.gg/wiki/File:'), `${group}/${key}: invalid file source URL`)
+    assert.ok(asset.sourceSha1 && asset.rights, `${group}/${key}: missing source provenance`)
+    const localPath = path.join(__dirname, '..', 'public', asset.src)
+    assert.ok(fs.existsSync(localPath), `${group}/${key}: local media missing: ${asset.src}`)
+    const bytes = fs.readFileSync(localPath)
+    assert.ok(bytes.length > 100, `${group}/${key}: local media is empty`)
+    mediaBytes += bytes.length
+    const digest = crypto.createHash('sha256').update(bytes).digest('hex')
+    assert.equal(digest, asset.localSha256, `${group}/${key}: local media checksum mismatch`)
+    mediaHashes.set(digest, [...(mediaHashes.get(digest) || []), `${group}/${key}`])
+  }
+}
+const duplicateMediaGroups = [...mediaHashes.values()].filter((refs) => refs.length > 1)
+assert.deepEqual(duplicateMediaGroups, [], `unexpected duplicate media: ${JSON.stringify(duplicateMediaGroups)}`)
+
 assert.equal(maps.items.length, 34, 'map catalogue must contain 34 deduplicated locations')
 assert.equal(maps.items.filter((map) => map.mode.includes('Battle Royale')).length, 6)
 for (const map of maps.items) {
@@ -109,6 +142,13 @@ console.log(JSON.stringify({
   uniqueIds: true,
   requiredFields: true,
   sourceRevisions: true,
+  media: {
+    ...media.meta.counts,
+    total: Object.values(media.meta.counts).reduce((sum, count) => sum + count, 0),
+    bytes: mediaBytes,
+    localOnly: true,
+    duplicateGroups: duplicateMediaGroups.length,
+  },
   nullableRpm: expectedNullRpm,
   translations: { legends: 28, abilities: 84, weapons: 29, maps: 34, news: news.items.length },
 }, null, 2))

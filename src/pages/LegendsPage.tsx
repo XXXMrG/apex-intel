@@ -63,8 +63,10 @@ export function LegendsPage() {
           {filtered.map((legend, index) => (
             <button className="record-card legend-card" key={legend.id} type="button" onClick={() => setSelectedLegend(legend)}>
               <div className={classNames('record-art', `class-${legend.class.toLowerCase()}`)}>
+                {legend.media
+                  ? <img className="record-image legend-portrait" src={legend.media.src} alt="" loading="lazy" decoding="async" />
+                  : <strong aria-hidden="true">{initials(legend.name)}</strong>}
                 <span className="record-order">{String(index + 1).padStart(2, '0')}</span>
-                <strong aria-hidden="true">{initials(legend.name)}</strong>
                 <span className="record-class">{classLabels[legend.class] ?? legend.class}</span>
               </div>
               <div className="record-copy">
@@ -91,6 +93,12 @@ export function LegendsPage() {
       >
         {selectedLegend && (
           <>
+            {selectedLegend.media && (
+              <figure className="drawer-visual legend-drawer-visual">
+                <img src={selectedLegend.media.src} alt={`${selectedLegend.nameZh || selectedLegend.name}角色资料图`} />
+                <a href={selectedLegend.media.sourceUrl} target="_blank" rel="noreferrer">查看图片来源 ↗</a>
+              </figure>
+            )}
             <dl className="fact-line">
               <div><dt>职业</dt><dd>{classLabels[selectedLegend.class] ?? selectedLegend.class}</dd></div>
               <div><dt>发布日期</dt><dd>{formatDate(selectedLegend.releaseDate)}</dd></div>
@@ -99,7 +107,10 @@ export function LegendsPage() {
             <div className="ability-list">
               {selectedLegend.abilities.map((ability, index) => (
                 <article key={`${selectedLegend.id}-${ability.type}`}>
-                  <div className="ability-index">0{index + 1}</div>
+                  <div className="ability-icon">
+                    {ability.media && <img src={ability.media.src} alt="" />}
+                    <span>0{index + 1}</span>
+                  </div>
                   <div>
                     <span>{abilityLabels[ability.type]}</span>
                     <h3>{ability.name}</h3>

@@ -1,0 +1,1996 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-31T23:52:17Z",
+    "sourceName": "The Apex Legends Wiki file archive",
+    "sourceUrl": "https://apexlegends.wiki.gg/",
+    "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki",
+    "runtimeHotlinks": false,
+    "counts": {
+      "legends": 28,
+      "abilities": 84,
+      "weapons": 29,
+      "maps": 34,
+      "attachments": 22
+    }
+  },
+  "legends": {
+    "alter": {
+      "src": "/media/apex/legends/alter.webp",
+      "sourceFile": "Alter.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Alter.jpg",
+      "sourceSha1": "22d8605da716b685148de936af886d94c3257ef3",
+      "localSha256": "cee64d398d01eb3262cdf9ae36a1a481885395625f56825ad34e5eab2d9d8534",
+      "width": 1534,
+      "height": 3000,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ash": {
+      "src": "/media/apex/legends/ash.webp",
+      "sourceFile": "Ash.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Ash.jpg",
+      "sourceSha1": "1d3a98b9edc586ee862867c7b600c25cf87a4131",
+      "localSha256": "6e76af02281234f1bcd2406f9a8cab2afa58b5d59ee4849309882c8fd9cc62c5",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "axle": {
+      "src": "/media/apex/legends/axle.webp",
+      "sourceFile": "Axle.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Axle.jpg",
+      "sourceSha1": "d5ffcf0a55f5ec03d1adc7d6aac6b2c665075c2a",
+      "localSha256": "9f52657418f55ac9d2fa30b88f5059068ce93b58173b4621d2019f29ca8f0436",
+      "width": 1280,
+      "height": 1431,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ballistic": {
+      "src": "/media/apex/legends/ballistic.webp",
+      "sourceFile": "Ballistic.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Ballistic.jpg",
+      "sourceSha1": "a1744f71b15709c075b2b8f945e2a015ce8ed39d",
+      "localSha256": "dc9e7c102ee851680a6b75823cc2e675ec181167f653e370f817396d2328be90",
+      "width": 640,
+      "height": 640,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bangalore": {
+      "src": "/media/apex/legends/bangalore.webp",
+      "sourceFile": "Bangalore.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Bangalore.jpg",
+      "sourceSha1": "34558527c2011fd7cdbd31a33b05b25741d64bc9",
+      "localSha256": "f5da5390ff1a05d4c973dd1177ff30097c20338e052a2175cd0e39eec80045bb",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bloodhound": {
+      "src": "/media/apex/legends/bloodhound.webp",
+      "sourceFile": "Bloodhound.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Bloodhound.jpg",
+      "sourceSha1": "467cb755deac916560a0590e5b6c5407cf9689b6",
+      "localSha256": "f610eb82250efd5aee7e2a567f6bc16b8805272c6527898f2653ea465a8f0e6f",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "catalyst": {
+      "src": "/media/apex/legends/catalyst.webp",
+      "sourceFile": "Catalyst.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Catalyst.jpg",
+      "sourceSha1": "681497b65701e2bbf18707680f794b55d82f2bae",
+      "localSha256": "f21934e1c3dc53f862693ad161501ef0ffd1b344bf18a165f92c093baca3cfe5",
+      "width": 640,
+      "height": 640,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "caustic": {
+      "src": "/media/apex/legends/caustic.webp",
+      "sourceFile": "Caustic.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Caustic.jpg",
+      "sourceSha1": "1980fc57c71b9e6ba5aed03ca687be848d7061a2",
+      "localSha256": "75dd40ba11782796769155703131278bcd6cc853710a11c0c5a3c13f02f34c05",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "conduit": {
+      "src": "/media/apex/legends/conduit.webp",
+      "sourceFile": "Conduit.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Conduit.jpg",
+      "sourceSha1": "3b1e77dcf35d341b79615b5dfb690ac94fb06125",
+      "localSha256": "a9b73661edf738d27951476973621971705bfdc382b2dab19c0f0a3499c160bb",
+      "width": 663,
+      "height": 680,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "crypto": {
+      "src": "/media/apex/legends/crypto.webp",
+      "sourceFile": "Crypto.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Crypto.jpg",
+      "sourceSha1": "f30f6d8517100362a10cdb8c050cdc6bc21b08be",
+      "localSha256": "b766233c6db3d643d9e04d9e102e427bedb00e7442ccdcaf59aba6fb6ac3b131",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "fuse": {
+      "src": "/media/apex/legends/fuse.webp",
+      "sourceFile": "Fuse.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Fuse.jpg",
+      "sourceSha1": "6f0f77de47d488b089117ad0b5090bad170435b6",
+      "localSha256": "777384d0b75962fbef3814995c688d7941bcfa456a8bd21dde4e8fbd27927867",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "gibraltar": {
+      "src": "/media/apex/legends/gibraltar.webp",
+      "sourceFile": "Gibraltar.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Gibraltar.jpg",
+      "sourceSha1": "65994c7c9b94b00cb8d406a9bbf5d03681dd45db",
+      "localSha256": "08b79df34ba8f94f02a1c7c7dc4c1430b6e2e4f61b5c65a80ff9ed531d6624e1",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "horizon": {
+      "src": "/media/apex/legends/horizon.webp",
+      "sourceFile": "Horizon.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Horizon.jpg",
+      "sourceSha1": "3688c60d1067faeae057378811806fde4a947f6d",
+      "localSha256": "e4ab6112c375416cdc13844dc96c49a75553bbddadc17612047d5fe4a5f56ca3",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "lifeline": {
+      "src": "/media/apex/legends/lifeline.webp",
+      "sourceFile": "Lifeline.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Lifeline.jpg",
+      "sourceSha1": "923f8c7fa3bf9482b562bd1481d7e36ee61fdf23",
+      "localSha256": "756f8f4dd3606f15da646fe571d42c337b7133ef2e8d2315d12600a4ce6a4e5d",
+      "width": 1565,
+      "height": 1565,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "loba": {
+      "src": "/media/apex/legends/loba.webp",
+      "sourceFile": "Loba.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Loba.jpg",
+      "sourceSha1": "e49bcad9edeb6a95777845333197eb163fa4981c",
+      "localSha256": "07f1cce5956dc1ed774a194221b7f1cd1d99e3b91a611c2d2572d9e3abf6599a",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mad-maggie": {
+      "src": "/media/apex/legends/mad-maggie.webp",
+      "sourceFile": "Mad Maggie.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Mad_Maggie.jpg",
+      "sourceSha1": "097fb56ffbc80a25e19b4d9a5f307346e0f0baad",
+      "localSha256": "c61e514d0c3d68c4a3d0b9871f38a49755ddf6c908ee3d9f271f55e11b2e702b",
+      "width": 1534,
+      "height": 1534,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mirage": {
+      "src": "/media/apex/legends/mirage.webp",
+      "sourceFile": "Mirage.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Mirage.jpg",
+      "sourceSha1": "b2b5484b490e21c3625972d416ec43d4e550b4e8",
+      "localSha256": "4d41cf2b13dbf4c51f352c9922f1d3ef5c8158f39801d503a287ae4a0da9a160",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "newcastle": {
+      "src": "/media/apex/legends/newcastle.webp",
+      "sourceFile": "Newcastle.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Newcastle.jpg",
+      "sourceSha1": "1b27c536ef49ff72f073c25b18d137c1023dc1e1",
+      "localSha256": "b6b1733e179f8e8fcb22a9998c67d3f5b1350b921020d14941f0be4a1911a156",
+      "width": 640,
+      "height": 640,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "octane": {
+      "src": "/media/apex/legends/octane.webp",
+      "sourceFile": "Octane.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Octane.jpg",
+      "sourceSha1": "54f1e3d02ad37d949b4c7498e1607de12a8be7c9",
+      "localSha256": "cc47201e177be34ab67f745163d385d7b20aa3da24841472c4450433774dc211",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "pathfinder": {
+      "src": "/media/apex/legends/pathfinder.webp",
+      "sourceFile": "Pathfinder.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Pathfinder.jpg",
+      "sourceSha1": "167d6ad59e1b81734e5dce38e1905f3ec4eca581",
+      "localSha256": "e33c0f0b736d6ef806ec03dcd4e3865c4dbbd8815dce44137f59c9c34b85d785",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "rampart": {
+      "src": "/media/apex/legends/rampart.webp",
+      "sourceFile": "Rampart.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Rampart.jpg",
+      "sourceSha1": "cc91625096509246e942d1cf4d303c34339ec161",
+      "localSha256": "75d0b534c1dda8de6d8280f5e83b781345d36e3be5aa433c22bc5e46236bc166",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "revenant": {
+      "src": "/media/apex/legends/revenant.webp",
+      "sourceFile": "Revenant.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Revenant.jpg",
+      "sourceSha1": "87d79625fa44d5148aae08d4be620bc6a2437b76",
+      "localSha256": "f83ec2b5fb5faa57e1c38482e4723768e5826855bc11bebd173f752205fb3ce9",
+      "width": 640,
+      "height": 640,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "seer": {
+      "src": "/media/apex/legends/seer.webp",
+      "sourceFile": "Seer.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Seer.jpg",
+      "sourceSha1": "45e63f83aa46b5a2d9ef52c6acd527d3d1741b3a",
+      "localSha256": "1410585db8d00df4d7e68f5e095bd0a99f51008e7006e05a09bb3497aaf72c52",
+      "width": 1534,
+      "height": 1534,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "sparrow": {
+      "src": "/media/apex/legends/sparrow.webp",
+      "sourceFile": "Sparrow.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Sparrow.jpg",
+      "sourceSha1": "7df860757e654bd69a6acf60526b9f43a2648a68",
+      "localSha256": "ebafceb3fbc695ac3a9a98ab33943040c77589409ca6de97692116cabcb929b6",
+      "width": 652,
+      "height": 729,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "valkyrie": {
+      "src": "/media/apex/legends/valkyrie.webp",
+      "sourceFile": "Valkyrie.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Valkyrie.jpg",
+      "sourceSha1": "85fdaca6e2a73c251055effeea62dd949efdb2e9",
+      "localSha256": "ef72ba06c5f868fba836e011b40d62cf15924ac16121193433ea4c154b25a4d9",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "vantage": {
+      "src": "/media/apex/legends/vantage.webp",
+      "sourceFile": "Vantage.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Vantage.jpg",
+      "sourceSha1": "4a87e98bf441dfc20ea62cb6043d4cbfe4de66b7",
+      "localSha256": "d3c45325f4fdd000ea9b59795b9f27037c6041958c00d9e265e508ae6c40282e",
+      "width": 1534,
+      "height": 1534,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wattson": {
+      "src": "/media/apex/legends/wattson.webp",
+      "sourceFile": "Wattson.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Wattson.jpg",
+      "sourceSha1": "05d8c19be94ada78a229854ad4ec8f274f3a0a6c",
+      "localSha256": "dbc7c67852535af45fd509ea4a16df18830eabbf9db27750a43d41ecb029365d",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wraith": {
+      "src": "/media/apex/legends/wraith.webp",
+      "sourceFile": "Wraith.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Wraith.jpg",
+      "sourceSha1": "b0ac87ff59ed036b1630b8bfbeefaf0689b224aa",
+      "localSha256": "c87db158d03968adc5d26b3be441b38a4293fe3e0eadd6a181510c7f8d7967d7",
+      "width": 767,
+      "height": 767,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    }
+  },
+  "abilities": {
+    "alter-passive": {
+      "src": "/media/apex/abilities/alter-passive.svg",
+      "sourceFile": "Gift From The Rift.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Gift_From_The_Rift.svg",
+      "sourceSha1": "d9ca753cba1bf6386bbc81309c4a66cabb6e9e21",
+      "localSha256": "3a5acee5e6c68e097806464c983d7f2f5a2e7926928a2c2587f6efe3c649b9ca",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "alter-tactical": {
+      "src": "/media/apex/abilities/alter-tactical.svg",
+      "sourceFile": "Void Passage.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Void_Passage.svg",
+      "sourceSha1": "9f60546dfffa47d4528ab3e647a1a88f19b7b6cf",
+      "localSha256": "4822b1c1caa782cbabab5b99334cd0f2068113caceed712eee4807fbaafa543f",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "alter-ultimate": {
+      "src": "/media/apex/abilities/alter-ultimate.svg",
+      "sourceFile": "Void Nexus.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Void_Nexus.svg",
+      "sourceSha1": "102ccdf8b86bd4c7291c7e6efa7774307663406d",
+      "localSha256": "63cfe1a38dad7e51fcfccf8ae6d770f65a48bfcc4951cdfe188a4d63dadee407",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ash-passive": {
+      "src": "/media/apex/abilities/ash-passive.svg",
+      "sourceFile": "Predator's Pursuit.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Predator's_Pursuit.svg",
+      "sourceSha1": "c5f644ae7ca1a5e30740007c3159ea9480f7f04f",
+      "localSha256": "3b3055c758ffc546bdd5d808f47bd70554484b9ce81b4f1d98f3a097e69de4b9",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ash-tactical": {
+      "src": "/media/apex/abilities/ash-tactical.svg",
+      "sourceFile": "Arc Snare.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Arc_Snare.svg",
+      "sourceSha1": "490706d68b2d5b62076bcf7960be7f90c0eb16b8",
+      "localSha256": "d7b7a7c2e56173cb216c77880172f446128696995bb6d2b9449d2253ce46b6c6",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ash-ultimate": {
+      "src": "/media/apex/abilities/ash-ultimate.svg",
+      "sourceFile": "Phase Breach.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Phase_Breach.svg",
+      "sourceSha1": "f3a8ca9ba6dabc589729e7c74f5b4d936b263107",
+      "localSha256": "39f451e75c8c77ee5d370ae8fa4849da99dca9b4fe1eb6e7146f044f07eaffee",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "axle-passive": {
+      "src": "/media/apex/abilities/axle-passive.svg",
+      "sourceFile": "Drift.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Drift.svg",
+      "sourceSha1": "f7483dba9585a30e99e3e7aef97f64a3772c425c",
+      "localSha256": "3acd4c7dd9c8411886a63865e23fe99b7132f72fd109c7610a2f8ee1f6c42e5f",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "axle-tactical": {
+      "src": "/media/apex/abilities/axle-tactical.svg",
+      "sourceFile": "Nitro Gate.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Nitro_Gate.svg",
+      "sourceSha1": "b726b85f6a70a3e777b5df1b52bc4e1509535349",
+      "localSha256": "335a3f9d36d5e9d00d013b5eaa36caf79f0df20fd21476d68ebc44364852a704",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "axle-ultimate": {
+      "src": "/media/apex/abilities/axle-ultimate.svg",
+      "sourceFile": "Kickstart.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Kickstart.svg",
+      "sourceSha1": "dc8436787714e7e327613eef35e9b40004628019",
+      "localSha256": "9651012f681adadd4cb8bcccd0649d38870c99c5c8eb06b98d1fe18f8f3383cf",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ballistic-passive": {
+      "src": "/media/apex/abilities/ballistic-passive.svg",
+      "sourceFile": "Sling.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Sling.svg",
+      "sourceSha1": "f30f29d686713d64d19218fd4e911d9726a686fe",
+      "localSha256": "f8269492b8b11db1888523e09f877fdce8b1e21a190f57a788bba8317ae45e7d",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ballistic-tactical": {
+      "src": "/media/apex/abilities/ballistic-tactical.svg",
+      "sourceFile": "Whistler.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Whistler.svg",
+      "sourceSha1": "298002570d51ab8011b3604e8e5df6129fb7d3c6",
+      "localSha256": "e0fa51d9be1ecff9141fb33fe3d0a610270fa557ab6035828013c2948313cda8",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "ballistic-ultimate": {
+      "src": "/media/apex/abilities/ballistic-ultimate.svg",
+      "sourceFile": "Tempest.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Tempest.svg",
+      "sourceSha1": "611735414647e4f4bb100bfa96430cbceee57a68",
+      "localSha256": "b96362f496c6d8a21eb2c82511872dc6f1cc5ded8941ef18d312edfd3cee1ace",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bangalore-passive": {
+      "src": "/media/apex/abilities/bangalore-passive.svg",
+      "sourceFile": "Double Time.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Double_Time.svg",
+      "sourceSha1": "5a7e5c9cc3810339858341c694036e590a6f0d87",
+      "localSha256": "22c47e9ab2d80fe5003aa4cd21568fc3b55583bdce7a008731137cd88baf3ff8",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bangalore-tactical": {
+      "src": "/media/apex/abilities/bangalore-tactical.svg",
+      "sourceFile": "Smoke Launcher.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Smoke_Launcher.svg",
+      "sourceSha1": "400f5ba171e03c7c5398cc38a270569324c420c3",
+      "localSha256": "1b0d5f8d635966d6f1156b3d108a0ea8bcaa6421331abee2d0b5f1349eeb0110",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bangalore-ultimate": {
+      "src": "/media/apex/abilities/bangalore-ultimate.svg",
+      "sourceFile": "Rolling Thunder.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Rolling_Thunder.svg",
+      "sourceSha1": "e2b737fe7b6b821bb1612462c4247e82ebd67973",
+      "localSha256": "3191d3fce4cf86a77b25b8ad8080ad152d0770751c24a7046193750bb01f3192",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bloodhound-passive": {
+      "src": "/media/apex/abilities/bloodhound-passive.svg",
+      "sourceFile": "Tracker.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Tracker.svg",
+      "sourceSha1": "5aca816910c0d21b3572d01dfe2a21981ed747c7",
+      "localSha256": "19919030a1b1d9b86445b7ae789de7be76aa6f85ecdc65e2b8250ea33c3fa38f",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bloodhound-tactical": {
+      "src": "/media/apex/abilities/bloodhound-tactical.svg",
+      "sourceFile": "Eye of the Allfather.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Eye_of_the_Allfather.svg",
+      "sourceSha1": "2f192a2bd548d7a7acdc0f0f2e060ea1ccd05c88",
+      "localSha256": "4dc29b8956601b24b93ae658dcecebb5886c108e6a4b5e709998c7755ff8c9a2",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bloodhound-ultimate": {
+      "src": "/media/apex/abilities/bloodhound-ultimate.svg",
+      "sourceFile": "Beast of the Hunt.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Beast_of_the_Hunt.svg",
+      "sourceSha1": "1343672b9f9d298ea14c664edd6f4dd95e7a5da0",
+      "localSha256": "2328265600cfb98a4be1a7ae9f19c76b199925a33e6696c84803a770e3d375fb",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "catalyst-passive": {
+      "src": "/media/apex/abilities/catalyst-passive.svg",
+      "sourceFile": "Barricade.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Barricade.svg",
+      "sourceSha1": "2bd84dadff43c37476332db42ded8deb97593bd9",
+      "localSha256": "a8faeb1e3a7b028165e616580d3cc4d388514caf7097546e66cf72a940d11ca1",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "catalyst-tactical": {
+      "src": "/media/apex/abilities/catalyst-tactical.svg",
+      "sourceFile": "Piercing Spikes.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Piercing_Spikes.svg",
+      "sourceSha1": "eaec474c4dd653a000a788eaedb2d0412877ecdf",
+      "localSha256": "6f881d0da2ff1e2c5a49b6d3df2b08e83b0cffba1d41acbbd26ea1637e798e70",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "catalyst-ultimate": {
+      "src": "/media/apex/abilities/catalyst-ultimate.svg",
+      "sourceFile": "Dark Veil.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Dark_Veil.svg",
+      "sourceSha1": "78955530cf776dca8b18ae3706bdcd0d746a43d3",
+      "localSha256": "98ff2a4b931a552ee30d4a4c1c0da9063c7c50d1c0cbc6615f7643eda6f05746",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "caustic-passive": {
+      "src": "/media/apex/abilities/caustic-passive.svg",
+      "sourceFile": "Field Research.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Field_Research.svg",
+      "sourceSha1": "fcef2c869e32b4d5084b28ee3e817d3e96df3d20",
+      "localSha256": "bfbe8f0e1bd79853f6f59e685d5ab28201fdb02f2d31703709fbd5be573d8c3c",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "caustic-tactical": {
+      "src": "/media/apex/abilities/caustic-tactical.svg",
+      "sourceFile": "Nox Gas Trap.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Nox_Gas_Trap.svg",
+      "sourceSha1": "0cf1f84f19d6215745e24c8972680b361714e1b4",
+      "localSha256": "a521b3a368957117c767aecbd9996e000630d7595c2d064ebb730136f96c4850",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "caustic-ultimate": {
+      "src": "/media/apex/abilities/caustic-ultimate.svg",
+      "sourceFile": "Nox Gas Grenade.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Nox_Gas_Grenade.svg",
+      "sourceSha1": "c58026f483aed6e849fafa381cf9bead82f3ea1e",
+      "localSha256": "0388217691c899eabac7e91a0282f1a87da1e4e0cfe71115cf58650ac70aa6ac",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "conduit-passive": {
+      "src": "/media/apex/abilities/conduit-passive.svg",
+      "sourceFile": "Savior's Speed.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Savior's_Speed.svg",
+      "sourceSha1": "a08c4f912727e782ba222ff81819ebeaf67a5d9e",
+      "localSha256": "5e429f61d06d566c0f866d348887daa4541d278a20eaeaf996e1ce16483e3368",
+      "width": 256,
+      "height": 256,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "conduit-tactical": {
+      "src": "/media/apex/abilities/conduit-tactical.svg",
+      "sourceFile": "Radiant Transfer.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Radiant_Transfer.svg",
+      "sourceSha1": "d7f76a4e4e1f257e9eb25cbe408e966a4db60ad6",
+      "localSha256": "2796abde947a02a344e4f1dc3afe38b9e093264084b2eebcfa3992f4843a8ee1",
+      "width": 256,
+      "height": 256,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "conduit-ultimate": {
+      "src": "/media/apex/abilities/conduit-ultimate.svg",
+      "sourceFile": "Energy Barricade.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Energy_Barricade.svg",
+      "sourceSha1": "638b832d3e3930fc9f1501edf6852e6e9a4cf584",
+      "localSha256": "9d1131c19c1019c404e7b83ce22c5ae7c1787ec0e650ac5a52117fb7c1145630",
+      "width": 256,
+      "height": 256,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "crypto-passive": {
+      "src": "/media/apex/abilities/crypto-passive.svg",
+      "sourceFile": "Neurolink.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Neurolink.svg",
+      "sourceSha1": "df0d77cd89b64d1f6ae930b976d45318bc2a5759",
+      "localSha256": "09c4fa19dba4cd73fa62c9b877eff92bb719cfab7f5eae6529d602741128c09b",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "crypto-tactical": {
+      "src": "/media/apex/abilities/crypto-tactical.svg",
+      "sourceFile": "Surveillance Drone.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Surveillance_Drone.svg",
+      "sourceSha1": "b7cc8a7ca1c0def12d0c4af04a6da5ddd02f3b0d",
+      "localSha256": "23fd62c854fde3468b5b375c096e91114cbf14d92bdce9669aeff77192c46793",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "crypto-ultimate": {
+      "src": "/media/apex/abilities/crypto-ultimate.svg",
+      "sourceFile": "Drone EMP.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Drone_EMP.svg",
+      "sourceSha1": "b1b528d7e9d2b1de6b961a238491cd6629d9fb62",
+      "localSha256": "3371e1ceee3c250e874141f0dc07ee48fcaad696ed3492b1262394ab8a57469b",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "fuse-passive": {
+      "src": "/media/apex/abilities/fuse-passive.svg",
+      "sourceFile": "Grenadier.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Grenadier.svg",
+      "sourceSha1": "e592a8faea974fb5597c8af0a0bfa365b30310c9",
+      "localSha256": "e05271c20c4e037eb9fdb5cc2f49ae0631489b39a0be89f3f3438c9924f0444a",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "fuse-tactical": {
+      "src": "/media/apex/abilities/fuse-tactical.svg",
+      "sourceFile": "Knuckle Cluster.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Knuckle_Cluster.svg",
+      "sourceSha1": "dd84bb570734760a885d01cc9cd5b0c23a802afb",
+      "localSha256": "c47a4c4716c4f860cf223d024fbdf92e81d3c80c4542b1fc0644600a649729b7",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "fuse-ultimate": {
+      "src": "/media/apex/abilities/fuse-ultimate.svg",
+      "sourceFile": "The Motherlode.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:The_Motherlode.svg",
+      "sourceSha1": "78280640cd45f3f32e911439d49c63fd91c13ae1",
+      "localSha256": "a67c92c452c8b8e862200655dea8506106cd148d48f720713df1f3772c0d5c4b",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "gibraltar-passive": {
+      "src": "/media/apex/abilities/gibraltar-passive.svg",
+      "sourceFile": "Gun Shield.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Gun_Shield.svg",
+      "sourceSha1": "9cde2fe5be67d8f941d77f55542432d2b35f9dfa",
+      "localSha256": "e7fbb96dca9c38495cf184f6aa3cbb82ccc50d6007643b61a9f92d634f136392",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "gibraltar-tactical": {
+      "src": "/media/apex/abilities/gibraltar-tactical.svg",
+      "sourceFile": "Dome of Protection.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Dome_of_Protection.svg",
+      "sourceSha1": "c688077b8e9aaec35e9e7b0a2d3bc47d342b1971",
+      "localSha256": "9047c1f8ab1f5dfc1f61d902d26159ed640e103e179097b74b7daab296492bbc",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "gibraltar-ultimate": {
+      "src": "/media/apex/abilities/gibraltar-ultimate.svg",
+      "sourceFile": "Defensive Bombardment.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Defensive_Bombardment.svg",
+      "sourceSha1": "14dd35dd15736411c182b24b87c5e2c3042cbb0e",
+      "localSha256": "b2b15681eefb0e6a5e8beecb379ff19e57d764466df00d510b8a5fa805d721c0",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "horizon-passive": {
+      "src": "/media/apex/abilities/horizon-passive.svg",
+      "sourceFile": "Spacewalk.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Spacewalk.svg",
+      "sourceSha1": "8efa7d1d06187fead04ad8c8f4832e3573bb0d85",
+      "localSha256": "801ddf5611aac1608effa4614793e928766f49ab25ed86b72636532329a10a16",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "horizon-tactical": {
+      "src": "/media/apex/abilities/horizon-tactical.svg",
+      "sourceFile": "Gravity Lift.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Gravity_Lift.svg",
+      "sourceSha1": "4dd9b2a6d96f158ba3052d40c031a0fc12a9071d",
+      "localSha256": "208ccfbdc1d690f0af886914eade79b5641bdcdc5172a6be7939e34a37135c01",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "horizon-ultimate": {
+      "src": "/media/apex/abilities/horizon-ultimate.svg",
+      "sourceFile": "Black Hole.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Black_Hole.svg",
+      "sourceSha1": "3e43ec9149aa89c1ef11f6577215e5423162b870",
+      "localSha256": "15a68c45310bcb2422728f332bf9ea98ec176a60ab34824df19f2d621959af27",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "lifeline-passive": {
+      "src": "/media/apex/abilities/lifeline-passive.svg",
+      "sourceFile": "Combat Glide.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Combat_Glide.svg",
+      "sourceSha1": "86410ad19de0cab3c707b2e01109caec5fe010dc",
+      "localSha256": "c25bce37ca57f103ab7ae9e15a4fd10628b035830d4f74476f28d846da04bebd",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "lifeline-tactical": {
+      "src": "/media/apex/abilities/lifeline-tactical.svg",
+      "sourceFile": "D.O.C. Heal Drone.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:D.O.C._Heal_Drone.svg",
+      "sourceSha1": "7663bc41e7f21068e0d84cd02959ef97133c9c2c",
+      "localSha256": "c75dff0083a8798dcc3f4d400a84dd1c7b471376af083cfda5f023af3d47b107",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "lifeline-ultimate": {
+      "src": "/media/apex/abilities/lifeline-ultimate.svg",
+      "sourceFile": "D.O.C. Halo.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:D.O.C._Halo.svg",
+      "sourceSha1": "9f577627a6f74f2b8ae999d0943473b826b2328c",
+      "localSha256": "9f1877cd51273e3c22ae757c5b7504152fa1346ec2ba99a8a7df734c8b50e7cd",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "loba-passive": {
+      "src": "/media/apex/abilities/loba-passive.svg",
+      "sourceFile": "Eye for Quality.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Eye_for_Quality.svg",
+      "sourceSha1": "7e47b85e73be30cb835c5169da2c65fdabdfc568",
+      "localSha256": "4c05f618e711e78e4cf3481e1e9d39a03f4d5cd67e1a9307ae0eb0134ab334a1",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "loba-tactical": {
+      "src": "/media/apex/abilities/loba-tactical.svg",
+      "sourceFile": "Burglar's Best Friend.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Burglar's_Best_Friend.svg",
+      "sourceSha1": "150f882d135007856f43d1da0b2542c7607ea5fc",
+      "localSha256": "e371a388b0654c07f7720703173610eb566e5fc04a76b622ea9d05973a876f31",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "loba-ultimate": {
+      "src": "/media/apex/abilities/loba-ultimate.svg",
+      "sourceFile": "Black Market Boutique.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Black_Market_Boutique.svg",
+      "sourceSha1": "d12e7d20447df9d372eddf06c57c33aa2e2259d7",
+      "localSha256": "5d4cfead9bd33ca07e89afb7b0e51de08bda0a7b17cae5bbad46475096fbcf6f",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mad-maggie-passive": {
+      "src": "/media/apex/abilities/mad-maggie-passive.svg",
+      "sourceFile": "Warlord's Ire.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Warlord's_Ire.svg",
+      "sourceSha1": "16c10c6b0016684767bce7198f4b0022ba56cf16",
+      "localSha256": "341937075cea369e4075f9fa7acbf64b276a371cf71d6cadaacefe3850033b56",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mad-maggie-tactical": {
+      "src": "/media/apex/abilities/mad-maggie-tactical.svg",
+      "sourceFile": "Riot Drill.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Riot_Drill.svg",
+      "sourceSha1": "6bee4ef051d6b852231a9155aa7842af3285e9c6",
+      "localSha256": "516066b57c74cca063b0e7551fe9dc32c47dbcc6f21da825cd08ed250b3daa9a",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mad-maggie-ultimate": {
+      "src": "/media/apex/abilities/mad-maggie-ultimate.svg",
+      "sourceFile": "Wrecking Ball.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Wrecking_Ball.svg",
+      "sourceSha1": "a31ec74caaea21ecc02ea7a27bccb0f0b5a7c930",
+      "localSha256": "16fe2081fa9a3329bb49598182dd20785737c12c3b8486558d2b64f4b7442c13",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mirage-passive": {
+      "src": "/media/apex/abilities/mirage-passive.svg",
+      "sourceFile": "Now You See Me....svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Now_You_See_Me....svg",
+      "sourceSha1": "b69d76395b4ae0b5d9cbad22ece9ee554668777a",
+      "localSha256": "42a4d6e45eff19c4a69fcf3fdd67a19d3074edbcd9be88dad9eec2265fd5b624",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mirage-tactical": {
+      "src": "/media/apex/abilities/mirage-tactical.svg",
+      "sourceFile": "Psyche Out.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Psyche_Out.svg",
+      "sourceSha1": "45fc0177165a89196c44e29a0de942d43a8b8c4a",
+      "localSha256": "fcfce95bc9a57b8cd0827df3771b2af1deea6c07ac0b6fbc36d37205e614a7aa",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mirage-ultimate": {
+      "src": "/media/apex/abilities/mirage-ultimate.svg",
+      "sourceFile": "Life of the Party.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Life_of_the_Party.svg",
+      "sourceSha1": "e6fd2417734129a9a96ee85b4c9b72d5dfbbaed6",
+      "localSha256": "e133bf9cd34a1f2cc029950a9cf410cb2fe3e5a6842d6ba4e968d9aaef5c2e2c",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "newcastle-passive": {
+      "src": "/media/apex/abilities/newcastle-passive.svg",
+      "sourceFile": "Retrieve the Wounded.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Retrieve_the_Wounded.svg",
+      "sourceSha1": "ed1b07229b026f0d53e8a0b36ed05f158ffd746a",
+      "localSha256": "f7c3dca4b0425b5e3099680fdfb2d190e6921b1c583e57b9505bca12abd38daf",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "newcastle-tactical": {
+      "src": "/media/apex/abilities/newcastle-tactical.svg",
+      "sourceFile": "Mobile Shield.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Mobile_Shield.svg",
+      "sourceSha1": "44991b22544ecffbe50152d8a45da25ac50c608b",
+      "localSha256": "3042e03124fae071ae404285167efdee4f92e6ac6a835da0a41003f7a40eeafc",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "newcastle-ultimate": {
+      "src": "/media/apex/abilities/newcastle-ultimate.svg",
+      "sourceFile": "Castle Wall.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Castle_Wall.svg",
+      "sourceSha1": "95d321fdd7213930d7e2958574cbdc04f2b6f427",
+      "localSha256": "59e1e2fb5deccff470fabd5359cdbb75d567f85921a34bedd7cf5ec1216b920e",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "octane-passive": {
+      "src": "/media/apex/abilities/octane-passive.svg",
+      "sourceFile": "Swift Mend.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Swift_Mend.svg",
+      "sourceSha1": "f06dfabeee37a61fc4327355dc8b9a342bbf4b73",
+      "localSha256": "aa20937a812905649967f1bc2a3af0c7e8b07ddcae4f7eed5f8ebcf8f48ff866",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "octane-tactical": {
+      "src": "/media/apex/abilities/octane-tactical.svg",
+      "sourceFile": "Stim.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Stim.svg",
+      "sourceSha1": "0015896fb34c2de4f363523b03036d5843435631",
+      "localSha256": "f57167ed609de6d79c28ea18d5be52ee02229847b4501a743bc8db4b7b329104",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "octane-ultimate": {
+      "src": "/media/apex/abilities/octane-ultimate.svg",
+      "sourceFile": "Launch Pad.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Launch_Pad.svg",
+      "sourceSha1": "bda38bd286d4094ad53cf791cb6dbecd459fdb21",
+      "localSha256": "b2e6505dd673e0ff87fde11664731a9eab2fbc835bc31d30216c8f29de302f7c",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "pathfinder-passive": {
+      "src": "/media/apex/abilities/pathfinder-passive.svg",
+      "sourceFile": "Insider Knowledge.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Insider_Knowledge.svg",
+      "sourceSha1": "509acbc0af198b176ea40e3733af03342b1f0ebc",
+      "localSha256": "25f33e65732015892ddd85237a314edfc4db10c37d78362783eba8e0860674a4",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "pathfinder-tactical": {
+      "src": "/media/apex/abilities/pathfinder-tactical.svg",
+      "sourceFile": "Grappling Hook.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Grappling_Hook.svg",
+      "sourceSha1": "d8c1ceb6cab1ad50df5adec362b44193fb221a5e",
+      "localSha256": "d31005270d325773c2f8091a3005205470f4b5198d9ba7043dc46bb39e3c6da8",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "pathfinder-ultimate": {
+      "src": "/media/apex/abilities/pathfinder-ultimate.svg",
+      "sourceFile": "Zipline Gun.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Zipline_Gun.svg",
+      "sourceSha1": "34ac1b7be1b6c0c5a01a5dbfe84a680ab1856ffe",
+      "localSha256": "48cff5fb14ac3d64b79f8cda9d8c91f6fd8f556942115994b98600d191074433",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "rampart-passive": {
+      "src": "/media/apex/abilities/rampart-passive.svg",
+      "sourceFile": "Battle Modder.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Battle_Modder.svg",
+      "sourceSha1": "4209d518d333227e165276d082a309b1c5398dc6",
+      "localSha256": "381ce308f963f4e64ceb186e31b6b8385d11a90b3546ffc3c2cd62001fdd4aec",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "rampart-tactical": {
+      "src": "/media/apex/abilities/rampart-tactical.svg",
+      "sourceFile": "Amped Cover.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Amped_Cover.svg",
+      "sourceSha1": "1c1cb40a40a88b216d2080be9c71900dce280318",
+      "localSha256": "ecb42762672d90a6ff4e7370d542a46f50f042fbc7645d4a3b4bb827eb578739",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "rampart-ultimate": {
+      "src": "/media/apex/abilities/rampart-ultimate.svg",
+      "sourceFile": "Mobile Minigun \"Sheila\".svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Mobile_Minigun_%22Sheila%22.svg",
+      "sourceSha1": "1710ff1437f4bae7e171f0323dc0aaf5ae3bdfba",
+      "localSha256": "10d566099f971ddc4813f7888aa2abde203d1467a66d70740414fd7ca90d67e2",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "revenant-passive": {
+      "src": "/media/apex/abilities/revenant-passive.svg",
+      "sourceFile": "Assassin's Instinct.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Assassin's_Instinct.svg",
+      "sourceSha1": "a1ace3e0626c150fbf9eaf7ab0686af850d2937d",
+      "localSha256": "de3dd32e1ebd61132c10c25392fbd74ad5160003cdbef5917e7ddf89c6e0eb44",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "revenant-tactical": {
+      "src": "/media/apex/abilities/revenant-tactical.svg",
+      "sourceFile": "Shadow Pounce.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Shadow_Pounce.svg",
+      "sourceSha1": "0319a133b624df5ba406d42caf6e04edf3232108",
+      "localSha256": "d386daa2c82bc182b6d1bfacacabba548d46c3650ae07252bec1c3ba41df4a8c",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "revenant-ultimate": {
+      "src": "/media/apex/abilities/revenant-ultimate.svg",
+      "sourceFile": "Forged Shadows.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Forged_Shadows.svg",
+      "sourceSha1": "ee7192798b5ae6b8bbe379365f5d0d2d3d016775",
+      "localSha256": "ee44bc55f832095e1111a34f12f5dd4d6312a8f06b5599637dbd76d1dbd0a676",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "seer-passive": {
+      "src": "/media/apex/abilities/seer-passive.svg",
+      "sourceFile": "Heart Seeker.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Heart_Seeker.svg",
+      "sourceSha1": "17340638a5a7d98652156e9ef810b6fc98075436",
+      "localSha256": "3a1487c2f363ea8df28f835d691ea65f83c6ef7453af39a7c2abe0421d7563d1",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "seer-tactical": {
+      "src": "/media/apex/abilities/seer-tactical.svg",
+      "sourceFile": "Focus of Attention.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Focus_of_Attention.svg",
+      "sourceSha1": "a2e67a591b2db13e346dd28f706e0b86a338dfb8",
+      "localSha256": "224c1e7090b588e095eb129db206a5c07d21878447f7228b1bd56a30e6a2ae7c",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "seer-ultimate": {
+      "src": "/media/apex/abilities/seer-ultimate.svg",
+      "sourceFile": "Exhibit.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Exhibit.svg",
+      "sourceSha1": "eb1c3bb09fca43eb926fdb74cf9cb24341d447df",
+      "localSha256": "ee1b4dfbb803feef22e97d1cff098296d2c62990ff098fe75ff24dd9024c1e25",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "sparrow-passive": {
+      "src": "/media/apex/abilities/sparrow-passive.svg",
+      "sourceFile": "Double Jump.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Double_Jump.svg",
+      "sourceSha1": "530647accd4daf427910d27b7478157fc8e90fdc",
+      "localSha256": "09c3aeaf2a317b0712f255f9ca5837433c4094acb9ac7dd078ba8ba20d68d25e",
+      "width": 500,
+      "height": 500,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "sparrow-tactical": {
+      "src": "/media/apex/abilities/sparrow-tactical.svg",
+      "sourceFile": "Tracker Dart.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Tracker_Dart.svg",
+      "sourceSha1": "59b7191005864bb194894f3e10b39684e7fac160",
+      "localSha256": "aac40e7e3182aafddaeb6d16e8265ccb7b84bafaf044e39bea9de860801acc30",
+      "width": 500,
+      "height": 500,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "sparrow-ultimate": {
+      "src": "/media/apex/abilities/sparrow-ultimate.svg",
+      "sourceFile": "Stinger Bolt.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Stinger_Bolt.svg",
+      "sourceSha1": "7d0bf2e2b8a501650e5635fa94887603b2f1b806",
+      "localSha256": "3b4cc72021d9623f580a97a92aa3883bcba8692c9ccbd403d6ce53668095cabb",
+      "width": 500,
+      "height": 500,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "valkyrie-passive": {
+      "src": "/media/apex/abilities/valkyrie-passive.svg",
+      "sourceFile": "VTOL Jets.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:VTOL_Jets.svg",
+      "sourceSha1": "0f1d0da1ccaec67b1ae8e997c1b326e135fab6da",
+      "localSha256": "7ec4d80e719d452c943bcdfb1eccf5b8711d9aeef7fe6bfe64d0acfd7389c682",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "valkyrie-tactical": {
+      "src": "/media/apex/abilities/valkyrie-tactical.svg",
+      "sourceFile": "Missile Swarm.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Missile_Swarm.svg",
+      "sourceSha1": "ae3b2cbfe9c789e98da7d157bec10c4cb8bc0356",
+      "localSha256": "307087912ed26b13ce750b7ef90d34b408c0b933e1ffeee76a5666357377b116",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "valkyrie-ultimate": {
+      "src": "/media/apex/abilities/valkyrie-ultimate.svg",
+      "sourceFile": "Skyward Dive.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Skyward_Dive.svg",
+      "sourceSha1": "0ab3cf62dc16eac133fd23ce5fe18e3684127be1",
+      "localSha256": "332bda381444c7f62e22acb0f509f21c3ee446902e1a9ed123beb8aa2925c76b",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "vantage-passive": {
+      "src": "/media/apex/abilities/vantage-passive.svg",
+      "sourceFile": "Spotter's Lens.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Spotter's_Lens.svg",
+      "sourceSha1": "c5c778a6bc9d3cb4cf6796072e8abdf5b9c4c673",
+      "localSha256": "9fe7b25b8e7210589e960ae1c2407522856abc632c96a82233813f64578f25bb",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "vantage-tactical": {
+      "src": "/media/apex/abilities/vantage-tactical.svg",
+      "sourceFile": "Echo Relocation.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Echo_Relocation.svg",
+      "sourceSha1": "0e60db7f14295c2de7018f3c6fce54a4983d47d3",
+      "localSha256": "cb9aba296741b4600db17194e55df3b41915a5978b9969f78da8fa11575451a3",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "vantage-ultimate": {
+      "src": "/media/apex/abilities/vantage-ultimate.svg",
+      "sourceFile": "Sniper's Mark.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Sniper's_Mark.svg",
+      "sourceSha1": "8be41d96bd0042f6dfdd00c274e2500c5f069ef1",
+      "localSha256": "92e331cc256ccaff19a2bba964a93d950850f4e2c044db4dcf2f11821d9a3c77",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wattson-passive": {
+      "src": "/media/apex/abilities/wattson-passive.svg",
+      "sourceFile": "Spark of Genius.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Spark_of_Genius.svg",
+      "sourceSha1": "c6b9e17fc21a543ddf3edd4c1f45b38fab6d2636",
+      "localSha256": "0ba75a553e7b398b0206cfaf6642871359439849a7caf032917df4526c688f0f",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wattson-tactical": {
+      "src": "/media/apex/abilities/wattson-tactical.svg",
+      "sourceFile": "Perimeter Security.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Perimeter_Security.svg",
+      "sourceSha1": "c3054613be4f0dfd70153cfb0af366618bb1f104",
+      "localSha256": "90404cf40137e69fe04abaec0e7acb18bcf6458e4fb0c8a44d8178e095c81980",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wattson-ultimate": {
+      "src": "/media/apex/abilities/wattson-ultimate.svg",
+      "sourceFile": "Interception Pylon.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Interception_Pylon.svg",
+      "sourceSha1": "a5ac4d1ec227ccf93fdd0dd275a321385c0a6644",
+      "localSha256": "27fa90c3b87c35059ba91a83eb1162a67c2dba7d9e86723176bdfa8da48bcdb3",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wraith-passive": {
+      "src": "/media/apex/abilities/wraith-passive.svg",
+      "sourceFile": "Voices from the Void.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Voices_from_the_Void.svg",
+      "sourceSha1": "6a43e06ee0a698f14e3a1e6a594651d9e9377960",
+      "localSha256": "8d7f73297518ad445cf3a55a2a4f9ab827fc5e047e5892f908db33f5ac939dae",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wraith-tactical": {
+      "src": "/media/apex/abilities/wraith-tactical.svg",
+      "sourceFile": "Into the Void.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Into_the_Void.svg",
+      "sourceSha1": "b8e349a33faefdd4bc9567ba3a57385cfff35aa4",
+      "localSha256": "0371c1df68fbdb04949d07044383d4d60705234e86378a62d8f01dd71004cbf8",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wraith-ultimate": {
+      "src": "/media/apex/abilities/wraith-ultimate.svg",
+      "sourceFile": "Dimensional Rift.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Dimensional_Rift.svg",
+      "sourceSha1": "c7454bdd5a5eea191e68dc82eca92d5b11134949",
+      "localSha256": "f57a620135b9e7583e3ff3a6a408f75bea82cc821d19b5f8d760595ee50d0ddb",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    }
+  },
+  "weapons": {
+    "30-30-repeater": {
+      "src": "/media/apex/weapons/30-30-repeater.webp",
+      "sourceFile": "30-30 Repeater.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:30-30_Repeater.png",
+      "sourceSha1": "a45e284085ec2b17dc87f48ac5370862a6ea7f31",
+      "localSha256": "87d79c83fe856896b3b1145cf0b052c822e128c42ab7470c19fa89a256566898",
+      "width": 1711,
+      "height": 345,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "alternator-smg": {
+      "src": "/media/apex/weapons/alternator-smg.webp",
+      "sourceFile": "Alternator SMG.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Alternator_SMG.png",
+      "sourceSha1": "d3673992be581ba8351724dc6a308e46287cbcfc",
+      "localSha256": "67d8a2f74c585e7ba3da8463164a9113ad1edfef6d5891419c591f7910322b7c",
+      "width": 1316,
+      "height": 994,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "bocek-compound-bow": {
+      "src": "/media/apex/weapons/bocek-compound-bow.webp",
+      "sourceFile": "Bocek Compound Bow.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Bocek_Compound_Bow.png",
+      "sourceSha1": "ca1351b333328b2f2ae0c6acc6cf3175c6cfc6cc",
+      "localSha256": "c9293428ab5ce5416e5afea2d6d04ff2c14b080db7f996d551c25782bb707c6d",
+      "width": 3445,
+      "height": 2044,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "c-a-r-smg": {
+      "src": "/media/apex/weapons/c-a-r-smg.webp",
+      "sourceFile": "C.A.R. SMG.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:C.A.R._SMG.png",
+      "sourceSha1": "ca92e0436846ebbd481e798a9dfaf604ea3d80f5",
+      "localSha256": "db1cf117c7dc2f27fbd938042e00f5bd777f628b10c50d4ae4936342cbc21ac0",
+      "width": 1669,
+      "height": 535,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "charge-rifle": {
+      "src": "/media/apex/weapons/charge-rifle.webp",
+      "sourceFile": "Charge Rifle.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Charge_Rifle.png",
+      "sourceSha1": "f1ea7c5f909363542bf9be6177baf6bbf5b78235",
+      "localSha256": "99d0a3388c49168096141dd914b9d4fe4de578851a59cc88db7c6621921ce401",
+      "width": 1818,
+      "height": 741,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "devotion-lmg": {
+      "src": "/media/apex/weapons/devotion-lmg.webp",
+      "sourceFile": "Devotion LMG.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Devotion_LMG.png",
+      "sourceSha1": "322f3f8268891dd60ca0e586cfd0a53179538a2e",
+      "localSha256": "a93fcff4a3a56e01c4fb54cf4f24d33b431dec0b36547311a7e30c06d2e82c8b",
+      "width": 1826,
+      "height": 491,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "eva-8-auto": {
+      "src": "/media/apex/weapons/eva-8-auto.webp",
+      "sourceFile": "EVA-8 Auto.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:EVA-8_Auto.png",
+      "sourceSha1": "c492a6b5d1296f44e57c8d3321e2fa224018239c",
+      "localSha256": "45cda3b48898a8a253309d46b9f13638db1dd113fcb0f6af2026214ebf255125",
+      "width": 1762,
+      "height": 608,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "g7-scout": {
+      "src": "/media/apex/weapons/g7-scout.webp",
+      "sourceFile": "G7 Scout.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:G7_Scout.png",
+      "sourceSha1": "083e037a2e712c4e7c2b58fef60f20e2eba3bb77",
+      "localSha256": "4a75a06a60dfb167e4e63692cdfa474d0a33eb789be640a7e48b798f36afa6b4",
+      "width": 1855,
+      "height": 466,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "havoc-rifle": {
+      "src": "/media/apex/weapons/havoc-rifle.webp",
+      "sourceFile": "HAVOC Rifle.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:HAVOC_Rifle.png",
+      "sourceSha1": "b1d6d8b60c2e472784caae700a5ab81abfa1712e",
+      "localSha256": "cbab52f299a7db9676f162fe2d868fd7f2e50c257475a30b1f437e36e639fb17",
+      "width": 1878,
+      "height": 572,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "hemlok-breach-ar": {
+      "src": "/media/apex/weapons/hemlok-breach-ar.webp",
+      "sourceFile": "Hemlok Breach AR.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Hemlok_Breach_AR.png",
+      "sourceSha1": "5568fca01fa6fe193ce2ba1b51afddbbeb83bb02",
+      "localSha256": "ec08366cc9290c1be8219390f717972caaaa0d4bb0136825572db76e5d0f2966",
+      "width": 3097,
+      "height": 1019,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "kraber-50-cal-sniper": {
+      "src": "/media/apex/weapons/kraber-50-cal-sniper.webp",
+      "sourceFile": "Kraber .50-Cal Sniper.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Kraber_.50-Cal_Sniper.png",
+      "sourceSha1": "4e658ea3aaf25af7cbc94cf4d0cab1ef0aab55b1",
+      "localSha256": "efeab226bcb4904bab98b072238b63871abbd614cedf2e0dacd1389f77b3a529",
+      "width": 1778,
+      "height": 320,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "l-star-emg": {
+      "src": "/media/apex/weapons/l-star-emg.webp",
+      "sourceFile": "L-STAR EMG.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:L-STAR_EMG.png",
+      "sourceSha1": "a7eb4a4c98eca2488d2027de802ba19a409a303f",
+      "localSha256": "915e2c3360c341894e7ae4763330f9ce137d35a514d2af8ef6fe2af52baff7ed",
+      "width": 1811,
+      "height": 727,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "longbow-dmr": {
+      "src": "/media/apex/weapons/longbow-dmr.webp",
+      "sourceFile": "Longbow DMR.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Longbow_DMR.png",
+      "sourceSha1": "2a71f2e2eb7fea031fb2b6e7787283528ff18764",
+      "localSha256": "f1d86e8ac16cfc299e3af06b6420c81a8938e06adf24381e953579f1a020652b",
+      "width": 1814,
+      "height": 392,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "m600-spitfire": {
+      "src": "/media/apex/weapons/m600-spitfire.webp",
+      "sourceFile": "M600 Spitfire.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:M600_Spitfire.png",
+      "sourceSha1": "2d5e7b1582304204b6bbd03730bcc633d45f179b",
+      "localSha256": "ffbbf988fc0bc3688756e275eebcad425507d6a8122840cf5f73dd75073c5ec5",
+      "width": 1803,
+      "height": 536,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mastiff-shotgun": {
+      "src": "/media/apex/weapons/mastiff-shotgun.webp",
+      "sourceFile": "Mastiff Shotgun.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Mastiff_Shotgun.png",
+      "sourceSha1": "6cd0c7b3a54b101abfa65837c3a45e2fb347cfe8",
+      "localSha256": "1273e6159ac5e5ea7d750b38185799e5c9e640c554b1216354169c970ddc26d2",
+      "width": 1760,
+      "height": 494,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "mozambique-shotgun": {
+      "src": "/media/apex/weapons/mozambique-shotgun.webp",
+      "sourceFile": "Mozambique Shotgun.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Mozambique_Shotgun.png",
+      "sourceSha1": "8124da58ae0415f52c64b04b831a9ea8469d9b5a",
+      "localSha256": "7a3980656b9dac34eb558fdf1718a5f06c4d9b174cc545b4386cf90e52c8db15",
+      "width": 1484,
+      "height": 710,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "nemesis-burst-ar": {
+      "src": "/media/apex/weapons/nemesis-burst-ar.webp",
+      "sourceFile": "Nemesis Burst AR.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Nemesis_Burst_AR.png",
+      "sourceSha1": "589f1d47d02be24d3b5c86e670785a34e9d7bd3e",
+      "localSha256": "e8f1b3bebad9e689950a5e53083f9c0287c3e9dab8ae3d9cf0b662a4d6beac4a",
+      "width": 1671,
+      "height": 433,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "p2020": {
+      "src": "/media/apex/weapons/p2020.webp",
+      "sourceFile": "P2020.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:P2020.png",
+      "sourceSha1": "da4b9c54894664331b237a773b87ddad91e8da14",
+      "localSha256": "4408890ac27d4be50682d9475a55f216fe390ba1c74541dfef77efde05402afe",
+      "width": 1102,
+      "height": 812,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "peacekeeper": {
+      "src": "/media/apex/weapons/peacekeeper.webp",
+      "sourceFile": "Peacekeeper.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Peacekeeper.png",
+      "sourceSha1": "6c3dd21a7e9baa05ead46834b542602673b84f7c",
+      "localSha256": "cbc160e8f5458d06ff30458f281f8b805392f1d36cab983ef3948965af1476ab",
+      "width": 1720,
+      "height": 448,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "prowler-burst-pdw": {
+      "src": "/media/apex/weapons/prowler-burst-pdw.webp",
+      "sourceFile": "Prowler Burst PDW.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Prowler_Burst_PDW.png",
+      "sourceSha1": "3ff3400da3ce65cd656ea8853d9bb6e75a1a660e",
+      "localSha256": "66fd0cdb87d6a1d981838934e3e190ebd98d006a8adf8912c21f3c3775971e37",
+      "width": 1712,
+      "height": 970,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "r-301-carbine": {
+      "src": "/media/apex/weapons/r-301-carbine.webp",
+      "sourceFile": "R-301 Carbine.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:R-301_Carbine.png",
+      "sourceSha1": "1d58b3a5fc4d3895fd5b9d78d4eb5f02544957f1",
+      "localSha256": "ec52abf982ed4ad73f078ede4dea29b499aa6298a00f860400ccada80edf802a",
+      "width": 1825,
+      "height": 546,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "r-99-smg": {
+      "src": "/media/apex/weapons/r-99-smg.webp",
+      "sourceFile": "R-99 SMG.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:R-99_SMG.png",
+      "sourceSha1": "e21c2c135522f608d7279ac7ec375a1cce2a35a9",
+      "localSha256": "6a89cb9a837070ca36864d6eb20c3eef26fc1d3259694b78c24a3a30203a6840",
+      "width": 1792,
+      "height": 721,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "rampage-lmg": {
+      "src": "/media/apex/weapons/rampage-lmg.webp",
+      "sourceFile": "Rampage LMG.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Rampage_LMG.png",
+      "sourceSha1": "0f4ae23ab48a9f5240bbaa7e8d72f97ee24401ae",
+      "localSha256": "0961a5c8472fce23dc7db9b79961f5fe5ab65ba8b713d37337cb60bcc6c2a311",
+      "width": 1698,
+      "height": 438,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "re-45-burst": {
+      "src": "/media/apex/weapons/re-45-burst.webp",
+      "sourceFile": "RE-45 Auto.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:RE-45_Auto.png",
+      "sourceSha1": "3e7624869fde95149d21d4fd984e916d2df94fa3",
+      "localSha256": "6f4a4183c8c856167e7cedcea54199cfec9c724a73b97e39245028c5f2a6d017",
+      "width": 1402,
+      "height": 1168,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "sentinel": {
+      "src": "/media/apex/weapons/sentinel.webp",
+      "sourceFile": "Sentinel.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Sentinel.png",
+      "sourceSha1": "7bbce40a96f0a838a0d2f5d7660d937b2d6823da",
+      "localSha256": "cc07a4187616ec0f6932553ef16cfeaacae240b4259e58f21f383075cdf3d059",
+      "width": 1745,
+      "height": 388,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "triple-take": {
+      "src": "/media/apex/weapons/triple-take.webp",
+      "sourceFile": "Triple Take.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Triple_Take.png",
+      "sourceSha1": "b0fd007e9c06f4ceacfb3d7e385c0ea383b3b6a4",
+      "localSha256": "d6e10105933af1a6557db54e4f7e7d6582fcab8eb5147bc861e48396df4c5bb1",
+      "width": 1766,
+      "height": 516,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "vk-47-flatline": {
+      "src": "/media/apex/weapons/vk-47-flatline.webp",
+      "sourceFile": "VK-47 Flatline.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:VK-47_Flatline.png",
+      "sourceSha1": "e2a2175d6882a57a30400e3840f068f1c443821f",
+      "localSha256": "a3f3e4cb13dd8ae8fa58cb286cfa1405d4e587c568b82e5a5a99cef1c767052d",
+      "width": 1716,
+      "height": 623,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "volt-smg": {
+      "src": "/media/apex/weapons/volt-smg.webp",
+      "sourceFile": "Volt SMG.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Volt_SMG.png",
+      "sourceSha1": "13d7e9dbbde1271381d25a3524a1100b4b592489",
+      "localSha256": "30b4bc37e5e0cf9997cccd40ba0bbec63df8527718c4ac63a62a3bb1d15e07cb",
+      "width": 1733,
+      "height": 593,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wingman": {
+      "src": "/media/apex/weapons/wingman.webp",
+      "sourceFile": "Wingman.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Wingman.png",
+      "sourceSha1": "08557dbc76a95156ebe5b396b6eec00518b374af",
+      "localSha256": "2471f78f3c0ae6c81f666ea02069437ab19dfcf4a73cca5b4d6014402ea40da3",
+      "width": 1610,
+      "height": 896,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    }
+  },
+  "maps": {
+    "artillery-battery": {
+      "src": "/media/apex/maps/artillery-battery.webp",
+      "sourceFile": "Obliterated Kings Canyon Artillery.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Obliterated_Kings_Canyon_Artillery.jpg",
+      "sourceSha1": "2f1ac2357f7553a77b73682809630713f8241c52",
+      "localSha256": "42a72e6c2900b1727a365c5870e0c15e18fe826700bd122c2c64b6b9403bed01",
+      "width": 3840,
+      "height": 2160,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "autumn-estates": {
+      "src": "/media/apex/maps/autumn-estates.webp",
+      "sourceFile": "S7 Olympus autumnestates.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S7_Olympus_autumnestates.jpg",
+      "sourceSha1": "e53db32eb258fda72ec90dbc23d5ef537537ba1a",
+      "localSha256": "5c0318882ef2e9d39b0e7e3b8c4fb1cb19d4418d2180a6017e9736febf7fff92",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "barometer": {
+      "src": "/media/apex/maps/barometer.webp",
+      "sourceFile": "S11 stormpoint barometer.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S11_stormpoint_barometer.png",
+      "sourceSha1": "adb87711c010d1540752adc36e6d33894a720f06",
+      "localSha256": "b7cded0ab2cac35126ec987674acc243af6fcdf2c4a38a249b1caff4288a0862",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "broken-moon": {
+      "src": "/media/apex/maps/broken-moon.webp",
+      "sourceFile": "Broken Moon MU1.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Broken_Moon_MU1.png",
+      "sourceSha1": "7affa04ab5b95617d183900dfe5fae71dc4140a9",
+      "localSha256": "05c25434bfd05da813b1228c55908dc5fdbecfa1b5c3f072491cc8e338184c10",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "caustic-treatment": {
+      "src": "/media/apex/maps/caustic-treatment.webp",
+      "sourceFile": "CausticTreatment 01.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:CausticTreatment_01.jpg",
+      "sourceSha1": "334b4f1e4f53bc2e5c715e0a1f5f69a060bce96d",
+      "localSha256": "617a6cd397612c773e02d3a0c2c89762d0589d25b212a3a897e6d6e7f926620e",
+      "width": 1120,
+      "height": 630,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "drop-off": {
+      "src": "/media/apex/maps/drop-off.webp",
+      "sourceFile": "Drop-Off.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Drop-Off.png",
+      "sourceSha1": "7aaf83d08067e193c098390562a1b15e285d5929",
+      "localSha256": "bc668492283e764798c7043815cfea35ab4513cd0afea79db0de42ef84e1b2df",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "e-district": {
+      "src": "/media/apex/maps/e-district.webp",
+      "sourceFile": "E-District.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:E-District.png",
+      "sourceSha1": "3986c7d61b2e39998ee364829bc064a5ef0e4a5f",
+      "localSha256": "45e31d773d70a8f95628318f685c061cf3531a6df08b39bef27d4c59a08d5d81",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "encore": {
+      "src": "/media/apex/maps/encore.webp",
+      "sourceFile": "Encore.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Encore.png",
+      "sourceSha1": "9b5ebb4c5ca7d64f42cbe35719eab34f9a832426",
+      "localSha256": "97a8764b5eedd6e31ce14f55c670d5d77c54e63d39c277117cf103484aec9b43",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "firing-range": {
+      "src": "/media/apex/maps/firing-range.webp",
+      "sourceFile": "Firing Range MU1.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Firing_Range_MU1.png",
+      "sourceSha1": "c17e1455f2da480679056c2256f4f49c3d5a6d31",
+      "localSha256": "42f2e9d80ca155cd6d1dd5c074b0cf851b23305eb452fe27b05ed0056990b2ba",
+      "width": 1600,
+      "height": 900,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "fragment-east": {
+      "src": "/media/apex/maps/fragment-east.webp",
+      "sourceFile": "S17 monument 1.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S17_monument_1.jpg",
+      "sourceSha1": "74c7f60c12fcaa443f4b6035f0a17f3190d1b0b5",
+      "localSha256": "4415fdbc63cfd800bb2e59738538187a18899f9f9327b30be72a15e3ac04467b",
+      "width": 2560,
+      "height": 1440,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "golden-gardens": {
+      "src": "/media/apex/maps/golden-gardens.webp",
+      "sourceFile": "S7 Olympus goldengardens.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S7_Olympus_goldengardens.jpg",
+      "sourceSha1": "43497e8fad9edfa296aac58d681325186709eb8e",
+      "localSha256": "ac42186559bfdeab46fac935d3ec189b72c5b1c0a3630c0ebdc5fdf9de7ff352",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "habitat-4": {
+      "src": "/media/apex/maps/habitat-4.webp",
+      "sourceFile": "Habitat 4.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Habitat_4.png",
+      "sourceSha1": "1d5556cb1715a833d833021996138d81d5b26eb4",
+      "localSha256": "f13354dcda2f57c203725f509954c8261f36725fbfdd84ff8d0ba22a701aafcb",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "hammond-labs": {
+      "src": "/media/apex/maps/hammond-labs.webp",
+      "sourceFile": "S7 Olympus hammondlabs.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S7_Olympus_hammondlabs.jpg",
+      "sourceSha1": "be0c40f6035a4c62e012a2e3bb037edd3214865c",
+      "localSha256": "8975a61552d10d5675dd1c0e43412583ee84b98de0cbd698748bed35e49a26b4",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "high-desert": {
+      "src": "/media/apex/maps/high-desert.webp",
+      "sourceFile": "S10 highdesert.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S10_highdesert.jpg",
+      "sourceSha1": "575ef3a84366b9d9502bb707dbaa1017987cd03f",
+      "localSha256": "014657a5eb2f393aa855d239d065d060b9ff05204a757a02418e7f9e1f97ad10",
+      "width": 3840,
+      "height": 2160,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "kings-canyon": {
+      "src": "/media/apex/maps/kings-canyon.webp",
+      "sourceFile": "Kings Canyon MU4.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Kings_Canyon_MU4.png",
+      "sourceSha1": "5d37ee8a616859f4af7a9c30b49cc7d3cfb4b390",
+      "localSha256": "41758d1c0602e69a9791d0e1b32c04b862794d94b6908a10ebdabfe0bb8e0c7e",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "lava-siphon": {
+      "src": "/media/apex/maps/lava-siphon.webp",
+      "sourceFile": "Lava Siphon.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Lava_Siphon.png",
+      "sourceSha1": "abba9b03799ecee02671ba4ec7ccb3ef8a736902",
+      "localSha256": "aa77d5febbe7550e155de51ed455f2c10967799ac3e5365c9789762704097c99",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "monument": {
+      "src": "/media/apex/maps/monument.webp",
+      "sourceFile": "S17 monument 2.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S17_monument_2.jpg",
+      "sourceSha1": "715bf6e70b2bc586be751746f5fecf7b4d2d8652",
+      "localSha256": "f494109fc2590b2f53ad5059adcc0f3939351f6f1afe1759977daef19dc5c4f4",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "olympus": {
+      "src": "/media/apex/maps/olympus.webp",
+      "sourceFile": "Olympus MU3.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Olympus_MU3.png",
+      "sourceSha1": "5025dd3f46b6fe96cb11fedb1249c4be31318b81",
+      "localSha256": "3f2d7fac7de605544def93b16aab06810bb03a11bf80f43288ce6d10e34c8906",
+      "width": 4096,
+      "height": 4096,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "overflow": {
+      "src": "/media/apex/maps/overflow.webp",
+      "sourceFile": "Overflow.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Overflow.png",
+      "sourceSha1": "8bf0a1e61994c53ce0757d54e62a0dbc97281e21",
+      "localSha256": "df718e138ca24d349a6eeed04693454c44722e7fa61970b81286b0d38e08a27d",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "party-crasher": {
+      "src": "/media/apex/maps/party-crasher.webp",
+      "sourceFile": "Party Crasher.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Party_Crasher.png",
+      "sourceSha1": "422f12c8d71f48e30d99d6e43e0387fe58c76c59",
+      "localSha256": "b336e3c29c2d6fa7cf8bacb02565bea26d8d892c636b7609333ab0680ef343bd",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "perpetual-core": {
+      "src": "/media/apex/maps/perpetual-core.webp",
+      "sourceFile": "S15 brokenmoon perpetualcore.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S15_brokenmoon_perpetualcore.png",
+      "sourceSha1": "431aa5227b3f7741e8f2599bc02390d49a712728",
+      "localSha256": "4ae17f059438a45fd2ef0586919f11d9b51b4c89ce127ebb92db286b1d7db25a",
+      "width": 1600,
+      "height": 900,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "phase-runner": {
+      "src": "/media/apex/maps/phase-runner.webp",
+      "sourceFile": "Phase Runner.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Phase_Runner.png",
+      "sourceSha1": "3f891fee682edd5b5d75e9df330ef976c807177c",
+      "localSha256": "c2248c274823ad0684eea5cc309bc66b9a9590bc1d4b23b70bf5b726d1b95041",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "production-yard": {
+      "src": "/media/apex/maps/production-yard.webp",
+      "sourceFile": "S15 brokenmoon productionyard.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S15_brokenmoon_productionyard.png",
+      "sourceSha1": "55c67ea4599eb47d06e8770c01340c34eeef470c",
+      "localSha256": "46d34170bf9190d03f4d8ce78c178a601a314d3e959f0f5fcd98a3c55fc0cd86",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "skull-town": {
+      "src": "/media/apex/maps/skull-town.webp",
+      "sourceFile": "Skull Town.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Skull_Town.jpg",
+      "sourceSha1": "83b07eb7f46c23e01d12f23b6b8a37d642aa7241",
+      "localSha256": "3f58256c28b42ead3712038c5b0824cbb6685b269e87ee0b50fae2d9fe9cd171",
+      "width": 1280,
+      "height": 721,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "storm-point": {
+      "src": "/media/apex/maps/storm-point.webp",
+      "sourceFile": "Storm Point MU2.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Storm_Point_MU2.png",
+      "sourceSha1": "bb9dfe2f1a31be80ecc3df991af3528402044d24",
+      "localSha256": "3e3878580206147252b50e36b192c1b0c1c7cf7154b9e12fb18e3164f4ff6904",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "the-dome": {
+      "src": "/media/apex/maps/the-dome.webp",
+      "sourceFile": "S4 worldsedge thedome.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S4_worldsedge_thedome.jpg",
+      "sourceSha1": "205abffb7af43c1694fe789264921b321aa365ec",
+      "localSha256": "ba49d1284af61059c0f6b49226b681dc468989faa27f8dbf1ec9f43f6f8a107f",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "the-wall": {
+      "src": "/media/apex/maps/the-wall.webp",
+      "sourceFile": "S11 stormpoint thewall.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S11_stormpoint_thewall.jpg",
+      "sourceSha1": "7e6569a0d4412f30e4dbd4f64d57d5696398d447",
+      "localSha256": "afd0d6af6f9288764902301ab77ce28df69b6ce4ced38925d9f23c7341cee45d",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "thermal-station": {
+      "src": "/media/apex/maps/thermal-station.webp",
+      "sourceFile": "S3 thermalstation.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S3_thermalstation.jpg",
+      "sourceSha1": "3344b95353f7bc3c2e2ddc77fdf52c1e015a37db",
+      "localSha256": "91df9a1acb93c75e571a7e24d4daf6aaca6d283bcf2855446119966933b2d419",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "thunderdome": {
+      "src": "/media/apex/maps/thunderdome.webp",
+      "sourceFile": "S20 thunderdome 1.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S20_thunderdome_1.jpg",
+      "sourceSha1": "515ec05f364ce054ee161b70b6f6c5f216bca903",
+      "localSha256": "258d038e988f920e44658595e81ebadef3620bf5a4db3af94744bb9f14fbf389",
+      "width": 3000,
+      "height": 1688,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "velvet-oasis": {
+      "src": "/media/apex/maps/velvet-oasis.webp",
+      "sourceFile": "S7 Olympus velvetoasis.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S7_Olympus_velvetoasis.jpg",
+      "sourceSha1": "2ff09a7afae6032bb4796c01dc1f868e59e55ea9",
+      "localSha256": "f2c866868475b21ef684e704205969c1e5a91014ca2c873c7bc491f64e3c2f32",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "wattson-s-pylon": {
+      "src": "/media/apex/maps/wattson-s-pylon.webp",
+      "sourceFile": "S19 wattsonspylon 1.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S19_wattsonspylon_1.jpg",
+      "sourceSha1": "3fd5e72709535a629a38f1c52701e3f410e590ea",
+      "localSha256": "921e298d988f7a10b5737d4787495e0c1e8d27d6850ae2b266f5d546c0025880",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "winter-express": {
+      "src": "/media/apex/maps/winter-express.webp",
+      "sourceFile": "Winter Express Icon.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Winter_Express_Icon.png",
+      "sourceSha1": "365427ad586b0808bf6c46ce570f9fb852bc66e2",
+      "localSha256": "20321e8925cd4caaf455b6146d3b6767d4fe4b1cfff7b2982722e2e28d763182",
+      "width": 600,
+      "height": 600,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "world-s-edge": {
+      "src": "/media/apex/maps/world-s-edge.webp",
+      "sourceFile": "World's Edge MU4.png",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:World's_Edge_MU4.png",
+      "sourceSha1": "7946b1be09f8597c3fbf6aa263c3790879961e65",
+      "localSha256": "8a9ae3af61c3a8be1db5370bee614082b2910223fe662bf51ee66914e8e28d31",
+      "width": 2048,
+      "height": 2048,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "zeus-station": {
+      "src": "/media/apex/maps/zeus-station.webp",
+      "sourceFile": "S19 zeusstation 1.jpg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:S19_zeusstation_1.jpg",
+      "sourceSha1": "38d88a8a49a13bc37112027f88259dd20916e44d",
+      "localSha256": "f2ea3ba6ad0f50048d21a6f9c61a6aa2d20e0dae5da35cb34effa8b3deca256d",
+      "width": 1920,
+      "height": 1080,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    }
+  },
+  "attachments": {
+    "Accelerator": {
+      "src": "/media/apex/attachments/accelerator.svg",
+      "sourceFile": "Accelerator.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Accelerator.svg",
+      "sourceSha1": "b0cae074bf22724968ff07533f827a3b9a89dde5",
+      "localSha256": "76c2e64bc35d039f64f60421f603d80640fe87103a66d66a8b249700d0e2cc3a",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Barrel Stabilizer": {
+      "src": "/media/apex/attachments/barrel-stabilizer.svg",
+      "sourceFile": "Barrel Stabilizer.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Barrel_Stabilizer.svg",
+      "sourceSha1": "4c1ddb22a45597863ac95a736464068689230fb8",
+      "localSha256": "68ccb3fbb018ea2f123b2cadff4a1183d2b83cc87d7932be55870bfe4cfb67cd",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Disruptor Rounds": {
+      "src": "/media/apex/attachments/disruptor-rounds.svg",
+      "sourceFile": "Disruptor Rounds.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Disruptor_Rounds.svg",
+      "sourceSha1": "c5a0ffe9aaaafc6305b6e580162e7f1b4b9bdbda",
+      "localSha256": "99ca805e2656ce709b8d92ad625143c347a891338d7e31bdcc7a0286acf96d55",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Double Tap Trigger": {
+      "src": "/media/apex/attachments/double-tap-trigger.svg",
+      "sourceFile": "Double Tap Trigger.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Double_Tap_Trigger.svg",
+      "sourceSha1": "d68f2d5c325d3a8125240ee93a2bd6bcd8f067d7",
+      "localSha256": "89452a4fde1430436acdf3a3603978077edda9a8cebbb291a57b70cdc79afc88",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Elite Hop-Up": {
+      "src": "/media/apex/attachments/elite-hop-up.svg",
+      "sourceFile": "Hop-Up Attachment.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Hop-Up_Attachment.svg",
+      "sourceSha1": "2ea104685f49670b895c37726038cff3c21fd227",
+      "localSha256": "b4f79ec2b2e3afa2982b518253cd74f00cdc16c6baec45006cc7356f5701c347",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Extended Energy Magazine": {
+      "src": "/media/apex/attachments/extended-energy-magazine.svg",
+      "sourceFile": "Extended Energy Mag.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Extended_Energy_Mag.svg",
+      "sourceSha1": "ad656299e62a72c458197330e61c6f65118a490f",
+      "localSha256": "c579aaa17394824b2b4a76116c45eb9b348d6d239f03fd1e2447662c2f57dc7a",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Extended Heavy Magazine": {
+      "src": "/media/apex/attachments/extended-heavy-magazine.svg",
+      "sourceFile": "Extended Heavy Mag.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Extended_Heavy_Mag.svg",
+      "sourceSha1": "b7e01e06e6f892c223e8fa6a1477ca3585e7f307",
+      "localSha256": "794cc2175bd8ac38aa1e8a4ba5dd2f977921678154295c9b3c2f3ba1a5c644f9",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Extended Light Magazine": {
+      "src": "/media/apex/attachments/extended-light-magazine.svg",
+      "sourceFile": "Extended Light Mag.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Extended_Light_Mag.svg",
+      "sourceSha1": "2c9e02fc552bd2433ab1845f4ece0ddaa6b25576",
+      "localSha256": "1b3785311e66d4694c08cd796422bc140b6f0a374083802f75958b8309552148",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Extended Light/Heavy Magazine": {
+      "src": "/media/apex/attachments/extended-light-heavy-magazine.svg",
+      "sourceFile": "Mag Attachment CAR.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Mag_Attachment_CAR.svg",
+      "sourceSha1": "c2a5cdd2f27cf23425dca96277943d3a90619da2",
+      "localSha256": "442e5b95ad5ac963142674cc6361911a69925421f7b54293d14dc7cf6e0a3c7b",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Extended Sniper Magazine": {
+      "src": "/media/apex/attachments/extended-sniper-magazine.svg",
+      "sourceFile": "Extended Sniper Mag.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Extended_Sniper_Mag.svg",
+      "sourceSha1": "5542b9b648b843853b092f1e8ec797c9d6c575d4",
+      "localSha256": "992aa37fe531a20e81291a48a270224b447213badb6259f868c9a8d4919c9c22",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Graffiti Mod": {
+      "src": "/media/apex/attachments/graffiti-mod.svg",
+      "sourceFile": "Graffiti Mod.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Graffiti_Mod.svg",
+      "sourceSha1": "5ce0e9ebfd113063cb103da0380f7609ce7cb2b7",
+      "localSha256": "216ddd2bbce184e7b01b4739e2a55018ec79f7a1cfba97dc7d3328520f7a67ee",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Gun Shield Generator": {
+      "src": "/media/apex/attachments/gun-shield-generator.svg",
+      "sourceFile": "Gun Shield Generator.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Gun_Shield_Generator.svg",
+      "sourceSha1": "cdc40a0ef4385bc1bfccb318aed7e84775447606",
+      "localSha256": "39fbe91a7feeac6f78b0e3fbed79c6f32cf7a55e428747f15f661d2de4b06a13",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Kinetic Feeder": {
+      "src": "/media/apex/attachments/kinetic-feeder.svg",
+      "sourceFile": "Kinetic Feeder.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Kinetic_Feeder.svg",
+      "sourceSha1": "222ac2091465b6821c299642b6644a0b9a638c2e",
+      "localSha256": "cdf2f2e196c90f36d58fb53cc6c575128f3a772329875b4c790bd01f45981a3d",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Laser Sight": {
+      "src": "/media/apex/attachments/laser-sight.svg",
+      "sourceFile": "Laser Sight.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Laser_Sight.svg",
+      "sourceSha1": "1b5a0a419a85c77b12f5d06501d433c9e9e2932f",
+      "localSha256": "5e492cf289d1ce2f69ecc6bbd3d637ef681ea85177e8b77261e4713fd55a4baf",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Optics": {
+      "src": "/media/apex/attachments/optics.svg",
+      "sourceFile": "Optics Attachment.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Optics_Attachment.svg",
+      "sourceSha1": "668ca36bca8a61ed7f11004f2e318e65db7655e0",
+      "localSha256": "fa69a0bf4905867925a098b4b02bb67d8676c3f871640bff57f5adc97fc10bda",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Selectfire Receiver": {
+      "src": "/media/apex/attachments/selectfire-receiver.svg",
+      "sourceFile": "Selectfire Receiver.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Selectfire_Receiver.svg",
+      "sourceSha1": "25c7970f47eca27734358b09992682dd06233b13",
+      "localSha256": "0e58ffa75e1be4e8ca08a605a1ebe5e0bb82b5d994f69e0b37449f1a8828b103",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Shotgun Bolt": {
+      "src": "/media/apex/attachments/shotgun-bolt.svg",
+      "sourceFile": "Shotgun Bolt.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Shotgun_Bolt.svg",
+      "sourceSha1": "6923125f654b60bc1da96f64bfa3595017838a24",
+      "localSha256": "4887396e44dc666e5bf2c9cd7139b9f5d02fe832cdf4ef1d825ce6f8769b08e2",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Skullpiercer Rifling": {
+      "src": "/media/apex/attachments/skullpiercer-rifling.svg",
+      "sourceFile": "Skullpiercer Rifling.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Skullpiercer_Rifling.svg",
+      "sourceSha1": "a84de910751449d759d4f8f276acd52ed1df9a00",
+      "localSha256": "42e61e60b0e2a06cea85d791e921d046c975ddf317c7ae291a28efb1ca16900c",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Sniper Stock": {
+      "src": "/media/apex/attachments/sniper-stock.svg",
+      "sourceFile": "Sniper Stock.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Sniper_Stock.svg",
+      "sourceSha1": "4637a1364a591974343b03b0b84cb0a4975832bb",
+      "localSha256": "f26d4336e891d0a720736433ecac2b773e7cca69bff8cd1b07dd5cd23157b18f",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Special muzzle module": {
+      "src": "/media/apex/attachments/special-muzzle-module.svg",
+      "sourceFile": "Barrel Attachment.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Barrel_Attachment.svg",
+      "sourceSha1": "123b7bb0288d9a9130e83edfa6fd9380cb12cfed",
+      "localSha256": "5467ce56e8be919825527709450813517c921b27d41d32fea28746de501254b7",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Standard Stock": {
+      "src": "/media/apex/attachments/standard-stock.svg",
+      "sourceFile": "Standard Stock.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Standard_Stock.svg",
+      "sourceSha1": "8455a8a84814d257c1c86413823194e4425aabcf",
+      "localSha256": "1639ad50bc3ecba7c6ac48520792207982414b734b5dd444a1fd0043f9351696",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    },
+    "Turbocharger": {
+      "src": "/media/apex/attachments/turbocharger.svg",
+      "sourceFile": "Turbocharger.svg",
+      "sourceUrl": "https://apexlegends.wiki.gg/wiki/File:Turbocharger.svg",
+      "sourceSha1": "13522f6c90515db06a47abed07ded18997343661",
+      "localSha256": "2eb3c2b4acf664e8fbd5f7a579f2864d9bb66546f0aa90f1b88d3564f9e43d39",
+      "width": 512,
+      "height": 512,
+      "rights": "Game artwork © Electronic Arts / Respawn; source file hosted by The Apex Legends Wiki"
+    }
+  }
+}

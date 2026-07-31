@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg5" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-opacity:0.251;stroke:#000000;stroke-width:17.8911;stroke-linejoin:round;stroke-miterlimit:15.1181;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" id="namedview7" inkscape:current-layer="layer1" inkscape:cx="243.82197" inkscape:cy="260.81305" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:showpageshadow="2" inkscape:window-height="1361" inkscape:window-maximized="1" inkscape:window-width="2560" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:zoom="0.58854417" pagecolor="#ffffff" showgrid="false" units="px" width="512px">
+	</sodipodi:namedview>
+<g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+	<path id="rect846" class="st0" d="M58.4,20.9h395.2c14.6,14.6,22.8,22.8,37.4,37.4v395.2c-14.6,14.6-22.8,22.8-37.4,37.4H58.4
+		c-14.6-14.6-22.8-22.8-37.4-37.4V58.4C35.6,43.8,43.8,35.6,58.4,20.9z"/>
+	<g id="g848" transform="matrix(2.6653867,0,0,2.6653854,18.423013,18.515659)">
+		<circle id="circle4" cx="89.1" cy="89.2" r="7.9"/>
+		<rect id="rect6" x="86.5" y="20.4" width="5.3" height="38.6"/>
+		<rect id="rect8" x="86.5" y="119.2" width="5.3" height="38.6"/>
+		<path id="path10" d="M40.8,104.7h-6.4c5.3,18.9,20,33.6,38.9,38.9v-6C58.1,132.7,45.7,120.2,40.8,104.7z"/>
+		<path id="path12" d="M34.3,73.7h6c5.3-15.5,17.8-28,33.3-32.9v-6.4C54.7,40.1,40,54.8,34.3,73.7z"/>
+		<rect id="rect14" x="20.5" y="86.7" width="38.6" height="5.3"/>
+		<path id="path16" d="M137.5,73.7h6.4c-5.3-18.9-20-33.6-38.9-38.9v6C120.1,45.8,132.6,58.2,137.5,73.7L137.5,73.7z"/>
+		<path id="path18" d="M137.5,104.7c-4.9,15.5-17.4,27.6-32.9,32.9v6.4c18.9-5.3,33.6-20,38.9-38.9h-6V104.7z"/>
+		<rect id="rect20" x="119.2" y="86.3" width="38.6" height="5.3"/>
+	</g>
+</g>
+</svg>
