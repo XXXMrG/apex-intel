@@ -31,7 +31,7 @@ export function LegendsPage() {
       legend.description,
       legend.descriptionZh,
       ...legend.abilities.flatMap((ability) => [ability.name, ability.description, ability.descriptionZh]),
-      ...(legend.upgrades?.flatMap((tier) => tier.options.flatMap((option) => [option.name, option.nameZh, option.description])) ?? []),
+      ...(legend.upgrades?.flatMap((tier) => tier.options.flatMap((option) => [option.name, option.nameZh, option.description, option.descriptionZh])) ?? []),
     ], query)
     return classMatch && searchMatch
   }), [query, selectedClass])

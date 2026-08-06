@@ -21,14 +21,16 @@
               "branch": "A",
               "name": "Hidden Sight",
               "nameZh": "隐匿视野",
-              "description": "Activating Allfather's Cloak refreshes Eye of the Allfather. Using the tactical while cloaked hides its scan visual from enemies."
+              "description": "Activating Allfather's Cloak refreshes Eye of the Allfather. Using the tactical while cloaked hides its scan visual from enemies.",
+              "descriptionZh": "开启众神之父斗篷会刷新众神之眼。在隐身状态下使用战术技能时，敌人看不到该扫描的视觉效果。"
             },
             {
               "id": "bird-s-eye",
               "branch": "B",
               "name": "Bird's Eye",
               "nameZh": "鸟瞰之眼",
-              "description": "White Ravens split and fly toward the two nearest enemies belonging to different squads."
+              "description": "White Ravens split and fly toward the two nearest enemies belonging to different squads.",
+              "descriptionZh": "白乌鸦会分开飞向最近的 2 名敌人，且这 2 名敌人属于不同小队。"
             }
           ]
         },
@@ -41,14 +43,16 @@
               "branch": "A",
               "name": "Hunter's Agility",
               "nameZh": "猎人敏捷",
-              "description": "Reduces Eye of the Allfather activation time by 20% and its cooldown by 5 seconds."
+              "description": "Reduces Eye of the Allfather activation time by 20% and its cooldown by 5 seconds.",
+              "descriptionZh": "众神之眼的启动时间缩短 20%，冷却时间减少 5 秒。"
             },
             {
               "id": "true-predator",
               "branch": "B",
               "name": "True Predator",
               "nameZh": "真正猎手",
-              "description": "Firing a weapon while cloaked only interrupts the cloak temporarily instead of breaking it permanently. Respawn did not publish the re-cloak delay."
+              "description": "Firing a weapon while cloaked only interrupts the cloak temporarily instead of breaking it permanently. Respawn did not publish the re-cloak delay.",
+              "descriptionZh": "隐身状态下开枪只会暂时中断隐身，而不是永久打断。Respawn 未公布重新隐身延迟。"
             }
           ]
         }
@@ -74,14 +78,16 @@
               "branch": "A",
               "name": "Thunder Dome",
               "nameZh": "雷霆穹顶",
-              "description": "Electrified Dome of Protection deals 50 damage and slow the first enemy to cross."
+              "description": "Electrified Dome of Protection deals 50 damage and slow the first enemy to cross.",
+              "descriptionZh": "电能化防护穹盾会对第一个穿过的敌人造成 50 点伤害并施加减速。"
             },
             {
               "id": "healing-dome",
               "branch": "B",
               "name": "Healing Dome",
               "nameZh": "治疗穹顶",
-              "description": "Dome of Protection duration increases 4s (12s→16s). and heal double for players while in the Dome of Protection."
+              "description": "Dome of Protection duration increases 4s (12s→16s). and heal double for players while in the Dome of Protection.",
+              "descriptionZh": "防护穹盾持续时间增加 4 秒（12 秒→16 秒），并让防护穹盾内玩家受到的治疗效果翻倍。"
             }
           ]
         },
@@ -94,14 +100,16 @@
               "branch": "A",
               "name": "Triple Bombardment",
               "nameZh": "三重轰炸",
-              "description": "Get 3 charges of the Defensive Bombardment with smaller radius."
+              "description": "Get 3 charges of the Defensive Bombardment with smaller radius.",
+              "descriptionZh": "获得 3 次防御性轰炸充能，但轰炸半径更小。"
             },
             {
               "id": "fast-shotties",
               "branch": "B",
               "name": "Fast Shotties",
               "nameZh": "霰弹疾行",
-              "description": "Move at holstered speed while using shotguns and auto-reload shotguns on knock."
+              "description": "Move at holstered speed while using shotguns and auto-reload shotguns on knock.",
+              "descriptionZh": "使用霰弹枪时以收枪速度移动；击倒敌人后自动装填霰弹枪。"
             }
           ]
         }
@@ -127,14 +135,16 @@
               "branch": "A",
               "name": "Extended Flight",
               "nameZh": "延长飞行",
-              "description": "Increase Combat Glide time by 1.5s (4s → 5.5s)."
+              "description": "Increase Combat Glide time by 1.5s (4s → 5.5s).",
+              "descriptionZh": "战斗滑翔持续时间增加 1.5 秒（4 秒 → 5.5 秒）。"
             },
             {
               "id": "battpack",
               "branch": "B",
               "name": "Battpack",
               "nameZh": "电池背包",
-              "description": "Carry +1 per stack (2 → 3) and see batteries counter over Death Boxes."
+              "description": "Carry +1 per stack (2 → 3) and see batteries counter over Death Boxes.",
+              "descriptionZh": "每格可多携带 1 个护盾电池（2 → 3），并显示死亡箱内的护盾电池数量。"
             }
           ]
         },
@@ -147,14 +157,16 @@
               "branch": "A",
               "name": "Enhanced Radio",
               "nameZh": "强化无线电",
-              "description": "D.O.C. Heal Drone assignment range +50%."
+              "description": "D.O.C. Heal Drone assignment range +50%.",
+              "descriptionZh": "D.O.C. 治疗无人机的指派范围 +50%。"
             },
             {
               "id": "tactical-cooldown",
               "branch": "B",
               "name": "Tactical Cooldown+",
               "nameZh": "战术冷却+",
-              "description": "D.O.C. Heal Drone cooldown reduced by 10 seconds (45s → 35s)."
+              "description": "D.O.C. Heal Drone cooldown reduced by 10 seconds (45s → 35s).",
+              "descriptionZh": "D.O.C. 治疗无人机冷却时间减少 10 秒（45 秒 → 35 秒）。"
             }
           ]
         }
@@ -180,14 +192,16 @@
               "branch": "A",
               "name": "Field Research",
               "nameZh": "实地研究",
-              "description": "Gain access to Recon perks."
+              "description": "Gain access to Recon perks.",
+              "descriptionZh": "获得侦察型职业天赋。"
             },
             {
               "id": "ringmaster",
               "branch": "B",
               "name": "Ringmaster",
               "nameZh": "环区掌控者",
-              "description": "Gain access to Controller perks."
+              "description": "Gain access to Controller perks.",
+              "descriptionZh": "获得控制型职业天赋。"
             }
           ]
         },
@@ -200,14 +214,16 @@
               "branch": "A",
               "name": "Landing Gear",
               "nameZh": "起落架",
-              "description": "Gain better air control and softer landings."
+              "description": "Gain better air control and softer landings.",
+              "descriptionZh": "获得更好的空中操控和更柔和的落地效果。"
             },
             {
               "id": "feeling-zippy",
               "branch": "B",
               "name": "Feeling Zippy",
               "nameZh": "滑索快感",
-              "description": "+1 Zipline Gun charge and improve ally energized speed."
+              "description": "+1 Zipline Gun charge and improve ally energized speed.",
+              "descriptionZh": "滑索枪充能 +1，并提升队友的充能状态速度加成。"
             }
           ]
         }
@@ -233,14 +249,16 @@
               "branch": "A",
               "name": "Sixth Sense",
               "nameZh": "第六感",
-              "description": "Voices from the Void warns you when a new squad comes within 150 meters."
+              "description": "Voices from the Void warns you when a new squad comes within 150 meters.",
+              "descriptionZh": "当新的小队进入 150 米范围内时，虚空之声会发出警告。"
             },
             {
               "id": "phase-dome",
               "branch": "B",
               "name": "Phase Dome",
               "nameZh": "相位穹顶",
-              "description": "While casting Dimensional Rift, the portal entrance gains a Phase Dome, phasing anyone inside of it."
+              "description": "While casting Dimensional Rift, the portal entrance gains a Phase Dome, phasing anyone inside of it.",
+              "descriptionZh": "施放维度裂隙时，传送门入口会获得一个相位穹顶，使其中所有人进入相位状态。"
             }
           ]
         },
@@ -253,14 +271,16 @@
               "branch": "A",
               "name": "Fast Phase",
               "nameZh": "快速相位",
-              "description": "Into the Void activates 30% faster (0.8s → 0.5s)."
+              "description": "Into the Void activates 30% faster (0.8s → 0.5s).",
+              "descriptionZh": "踏入虚空启动速度加快 30%（0.8 秒 → 0.5 秒）。"
             },
             {
               "id": "void-jumper",
               "branch": "B",
               "name": "Void Jumper",
               "nameZh": "虚空跃迁",
-              "description": "Into the Void's duration increased by 2 seconds (4s → 6s) and enables the ability to perform a double jump while in the void."
+              "description": "Into the Void's duration increased by 2 seconds (4s → 6s) and enables the ability to perform a double jump while in the void.",
+              "descriptionZh": "踏入虚空持续时间增加 2 秒（4 秒 → 6 秒），并可在虚空中进行二段跳。"
             }
           ]
         }
@@ -286,14 +306,16 @@
               "branch": "A",
               "name": "Electric Smoke",
               "nameZh": "电能烟幕",
-              "description": "Smoke Launcher now deals 100 damage to enemy deployables."
+              "description": "Smoke Launcher now deals 100 damage to enemy deployables.",
+              "descriptionZh": "烟雾发射器现在会对敌方部署物造成 100 点伤害。"
             },
             {
               "id": "cover-me",
               "branch": "B",
               "name": "Cover Me!",
               "nameZh": "掩护我！",
-              "description": "Allies regenerate HP while inside smoke. Auto-ping enemies who trigger Double Time."
+              "description": "Allies regenerate HP while inside smoke. Auto-ping enemies who trigger Double Time.",
+              "descriptionZh": "队友在烟雾中会恢复生命值。自动标记触发疾步的敌人。"
             }
           ]
         },
@@ -306,14 +328,16 @@
               "branch": "A",
               "name": "ECM Payload",
               "nameZh": "电子干扰弹头",
-              "description": "Rolling Thunder deals 10 more damage (40 → 50 dmg) and destroys all enemy deployables."
+              "description": "Rolling Thunder deals 10 more damage (40 → 50 dmg) and destroys all enemy deployables.",
+              "descriptionZh": "雷声滚滚伤害增加 10（40 → 50 伤害），并摧毁所有敌方部署物。"
             },
             {
               "id": "medal-of-honor",
               "branch": "B",
               "name": "Medal of Honor",
               "nameZh": "荣誉勋章",
-              "description": "Revive allies 25% faster. Double Time activates when running toward knocked allies."
+              "description": "Revive allies 25% faster. Double Time activates when running toward knocked allies.",
+              "descriptionZh": "复活队友速度提高 25%。朝倒地队友奔跑时会触发疾步。"
             }
           ]
         }
@@ -339,14 +363,16 @@
               "branch": "A",
               "name": "Extra Traps",
               "nameZh": "额外陷阱",
-              "description": "+1 Nox Gas Trap charge and +2 traps in the world."
+              "description": "+1 Nox Gas Trap charge and +2 traps in the world.",
+              "descriptionZh": "诺克斯毒气陷阱充能 +1，场上可存在陷阱数量 +2。"
             },
             {
               "id": "breathe-it-in",
               "branch": "B",
               "name": "Breathe It In",
               "nameZh": "深吸一口",
-              "description": "Regenerate 1 HP/sec while inside Nox gas."
+              "description": "Regenerate 1 HP/sec while inside Nox gas.",
+              "descriptionZh": "处于诺克斯毒气中时，每秒恢复 1 生命值。"
             }
           ]
         },
@@ -359,14 +385,16 @@
               "branch": "A",
               "name": "Particle Diffuser",
               "nameZh": "粒子扩散器",
-              "description": "Nox Gas Grenade has 50% larger radius."
+              "description": "Nox Gas Grenade has 50% larger radius.",
+              "descriptionZh": "诺克斯毒气手雷半径扩大 50%。"
             },
             {
               "id": "gas-fighter",
               "branch": "B",
               "name": "Gas Fighter",
               "nameZh": "毒气斗士",
-              "description": "Nox Gas Trap recharges 300% faster while inside Nox gas."
+              "description": "Nox Gas Trap recharges 300% faster while inside Nox gas.",
+              "descriptionZh": "处于诺克斯毒气中时，诺克斯毒气陷阱充能速度提高 300%。"
             }
           ]
         }
@@ -392,14 +420,16 @@
               "branch": "A",
               "name": "Renaissance Man",
               "nameZh": "全能专家",
-              "description": "Gain access to all class world interactions (Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles)."
+              "description": "Gain access to all class world interactions (Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles).",
+              "descriptionZh": "获得所有职业的世界交互能力（突击兵补给箱、扫描补给舱、侦察信标和圆环控制台）。"
             },
             {
               "id": "boozle-eye",
               "branch": "B",
               "name": "Boozle-Eye",
               "nameZh": "骗术之眼",
-              "description": "Bamboozles also scan the enemy who shoots the decoy."
+              "description": "Bamboozles also scan the enemy who shoots the decoy.",
+              "descriptionZh": "诱饵骗术还会扫描射击诱饵的敌人。"
             }
           ]
         },
@@ -412,14 +442,16 @@
               "branch": "A",
               "name": "Me Two",
               "nameZh": "我也来",
-              "description": "+1 Psyche Out charge. You can have two active decoys at once."
+              "description": "+1 Psyche Out charge. You can have two active decoys at once.",
+              "descriptionZh": "疯猫充能 +1。你可以同时拥有 2 个激活的诱饵。"
             },
             {
               "id": "bamboozle-bonus",
               "branch": "B",
               "name": "Bamboozle Bonus",
               "nameZh": "骗术奖励",
-              "description": "Psyche Out cooldown resets after a successful bamboozle."
+              "description": "Psyche Out cooldown resets after a successful bamboozle.",
+              "descriptionZh": "成功诱骗后，疯猫冷却会重置。"
             }
           ]
         }
@@ -445,14 +477,16 @@
               "branch": "A",
               "name": "Thick Skin",
               "nameZh": "厚实皮肤",
-              "description": "Take 25% less self-damage from Stim (20 dmg → 15 dmg)."
+              "description": "Take 25% less self-damage from Stim (20 dmg → 15 dmg).",
+              "descriptionZh": "兴奋剂对自身造成的伤害降低 25%（20 伤害 → 15 伤害）。"
             },
             {
               "id": "squad-rush",
               "branch": "B",
               "name": "Squad Rush",
               "nameZh": "小队冲刺",
-              "description": "All Launch Pad users gain Stim on landing."
+              "description": "All Launch Pad users gain Stim on landing.",
+              "descriptionZh": "所有使用跳板的玩家落地时获得兴奋剂。"
             }
           ]
         },
@@ -465,14 +499,16 @@
               "branch": "A",
               "name": "Daredevil",
               "nameZh": "亡命之徒",
-              "description": "Increase Stim Surge duration the less HP you have (up to 6 seconds)."
+              "description": "Increase Stim Surge duration the less HP you have (up to 6 seconds).",
+              "descriptionZh": "生命值越低，兴奋剂冲刺持续时间越长（最多 6 秒）。"
             },
             {
               "id": "triple-jump",
               "branch": "B",
               "name": "Triple Jump",
               "nameZh": "三段跳",
-              "description": "Gain a third jump from Launch Pads."
+              "description": "Gain a third jump from Launch Pads.",
+              "descriptionZh": "从跳板获得第 3 次跳跃。"
             }
           ]
         }
@@ -498,14 +534,16 @@
               "branch": "A",
               "name": "Help is Here",
               "nameZh": "援助到场",
-              "description": "Gain all Support class perks."
+              "description": "Gain all Support class perks.",
+              "descriptionZh": "获得所有支援型职业天赋。"
             },
             {
               "id": "ultimate-conductor",
               "branch": "B",
               "name": "Ultimate Conductor",
               "nameZh": "终极导体",
-              "description": "Damage dealt converts to Ultimate charge. Knocks grant a 50% burst of charge."
+              "description": "Damage dealt converts to Ultimate charge. Knocks grant a 50% burst of charge.",
+              "descriptionZh": "造成的伤害会转化为终极技能充能。击倒会立即获得 50% 充能。"
             }
           ]
         },
@@ -518,14 +556,16 @@
               "branch": "A",
               "name": "Energized Healer",
               "nameZh": "充能医师",
-              "description": "Double the healing effect of small healing items ( and )."
+              "description": "Double the healing effect of small healing items ( and ).",
+              "descriptionZh": "小型治疗物品的回复效果翻倍。"
             },
             {
               "id": "power-pylon",
               "branch": "B",
               "name": "Power Pylon",
               "nameZh": "强化拦截塔",
-              "description": "Interception Pylon gains double HP (300 HP Total), healing rate, and capacity."
+              "description": "Interception Pylon gains double HP (300 HP Total), healing rate, and capacity.",
+              "descriptionZh": "拦截塔获得双倍生命值（总计 300 生命值）、治疗速率和容量。"
             }
           ]
         }
@@ -551,14 +591,16 @@
               "branch": "A",
               "name": "Network Expansion",
               "nameZh": "网络扩展",
-              "description": "+25% range on Neurolink and Drone EMP. (30 m → 37.5 m)"
+              "description": "+25% range on Neurolink and Drone EMP. (30 m → 37.5 m)",
+              "descriptionZh": "神经链接与无人机 EMP 的作用范围增加 25%（30 米 → 37.5 米）。"
             },
             {
               "id": "ally-moveto",
               "branch": "B",
               "name": "Ally.MoveTo()",
-              "nameZh": "队友.移动至()",
-              "description": "Crypto can Trailblaze to all allies."
+              "nameZh": "队友定位",
+              "description": "Crypto can Trailblaze to all allies.",
+              "descriptionZh": "密客可向任意队友发动「开路先锋」。"
             }
           ]
         },
@@ -571,14 +613,16 @@
               "branch": "A",
               "name": "Power Coupling",
               "nameZh": "能量耦合",
-              "description": "Crypto gains Ultimate charge from using scan beacons and scanning enemies with his drone."
+              "description": "Crypto gains Ultimate charge from using scan beacons and scanning enemies with his drone.",
+              "descriptionZh": "密客使用扫描信标，以及用无人机扫描敌人时，会获得终极技能充能。"
             },
             {
               "id": "hackathon",
               "branch": "B",
               "name": "Hackathon",
               "nameZh": "黑客马拉松",
-              "description": "Surveillance Drone cooldown reduced by 20 seconds (40s → 20s) and gain speed boost when activating Drone EMP or losing the drone."
+              "description": "Surveillance Drone cooldown reduced by 20 seconds (40s → 20s) and gain speed boost when activating Drone EMP or losing the drone.",
+              "descriptionZh": "监视无人机冷却时间减少 20 秒（40 秒 → 20 秒），并在启动无人机 EMP 或失去无人机时获得速度加成。"
             }
           ]
         }
@@ -604,14 +648,16 @@
               "branch": "A",
               "name": "Ultimate Cooldown",
               "nameZh": "终极冷却",
-              "description": "Forged Shadows cooldown reduced by 30 seconds (180s → 150s)."
+              "description": "Forged Shadows cooldown reduced by 30 seconds (180s → 150s).",
+              "descriptionZh": "锻造暗影冷却时间减少 30 秒（180 秒 → 150 秒）。"
             },
             {
               "id": "try-to-hide",
               "branch": "B",
               "name": "Try To Hide",
               "nameZh": "试着躲藏",
-              "description": "Assassin's Instinct low health markers last twice as long."
+              "description": "Assassin's Instinct low health markers last twice as long.",
+              "descriptionZh": "刺客本能的低生命值标记持续时间翻倍。"
             }
           ]
         },
@@ -624,14 +670,16 @@
               "branch": "A",
               "name": "Tactical Cooldown",
               "nameZh": "战术冷却",
-              "description": "Shadow Pounce cooldown reduced by 5 seconds (20s → 15s)."
+              "description": "Shadow Pounce cooldown reduced by 5 seconds (20s → 15s).",
+              "descriptionZh": "暗影突袭冷却时间减少 5 秒（20 秒 → 15 秒）。"
             },
             {
               "id": "agile-assassin",
               "branch": "B",
               "name": "Agile Assassin",
               "nameZh": "敏捷刺客",
-              "description": "Shadow Pounce activates and charge 50% faster."
+              "description": "Shadow Pounce activates and charge 50% faster.",
+              "descriptionZh": "暗影突袭启动和蓄力速度提高 50%。"
             }
           ]
         }
@@ -657,14 +705,16 @@
               "branch": "A",
               "name": "Wolf's Claws",
               "nameZh": "狼之利爪",
-              "description": "After teleporting with Burglar's Best Friend, get a speed boost and super fast weapon draw."
+              "description": "After teleporting with Burglar's Best Friend, get a speed boost and super fast weapon draw.",
+              "descriptionZh": "使用盗贼挚友传送后，获得速度加成和极快的武器拔出速度。"
             },
             {
               "id": "shopping-spree",
               "branch": "B",
               "name": "Shopping Spree",
               "nameZh": "疯狂采购",
-              "description": "Your squad can take +1 extra item from Black Market Boutique (2 → 3)."
+              "description": "Your squad can take +1 extra item from Black Market Boutique (2 → 3).",
+              "descriptionZh": "你的小队可从黑市精品店额外拿取 +1 件物品（2 → 3）。"
             }
           ]
         },
@@ -677,14 +727,16 @@
               "branch": "A",
               "name": "Escape Artist",
               "nameZh": "逃脱大师",
-              "description": "After teleporting with Burglar's Best Friend, regenerate 25 shield HP (until taking damage)."
+              "description": "After teleporting with Burglar's Best Friend, regenerate 25 shield HP (until taking damage).",
+              "descriptionZh": "使用盗贼挚友传送后，恢复 25 点护盾；受到伤害后停止恢复。"
             },
             {
               "id": "brand-new-bag",
               "branch": "B",
               "name": "Brand New Bag",
               "nameZh": "崭新背包",
-              "description": "Gain one Purple Backpack in the next Care Package."
+              "description": "Gain one Purple Backpack in the next Care Package.",
+              "descriptionZh": "在下一个空投补给舱中获得 1 个紫色背包。"
             }
           ]
         }
@@ -710,14 +762,16 @@
               "branch": "A",
               "name": "Combat Reserve",
               "nameZh": "战斗储备",
-              "description": "Gain extra ammo per inventory stack, extra grenade capacity, and automatically reload a stowed weapon. Red Weapon Supply Bin access was removed."
+              "description": "Gain extra ammo per inventory stack, extra grenade capacity, and automatically reload a stowed weapon. Red Weapon Supply Bin access was removed.",
+              "descriptionZh": "每组库存弹药数量增加，手雷携带容量增加，并会自动装填收起的武器。红色武器补给箱使用权限已移除。"
             },
             {
               "id": "locked-and-loaded",
               "branch": "B",
               "name": "Locked and Loaded",
               "nameZh": "上膛待发",
-              "description": "Faster reloads and infinite ammo when behind Amped Cover and Amped Shield is intact."
+              "description": "Faster reloads and infinite ammo when behind Amped Cover and Amped Shield is intact.",
+              "descriptionZh": "在强化掩体后方且强化护盾完好时，装填更快并拥有无限弹药。"
             }
           ]
         },
@@ -730,14 +784,16 @@
               "branch": "A",
               "name": "Ramped Up",
               "nameZh": "火力全开",
-              "description": "Mobile Minigun \"Sheila\"'s handling and spin-up time are improved by 20%."
+              "description": "Mobile Minigun \"Sheila\"'s handling and spin-up time are improved by 20%.",
+              "descriptionZh": "移动机枪“希拉”的操控性和预热时间提升 20%。"
             },
             {
               "id": "rebuild-module",
               "branch": "B",
               "name": "Rebuild Module",
               "nameZh": "重建模块",
-              "description": "Amped Cover will regenerate after not being damaged for a period of time."
+              "description": "Amped Cover will regenerate after not being damaged for a period of time.",
+              "descriptionZh": "强化掩体在一段时间未受伤害后会再生。"
             }
           ]
         }
@@ -763,14 +819,16 @@
               "branch": "A",
               "name": "Gravity Boots",
               "nameZh": "重力靴",
-              "description": "Pressing while in the air makes the player fall much faster."
+              "description": "Pressing while in the air makes the player fall much faster.",
+              "descriptionZh": "在空中按下时，玩家会更快下落。"
             },
             {
               "id": "newt-scoot",
               "branch": "B",
               "name": "NEWT Scoot",
               "nameZh": "纽特滑行",
-              "description": "After leaving Gravity Lift, press and holds while in the air makes you fall much slower."
+              "description": "After leaving Gravity Lift, press and holds while in the air makes you fall much slower.",
+              "descriptionZh": "离开引力升降机后，在空中按住会让你更慢下落。"
             }
           ]
         },
@@ -783,14 +841,16 @@
               "branch": "A",
               "name": "Conservation Of Energy",
               "nameZh": "能量守恒",
-              "description": "Spacewalk now regenerates 25 shield HP when you soft land."
+              "description": "Spacewalk now regenerates 25 shield HP when you soft land.",
+              "descriptionZh": "太空漫步现在会在软着陆时恢复 25 点护盾。"
             },
             {
               "id": "knock-expert",
               "branch": "B",
               "name": "Knock Expert",
               "nameZh": "击倒专家",
-              "description": "+1 extra ability charge on knock."
+              "description": "+1 extra ability charge on knock.",
+              "descriptionZh": "击倒敌人时额外获得 +1 次技能充能。"
             }
           ]
         }
@@ -816,14 +876,16 @@
               "branch": "A",
               "name": "Pyro Techniques",
               "nameZh": "纵火技巧",
-              "description": "The Motherlode drops behind patches of fire for 8 seconds after the bombs explode"
+              "description": "The Motherlode drops behind patches of fire for 8 seconds after the bombs explode",
+              "descriptionZh": "强势进入的炸弹爆炸后，会在身后留下持续 8 秒的火焰区域。"
             },
             {
               "id": "knuckle-jumper",
               "branch": "B",
               "name": "Knuckle Jumper",
               "nameZh": "指节跳跃",
-              "description": "Jumping when next to your own Knuckle Cluster will give you an explosive boost (destroys the cluster afterwards)."
+              "description": "Jumping when next to your own Knuckle Cluster will give you an explosive boost (destroys the cluster afterwards).",
+              "descriptionZh": "在自己的霹雳爆破旁起跳会获得爆炸推进，并在之后摧毁该霹雳爆破。"
             }
           ]
         },
@@ -836,14 +898,16 @@
               "branch": "A",
               "name": "Reignition",
               "nameZh": "再次点燃",
-              "description": "Dealing explosive damage to enemies recharges your ultimate (for every 2 damage dealt, reduces cooldown by 1 second)."
+              "description": "Dealing explosive damage to enemies recharges your ultimate (for every 2 damage dealt, reduces cooldown by 1 second).",
+              "descriptionZh": "对敌人造成爆炸伤害会为终极技能充能（每造成 2 点伤害，冷却减少 1 秒）。"
             },
             {
               "id": "wreckless",
               "branch": "B",
               "name": "Wreckless",
               "nameZh": "肆无忌惮",
-              "description": "-50% damage taken from explosives."
+              "description": "-50% damage taken from explosives.",
+              "descriptionZh": "受到的爆炸伤害 -50%。"
             }
           ]
         }
@@ -869,14 +933,16 @@
               "branch": "A",
               "name": "Eyes in the Sky",
               "nameZh": "天眼",
-              "description": "Reveal enemies through walls within 100 meters while skydiving; enemies in line of sight can still be revealed within 250 meters."
+              "description": "Reveal enemies through walls within 100 meters while skydiving; enemies in line of sight can still be revealed within 250 meters.",
+              "descriptionZh": "跳伞时显现 100 米内隔墙敌人；视线内敌人仍可在 250 米内被显现。"
             },
             {
               "id": "full-coverage",
               "branch": "B",
               "name": "Full Coverage",
               "nameZh": "全面覆盖",
-              "description": "Missile Swarm fires more missiles (4x3 pattern → 4x5 pattern) and gets 5 seconds shorter cooldown (30s → 25s)."
+              "description": "Missile Swarm fires more missiles (4x3 pattern → 4x5 pattern) and gets 5 seconds shorter cooldown (30s → 25s).",
+              "descriptionZh": "飞弹流星发射更多导弹（4×3 阵型 → 4×5 阵型），冷却时间缩短 5 秒（30 秒 → 25 秒）。"
             }
           ]
         },
@@ -889,14 +955,16 @@
               "branch": "A",
               "name": "Supersonic",
               "nameZh": "超音速",
-              "description": "Reduce Skyward Dive launch time by 40% (5.0s → 3.0s)."
+              "description": "Reduce Skyward Dive launch time by 40% (5.0s → 3.0s).",
+              "descriptionZh": "天际俯冲发射准备时间缩短 40%（5.0 秒 → 3.0 秒）。"
             },
             {
               "id": "aerial-expert",
               "branch": "B",
               "name": "Aerial Expert",
               "nameZh": "空中专家",
-              "description": "Decreases jetpack activation cost, increased horizontal speed. Consumes fuel slightly faster."
+              "description": "Decreases jetpack activation cost, increased horizontal speed. Consumes fuel slightly faster.",
+              "descriptionZh": "降低喷气背包启动消耗，提高水平速度。燃料消耗略微加快。"
             }
           ]
         }
@@ -922,14 +990,16 @@
               "branch": "A",
               "name": "Lasting Beats",
               "nameZh": "余音不绝",
-              "description": "Enemies that leave your ultimate radius are highlighted for 5 seconds."
+              "description": "Enemies that leave your ultimate radius are highlighted for 5 seconds.",
+              "descriptionZh": "离开你终极技能半径的敌人会被高亮 5 秒。"
             },
             {
               "id": "energizing-focus",
               "branch": "B",
               "name": "Energizing Focus",
               "nameZh": "充能聚焦",
-              "description": "Landing your tactical on an enemy regenerates 25 shields (non-stackable)."
+              "description": "Landing your tactical on an enemy regenerates 25 shields (non-stackable).",
+              "descriptionZh": "战术技能命中敌人时，恢复 25 点护盾（不可叠加）。"
             }
           ]
         },
@@ -942,14 +1012,16 @@
               "branch": "A",
               "name": "Home Base",
               "nameZh": "主场优势",
-              "description": "While you’re inside of your Ultimate radius your Tactical cooldown is reduced to 8 seconds."
+              "description": "While you’re inside of your Ultimate radius your Tactical cooldown is reduced to 8 seconds.",
+              "descriptionZh": "当你位于自己的终极技能半径内时，战术技能冷却时间降低至 8 秒。"
             },
             {
               "id": "split-focus",
               "branch": "B",
               "name": "Split Focus",
               "nameZh": "分心二用",
-              "description": "+1 Focus of Attention charge."
+              "description": "+1 Focus of Attention charge.",
+              "descriptionZh": "聚焦之心充能 +1。"
             }
           ]
         }
@@ -975,14 +1047,16 @@
               "branch": "A",
               "name": "Longer Reach",
               "nameZh": "延伸触及",
-              "description": "Increases Phase Breach range by 25m."
+              "description": "Increases Phase Breach range by 25m.",
+              "descriptionZh": "相位突破距离增加 25 米。"
             },
             {
               "id": "ultimate-cooldown",
               "branch": "B",
               "name": "Ultimate Cooldown",
               "nameZh": "终极冷却",
-              "description": "Reduces Phase Breach cooldown by 30s."
+              "description": "Reduces Phase Breach cooldown by 30s.",
+              "descriptionZh": "相位突破冷却时间减少 30 秒。"
             }
           ]
         },
@@ -995,14 +1069,16 @@
               "branch": "A",
               "name": "Twin Snares",
               "nameZh": "双重电弧陷阱",
-              "description": "+1 Arc Snare charge."
+              "description": "+1 Arc Snare charge.",
+              "descriptionZh": "电弧陷阱充能 +1。"
             },
             {
               "id": "greedy-snare",
               "branch": "B",
               "name": "Greedy Snare",
               "nameZh": "贪婪陷阱",
-              "description": "Arc Snare lifetime tripled (5s → 15s) and it can snare multiple enemies."
+              "description": "Arc Snare lifetime tripled (5s → 15s) and it can snare multiple enemies.",
+              "descriptionZh": "电弧陷阱存在时间变为 3 倍（5 秒 → 15 秒），并可束缚多名敌人。"
             }
           ]
         }
@@ -1028,14 +1104,16 @@
               "branch": "A",
               "name": "Gunrunning",
               "nameZh": "持枪疾行",
-              "description": "Movement speed increased while holding SMGs and Pistols."
+              "description": "Movement speed increased while holding SMGs and Pistols.",
+              "descriptionZh": "手持冲锋枪和手枪时移动速度提高。"
             },
             {
               "id": "fire-ball",
               "branch": "B",
               "name": "Fire Ball",
               "nameZh": "火焰球",
-              "description": "Wrecking Ball drops magma patches on the ground and Mad Maggie takes 50% less fire damage."
+              "description": "Wrecking Ball drops magma patches on the ground and Mad Maggie takes 50% less fire damage.",
+              "descriptionZh": "毁灭球会在地面留下岩浆区域，疯玛吉受到的火焰伤害降低 50%。"
             }
           ]
         },
@@ -1048,14 +1126,16 @@
               "branch": "A",
               "name": "Drillslinger",
               "nameZh": "钻头投手",
-              "description": "+1 Riot Drill charge, but -25% drill duration (9s → 6.75s)."
+              "description": "+1 Riot Drill charge, but -25% drill duration (9s → 6.75s).",
+              "descriptionZh": "暴走钻头充能 +1，但钻头持续时间 -25%（9 秒 → 6.75 秒）。"
             },
             {
               "id": "big-drill",
               "branch": "B",
               "name": "Big Drill",
               "nameZh": "巨型钻头",
-              "description": "+50% Riot Drill width and depth."
+              "description": "+50% Riot Drill width and depth.",
+              "descriptionZh": "暴走钻头宽度和深度 +50%。"
             }
           ]
         }
@@ -1081,14 +1161,16 @@
               "branch": "A",
               "name": "Stronghold",
               "nameZh": "坚固阵地",
-              "description": "Castle Wall gets +500 HP (1250 HP total) and electrification lasts 120 seconds longer (120s → 240s)."
+              "description": "Castle Wall gets +500 HP (1250 HP total) and electrification lasts 120 seconds longer (120s → 240s).",
+              "descriptionZh": "终极城堡获得 +500 生命值（总计 1250 生命值），电能化持续时间延长 120 秒（120 秒 → 240 秒）。"
             },
             {
               "id": "ready-to-rumble",
               "branch": "B",
               "name": "Ready To Rumble",
               "nameZh": "准备开战",
-              "description": "Reviving a player auto loads Newcastle's weapons and triggers full regen."
+              "description": "Reviving a player auto loads Newcastle's weapons and triggers full regen.",
+              "descriptionZh": "复活一名玩家会自动装填纽卡斯尔的武器，并触发完整恢复。"
             }
           ]
         },
@@ -1101,14 +1183,16 @@
               "branch": "A",
               "name": "Ultimate Savior",
               "nameZh": "终极救星",
-              "description": "When you slam down Castle Wall, allies in the impact zone get 15 seconds of shield regeneration."
+              "description": "When you slam down Castle Wall, allies in the impact zone get 15 seconds of shield regeneration.",
+              "descriptionZh": "落下终极城堡时，冲击区域内的队友获得 15 秒护盾恢复。"
             },
             {
               "id": "defensive-line",
               "branch": "B",
               "name": "Defensive Line",
               "nameZh": "防御阵线",
-              "description": "Tactical and Revive Shield knocks back enemies once."
+              "description": "Tactical and Revive Shield knocks back enemies once.",
+              "descriptionZh": "战术技能与复活护盾各可击退敌人一次。"
             }
           ]
         }
@@ -1134,14 +1218,16 @@
               "branch": "A",
               "name": "Controlling my Prey",
               "nameZh": "掌控猎物",
-              "description": "Gain all Controller class perks."
+              "description": "Gain all Controller class perks.",
+              "descriptionZh": "获得所有控制型职业天赋。"
             },
             {
               "id": "improved-mark",
               "branch": "B",
               "name": "Improved Mark",
               "nameZh": "强化标记",
-              "description": "Sniper's Mark marked enemies are briefly highlighted, their icon is visible through walls and their health bar is revealed to the squad."
+              "description": "Sniper's Mark marked enemies are briefly highlighted, their icon is visible through walls and their health bar is revealed to the squad.",
+              "descriptionZh": "被狙击手标记标记的敌人会短暂高亮，其图标可隔墙可见，且其生命值条会向小队显示。"
             }
           ]
         },
@@ -1154,14 +1240,16 @@
               "branch": "A",
               "name": "Herd Tracker",
               "nameZh": "猎群追踪",
-              "description": "Marking an enemy with Spotter's Lens marks the entire team."
+              "description": "Marking an enemy with Spotter's Lens marks the entire team.",
+              "descriptionZh": "用观察镜标记一名敌人时，会标记其整支队伍。"
             },
             {
               "id": "sniper-cover",
               "branch": "B",
               "name": "Sniper Cover",
               "nameZh": "狙击掩护",
-              "description": "Adds a Gun Shield to Sniper's Mark."
+              "description": "Adds a Gun Shield to Sniper's Mark.",
+              "descriptionZh": "为狙击手标记添加枪盾。"
             }
           ]
         }
@@ -1187,14 +1275,16 @@
               "branch": "A",
               "name": "Hidden Spikes",
               "nameZh": "隐匿尖刺",
-              "description": "Piercing Spikes are hidden while dormant."
+              "description": "Piercing Spikes are hidden while dormant.",
+              "descriptionZh": "穿刺尖刺休眠时处于隐藏状态。"
             },
             {
               "id": "sole-piercer",
               "branch": "B",
               "name": "Sole Piercer",
               "nameZh": "孤锋穿刺",
-              "description": "Piercing Spikes activate twice as fast and deal more damages (15 → 20)."
+              "description": "Piercing Spikes activate twice as fast and deal more damages (15 → 20).",
+              "descriptionZh": "穿刺尖刺启动速度变为 2 倍，并造成更多伤害（15 → 20）。"
             }
           ]
         },
@@ -1207,14 +1297,16 @@
               "branch": "A",
               "name": "Ferro-Door",
               "nameZh": "铁磁门",
-              "description": "Using Barricade on destroyed doors rebuilds the door."
+              "description": "Using Barricade on destroyed doors rebuilds the door.",
+              "descriptionZh": "对已被摧毁的门使用加固会重建该门。"
             },
             {
               "id": "resilient-veil",
               "branch": "B",
               "name": "Resilient Veil",
               "nameZh": "韧性黑幕",
-              "description": "Dark Veil lasts 5 seconds longer (15s → 20s)."
+              "description": "Dark Veil lasts 5 seconds longer (15s → 20s).",
+              "descriptionZh": "黑暗面纱持续时间增加 5 秒（15 秒 → 20 秒）。"
             }
           ]
         }
@@ -1240,14 +1332,16 @@
               "branch": "A",
               "name": "Extra Bullet",
               "nameZh": "额外子弹",
-              "description": "+1 Whistler charge."
+              "description": "+1 Whistler charge.",
+              "descriptionZh": "智能子弹充能 +1。"
             },
             {
               "id": "trap-mode",
               "branch": "B",
               "name": "Trap Mode",
               "nameZh": "陷阱模式",
-              "description": "Whistler dart duration tripled (5s → 15s) and dart damage increased to 35 damage."
+              "description": "Whistler dart duration tripled (5s → 15s) and dart damage increased to 35 damage.",
+              "descriptionZh": "智能子弹飞镖持续时间变为 3 倍（5 秒 → 15 秒），飞镖伤害提高至 35 点。"
             }
           ]
         },
@@ -1260,14 +1354,16 @@
               "branch": "A",
               "name": "Killing Time",
               "nameZh": "杀戮时间",
-              "description": "Tempest duration increased by 15s (30s → 45s)."
+              "description": "Tempest duration increased by 15s (30s → 45s).",
+              "descriptionZh": "暴风雨持续时间增加 15 秒（30 秒 → 45 秒）。"
             },
             {
               "id": "quiet-time",
               "branch": "B",
               "name": "Quiet Time",
               "nameZh": "静默时刻",
-              "description": "Whistler silences the player on impact instead of applying Overheat and also applies a 0.5s slowdown."
+              "description": "Whistler silences the player on impact instead of applying Overheat and also applies a 0.5s slowdown.",
+              "descriptionZh": "智能子弹命中时会沉默玩家，而不是施加过热，并且还会施加 0.5 秒减速。"
             }
           ]
         }
@@ -1293,14 +1389,16 @@
               "branch": "A",
               "name": "Battpack",
               "nameZh": "电池背包",
-              "description": "Carry +1 per stack (2 → 3) and see batteries counter over Death Boxes."
+              "description": "Carry +1 per stack (2 → 3) and see batteries counter over Death Boxes.",
+              "descriptionZh": "每格可多携带 1 个护盾电池（2 → 3），并显示死亡箱内的护盾电池数量。"
             },
             {
               "id": "bigger-jam",
               "branch": "B",
               "name": "Bigger Jam",
               "nameZh": "扩大干扰",
-              "description": "Energy Barricade radius is increased by 10% (10m → 11m)."
+              "description": "Energy Barricade radius is increased by 10% (10m → 11m).",
+              "descriptionZh": "能量屏障半径增加 10%（10 米 → 11 米）。"
             }
           ]
         },
@@ -1313,14 +1411,16 @@
               "branch": "A",
               "name": "Instant Barrier",
               "nameZh": "即时屏障",
-              "description": "A portion of Radiant Transfer's charge is applied instantly."
+              "description": "A portion of Radiant Transfer's charge is applied instantly.",
+              "descriptionZh": "光芒转移的一部分充能会立即生效。"
             },
             {
               "id": "enduring-barrier",
               "branch": "B",
               "name": "Enduring Barrier",
               "nameZh": "持久屏障",
-              "description": "Radiant Transfer's regen no longer gets paused when damaged."
+              "description": "Radiant Transfer's regen no longer gets paused when damaged.",
+              "descriptionZh": "光芒转移的恢复受到伤害时不再暂停。"
             }
           ]
         }
@@ -1346,14 +1446,16 @@
               "branch": "A",
               "name": "Eye to Another World",
               "nameZh": "洞见彼端",
-              "description": "Gain all Recon class perks."
+              "description": "Gain all Recon class perks.",
+              "descriptionZh": "获得所有侦察型职业天赋。"
             },
             {
               "id": "controller-of-worlds",
               "branch": "B",
               "name": "Controller of Worlds",
               "nameZh": "世界掌控者",
-              "description": "Gain all Controller class perks."
+              "description": "Gain all Controller class perks.",
+              "descriptionZh": "获得所有控制型职业天赋。"
             }
           ]
         },
@@ -1366,14 +1468,16 @@
               "branch": "A",
               "name": "Staring into the Void",
               "nameZh": "凝视虚空",
-              "description": "Increases Void Passage scan time for Alter by 15 extra seconds."
+              "description": "Increases Void Passage scan time for Alter by 15 extra seconds.",
+              "descriptionZh": "变幻的虚空通道扫描时间额外增加 15 秒。"
             },
             {
               "id": "void-breacher",
               "branch": "B",
               "name": "Void Breacher",
               "nameZh": "虚空破袭者",
-              "description": "Using a friendly Void Passage grants faster movement speed and reloads."
+              "description": "Using a friendly Void Passage grants faster movement speed and reloads.",
+              "descriptionZh": "使用友方虚空通道后，获得更快移动速度和更快装填。"
             }
           ]
         }
@@ -1399,14 +1503,16 @@
               "branch": "A",
               "name": "Hunt Target",
               "nameZh": "追猎目标",
-              "description": "Speed boost when running towards an enemy marked by Tracker Dart."
+              "description": "Speed boost when running towards an enemy marked by Tracker Dart.",
+              "descriptionZh": "朝被追踪镖标记的敌人奔跑时获得速度加成。"
             },
             {
               "id": "extra-traps",
               "branch": "B",
               "name": "Extra Traps",
               "nameZh": "额外陷阱",
-              "description": "+1 Tracker Dart charge and +1 traps in the world."
+              "description": "+1 Tracker Dart charge and +1 traps in the world.",
+              "descriptionZh": "追踪镖充能 +1，场上可存在陷阱数量 +1。"
             }
           ]
         },
@@ -1419,14 +1525,16 @@
               "branch": "A",
               "name": "Life Syphon",
               "nameZh": "生命虹吸",
-              "description": "Health and shield recovery upon damaging enemy with Stinger Bolt."
+              "description": "Health and shield recovery upon damaging enemy with Stinger Bolt.",
+              "descriptionZh": "使用刺针弩箭对敌人造成伤害时，恢复生命值和护盾。"
             },
             {
               "id": "alternate-mode",
               "branch": "B",
               "name": "Alternate Mode",
               "nameZh": "替代模式",
-              "description": "+2 Stinger Bolt charges (Total 3), but has fewer pulses and a smaller radius."
+              "description": "+2 Stinger Bolt charges (Total 3), but has fewer pulses and a smaller radius.",
+              "descriptionZh": "刺针弩箭充能 +2（总计 3），但脉冲次数更少、半径更小。"
             }
           ]
         }
@@ -1452,14 +1560,16 @@
               "branch": "A",
               "name": "Sliding Shooter",
               "nameZh": "滑行射手",
-              "description": "Bullets shot while sliding come straight from inventory instead of magazine."
+              "description": "Bullets shot while sliding come straight from inventory instead of magazine.",
+              "descriptionZh": "滑行时射出的子弹直接来自库存，而不是弹匣。"
             },
             {
               "id": "long-haul",
               "branch": "B",
               "name": "Long Haul",
               "nameZh": "长效冲刺",
-              "description": "Increase Nitro Gate effect duration to 5 seconds (3s -> 5s)."
+              "description": "Increase Nitro Gate effect duration to 5 seconds (3s -> 5s).",
+              "descriptionZh": "氮气闸门效果持续时间增加至 5 秒（3 秒 → 5 秒）。"
             }
           ]
         },
@@ -1472,14 +1582,16 @@
               "branch": "A",
               "name": "Jump Gate",
               "nameZh": "跳跃之门",
-              "description": "Upgrades the Nitro Gate to give a double-jump."
+              "description": "Upgrades the Nitro Gate to give a double-jump.",
+              "descriptionZh": "升级氮气闸门，使其提供二段跳。"
             },
             {
               "id": "super-slider",
               "branch": "B",
               "name": "Super Slider",
               "nameZh": "超级滑手",
-              "description": "Reduce Nitro Gate cooldown by 5 seconds (25s -> 20s) and increase maximum in-world Nitro Gate amount by 1 (2 -> 3)."
+              "description": "Reduce Nitro Gate cooldown by 5 seconds (25s -> 20s) and increase maximum in-world Nitro Gate amount by 1 (2 -> 3).",
+              "descriptionZh": "氮气闸门冷却时间减少 5 秒（25 秒 → 20 秒），场上氮气闸门最大数量 +1（2 → 3）。"
             }
           ]
         }

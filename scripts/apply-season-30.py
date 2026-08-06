@@ -141,14 +141,33 @@ UPGRADE_OVERRIDES = {
 }
 
 
-def apply():
-    upgrades = load(RESEARCH / "season30-upgrades.json")
+def iter_upgrade_options(upgrades):
     for item in upgrades["items"]:
-        overrides = UPGRADE_OVERRIDES.get(item["legendId"], {})
         for tier in item["tiers"]:
             for option in tier["options"]:
-                if option["id"] in overrides:
-                    option["description"] = overrides[option["id"]]
+                yield item, tier, option
+
+
+def validate_upgrade_descriptions(upgrades):
+    options = list(iter_upgrade_options(upgrades))
+    missing = [
+        f"{item['legendId']}/{option['id']}"
+        for item, _tier, option in options
+        if not option.get("descriptionZh", "").strip()
+    ]
+    if len(options) != upgrades["meta"]["count"] or len(options) != 112:
+        raise ValueError(f"Season 30 upgrade count mismatch: {len(options)} options")
+    if missing:
+        raise ValueError(f"Season 30 upgrade descriptionZh missing: {', '.join(missing)}")
+
+
+def apply():
+    upgrades = load(RESEARCH / "season30-upgrades.json")
+    for item, _tier, option in iter_upgrade_options(upgrades):
+        overrides = UPGRADE_OVERRIDES.get(item["legendId"], {})
+        if option["id"] in overrides:
+            option["description"] = overrides[option["id"]]
+    validate_upgrade_descriptions(upgrades)
     dump(RESEARCH / "season30-upgrades.json", upgrades)
     upgrades_by_id = {item["legendId"]: item for item in upgrades["items"]}
     attachments = load(DATA / "attachments.json")

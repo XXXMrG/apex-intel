@@ -17,6 +17,26 @@ const media = require(path.join(dataDir, 'media-manifest.json'))
 const season = require(path.join(dataDir, 'season.json'))
 const upgradeSnapshot = require(path.join(__dirname, '..', 'research', 'season30-upgrades.json'))
 
+function numericTokens(text) {
+  return String(text).match(/[+-]?\d+(?:\.\d+)?%?/g) ?? []
+}
+
+function assertUpgradeDescriptionZh(name, items) {
+  const options = items.flatMap((legend) => legend.upgrades.flatMap((tier) => tier.options.map((option) => ({ legend, tier, option }))))
+  assert.equal(options.length, 112, `${name}: Season 30 upgrade count must be 112`)
+  for (const { legend, tier, option } of options) {
+    assert.ok(option.descriptionZh?.trim(), `${name}/${legend.id}/level${tier.armorLevel}/${option.id}: missing Chinese upgrade description`)
+    const sourceNumbers = numericTokens(option.description).map((token) => token.replace(/^[+-]/, ''))
+    const translatedNumbers = numericTokens(option.descriptionZh).map((token) => token.replace(/^[+-]/, ''))
+    for (const token of new Set(sourceNumbers)) {
+      assert.ok(
+        translatedNumbers.filter((value) => value === token).length >= sourceNumbers.filter((value) => value === token).length,
+        `${name}/${legend.id}/level${tier.armorLevel}/${option.id}: Chinese upgrade description changed numeric token ${token}`,
+      )
+    }
+  }
+}
+
 function validateDataset(name, dataset) {
   assert.equal(dataset.meta.count, dataset.items.length, `${name}: meta count mismatch`)
   const ids = dataset.items.map((item) => item.id)
@@ -70,13 +90,15 @@ for (const legend of legends.items) {
   for (const tier of legend.upgrades) {
     assert.equal(tier.options.length, 2, `${legend.name}/level${tier.armorLevel}: must have two choices`)
     assert.deepEqual(tier.options.map((option) => option.branch), ['A', 'B'])
-    assert.ok(tier.options.every((option) => option.name && option.nameZh && option.description), `${legend.name}/level${tier.armorLevel}: incomplete upgrade`)
+    assert.ok(tier.options.every((option) => option.name && option.nameZh && option.description && option.descriptionZh), `${legend.name}/level${tier.armorLevel}: incomplete upgrade`)
   }
   assert.ok(legend.upgradeSource?.url?.startsWith('https://'), `${legend.name}: missing upgrade source`)
 }
 assert.deepEqual(legends.items.filter((legend) => !legend.nameZh).map((legend) => legend.name), [])
 assert.equal(legends.items.reduce((sum, legend) => sum + legend.upgrades.flatMap((tier) => tier.options).length, 0), 112)
 assert.equal(upgradeSnapshot.meta.count, 112)
+assertUpgradeDescriptionZh('legends', legends.items)
+assertUpgradeDescriptionZh('season30-upgrades', upgradeSnapshot.items.map((item) => ({ id: item.legendId, upgrades: item.tiers })))
 
 assert.equal(weapons.items.length, 29, 'current weapon inventory must contain 29 records')
 const weaponCategoryCounts = Object.fromEntries(
