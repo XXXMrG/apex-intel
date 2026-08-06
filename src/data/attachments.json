@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "gameVersion": "Season 30 · Marked (launch snapshot)",
+    "fetchedAt": "2026-08-06T09:30:00Z",
+    "sourceName": "EA Marked Patch Notes + launch-day in-game stat cards",
+    "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+    "license": "EA official facts; gameplay-card values retained as attributed observations",
+    "count": 5
+  },
+  "translationPolicy": {
+    "familyNameZh": "腐化配件",
+    "familyNameEn": "Corrupted Attachments",
+    "statusZh": "站内临时简中口径；截至 2026-08-06 尚无足够可审计的社区样本支持唯一主流译名，因此并列保留“变异配件”等候选，不冒充官方简中译名。",
+    "aliasesZh": [
+      "腐化红配件",
+      "变异配件",
+      "红色腐化配件"
+    ]
+  },
+  "items": [
+    {
+      "rarity": "Corrupted / Mythic (red)",
+      "rarityZh": "腐化／神话（红色）",
+      "limitPerWeapon": 1,
+      "availabilityZh": [
+        "基础战利品低概率刷新",
+        "第 2／3 回合空投补给",
+        "高级战利品区域"
+      ],
+      "source": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "EA official facts; gameplay card observations attributed in each example"
+      },
+      "id": "overflowing-magazine",
+      "name": "Overflowing Magazine",
+      "nameZh": "溢出弹匣",
+      "aliasesZh": [
+        "超量弹匣"
+      ],
+      "slot": "Magazine",
+      "slotZh": "弹匣",
+      "buffZh": "弹匣容量超过紫色扩容弹匣；实际容量按武器分别计算。",
+      "drawbackZh": "换弹时间增加。",
+      "compatibilityBasisZh": "所有可装备扩容弹匣的非空投武器。",
+      "compatibleWeaponIds": [
+        "havoc-rifle",
+        "vk-47-flatline",
+        "hemlok-breach-ar",
+        "r-301-carbine",
+        "nemesis-burst-ar",
+        "alternator-smg",
+        "prowler-burst-pdw",
+        "r-99-smg",
+        "volt-smg",
+        "c-a-r-smg",
+        "devotion-lmg",
+        "m600-spitfire",
+        "rampage-lmg",
+        "g7-scout",
+        "triple-take",
+        "charge-rifle",
+        "longbow-dmr",
+        "sentinel",
+        "re-45-burst",
+        "wingman"
+      ],
+      "verifiedExamples": [
+        {
+          "weaponId": "r-99-smg",
+          "stats": [
+            {
+              "labelZh": "弹匣容量",
+              "delta": "+15",
+              "result": "33 发"
+            },
+            {
+              "labelZh": "换弹时间",
+              "delta": "+1.1 秒"
+            }
+          ],
+          "evidence": "Season 30 游戏内属性卡；红弹匣容量与当前 wiki.gg 武器卡交叉核对"
+        }
+      ]
+    },
+    {
+      "rarity": "Corrupted / Mythic (red)",
+      "rarityZh": "腐化／神话（红色）",
+      "limitPerWeapon": 1,
+      "availabilityZh": [
+        "基础战利品低概率刷新",
+        "第 2／3 回合空投补给",
+        "高级战利品区域"
+      ],
+      "source": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "EA official facts; gameplay card observations attributed in each example"
+      },
+      "id": "headseeker-barrel",
+      "name": "Headseeker Barrel",
+      "nameZh": "寻头者枪管",
+      "aliasesZh": [
+        "寻头枪管"
+      ],
+      "slot": "Barrel",
+      "slotZh": "枪管",
+      "buffZh": "提高爆头伤害，并提供紫色枪管级别的后坐力控制。",
+      "drawbackZh": "降低腰射精度。",
+      "compatibilityBasisZh": "可装备枪管稳定器的非空投武器。",
+      "compatibleWeaponIds": [
+        "r-301-carbine",
+        "nemesis-burst-ar",
+        "devotion-lmg",
+        "m600-spitfire",
+        "rampage-lmg",
+        "g7-scout"
+      ],
+      "verifiedExamples": [
+        {
+          "weaponId": null,
+          "stats": [
+            {
+              "labelZh": "爆头伤害",
+              "delta": "+3"
+            },
+            {
+              "labelZh": "后坐力控制",
+              "delta": "+10"
+            },
+            {
+              "labelZh": "腰射精度",
+              "delta": "-13"
+            }
+          ],
+          "evidence": "Season 30 游戏内属性卡；该例当前武器未在素材中可靠识别"
+        }
+      ]
+    },
+    {
+      "rarity": "Corrupted / Mythic (red)",
+      "rarityZh": "腐化／神话（红色）",
+      "limitPerWeapon": 1,
+      "availabilityZh": [
+        "基础战利品低概率刷新",
+        "第 2／3 回合空投补给",
+        "高级战利品区域"
+      ],
+      "source": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "EA official facts; gameplay card observations attributed in each example"
+      },
+      "id": "tactical-laser",
+      "name": "Tactical Laser",
+      "nameZh": "战术激光瞄准器",
+      "aliasesZh": [
+        "战术激光"
+      ],
+      "slot": "Laser Sight",
+      "slotZh": "激光瞄准器",
+      "buffZh": "加快换弹，并提供紫色激光瞄准器级别的腰射精度。",
+      "drawbackZh": "降低开镜后坐力控制。",
+      "compatibilityBasisZh": "可装备激光瞄准器的非空投武器。",
+      "compatibleWeaponIds": [
+        "alternator-smg",
+        "prowler-burst-pdw",
+        "r-99-smg",
+        "volt-smg",
+        "c-a-r-smg",
+        "re-45-burst",
+        "wingman"
+      ],
+      "verifiedExamples": [
+        {
+          "weaponId": "r-99-smg",
+          "stats": [
+            {
+              "labelZh": "换弹时间",
+              "delta": "-1.0 秒"
+            },
+            {
+              "labelZh": "后坐力控制",
+              "delta": "-4"
+            },
+            {
+              "labelZh": "腰射精度",
+              "delta": "+10"
+            }
+          ],
+          "evidence": "Season 30 游戏内属性卡；武器轮廓与 R-99 资料图比对"
+        }
+      ]
+    },
+    {
+      "rarity": "Corrupted / Mythic (red)",
+      "rarityZh": "腐化／神话（红色）",
+      "limitPerWeapon": 1,
+      "availabilityZh": [
+        "基础战利品低概率刷新",
+        "第 2／3 回合空投补给",
+        "高级战利品区域"
+      ],
+      "source": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "EA official facts; gameplay card observations attributed in each example"
+      },
+      "id": "agile-standard-stock",
+      "name": "Agile Standard Stock",
+      "nameZh": "灵活标准枪托",
+      "aliasesZh": [
+        "敏捷标准枪托"
+      ],
+      "slot": "Standard Stock",
+      "slotZh": "标准枪托",
+      "buffZh": "取消持枪移动减速、提高开镜移动速度，并提供紫色标准枪托级别的换弹和操控。",
+      "drawbackZh": "减少弹匣容量。",
+      "compatibilityBasisZh": "可装备标准枪托的非空投武器。",
+      "compatibleWeaponIds": [
+        "havoc-rifle",
+        "vk-47-flatline",
+        "hemlok-breach-ar",
+        "r-301-carbine",
+        "nemesis-burst-ar",
+        "alternator-smg",
+        "prowler-burst-pdw",
+        "r-99-smg",
+        "volt-smg",
+        "c-a-r-smg",
+        "devotion-lmg",
+        "m600-spitfire",
+        "rampage-lmg",
+        "eva-8-auto",
+        "mastiff-shotgun",
+        "peacekeeper"
+      ],
+      "verifiedExamples": [
+        {
+          "weaponId": "r-99-smg",
+          "stats": [
+            {
+              "labelZh": "弹匣容量",
+              "delta": "-5"
+            },
+            {
+              "labelZh": "换弹时间",
+              "delta": "-0.2 秒"
+            },
+            {
+              "labelZh": "武器操控",
+              "delta": "+12"
+            },
+            {
+              "labelZh": "移动速度",
+              "delta": "取消持枪移动惩罚"
+            }
+          ],
+          "evidence": "Season 30 游戏内属性卡；武器轮廓与 R-99 资料图比对"
+        }
+      ]
+    },
+    {
+      "rarity": "Corrupted / Mythic (red)",
+      "rarityZh": "腐化／神话（红色）",
+      "limitPerWeapon": 1,
+      "availabilityZh": [
+        "基础战利品低概率刷新",
+        "第 2／3 回合空投补给",
+        "高级战利品区域"
+      ],
+      "source": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "EA official facts; gameplay card observations attributed in each example"
+      },
+      "id": "rapid-sniper-stock",
+      "name": "Rapid Sniper Stock",
+      "nameZh": "速射狙击枪托",
+      "aliasesZh": [
+        "快速狙击枪托"
+      ],
+      "slot": "Sniper Stock",
+      "slotZh": "狙击枪托",
+      "buffZh": "提高射速，并提供紫色狙击枪托级别的换弹和操控。",
+      "drawbackZh": "减少弹匣容量。",
+      "compatibilityBasisZh": "可装备狙击枪托的非空投武器。",
+      "compatibleWeaponIds": [
+        "g7-scout",
+        "triple-take",
+        "bocek-compound-bow",
+        "charge-rifle",
+        "longbow-dmr",
+        "sentinel"
+      ],
+      "verifiedExamples": [
+        {
+          "weaponId": "triple-take",
+          "stats": [
+            {
+              "labelZh": "弹匣容量",
+              "delta": "-1"
+            },
+            {
+              "labelZh": "射速",
+              "delta": "+22 RPM"
+            },
+            {
+              "labelZh": "换弹时间",
+              "delta": "-0.3 秒"
+            },
+            {
+              "labelZh": "武器操控",
+              "delta": "+10"
+            }
+          ],
+          "evidence": "EA Marked Patch Notes 官方 Triple Take 属性卡截图"
+        }
+      ]
+    }
+  ]
+}

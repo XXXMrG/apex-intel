@@ -6,6 +6,7 @@ import { Link } from './AppLink'
 
 const navigation = [
   { to: '/', code: '00', label: '总览' },
+  { to: '/season', code: 'S30', label: '赛季' },
   { to: '/legends', code: 'LG', label: '英雄' },
   { to: '/weapons', code: 'WP', label: '枪械' },
   { to: '/maps', code: 'MP', label: '地图' },

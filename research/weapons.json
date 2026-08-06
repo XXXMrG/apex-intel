@@ -1,9 +1,9 @@
 {
   "meta": {
-    "gameVersion": "Season 29 · Overclocked (post-midseason snapshot)",
-    "fetchedAt": "2026-07-31T16:01:56Z",
-    "sourceName": "Wiki stat snapshots + EA Season 28/29 patch notes",
-    "sourceUrl": "https://apexlegends.wiki.gg/wiki/Weapon",
+    "gameVersion": "Season 30 · Marked (30.0 launch snapshot)",
+    "fetchedAt": "2026-08-06T09:30:00Z",
+    "sourceName": "Wiki stat snapshot + EA Marked 30.0 patch overrides",
+    "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
     "license": "CC BY-NC-SA 4.0",
     "count": 29
   },
@@ -47,7 +47,22 @@
         "revision": 125455,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "哈沃克步枪",
+      "aliasesZh": [
+        "哈沃克"
+      ],
+      "ammoZh": "能量弹药",
+      "attachmentsZh": [
+        "加长式能量弹匣",
+        "瞄准镜",
+        "标准枪托",
+        "涡轮增压器"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "vk-47-flatline",
@@ -89,7 +104,23 @@
         "revision": 125248,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "VK-47 平行步枪",
+      "aliasesZh": [
+        "平行步枪",
+        "平行"
+      ],
+      "ammoZh": "重型弹药",
+      "attachmentsZh": [
+        "加长式重型弹匣",
+        "瞄准镜",
+        "标准枪托",
+        "加速器"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "hemlok-breach-ar",
@@ -100,13 +131,13 @@
         "Full-auto",
         "Breach Charge"
       ],
-      "bodyDamage": 22,
-      "headDamage": 31,
-      "legDamage": 17,
+      "bodyDamage": 21,
+      "headDamage": "官方未公布",
+      "legDamage": "官方未公布",
       "damage": {
-        "body": 22,
-        "head": 31,
-        "legs": 17
+        "body": 21,
+        "head": "官方未公布",
+        "legs": "官方未公布"
       },
       "rpm": 462,
       "magazineSizes": [
@@ -132,6 +163,35 @@
         "revision": 125252,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "赫姆洛克突击步枪",
+      "aliasesZh": [
+        "赫姆洛克"
+      ],
+      "ammoZh": "重型弹药",
+      "attachmentsZh": [
+        "专用枪口模块",
+        "加长式重型弹匣",
+        "瞄准镜",
+        "标准枪托",
+        "精英即用配件"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "agile-standard-stock"
+      ],
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "body",
+          "head",
+          "legs"
+        ],
+        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
       }
     },
     {
@@ -174,7 +234,24 @@
         "revision": 125449,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "R-301 卡宾枪",
+      "aliasesZh": [
+        "R301",
+        "301"
+      ],
+      "ammoZh": "轻型弹药",
+      "attachmentsZh": [
+        "枪管稳定器",
+        "加长式轻型弹匣",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "headseeker-barrel",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "nemesis-burst-ar",
@@ -215,7 +292,23 @@
         "revision": 125243,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "复仇女神连发突击步枪",
+      "aliasesZh": [
+        "复仇女神"
+      ],
+      "ammoZh": "能量弹药",
+      "attachmentsZh": [
+        "枪管稳定器",
+        "加长式能量弹匣",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "headseeker-barrel",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "alternator-smg",
@@ -225,20 +318,20 @@
       "fireModes": [
         "Auto"
       ],
-      "bodyDamage": 19,
-      "headDamage": 24,
-      "legDamage": 15,
+      "bodyDamage": 18,
+      "headDamage": "官方未公布",
+      "legDamage": "官方未公布",
       "damage": {
-        "body": 19,
-        "head": 24,
-        "legs": 15
+        "body": 18,
+        "head": "官方未公布",
+        "legs": "官方未公布"
       },
       "rpm": 600,
       "magazineSizes": [
+        18,
         20,
-        24,
-        26,
-        30
+        22,
+        26
       ],
       "currentLootTier": "地面标准战利品",
       "lootStatus": "地面标准战利品",
@@ -257,6 +350,37 @@
         "revision": 125249,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "转换者冲锋枪",
+      "aliasesZh": [
+        "转换者"
+      ],
+      "ammoZh": "轻型弹药",
+      "attachmentsZh": [
+        "激光瞄准器",
+        "加长式轻型弹匣",
+        "瞄准镜",
+        "标准枪托",
+        "双发扳机"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "tactical-laser",
+        "agile-standard-stock"
+      ],
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "body",
+          "head",
+          "legs",
+          "magazines"
+        ],
+        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
       }
     },
     {
@@ -300,7 +424,24 @@
         "revision": 125188,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "猎兽冲锋枪",
+      "aliasesZh": [
+        "猎兽"
+      ],
+      "ammoZh": "重型弹药",
+      "attachmentsZh": [
+        "激光瞄准器",
+        "加长式重型弹匣",
+        "瞄准镜",
+        "标准枪托",
+        "选择射击模式接收器"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "tactical-laser",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "r-99-smg",
@@ -310,13 +451,13 @@
       "fireModes": [
         "Auto"
       ],
-      "bodyDamage": 13,
-      "headDamage": 16,
-      "legDamage": 10,
+      "bodyDamage": 12,
+      "headDamage": "官方未公布",
+      "legDamage": "官方未公布",
       "damage": {
-        "body": 13,
-        "head": 16,
-        "legs": 10
+        "body": 12,
+        "head": "官方未公布",
+        "legs": "官方未公布"
       },
       "rpm": 1080,
       "magazineSizes": [
@@ -341,6 +482,37 @@
         "revision": 124835,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "R-99 冲锋枪",
+      "aliasesZh": [
+        "R99",
+        "99"
+      ],
+      "ammoZh": "轻型弹药",
+      "attachmentsZh": [
+        "激光瞄准器",
+        "加长式轻型弹匣",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "tactical-laser",
+        "agile-standard-stock"
+      ],
+      "corruptedMagazineSize": 33,
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "body",
+          "head",
+          "legs"
+        ],
+        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
       }
     },
     {
@@ -382,7 +554,24 @@
         "revision": 125453,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "电能冲锋枪",
+      "aliasesZh": [
+        "沃特",
+        "Volt"
+      ],
+      "ammoZh": "能量弹药",
+      "attachmentsZh": [
+        "激光瞄准器",
+        "加长式能量弹匣",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "tactical-laser",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "c-a-r-smg",
@@ -423,7 +612,23 @@
         "revision": 125192,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "C.A.R. 冲锋枪",
+      "aliasesZh": [
+        "CAR"
+      ],
+      "ammoZh": "重型／轻型弹药",
+      "attachmentsZh": [
+        "激光瞄准器",
+        "加长式轻型／重型弹匣",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "tactical-laser",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "devotion-lmg",
@@ -465,7 +670,24 @@
         "revision": 125240,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "专注轻机枪",
+      "aliasesZh": [
+        "专注"
+      ],
+      "ammoZh": "能量弹药",
+      "attachmentsZh": [
+        "枪管稳定器",
+        "加长式能量弹匣",
+        "瞄准镜",
+        "标准枪托",
+        "涡轮增压器"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "headseeker-barrel",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "l-star-emg",
@@ -490,8 +712,8 @@
         28,
         30
       ],
-      "currentLootTier": "补给箱",
-      "lootStatus": "补给箱",
+      "currentLootTier": "空投补给武器",
+      "lootStatus": "空投补给武器",
       "supplyDrop": true,
       "attachments": [
         "Extended Energy Magazine",
@@ -505,7 +727,18 @@
         "revision": 123568,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "L-STAR 能量机枪",
+      "aliasesZh": [
+        "L星"
+      ],
+      "ammoZh": "能量弹药",
+      "attachmentsZh": [
+        "加长式能量弹匣",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": []
     },
     {
       "id": "m600-spitfire",
@@ -547,7 +780,24 @@
         "revision": 123788,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "M600 喷火轻机枪",
+      "aliasesZh": [
+        "喷火"
+      ],
+      "ammoZh": "轻型弹药",
+      "attachmentsZh": [
+        "枪管稳定器",
+        "加长式轻型弹匣",
+        "瞄准镜",
+        "标准枪托",
+        "枪盾发生器"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "headseeker-barrel",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "rampage-lmg",
@@ -588,7 +838,23 @@
         "revision": 125212,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "暴走轻机枪",
+      "aliasesZh": [
+        "暴走"
+      ],
+      "ammoZh": "重型弹药",
+      "attachmentsZh": [
+        "枪管稳定器",
+        "加长式重型弹匣",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "headseeker-barrel",
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "g7-scout",
@@ -598,24 +864,24 @@
       "fireModes": [
         "Single"
       ],
-      "bodyDamage": 36,
-      "headDamage": 58,
-      "legDamage": 27,
+      "bodyDamage": 33,
+      "headDamage": "官方未公布",
+      "legDamage": "官方未公布",
       "damage": {
-        "body": 36,
-        "head": 58,
-        "legs": 27
+        "body": 33,
+        "head": "官方未公布",
+        "legs": "官方未公布"
       },
       "rpm": 246,
       "magazineSizes": [
         10,
-        15,
-        18,
-        20
+        12,
+        14,
+        16
       ],
-      "currentLootTier": "补给箱",
-      "lootStatus": "补给箱",
-      "supplyDrop": true,
+      "currentLootTier": "地面标准战利品",
+      "lootStatus": "地面标准战利品",
+      "supplyDrop": false,
       "attachments": [
         "Barrel Stabilizer",
         "Extended Light Magazine",
@@ -629,6 +895,37 @@
         "revision": 123284,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "G7 侦察枪",
+      "aliasesZh": [
+        "G7"
+      ],
+      "ammoZh": "轻型弹药",
+      "attachmentsZh": [
+        "枪管稳定器",
+        "加长式轻型弹匣",
+        "瞄准镜",
+        "狙击枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "headseeker-barrel",
+        "rapid-sniper-stock"
+      ],
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "body",
+          "head",
+          "legs",
+          "magazines",
+          "supply"
+        ],
+        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
       }
     },
     {
@@ -666,7 +963,22 @@
         "revision": 123870,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "三重式狙击枪",
+      "aliasesZh": [
+        "三重",
+        "Triple Take"
+      ],
+      "ammoZh": "能量弹药",
+      "attachmentsZh": [
+        "加长式能量弹匣",
+        "瞄准镜",
+        "狙击枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "rapid-sniper-stock"
+      ]
     },
     {
       "id": "30-30-repeater",
@@ -676,24 +988,21 @@
       "fireModes": [
         "Single"
       ],
-      "bodyDamage": "43~65",
-      "headDamage": "69~104 / 86~130",
-      "legDamage": "37~55",
+      "bodyDamage": 51,
+      "headDamage": "碎片弹理论 70（56×1.25）",
+      "legDamage": "官方未公布",
       "damage": {
-        "body": "43~65",
-        "head": "69~104 / 86~130",
-        "legs": "37~55"
+        "body": 51,
+        "head": "碎片弹理论 70（56×1.25）",
+        "legs": "官方未公布"
       },
       "rpm": 139,
       "magazineSizes": [
-        6,
-        7,
-        8,
-        10
+        50
       ],
-      "currentLootTier": "地面标准战利品",
-      "lootStatus": "地面标准战利品",
-      "supplyDrop": false,
+      "currentLootTier": "空投补给武器",
+      "lootStatus": "空投补给武器",
+      "supplyDrop": true,
       "attachments": [
         "Extended Heavy Magazine",
         "Optics",
@@ -707,6 +1016,35 @@
         "revision": 123792,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "30-30 连发枪",
+      "aliasesZh": [
+        "3030"
+      ],
+      "ammoZh": "重型弹药",
+      "attachmentsZh": [
+        "加长式重型弹匣",
+        "瞄准镜",
+        "狙击枪托",
+        "穿颅器膛线"
+      ],
+      "corruptedAttachmentIds": [],
+      "stockpileSize": 50,
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "body",
+          "head",
+          "legs",
+          "magazines",
+          "supply",
+          "stockpile"
+        ],
+        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
       }
     },
     {
@@ -743,7 +1081,20 @@
         "revision": 123573,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "波塞克复合弓",
+      "aliasesZh": [
+        "波塞克",
+        "弓"
+      ],
+      "ammoZh": "箭矢",
+      "attachmentsZh": [
+        "瞄准镜",
+        "狙击枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "rapid-sniper-stock"
+      ]
     },
     {
       "id": "charge-rifle",
@@ -784,7 +1135,22 @@
         "revision": 125448,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "充能步枪",
+      "aliasesZh": [
+        "滋崩"
+      ],
+      "ammoZh": "狙击弹药",
+      "attachmentsZh": [
+        "加长式狙击弹匣",
+        "瞄准镜",
+        "狙击枪托",
+        "选择射击模式接收器"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "rapid-sniper-stock"
+      ]
     },
     {
       "id": "longbow-dmr",
@@ -825,7 +1191,22 @@
         "revision": 125405,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "长弓精确步枪",
+      "aliasesZh": [
+        "长弓"
+      ],
+      "ammoZh": "狙击弹药",
+      "attachmentsZh": [
+        "加长式狙击弹匣",
+        "瞄准镜",
+        "狙击枪托",
+        "穿颅器膛线"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "rapid-sniper-stock"
+      ]
     },
     {
       "id": "kraber-50-cal-sniper",
@@ -847,8 +1228,8 @@
       "magazineSizes": [
         4
       ],
-      "currentLootTier": "补给箱",
-      "lootStatus": "补给箱",
+      "currentLootTier": "空投补给武器",
+      "lootStatus": "空投补给武器",
       "supplyDrop": true,
       "attachments": [],
       "description": "Powerful bolt-action sniper rifle.",
@@ -858,7 +1239,15 @@
         "revision": 123795,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "克雷贝尔 .50 口径狙击枪",
+      "aliasesZh": [
+        "克雷贝尔",
+        "大狙"
+      ],
+      "ammoZh": "神话狙击弹药",
+      "attachmentsZh": [],
+      "corruptedAttachmentIds": []
     },
     {
       "id": "sentinel",
@@ -898,7 +1287,21 @@
         "revision": 123489,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "哨兵狙击枪",
+      "aliasesZh": [
+        "哨兵"
+      ],
+      "ammoZh": "狙击弹药",
+      "attachmentsZh": [
+        "加长式狙击弹匣",
+        "瞄准镜",
+        "狙击枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "rapid-sniper-stock"
+      ]
     },
     {
       "id": "eva-8-auto",
@@ -935,7 +1338,20 @@
         "revision": 125251,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "EVA-8 自动霰弹枪",
+      "aliasesZh": [
+        "EVA8"
+      ],
+      "ammoZh": "霰弹枪弹药",
+      "attachmentsZh": [
+        "霰弹枪枪栓",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "mastiff-shotgun",
@@ -972,7 +1388,20 @@
         "revision": 125246,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "獒犬霰弹枪",
+      "aliasesZh": [
+        "獒犬"
+      ],
+      "ammoZh": "霰弹枪弹药",
+      "attachmentsZh": [
+        "霰弹枪枪栓",
+        "瞄准镜",
+        "标准枪托"
+      ],
+      "corruptedAttachmentIds": [
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "mozambique-shotgun",
@@ -1008,7 +1437,17 @@
         "revision": 125238,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "莫桑比克霰弹枪",
+      "aliasesZh": [
+        "莫桑比克"
+      ],
+      "ammoZh": "霰弹枪弹药",
+      "attachmentsZh": [
+        "霰弹枪枪栓",
+        "瞄准镜"
+      ],
+      "corruptedAttachmentIds": []
     },
     {
       "id": "peacekeeper",
@@ -1046,7 +1485,21 @@
         "revision": 125245,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "和平捍卫者",
+      "aliasesZh": [
+        "PK"
+      ],
+      "ammoZh": "霰弹枪弹药",
+      "attachmentsZh": [
+        "霰弹枪枪栓",
+        "瞄准镜",
+        "标准枪托",
+        "干扰器弹药"
+      ],
+      "corruptedAttachmentIds": [
+        "agile-standard-stock"
+      ]
     },
     {
       "id": "re-45-burst",
@@ -1056,20 +1509,20 @@
       "fireModes": [
         "Burst (3)"
       ],
-      "bodyDamage": 17,
-      "headDamage": 21,
-      "legDamage": 15,
+      "bodyDamage": 16,
+      "headDamage": "官方未公布",
+      "legDamage": "官方未公布",
       "damage": {
-        "body": 17,
-        "head": 21,
-        "legs": 15
+        "body": 16,
+        "head": "官方未公布",
+        "legs": "官方未公布"
       },
       "rpm": null,
       "magazineSizes": [
         15,
         18,
         21,
-        27
+        24
       ],
       "currentLootTier": "地面标准战利品",
       "lootStatus": "地面标准战利品",
@@ -1086,6 +1539,34 @@
         "revision": 124562,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "RE-45 爆裂手枪",
+      "aliasesZh": [
+        "RE45"
+      ],
+      "ammoZh": "能量弹药",
+      "attachmentsZh": [
+        "激光瞄准器",
+        "加长式能量弹匣",
+        "瞄准镜"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "tactical-laser"
+      ],
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "body",
+          "head",
+          "legs",
+          "magazines"
+        ],
+        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
       }
     },
     {
@@ -1123,7 +1604,17 @@
         "revision": 124833,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "P2020 半自动手枪",
+      "aliasesZh": [
+        "2020"
+      ],
+      "ammoZh": "轻型弹药",
+      "attachmentsZh": [
+        "瞄准镜",
+        "动能供弹器"
+      ],
+      "corruptedAttachmentIds": []
     },
     {
       "id": "wingman",
@@ -1164,7 +1655,23 @@
         "revision": 125235,
         "fetchedAt": "2026-07-31T16:01:56Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "辅助手枪",
+      "aliasesZh": [
+        "小帮手",
+        "Wingman"
+      ],
+      "ammoZh": "狙击弹药",
+      "attachmentsZh": [
+        "激光瞄准器",
+        "加长式狙击弹匣",
+        "瞄准镜",
+        "涂鸦模组"
+      ],
+      "corruptedAttachmentIds": [
+        "overflowing-magazine",
+        "tactical-laser"
+      ]
     }
   ]
 }

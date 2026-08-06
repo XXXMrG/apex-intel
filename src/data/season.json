@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "gameVersion": "Season 30 · Marked",
+    "fetchedAt": "2026-08-06T09:30:00Z",
+    "sourceName": "Electronic Arts / Respawn Entertainment",
+    "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+    "license": "Official EA facts and links",
+    "count": 9
+  },
+  "season": 30,
+  "name": "Marked",
+  "nameZh": "Marked",
+  "status": "live",
+  "patch": "30.0",
+  "officialPublishedAt": "2026-08-03",
+  "liveAt": "2026-08-04",
+  "verifiedAt": "2026-08-06",
+  "officialSources": [
+    {
+      "title": "Marked Patch Notes",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes"
+    },
+    {
+      "title": "Marked Game Updates",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-game-updates"
+    },
+    {
+      "title": "30.0 Designer Notes",
+      "url": "https://www.ea.com/games/apex-legends/apex-legends/news/30-0-designers-notes"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "bloodhound-rework",
+      "titleZh": "寻血猎犬全面重做",
+      "summaryZh": "追踪器改为发光足迹；扫描提供 3 秒完整视野并追加 4 次快照；终极技能由“猎兽”改为“众神之父斗篷”。",
+      "factsZh": [
+        "白渡鸦基础飞行距离 190 米 → 400 米；可远程注视激活",
+        "扫描：3 秒完整扫描；结束后每 1.5 秒追加一次快照，共 4 次",
+        "斗篷装置存在 8 秒；离开范围后隐匿维持 12 秒；隐匿时移速 +20%",
+        "受伤、开火或使用大多数技能会破隐；真正猎手可让开火只暂时破隐，重新隐匿等待时间官方未公布"
+      ],
+      "sourceKey": "patch"
+    },
+    {
+      "id": "legend-balance",
+      "titleZh": "英雄平衡与天赋调整",
+      "summaryZh": "罗芭、兰伯特、瓦尔基里、阿克塞尔和希尔获得 Season 30 数值或天赋调整。",
+      "factsZh": [
+        "罗芭：手环装备时间 0.6 → 0.4 秒；射程约 +15%；黑市冷却 150 → 120 秒",
+        "兰伯特：锁定 Hop-Up 进度 +50%；掩体基础生命 400/600/800 → 600/700/800；希拉移动速度 70 → 104",
+        "瓦尔基里：导弹基础伤害 25 → 15；终极基础高度 -15%；超音速起飞时间 2.5 → 3.0 秒",
+        "阿克塞尔：滑行增益上限 5 → 3 秒；长途运输可恢复至 5 秒；希尔只公布降低战术转向减速，未给具体数值"
+      ],
+      "sourceKey": "patch"
+    },
+    {
+      "id": "corrupted-attachments",
+      "titleZh": "五种腐化配件",
+      "summaryZh": "新增高阶风险／收益配件；每把武器最多装备一种。",
+      "factsZh": [
+        "低概率地面战利品、第 2／3 回合空投，以及 Vault、Icarus Bridge 等高级地点刷新",
+        "官方公布效果方向但未公布全部倍率；站内精确示例单独标记为当前版本游戏内属性卡证据"
+      ],
+      "sourceKey": "patch"
+    },
+    {
+      "id": "energy-ammo",
+      "titleZh": "能量武器弹药系统重做",
+      "summaryZh": "地面能量弹药箱被移除；能量武器改用会自动恢复的专属弹药库存。",
+      "factsZh": [
+        "HAVOC、复仇女神、专注：3 个弹匣量；L-STAR：4 个；RE-45、电能、三重：2 个",
+        "每 18 秒恢复一个完整弹匣量；开火或装填期间暂停恢复",
+        "官方示例：电能无弹匣库存 40 发、紫弹匣 54 发；每轮分别恢复 20／27 发",
+        "Wildcard：额外 +1 个弹匣量，恢复周期 18 → 12 秒"
+      ],
+      "sourceKey": "patch"
+    },
+    {
+      "id": "loot",
+      "titleZh": "战利品系统降档",
+      "summaryZh": "战利品总量基本不变，但白、蓝装备替换大量紫、金装备；主动寻找高级区域的收益提高。",
+      "factsZh": [
+        "金色配件、金色背包、热点区及职业补给箱从常规战利品系统移除；4–10 倍威胁瞄具不受影响",
+        "军械库开局关闭，与 EVO 采集器同时激活；升级面板每次将一个槽位提高 1 个品级，最高紫色",
+        "战利品箱重置仍存在，但不再整体升品级；野生动物只掉治疗品与弹药",
+        "拳击台战利品机器人 7 → 5；MRVN 24 → 12，且改为单次使用"
+      ],
+      "sourceKey": "patch"
+    },
+    {
+      "id": "systems",
+      "titleZh": "跳伞、服务器与武器信息",
+      "summaryZh": "角色选择阶段新增志愿跳伞队长；服务器基础设施和武器信息界面同步升级。",
+      "factsZh": [
+        "志愿状态会保留到未来对局；多人志愿时只在志愿者中随机选出跳伞队长",
+        "武器信息卡新增伤害、理想射程、射速、射击模式和配件增减对比",
+        "Season 30 文档没有公布 EVO 护甲、死亡箱复活或连续治疗的新数值调整"
+      ],
+      "sourceKey": "patch"
+    },
+    {
+      "id": "worlds-edge",
+      "titleZh": "世界尽头重制",
+      "summaryZh": "世界尽头转为极光夜景；新增东部村落、树木聚落和战场营地，分拣工厂回归。",
+      "factsZh": [
+        "树木聚落取代大树；战场营地取代勘测营地",
+        "建筑工地回归碎片区；大莫德与山崩合并为同一落点",
+        "分拣工厂新增中央通道、隧道、平台和垂直滑索"
+      ],
+      "sourceKey": "updates"
+    },
+    {
+      "id": "weapon-rotation",
+      "titleZh": "武器与空投轮换",
+      "summaryZh": "30-30 连发枪进入空投；G7 侦察枪返回地面，轻型冲锋枪和 RE-45 同步削弱。",
+      "factsZh": [
+        "30-30：伤害 43 → 51；瞄准充能 0.4 → 0.25 秒；库存 50；腰射碎片弹 7×8",
+        "G7：伤害 37 → 33；弹匣 10／12／14／16；移除双发扳机且不能装狙击镜",
+        "赫姆洛克：伤害 22 → 21；突破充能冷却 25 → 30 秒；对硬光与建筑伤害 -50%",
+        "转换者：伤害 19 → 18，弹匣 18／20／22／26；R-99：13 → 12；RE-45：17 → 16，紫弹匣 27 → 24"
+      ],
+      "sourceKey": "patch"
+    },
+    {
+      "id": "ranked-modes",
+      "titleZh": "地图池与模式轮换",
+      "summaryZh": "大逃杀常规地图池为世界尽头、风暴点和电能区；开季世界尽头专场按官方日期执行。",
+      "factsZh": [
+        "截至 8 月 6 日首个 24 小时世界尽头专场已结束；8 月 8–9 日排位将再开放 48 小时专场",
+        "常规排位轮换每 4.5 小时；公开对局轮换每 90 分钟",
+        "Mixtape 与 Wildcard 本期轮换有效期为 2026-08-04 至 2026-09-15",
+        "EA 的 Control 清单把 Labs 重复列出两次；站内保留为官方页面重复项，不猜测第四张地图"
+      ],
+      "sourceKey": "patch"
+    }
+  ]
+}

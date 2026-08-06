@@ -5,6 +5,7 @@ const path = require('node:path')
 
 const dataDir = path.join(__dirname, '..', 'src', 'data')
 const legends = require(path.join(dataDir, 'legends.json'))
+const attachments = require(path.join(dataDir, 'attachments.json'))
 const weapons = require(path.join(dataDir, 'weapons.json'))
 const maps = require(path.join(dataDir, 'maps.json'))
 const news = require(path.join(dataDir, 'news.json'))
@@ -13,6 +14,8 @@ const weaponTranslations = require(path.join(dataDir, 'translations-weapons.zh-C
 const mapTranslations = require(path.join(dataDir, 'translations-maps.zh-CN.json'))
 const newsTranslations = require(path.join(dataDir, 'translations-news.zh-CN.json'))
 const media = require(path.join(dataDir, 'media-manifest.json'))
+const season = require(path.join(dataDir, 'season.json'))
+const upgradeSnapshot = require(path.join(__dirname, '..', 'research', 'season30-upgrades.json'))
 
 function validateDataset(name, dataset) {
   assert.equal(dataset.meta.count, dataset.items.length, `${name}: meta count mismatch`)
@@ -27,6 +30,7 @@ function validateDataset(name, dataset) {
 }
 
 validateDataset('legends', legends)
+validateDataset('attachments', attachments)
 validateDataset('weapons', weapons)
 validateDataset('maps', maps)
 validateDataset('news', news)
@@ -47,6 +51,8 @@ for (const legend of legends.items) {
 }
 assert.ok(Object.values(weaponTranslations).every((item) => item.descriptionZh?.trim()), 'weapon Chinese descriptions incomplete')
 assert.ok(Object.values(mapTranslations).every((item) => item.descriptionZh?.trim()), 'map Chinese descriptions incomplete')
+assert.ok(Object.values(weaponTranslations).every((item) => item.nameZh?.trim() && Array.isArray(item.aliasesZh)), 'weapon Chinese names/aliases incomplete')
+assert.ok(Object.values(mapTranslations).every((item) => item.nameZh?.trim() && Array.isArray(item.aliasesZh)), 'map Chinese names/aliases incomplete')
 assert.ok(Object.values(newsTranslations).every((item) => item.titleZh?.trim() && item.summaryZh?.trim()), 'news Chinese translations incomplete')
 
 assert.equal(legends.items.length, 28, 'legend inventory must contain 28 records')
@@ -59,8 +65,18 @@ for (const legend of legends.items) {
     assert.ok(ability.name && ability.description, `${legend.name}/${ability.type}: incomplete ability`)
     if (ability.type === 'passive') assert.equal(ability.cooldown, null)
   }
+  assert.equal(legend.upgrades?.length, 2, `${legend.name}: must have blue and purple upgrade tiers`)
+  assert.deepEqual(legend.upgrades.map((tier) => tier.armorLevel), [2, 3], `${legend.name}: invalid armor upgrade levels`)
+  for (const tier of legend.upgrades) {
+    assert.equal(tier.options.length, 2, `${legend.name}/level${tier.armorLevel}: must have two choices`)
+    assert.deepEqual(tier.options.map((option) => option.branch), ['A', 'B'])
+    assert.ok(tier.options.every((option) => option.name && option.nameZh && option.description), `${legend.name}/level${tier.armorLevel}: incomplete upgrade`)
+  }
+  assert.ok(legend.upgradeSource?.url?.startsWith('https://'), `${legend.name}: missing upgrade source`)
 }
-assert.deepEqual(legends.items.filter((legend) => !legend.nameZh).map((legend) => legend.name), ['Axle'])
+assert.deepEqual(legends.items.filter((legend) => !legend.nameZh).map((legend) => legend.name), [])
+assert.equal(legends.items.reduce((sum, legend) => sum + legend.upgrades.flatMap((tier) => tier.options).length, 0), 112)
+assert.equal(upgradeSnapshot.meta.count, 112)
 
 assert.equal(weapons.items.length, 29, 'current weapon inventory must contain 29 records')
 const weaponCategoryCounts = Object.fromEntries(
@@ -77,13 +93,62 @@ for (const weapon of weapons.items) {
   assert.notEqual(weapon.legDamage, null, `${weapon.name}: missing leg damage`)
   if (weapon.rpm == null) assert.ok(expectedNullRpm.includes(weapon.name), `${weapon.name}: unexpected missing RPM`)
   assert.ok(weapon.source.revision, `${weapon.name}: missing page revision`)
+  assert.ok(weapon.nameZh && weapon.ammoZh && Array.isArray(weapon.attachmentsZh), `${weapon.name}: Chinese naming layer incomplete`)
 }
 assert.deepEqual(weapons.items.filter((weapon) => weapon.rpm == null).map((weapon) => weapon.name).sort(), [...expectedNullRpm].sort())
 assert.ok(!/(?:px\||link=|\?\?\?|\[\[|\{\{)/.test(JSON.stringify(weapons)), 'weapon data contains unparsed wiki markup')
 assert.deepEqual(
   weapons.items.filter((weapon) => weapon.supplyDrop).map((weapon) => weapon.name).sort(),
-  ['G7 Scout', 'Kraber .50-Cal Sniper', 'L-STAR EMG'],
+  ['30-30 Repeater', 'Kraber .50-Cal Sniper', 'L-STAR EMG'],
 )
+assert.equal(weapons.items.find((weapon) => weapon.id === 'g7-scout').bodyDamage, 33)
+assert.deepEqual(weapons.items.find((weapon) => weapon.id === 'g7-scout').magazineSizes, [10, 12, 14, 16])
+assert.equal(weapons.items.find((weapon) => weapon.id === '30-30-repeater').bodyDamage, 51)
+assert.equal(weapons.items.find((weapon) => weapon.id === 'alternator-smg').bodyDamage, 18)
+assert.deepEqual(weapons.items.find((weapon) => weapon.id === 'alternator-smg').magazineSizes, [18, 20, 22, 26])
+assert.equal(weapons.items.find((weapon) => weapon.id === 'r-99-smg').bodyDamage, 12)
+assert.equal(weapons.items.find((weapon) => weapon.id === 're-45-burst').bodyDamage, 16)
+assert.deepEqual(weapons.items.find((weapon) => weapon.id === 're-45-burst').magazineSizes, [15, 18, 21, 24])
+for (const weaponId of ['hemlok-breach-ar', 'alternator-smg', 'r-99-smg', 're-45-burst', 'g7-scout', '30-30-repeater']) {
+  const override = weapons.items.find((weapon) => weapon.id === weaponId).seasonOverride
+  assert.equal(override.patch, '30.0')
+  assert.match(override.url, /^https:\/\/www\.ea\.com\//)
+  assert.ok(override.fields.length > 0)
+}
+assert.equal(weapons.items.find((weapon) => weapon.id === 'r-99-smg').corruptedMagazineSize, 33)
+
+assert.equal(attachments.items.length, 5, 'Season 30 must contain five corrupted attachments')
+assert.deepEqual(attachments.items.map((item) => item.id).sort(), [
+  'agile-standard-stock', 'headseeker-barrel', 'overflowing-magazine', 'rapid-sniper-stock', 'tactical-laser',
+])
+const weaponIds = new Set(weapons.items.map((weapon) => weapon.id))
+for (const attachment of attachments.items) {
+  assert.equal(attachment.limitPerWeapon, 1)
+  assert.ok(attachment.nameZh && attachment.buffZh && attachment.drawbackZh && attachment.compatibilityBasisZh)
+  assert.ok(attachment.compatibleWeaponIds.length && attachment.compatibleWeaponIds.every((id) => weaponIds.has(id)))
+  assert.ok(attachment.verifiedExamples.length && attachment.verifiedExamples.every((example) => example.stats.length && example.evidence))
+}
+
+assert.equal(season.season, 30)
+assert.equal(season.patch, '30.0')
+assert.equal(season.status, 'live')
+assert.equal(season.liveAt, '2026-08-04')
+assert.equal(season.meta.count, season.highlights.length)
+assert.equal(season.officialSources.length, 3)
+assert.ok(season.officialSources.every((source) => source.url.startsWith('https://www.ea.com/')))
+const seasonCopy = JSON.stringify(season)
+assert.match(seasonCopy, /每 18 秒恢复一个完整弹匣量/)
+assert.doesNotMatch(seasonCopy, /射击后等待 6 秒|能量弹药每组 20/)
+
+const bloodhound = legends.items.find((legend) => legend.id === 'bloodhound')
+assert.match(bloodhound.abilities.find((ability) => ability.type === 'passive').description, /400 meters/)
+const truePredator = bloodhound.upgrades.flatMap((tier) => tier.options).find((option) => option.id === 'true-predator')
+assert.match(truePredator.description, /did not publish the re-cloak delay/)
+assert.doesNotMatch(truePredator.description, /1\.5 seconds/)
+for (const mapId of ['world-s-edge', 'storm-point', 'e-district']) {
+  assert.match(maps.items.find((map) => map.id === mapId).status, /Season 30/)
+}
+assert.ok([legends, weapons, maps, attachments].every((dataset) => dataset.meta.gameVersion.includes('Season 30')))
 
 const expectedMediaKeys = {
   legends: legends.items.map((item) => item.id),
@@ -120,6 +185,15 @@ assert.equal(maps.items.filter((map) => map.mode.includes('Battle Royale')).leng
 for (const map of maps.items) {
   assert.ok(map.name && map.mode && map.status && map.releaseDate && map.description)
   assert.ok(map.source.revision, `${map.name}: missing page revision`)
+  assert.ok(map.nameZh && map.modeZh && Array.isArray(map.aliasesZh), `${map.name}: Chinese naming layer incomplete`)
+}
+
+for (const filename of ['legends.json', 'weapons.json', 'maps.json']) {
+  assert.deepEqual(
+    require(path.join(__dirname, '..', 'research', filename)),
+    require(path.join(dataDir, filename)),
+    `${filename}: research and runtime snapshots diverged`,
+  )
 }
 
 assert.ok(news.items.length >= 20, 'news snapshot must contain at least 20 entries')
@@ -134,7 +208,9 @@ assert.deepEqual(dates, [...dates].sort().reverse(), 'news must be sorted newest
 console.log(JSON.stringify({
   legends: legends.items.length,
   abilities: legends.items.reduce((sum, legend) => sum + legend.abilities.length, 0),
+  upgrades: legends.items.reduce((sum, legend) => sum + legend.upgrades.flatMap((tier) => tier.options).length, 0),
   weapons: weapons.items.length,
+  corruptedAttachments: attachments.items.length,
   weaponCategoryCounts,
   maps: maps.items.length,
   news: news.items.length,

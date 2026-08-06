@@ -1,10 +1,10 @@
 {
   "bloodhound": {
-    "descriptionZh": "Bloodhound 是自游戏上线起即可使用的侦察型英雄。凭借 Tracker 提供的线索和 Eye of the Allfather 的大范围扫描，他们擅长追猎对手。Beast of the Hunt 会召来乌鸦追踪敌人，并提升 Bloodhound 的速度与视觉感知。",
+    "descriptionZh": "寻血猎犬在第 30 赛季被重做为团队猎手：发光足迹暴露敌方动向，众神之眼提供持续扫描，众神之父斗篷则让范围内所有英雄进入隐匿。",
     "abilities": {
-      "bloodhound-passive": "敌人会留下可供你追踪的线索。White Ravens 可能出现，引导你前往战斗并为技能充能。",
-      "bloodhound-tactical": "短暂透视你前方所有建筑结构，显现敌人、陷阱和线索。",
-      "bloodhound-ultimate": "化身终极猎手。放出一只 White Raven，并强化感官，使你能看见冰冷踪迹且移动更快。击倒敌人会刷新战术技能并延长狩猎持续时间。"
+      "bloodhound-passive": "新鲜敌方线索会留下红色轨迹。白渡鸦最多飞行 400 米指向附近敌人，并可通过远距离注视激活。",
+      "bloodhound-tactical": "透过建筑揭示敌人 3 秒，结束后每隔 1.5 秒追加一次快照，共 4 次。",
+      "bloodhound-ultimate": "部署持续 8 秒的装置，使范围内所有英雄隐匿，包括敌人。离开范围后隐匿维持 12 秒，并获得 20% 移速和威胁视野；受伤、开火或使用大多数技能会破隐。"
     }
   },
   "gibraltar": {

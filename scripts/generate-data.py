@@ -2,13 +2,15 @@
 """Generate audited Apex static datasets from EA and Apex Legends Wiki sources.
 
 Requires: pip install -r requirements-data.txt
-The script reuses local research caches when available and otherwise fetches current
-MediaWiki API snapshots. Generated data is written to src/data/ and research/.
+The default mode fetches fresh MediaWiki snapshots. Set APEX_DATA_OFFLINE=1 to
+explicitly reuse the documented /tmp research caches. Generated data is written
+to src/data/ and research/.
 """
 from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -28,6 +30,7 @@ WIKI_LICENSE = "CC BY-NC-SA 4.0"
 EA_NEWS_API = "https://drop-api.ea.com:443/news-articles/list"
 USER_AGENT = "ApexIntelDataAudit/0.1 (+https://github.com/XXXMrG/apex-intel)"
 NOW = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+OFFLINE_CACHE = os.environ.get("APEX_DATA_OFFLINE") == "1"
 
 LEGEND_TITLES = [
     "Bloodhound", "Gibraltar", "Lifeline", "Pathfinder", "Wraith", "Bangalore",
@@ -64,7 +67,7 @@ WEAPON_CATEGORY = {
     "Sniper Rifle": "Sniper", "Shotgun": "Shotgun", "Pistol": "Pistol",
 }
 
-CARE_PACKAGE = {"Kraber .50-Cal Sniper", "G7 Scout", "L-STAR EMG"}
+CARE_PACKAGE = {"Kraber .50-Cal Sniper", "30-30 Repeater", "L-STAR EMG"}
 
 BR_MAPS = ["Broken Moon", "E-District", "Kings Canyon", "Olympus", "Storm Point", "World's Edge"]
 CONTROL_MAPS = ["Barometer", "Caustic Treatment", "Hammond Labs", "Lava Siphon", "Production Yard", "Thunderdome"]
@@ -196,7 +199,9 @@ def source_ref(name: str, url: str, revision: int | str | None, fetched_at: str,
 
 def load_legend_pages() -> tuple[list[dict[str, Any]], str]:
     cache = Path("/tmp/apex_legends_raw.json")
-    if cache.exists():
+    if OFFLINE_CACHE:
+        if not cache.exists():
+            raise RuntimeError(f"Offline legend cache missing: {cache}")
         raw = json.loads(cache.read_text())
         return raw["pages"], raw.get("fetchedAt", NOW)
     return fetch_wiki_pages(LEGEND_TITLES)
@@ -274,7 +279,9 @@ def generate_legends() -> dict[str, Any]:
 
 def load_weapon_pages() -> tuple[dict[str, dict[str, Any]], str]:
     cache = Path("/tmp/apex-weapons-research/pages.json")
-    if cache.exists():
+    if OFFLINE_CACHE:
+        if not cache.exists():
+            raise RuntimeError(f"Offline weapon cache missing: {cache}")
         raw = json.loads(cache.read_text())
         return raw["pages"], raw.get("curtimestamp", NOW)
     pages, fetched_at = fetch_wiki_pages(WEAPON_TITLES)
@@ -394,8 +401,8 @@ def generate_weapons() -> dict[str, Any]:
 
     return {
         "meta": {
-            "gameVersion": "Season 29 · Overclocked (post-midseason snapshot)", "fetchedAt": fetched_at,
-            "sourceName": "Wiki stat snapshots + EA Season 28/29 patch notes",
+            "gameVersion": "Season 30 · Marked (pre-editorial wiki snapshot)", "fetchedAt": fetched_at,
+            "sourceName": "Wiki stat snapshots; EA 30.0 overrides applied by apply-season-30.py",
             "sourceUrl": "https://apexlegends.wiki.gg/wiki/Weapon", "license": WIKI_LICENSE,
             "count": len(items),
         },
@@ -405,12 +412,14 @@ def generate_weapons() -> dict[str, Any]:
 
 def load_map_pages() -> tuple[dict[str, dict[str, Any]], str]:
     raw_cache = Path("/tmp/apex-map-raw.json")
-    if raw_cache.exists():
+    if OFFLINE_CACHE and raw_cache.exists():
         raw = json.loads(raw_cache.read_text())
         pages = raw["pages"]
         fetched_at = raw.get("fetchedAt", NOW)
-    else:
+    elif not OFFLINE_CACHE:
         pages, fetched_at = fetch_wiki_pages([MAP_SOURCE_TITLES.get(title, title) for title in MAP_TITLES])
+    else:
+        pages, fetched_at = [], NOW
     by_source_title = {page["title"]: page for page in pages}
     loaded: dict[str, dict[str, Any]] = {}
     for display_title in MAP_TITLES:
@@ -428,7 +437,7 @@ def load_map_pages() -> tuple[dict[str, dict[str, Any]], str]:
 
     cache_dir = Path("/tmp/apex-wiki-pages")
     cached: dict[str, dict[str, Any]] = {}
-    if cache_dir.exists():
+    if OFFLINE_CACHE and cache_dir.exists():
         for title in MAP_TITLES:
             source_title = MAP_SOURCE_TITLES.get(title, title)
             filename = re.sub(r"[^A-Za-z0-9.-]+", "_", source_title).strip("_") + ".wiki"
@@ -438,6 +447,8 @@ def load_map_pages() -> tuple[dict[str, dict[str, Any]], str]:
     missing = [title for title in MAP_TITLES if title not in cached]
     fetched_at = NOW
     if missing:
+        if OFFLINE_CACHE:
+            raise RuntimeError(f"Offline map caches missing: {missing}")
         pages, fetched_at = fetch_wiki_pages([MAP_SOURCE_TITLES.get(title, title) for title in missing])
         reverse = {MAP_SOURCE_TITLES.get(title, title): title for title in missing}
         for page in pages:

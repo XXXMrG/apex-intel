@@ -20,7 +20,7 @@ export function MapsPage() {
       || (selectedMode === 'Arenas' && map.mode.includes('Arenas'))
       || (selectedMode === '训练' && map.mode.includes('Training'))
       || (selectedMode === '历史 / 限时' && /已退役|历史|限时/.test(map.status))
-    return modeMatch && matchesSearch([map.name, map.nameZh, map.mode, map.status, map.description, map.descriptionZh], query)
+    return modeMatch && matchesSearch([map.name, map.nameZh, ...(map.aliasesZh ?? []), map.mode, map.modeZh, map.status, map.description, map.descriptionZh], query)
   }), [query, selectedMode])
 
   useEffect(() => {
@@ -62,7 +62,7 @@ export function MapsPage() {
                 <span>{String(index + 1).padStart(2, '0')}</span>
               </div>
               <div className="map-card-copy">
-                <div><span>{map.mode}</span><small>{map.status}</small></div>
+                <div><span>{map.modeZh || map.mode}</span><small>{map.status}</small></div>
                 <h2>{map.nameZh || map.name}</h2>
                 {map.nameZh && <p>{map.name}</p>}
                 <b>打开地图档案 ↗</b>
@@ -83,7 +83,7 @@ export function MapsPage() {
         {selectedMap && (
           <>
             <dl className="fact-line">
-              <div><dt>模式</dt><dd>{selectedMap.mode}</dd></div>
+              <div><dt>模式</dt><dd>{selectedMap.modeZh || selectedMap.mode}</dd></div>
               <div><dt>状态</dt><dd>{selectedMap.status}</dd></div>
               <div><dt>发布日期</dt><dd>{formatDate(selectedMap.releaseDate)}</dd></div>
             </dl>

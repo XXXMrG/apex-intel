@@ -1,9 +1,9 @@
 {
   "meta": {
-    "gameVersion": "Season 29 · Overclocked (post-midseason snapshot)",
-    "fetchedAt": "2026-07-31T16:02:39Z",
-    "sourceName": "The Apex Legends Wiki",
-    "sourceUrl": "https://apexlegends.wiki.gg/wiki/Legend",
+    "gameVersion": "Season 30 · Marked (30.0 launch snapshot)",
+    "fetchedAt": "2026-08-06T09:30:00Z",
+    "sourceName": "EA Marked patch notes + The Apex Legends Wiki",
+    "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
     "license": "CC BY-NC-SA 4.0",
     "count": 28
   },
@@ -15,28 +15,28 @@
       "title": "Technological Tracker",
       "class": "Recon",
       "releaseDate": "2019-02-04",
-      "description": "Bloodhound is a Recon Legend who has been available since launch. They specialize in hunting down opponents thanks to clues left by Tracker and wide-reaching scans via Eye of the Allfather . Their Beast of the Hunt summons ravens to track down enemies and buffs Bloodhound's speed and vision.",
+      "description": "A Recon Legend rebuilt for Season 30 as a squad hunter: glowing tracks reveal movement, Eye of the Allfather supplies sustained scans, and Allfather's Cloak conceals the squad.",
       "abilities": [
         {
           "id": "bloodhound-passive",
           "name": "Tracker",
           "type": "passive",
-          "description": "Foes leave behind clues for you to find. White Ravens may appear to guide you to battle and charge your abilities.",
+          "description": "Fresh enemy clues leave red trails. White Ravens can fly up to 400 meters toward nearby enemies and can be activated by looking at them from range.",
           "cooldown": null
         },
         {
           "id": "bloodhound-tactical",
           "name": "Eye of the Allfather",
           "type": "tactical",
-          "description": "Briefly reveal enemies, traps, and clues through all structures in front of you.",
+          "description": "Reveal enemies through structures for 3 seconds, followed by four snapshots at 1.5-second intervals.",
           "cooldown": "25 seconds"
         },
         {
           "id": "bloodhound-ultimate",
-          "name": "Beast of the Hunt",
+          "name": "Allfather's Cloak",
           "type": "ultimate",
-          "description": "Transform into the ultimate hunter. Launches a White Raven and enhances senses to see cold tracks and move faster. Knocks will refresh your tactical and extend the hunt duration",
-          "cooldown": "2.5 minutes"
+          "description": "Deploy an 8-second device that cloaks every Legend in range, including enemies. Cloak lingers for 12 seconds after leaving, grants +20% movement speed and threat vision, and breaks on damage, weapon fire, or most abilities.",
+          "cooldown": null
         }
       ],
       "source": {
@@ -45,6 +45,68 @@
         "revision": 125404,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "hidden-sight",
+              "branch": "A",
+              "name": "Hidden Sight",
+              "nameZh": "隐匿视野",
+              "description": "Activating Allfather's Cloak refreshes Eye of the Allfather. Using the tactical while cloaked hides its scan visual from enemies."
+            },
+            {
+              "id": "bird-s-eye",
+              "branch": "B",
+              "name": "Bird's Eye",
+              "nameZh": "鸟瞰之眼",
+              "description": "White Ravens split and fly toward the two nearest enemies belonging to different squads."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "hunter-s-agility",
+              "branch": "A",
+              "name": "Hunter's Agility",
+              "nameZh": "猎人敏捷",
+              "description": "Reduces Eye of the Allfather activation time by 20% and its cooldown by 5 seconds."
+            },
+            {
+              "id": "true-predator",
+              "branch": "B",
+              "name": "True Predator",
+              "nameZh": "真正猎手",
+              "description": "Firing a weapon while cloaked only interrupts the cloak temporarily instead of breaking it permanently. Respawn did not publish the re-cloak delay."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Bloodhound",
+        "revision": 125404,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "upgrades",
+          "description",
+          "abilities"
+        ],
+        "noteZh": "30.0 官方补丁覆盖 Wiki 快照中的英雄改动字段。"
       }
     },
     {
@@ -83,6 +145,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Gibraltar",
         "revision": 124828,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "thunder-dome",
+              "branch": "A",
+              "name": "Thunder Dome",
+              "nameZh": "雷霆穹顶",
+              "description": "Electrified Dome of Protection deals 50 damage and slow the first enemy to cross."
+            },
+            {
+              "id": "healing-dome",
+              "branch": "B",
+              "name": "Healing Dome",
+              "nameZh": "治疗穹顶",
+              "description": "Dome of Protection duration increases 4s (12s→16s). and heal double for players while in the Dome of Protection."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "triple-bombardment",
+              "branch": "A",
+              "name": "Triple Bombardment",
+              "nameZh": "三重轰炸",
+              "description": "Get 3 charges of the Defensive Bombardment with smaller radius."
+            },
+            {
+              "id": "fast-shotties",
+              "branch": "B",
+              "name": "Fast Shotties",
+              "nameZh": "霰弹疾行",
+              "description": "Move at holstered speed while using shotguns and auto-reload shotguns on knock."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Gibraltar",
+        "revision": 124828,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -123,6 +234,55 @@
         "revision": 123693,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "extended-flight",
+              "branch": "A",
+              "name": "Extended Flight",
+              "nameZh": "延长飞行",
+              "description": "Increase Combat Glide time by 1.5s (4s → 5.5s)."
+            },
+            {
+              "id": "battpack",
+              "branch": "B",
+              "name": "Battpack",
+              "nameZh": "电池背包",
+              "description": "Carry +1 per stack (2 → 3) and see batteries counter over Death Boxes."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "enhanced-radio",
+              "branch": "A",
+              "name": "Enhanced Radio",
+              "nameZh": "强化无线电",
+              "description": "D.O.C. Heal Drone assignment range +50%."
+            },
+            {
+              "id": "tactical-cooldown",
+              "branch": "B",
+              "name": "Tactical Cooldown+",
+              "nameZh": "战术冷却+",
+              "description": "D.O.C. Heal Drone cooldown reduced by 10 seconds (45s → 35s)."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Lifeline",
+        "revision": 123693,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -161,6 +321,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Pathfinder",
         "revision": 125307,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "field-research",
+              "branch": "A",
+              "name": "Field Research",
+              "nameZh": "实地研究",
+              "description": "Gain access to Recon perks."
+            },
+            {
+              "id": "ringmaster",
+              "branch": "B",
+              "name": "Ringmaster",
+              "nameZh": "环区掌控者",
+              "description": "Gain access to Controller perks."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "landing-gear",
+              "branch": "A",
+              "name": "Landing Gear",
+              "nameZh": "起落架",
+              "description": "Gain better air control and softer landings."
+            },
+            {
+              "id": "feeling-zippy",
+              "branch": "B",
+              "name": "Feeling Zippy",
+              "nameZh": "滑索快感",
+              "description": "+1 Zipline Gun charge and improve ally energized speed."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Pathfinder",
+        "revision": 125307,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -201,6 +410,55 @@
         "revision": 125032,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "sixth-sense",
+              "branch": "A",
+              "name": "Sixth Sense",
+              "nameZh": "第六感",
+              "description": "Voices from the Void warns you when a new squad comes within 150 meters."
+            },
+            {
+              "id": "phase-dome",
+              "branch": "B",
+              "name": "Phase Dome",
+              "nameZh": "相位穹顶",
+              "description": "While casting Dimensional Rift, the portal entrance gains a Phase Dome, phasing anyone inside of it."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "fast-phase",
+              "branch": "A",
+              "name": "Fast Phase",
+              "nameZh": "快速相位",
+              "description": "Into the Void activates 30% faster (0.8s → 0.5s)."
+            },
+            {
+              "id": "void-jumper",
+              "branch": "B",
+              "name": "Void Jumper",
+              "nameZh": "虚空跃迁",
+              "description": "Into the Void's duration increased by 2 seconds (4s → 6s) and enables the ability to perform a double jump while in the void."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Wraith",
+        "revision": 125032,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -239,6 +497,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Bangalore",
         "revision": 124700,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "electric-smoke",
+              "branch": "A",
+              "name": "Electric Smoke",
+              "nameZh": "电能烟幕",
+              "description": "Smoke Launcher now deals 100 damage to enemy deployables."
+            },
+            {
+              "id": "cover-me",
+              "branch": "B",
+              "name": "Cover Me!",
+              "nameZh": "掩护我！",
+              "description": "Allies regenerate HP while inside smoke. Auto-ping enemies who trigger Double Time."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "ecm-payload",
+              "branch": "A",
+              "name": "ECM Payload",
+              "nameZh": "电子干扰弹头",
+              "description": "Rolling Thunder deals 10 more damage (40 → 50 dmg) and destroys all enemy deployables."
+            },
+            {
+              "id": "medal-of-honor",
+              "branch": "B",
+              "name": "Medal of Honor",
+              "nameZh": "荣誉勋章",
+              "description": "Revive allies 25% faster. Double Time activates when running toward knocked allies."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Bangalore",
+        "revision": 124700,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -279,6 +586,55 @@
         "revision": 122260,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "extra-traps",
+              "branch": "A",
+              "name": "Extra Traps",
+              "nameZh": "额外陷阱",
+              "description": "+1 Nox Gas Trap charge and +2 traps in the world."
+            },
+            {
+              "id": "breathe-it-in",
+              "branch": "B",
+              "name": "Breathe It In",
+              "nameZh": "深吸一口",
+              "description": "Regenerate 1 HP/sec while inside Nox gas."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "particle-diffuser",
+              "branch": "A",
+              "name": "Particle Diffuser",
+              "nameZh": "粒子扩散器",
+              "description": "Nox Gas Grenade has 50% larger radius."
+            },
+            {
+              "id": "gas-fighter",
+              "branch": "B",
+              "name": "Gas Fighter",
+              "nameZh": "毒气斗士",
+              "description": "Nox Gas Trap recharges 300% faster while inside Nox gas."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Caustic",
+        "revision": 122260,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -317,6 +673,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Mirage",
         "revision": 123555,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "renaissance-man",
+              "branch": "A",
+              "name": "Renaissance Man",
+              "nameZh": "全能专家",
+              "description": "Gain access to all class world interactions (Assault Bins, Care Package scans, Survey Beacons, and Ring Consoles)."
+            },
+            {
+              "id": "boozle-eye",
+              "branch": "B",
+              "name": "Boozle-Eye",
+              "nameZh": "骗术之眼",
+              "description": "Bamboozles also scan the enemy who shoots the decoy."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "me-two",
+              "branch": "A",
+              "name": "Me Two",
+              "nameZh": "我也来",
+              "description": "+1 Psyche Out charge. You can have two active decoys at once."
+            },
+            {
+              "id": "bamboozle-bonus",
+              "branch": "B",
+              "name": "Bamboozle Bonus",
+              "nameZh": "骗术奖励",
+              "description": "Psyche Out cooldown resets after a successful bamboozle."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Mirage",
+        "revision": 123555,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -357,6 +762,55 @@
         "revision": 125031,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "thick-skin",
+              "branch": "A",
+              "name": "Thick Skin",
+              "nameZh": "厚实皮肤",
+              "description": "Take 25% less self-damage from Stim (20 dmg → 15 dmg)."
+            },
+            {
+              "id": "squad-rush",
+              "branch": "B",
+              "name": "Squad Rush",
+              "nameZh": "小队冲刺",
+              "description": "All Launch Pad users gain Stim on landing."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "daredevil",
+              "branch": "A",
+              "name": "Daredevil",
+              "nameZh": "亡命之徒",
+              "description": "Increase Stim Surge duration the less HP you have (up to 6 seconds)."
+            },
+            {
+              "id": "triple-jump",
+              "branch": "B",
+              "name": "Triple Jump",
+              "nameZh": "三段跳",
+              "description": "Gain a third jump from Launch Pads."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Octane",
+        "revision": 125031,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -395,6 +849,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Wattson",
         "revision": 125434,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "help-is-here",
+              "branch": "A",
+              "name": "Help is Here",
+              "nameZh": "援助到场",
+              "description": "Gain all Support class perks."
+            },
+            {
+              "id": "ultimate-conductor",
+              "branch": "B",
+              "name": "Ultimate Conductor",
+              "nameZh": "终极导体",
+              "description": "Damage dealt converts to Ultimate charge. Knocks grant a 50% burst of charge."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "energized-healer",
+              "branch": "A",
+              "name": "Energized Healer",
+              "nameZh": "充能医师",
+              "description": "Double the healing effect of small healing items ( and )."
+            },
+            {
+              "id": "power-pylon",
+              "branch": "B",
+              "name": "Power Pylon",
+              "nameZh": "强化拦截塔",
+              "description": "Interception Pylon gains double HP (300 HP Total), healing rate, and capacity."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Wattson",
+        "revision": 125434,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -435,6 +938,55 @@
         "revision": 125431,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "network-expansion",
+              "branch": "A",
+              "name": "Network Expansion",
+              "nameZh": "网络扩展",
+              "description": "+25% range on Neurolink and Drone EMP. (30 m → 37.5 m)"
+            },
+            {
+              "id": "ally-moveto",
+              "branch": "B",
+              "name": "Ally.MoveTo()",
+              "nameZh": "队友.移动至()",
+              "description": "Crypto can Trailblaze to all allies."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "power-coupling",
+              "branch": "A",
+              "name": "Power Coupling",
+              "nameZh": "能量耦合",
+              "description": "Crypto gains Ultimate charge from using scan beacons and scanning enemies with his drone."
+            },
+            {
+              "id": "hackathon",
+              "branch": "B",
+              "name": "Hackathon",
+              "nameZh": "黑客马拉松",
+              "description": "Surveillance Drone cooldown reduced by 20 seconds (40s → 20s) and gain speed boost when activating Drone EMP or losing the drone."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Crypto",
+        "revision": 125431,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -473,6 +1025,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Revenant",
         "revision": 124312,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "ultimate-cooldown",
+              "branch": "A",
+              "name": "Ultimate Cooldown",
+              "nameZh": "终极冷却",
+              "description": "Forged Shadows cooldown reduced by 30 seconds (180s → 150s)."
+            },
+            {
+              "id": "try-to-hide",
+              "branch": "B",
+              "name": "Try To Hide",
+              "nameZh": "试着躲藏",
+              "description": "Assassin's Instinct low health markers last twice as long."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "tactical-cooldown",
+              "branch": "A",
+              "name": "Tactical Cooldown",
+              "nameZh": "战术冷却",
+              "description": "Shadow Pounce cooldown reduced by 5 seconds (20s → 15s)."
+            },
+            {
+              "id": "agile-assassin",
+              "branch": "B",
+              "name": "Agile Assassin",
+              "nameZh": "敏捷刺客",
+              "description": "Shadow Pounce activates and charge 50% faster."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Revenant",
+        "revision": 124312,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -513,6 +1114,55 @@
         "revision": 123785,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "wolf-s-claws",
+              "branch": "A",
+              "name": "Wolf's Claws",
+              "nameZh": "狼之利爪",
+              "description": "After teleporting with Burglar's Best Friend, get a speed boost and super fast weapon draw."
+            },
+            {
+              "id": "shopping-spree",
+              "branch": "B",
+              "name": "Shopping Spree",
+              "nameZh": "疯狂采购",
+              "description": "Your squad can take +1 extra item from Black Market Boutique (2 → 3)."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "escape-artist",
+              "branch": "A",
+              "name": "Escape Artist",
+              "nameZh": "逃脱大师",
+              "description": "After teleporting with Burglar's Best Friend, regenerate 25 shield HP (until taking damage)."
+            },
+            {
+              "id": "brand-new-bag",
+              "branch": "B",
+              "name": "Brand New Bag",
+              "nameZh": "崭新背包",
+              "description": "Gain one Purple Backpack in the next Care Package."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Loba",
+        "revision": 123785,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -552,6 +1202,66 @@
         "revision": 125127,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "combat-reserve",
+              "branch": "A",
+              "name": "Combat Reserve",
+              "nameZh": "战斗储备",
+              "description": "Gain extra ammo per inventory stack, extra grenade capacity, and automatically reload a stowed weapon. Red Weapon Supply Bin access was removed."
+            },
+            {
+              "id": "locked-and-loaded",
+              "branch": "B",
+              "name": "Locked and Loaded",
+              "nameZh": "上膛待发",
+              "description": "Faster reloads and infinite ammo when behind Amped Cover and Amped Shield is intact."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "ramped-up",
+              "branch": "A",
+              "name": "Ramped Up",
+              "nameZh": "火力全开",
+              "description": "Mobile Minigun \"Sheila\"'s handling and spin-up time are improved by 20%."
+            },
+            {
+              "id": "rebuild-module",
+              "branch": "B",
+              "name": "Rebuild Module",
+              "nameZh": "重建模块",
+              "description": "Amped Cover will regenerate after not being damaged for a period of time."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Rampart",
+        "revision": 125127,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "upgrades"
+        ],
+        "noteZh": "30.0 官方补丁覆盖 Wiki 快照中的英雄改动字段。"
       }
     },
     {
@@ -590,6 +1300,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Horizon",
         "revision": 122572,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "gravity-boots",
+              "branch": "A",
+              "name": "Gravity Boots",
+              "nameZh": "重力靴",
+              "description": "Pressing while in the air makes the player fall much faster."
+            },
+            {
+              "id": "newt-scoot",
+              "branch": "B",
+              "name": "NEWT Scoot",
+              "nameZh": "纽特滑行",
+              "description": "After leaving Gravity Lift, press and holds while in the air makes you fall much slower."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "conservation-of-energy",
+              "branch": "A",
+              "name": "Conservation Of Energy",
+              "nameZh": "能量守恒",
+              "description": "Spacewalk now regenerates 25 shield HP when you soft land."
+            },
+            {
+              "id": "knock-expert",
+              "branch": "B",
+              "name": "Knock Expert",
+              "nameZh": "击倒专家",
+              "description": "+1 extra ability charge on knock."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Horizon",
+        "revision": 122572,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -630,6 +1389,55 @@
         "revision": 124200,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "pyro-techniques",
+              "branch": "A",
+              "name": "Pyro Techniques",
+              "nameZh": "纵火技巧",
+              "description": "The Motherlode drops behind patches of fire for 8 seconds after the bombs explode"
+            },
+            {
+              "id": "knuckle-jumper",
+              "branch": "B",
+              "name": "Knuckle Jumper",
+              "nameZh": "指节跳跃",
+              "description": "Jumping when next to your own Knuckle Cluster will give you an explosive boost (destroys the cluster afterwards)."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "reignition",
+              "branch": "A",
+              "name": "Reignition",
+              "nameZh": "再次点燃",
+              "description": "Dealing explosive damage to enemies recharges your ultimate (for every 2 damage dealt, reduces cooldown by 1 second)."
+            },
+            {
+              "id": "wreckless",
+              "branch": "B",
+              "name": "Wreckless",
+              "nameZh": "肆无忌惮",
+              "description": "-50% damage taken from explosives."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Fuse",
+        "revision": 124200,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -669,6 +1477,66 @@
         "revision": 125279,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "eyes-in-the-sky",
+              "branch": "A",
+              "name": "Eyes in the Sky",
+              "nameZh": "天眼",
+              "description": "Reveal enemies through walls within 100 meters while skydiving; enemies in line of sight can still be revealed within 250 meters."
+            },
+            {
+              "id": "full-coverage",
+              "branch": "B",
+              "name": "Full Coverage",
+              "nameZh": "全面覆盖",
+              "description": "Missile Swarm fires more missiles (4x3 pattern → 4x5 pattern) and gets 5 seconds shorter cooldown (30s → 25s)."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "supersonic",
+              "branch": "A",
+              "name": "Supersonic",
+              "nameZh": "超音速",
+              "description": "Reduce Skyward Dive launch time by 40% (5.0s → 3.0s)."
+            },
+            {
+              "id": "aerial-expert",
+              "branch": "B",
+              "name": "Aerial Expert",
+              "nameZh": "空中专家",
+              "description": "Decreases jetpack activation cost, increased horizontal speed. Consumes fuel slightly faster."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Valkyrie",
+        "revision": 125279,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "upgrades"
+        ],
+        "noteZh": "30.0 官方补丁覆盖 Wiki 快照中的英雄改动字段。"
       }
     },
     {
@@ -707,6 +1575,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Seer",
         "revision": 125276,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "lasting-beats",
+              "branch": "A",
+              "name": "Lasting Beats",
+              "nameZh": "余音不绝",
+              "description": "Enemies that leave your ultimate radius are highlighted for 5 seconds."
+            },
+            {
+              "id": "energizing-focus",
+              "branch": "B",
+              "name": "Energizing Focus",
+              "nameZh": "充能聚焦",
+              "description": "Landing your tactical on an enemy regenerates 25 shields (non-stackable)."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "home-base",
+              "branch": "A",
+              "name": "Home Base",
+              "nameZh": "主场优势",
+              "description": "While you’re inside of your Ultimate radius your Tactical cooldown is reduced to 8 seconds."
+            },
+            {
+              "id": "split-focus",
+              "branch": "B",
+              "name": "Split Focus",
+              "nameZh": "分心二用",
+              "description": "+1 Focus of Attention charge."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Seer",
+        "revision": 125492,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -747,6 +1664,55 @@
         "revision": 125092,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "longer-reach",
+              "branch": "A",
+              "name": "Longer Reach",
+              "nameZh": "延伸触及",
+              "description": "Increases Phase Breach range by 25m."
+            },
+            {
+              "id": "ultimate-cooldown",
+              "branch": "B",
+              "name": "Ultimate Cooldown",
+              "nameZh": "终极冷却",
+              "description": "Reduces Phase Breach cooldown by 30s."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "twin-snares",
+              "branch": "A",
+              "name": "Twin Snares",
+              "nameZh": "双重电弧陷阱",
+              "description": "+1 Arc Snare charge."
+            },
+            {
+              "id": "greedy-snare",
+              "branch": "B",
+              "name": "Greedy Snare",
+              "nameZh": "贪婪陷阱",
+              "description": "Arc Snare lifetime tripled (5s → 15s) and it can snare multiple enemies."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Ash",
+        "revision": 125092,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -785,6 +1751,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Mad_Maggie",
         "revision": 125278,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "gunrunning",
+              "branch": "A",
+              "name": "Gunrunning",
+              "nameZh": "持枪疾行",
+              "description": "Movement speed increased while holding SMGs and Pistols."
+            },
+            {
+              "id": "fire-ball",
+              "branch": "B",
+              "name": "Fire Ball",
+              "nameZh": "火焰球",
+              "description": "Wrecking Ball drops magma patches on the ground and Mad Maggie takes 50% less fire damage."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "drillslinger",
+              "branch": "A",
+              "name": "Drillslinger",
+              "nameZh": "钻头投手",
+              "description": "+1 Riot Drill charge, but -25% drill duration (9s → 6.75s)."
+            },
+            {
+              "id": "big-drill",
+              "branch": "B",
+              "name": "Big Drill",
+              "nameZh": "巨型钻头",
+              "description": "+50% Riot Drill width and depth."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Mad_Maggie",
+        "revision": 125278,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -825,6 +1840,55 @@
         "revision": 125423,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "stronghold",
+              "branch": "A",
+              "name": "Stronghold",
+              "nameZh": "坚固阵地",
+              "description": "Castle Wall gets +500 HP (1250 HP total) and electrification lasts 120 seconds longer (120s → 240s)."
+            },
+            {
+              "id": "ready-to-rumble",
+              "branch": "B",
+              "name": "Ready To Rumble",
+              "nameZh": "准备开战",
+              "description": "Reviving a player auto loads Newcastle's weapons and triggers full regen."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "ultimate-savior",
+              "branch": "A",
+              "name": "Ultimate Savior",
+              "nameZh": "终极救星",
+              "description": "When you slam down Castle Wall, allies in the impact zone get 15 seconds of shield regeneration."
+            },
+            {
+              "id": "defensive-line",
+              "branch": "B",
+              "name": "Defensive Line",
+              "nameZh": "防御阵线",
+              "description": "Tactical and Revive Shield knocks back enemies once."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Newcastle",
+        "revision": 125423,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -863,6 +1927,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Vantage",
         "revision": 125089,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "controlling-my-prey",
+              "branch": "A",
+              "name": "Controlling my Prey",
+              "nameZh": "掌控猎物",
+              "description": "Gain all Controller class perks."
+            },
+            {
+              "id": "improved-mark",
+              "branch": "B",
+              "name": "Improved Mark",
+              "nameZh": "强化标记",
+              "description": "Sniper's Mark marked enemies are briefly highlighted, their icon is visible through walls and their health bar is revealed to the squad."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "herd-tracker",
+              "branch": "A",
+              "name": "Herd Tracker",
+              "nameZh": "猎群追踪",
+              "description": "Marking an enemy with Spotter's Lens marks the entire team."
+            },
+            {
+              "id": "sniper-cover",
+              "branch": "B",
+              "name": "Sniper Cover",
+              "nameZh": "狙击掩护",
+              "description": "Adds a Gun Shield to Sniper's Mark."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Vantage",
+        "revision": 125089,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -903,6 +2016,55 @@
         "revision": 125140,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "hidden-spikes",
+              "branch": "A",
+              "name": "Hidden Spikes",
+              "nameZh": "隐匿尖刺",
+              "description": "Piercing Spikes are hidden while dormant."
+            },
+            {
+              "id": "sole-piercer",
+              "branch": "B",
+              "name": "Sole Piercer",
+              "nameZh": "孤锋穿刺",
+              "description": "Piercing Spikes activate twice as fast and deal more damages (15 → 20)."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "ferro-door",
+              "branch": "A",
+              "name": "Ferro-Door",
+              "nameZh": "铁磁门",
+              "description": "Using Barricade on destroyed doors rebuilds the door."
+            },
+            {
+              "id": "resilient-veil",
+              "branch": "B",
+              "name": "Resilient Veil",
+              "nameZh": "韧性黑幕",
+              "description": "Dark Veil lasts 5 seconds longer (15s → 20s)."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Catalyst",
+        "revision": 125502,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -941,6 +2103,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Ballistic",
         "revision": 125272,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "extra-bullet",
+              "branch": "A",
+              "name": "Extra Bullet",
+              "nameZh": "额外子弹",
+              "description": "+1 Whistler charge."
+            },
+            {
+              "id": "trap-mode",
+              "branch": "B",
+              "name": "Trap Mode",
+              "nameZh": "陷阱模式",
+              "description": "Whistler dart duration tripled (5s → 15s) and dart damage increased to 35 damage."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "killing-time",
+              "branch": "A",
+              "name": "Killing Time",
+              "nameZh": "杀戮时间",
+              "description": "Tempest duration increased by 15s (30s → 45s)."
+            },
+            {
+              "id": "quiet-time",
+              "branch": "B",
+              "name": "Quiet Time",
+              "nameZh": "静默时刻",
+              "description": "Whistler silences the player on impact instead of applying Overheat and also applies a 0.5s slowdown."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Ballistic",
+        "revision": 125272,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -981,6 +2192,55 @@
         "revision": 125277,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "battpack",
+              "branch": "A",
+              "name": "Battpack",
+              "nameZh": "电池背包",
+              "description": "Carry +1 per stack (2 → 3) and see batteries counter over Death Boxes."
+            },
+            {
+              "id": "bigger-jam",
+              "branch": "B",
+              "name": "Bigger Jam",
+              "nameZh": "扩大干扰",
+              "description": "Energy Barricade radius is increased by 10% (10m → 11m)."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "instant-barrier",
+              "branch": "A",
+              "name": "Instant Barrier",
+              "nameZh": "即时屏障",
+              "description": "A portion of Radiant Transfer's charge is applied instantly."
+            },
+            {
+              "id": "enduring-barrier",
+              "branch": "B",
+              "name": "Enduring Barrier",
+              "nameZh": "持久屏障",
+              "description": "Radiant Transfer's regen no longer gets paused when damaged."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Conduit",
+        "revision": 125277,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
@@ -1019,6 +2279,55 @@
         "url": "https://apexlegends.wiki.gg/wiki/Alter",
         "revision": 124962,
         "fetchedAt": "2026-07-31T16:02:39Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "eye-to-another-world",
+              "branch": "A",
+              "name": "Eye to Another World",
+              "nameZh": "洞见彼端",
+              "description": "Gain all Recon class perks."
+            },
+            {
+              "id": "controller-of-worlds",
+              "branch": "B",
+              "name": "Controller of Worlds",
+              "nameZh": "世界掌控者",
+              "description": "Gain all Controller class perks."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "staring-into-the-void",
+              "branch": "A",
+              "name": "Staring into the Void",
+              "nameZh": "凝视虚空",
+              "description": "Increases Void Passage scan time for Alter by 15 extra seconds."
+            },
+            {
+              "id": "void-breacher",
+              "branch": "B",
+              "name": "Void Breacher",
+              "nameZh": "虚空破袭者",
+              "description": "Using a friendly Void Passage grants faster movement speed and reloads."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Alter",
+        "revision": 124962,
+        "fetchedAt": "2026-08-06T09:30:00Z",
         "license": "CC BY-NC-SA 4.0"
       }
     },
@@ -1059,12 +2368,61 @@
         "revision": 125406,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "hunt-target",
+              "branch": "A",
+              "name": "Hunt Target",
+              "nameZh": "追猎目标",
+              "description": "Speed boost when running towards an enemy marked by Tracker Dart."
+            },
+            {
+              "id": "extra-traps",
+              "branch": "B",
+              "name": "Extra Traps",
+              "nameZh": "额外陷阱",
+              "description": "+1 Tracker Dart charge and +1 traps in the world."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "life-syphon",
+              "branch": "A",
+              "name": "Life Syphon",
+              "nameZh": "生命虹吸",
+              "description": "Health and shield recovery upon damaging enemy with Stinger Bolt."
+            },
+            {
+              "id": "alternate-mode",
+              "branch": "B",
+              "name": "Alternate Mode",
+              "nameZh": "替代模式",
+              "description": "+2 Stinger Bolt charges (Total 3), but has fewer pulses and a smaller radius."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Sparrow",
+        "revision": 125406,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
       }
     },
     {
       "id": "axle",
       "name": "Axle",
-      "nameZh": null,
+      "nameZh": "阿克塞尔",
       "title": "Combat Racer",
       "class": "Skirmisher",
       "releaseDate": "2026-05-05",
@@ -1098,7 +2456,60 @@
         "revision": 125271,
         "fetchedAt": "2026-07-31T16:02:39Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "upgrades": [
+        {
+          "armorLevel": 2,
+          "armorTier": "blue",
+          "options": [
+            {
+              "id": "sliding-shooter",
+              "branch": "A",
+              "name": "Sliding Shooter",
+              "nameZh": "滑行射手",
+              "description": "Bullets shot while sliding come straight from inventory instead of magazine."
+            },
+            {
+              "id": "long-haul",
+              "branch": "B",
+              "name": "Long Haul",
+              "nameZh": "长效冲刺",
+              "description": "Increase Nitro Gate effect duration to 5 seconds (3s -> 5s)."
+            }
+          ]
+        },
+        {
+          "armorLevel": 3,
+          "armorTier": "purple",
+          "options": [
+            {
+              "id": "jump-gate",
+              "branch": "A",
+              "name": "Jump Gate",
+              "nameZh": "跳跃之门",
+              "description": "Upgrades the Nitro Gate to give a double-jump."
+            },
+            {
+              "id": "super-slider",
+              "branch": "B",
+              "name": "Super Slider",
+              "nameZh": "超级滑手",
+              "description": "Reduce Nitro Gate cooldown by 5 seconds (25s -> 20s) and increase maximum in-world Nitro Gate amount by 1 (2 -> 3)."
+            }
+          ]
+        }
+      ],
+      "upgradeSource": {
+        "name": "The Apex Legends Wiki",
+        "url": "https://apexlegends.wiki.gg/wiki/Axle",
+        "revision": 125513,
+        "fetchedAt": "2026-08-06T09:30:00Z",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      "aliasesZh": [
+        "Axle",
+        "艾克索"
+      ]
     }
   ]
 }

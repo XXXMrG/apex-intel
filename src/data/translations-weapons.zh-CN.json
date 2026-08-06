@@ -1,89 +1,213 @@
 {
   "havoc-rifle": {
-    "descriptionZh": "全自动充能式能量步枪。"
+    "descriptionZh": "全自动充能式能量步枪。",
+    "nameZh": "哈沃克步枪",
+    "aliasesZh": [
+      "哈沃克"
+    ]
   },
   "vk-47-flatline": {
-    "descriptionZh": "威力强劲的全自动步枪。"
+    "descriptionZh": "威力强劲的全自动步枪。",
+    "nameZh": "VK-47 平行步枪",
+    "aliasesZh": [
+      "平行步枪",
+      "平行"
+    ]
   },
   "hemlok-breach-ar": {
-    "descriptionZh": "全自动突击步枪。"
+    "descriptionZh": "全自动突击步枪。",
+    "nameZh": "赫姆洛克突击步枪",
+    "aliasesZh": [
+      "赫姆洛克"
+    ]
   },
   "r-301-carbine": {
-    "descriptionZh": "全自动且精度高。"
+    "descriptionZh": "全自动且精度高。",
+    "nameZh": "R-301 卡宾枪",
+    "aliasesZh": [
+      "R301",
+      "301"
+    ]
   },
   "nemesis-burst-ar": {
-    "descriptionZh": "自动扳机式四连发能量步枪。"
+    "descriptionZh": "自动扳机式四连发能量步枪。",
+    "nameZh": "复仇女神连发突击步枪",
+    "aliasesZh": [
+      "复仇女神"
+    ]
   },
   "alternator-smg": {
-    "descriptionZh": "双枪管全自动冲锋枪。"
+    "descriptionZh": "双枪管全自动冲锋枪。",
+    "nameZh": "转换者冲锋枪",
+    "aliasesZh": [
+      "转换者"
+    ]
   },
   "prowler-burst-pdw": {
-    "descriptionZh": "五连发冲锋枪。"
+    "descriptionZh": "五连发冲锋枪。",
+    "nameZh": "猎兽冲锋枪",
+    "aliasesZh": [
+      "猎兽"
+    ]
   },
   "r-99-smg": {
-    "descriptionZh": "高射速全自动冲锋枪。"
+    "descriptionZh": "高射速全自动冲锋枪。",
+    "nameZh": "R-99 冲锋枪",
+    "aliasesZh": [
+      "R99",
+      "99"
+    ]
   },
   "volt-smg": {
-    "descriptionZh": "能量驱动型冲锋枪。"
+    "descriptionZh": "能量驱动型冲锋枪。",
+    "nameZh": "电能冲锋枪",
+    "aliasesZh": [
+      "沃特",
+      "Volt"
+    ]
   },
   "c-a-r-smg": {
-    "descriptionZh": "适应性强的冲锋枪，可使用轻型与重型弹药。"
+    "descriptionZh": "适应性强的冲锋枪，可使用轻型与重型弹药。",
+    "nameZh": "C.A.R. 冲锋枪",
+    "aliasesZh": [
+      "CAR"
+    ]
   },
   "devotion-lmg": {
-    "descriptionZh": "全自动能量轻机枪。"
+    "descriptionZh": "全自动能量轻机枪。",
+    "nameZh": "专注轻机枪",
+    "aliasesZh": [
+      "专注"
+    ]
   },
   "l-star-emg": {
-    "descriptionZh": "等离子驱动的重型机枪。"
+    "descriptionZh": "等离子驱动的重型机枪。",
+    "nameZh": "L-STAR 能量机枪",
+    "aliasesZh": [
+      "L星"
+    ]
   },
   "m600-spitfire": {
-    "descriptionZh": "全自动轻机枪。"
+    "descriptionZh": "全自动轻机枪。",
+    "nameZh": "M600 喷火轻机枪",
+    "aliasesZh": [
+      "喷火"
+    ]
   },
   "rampage-lmg": {
-    "descriptionZh": "火焰驱动的轻机枪，可用铝热剂充能。"
+    "descriptionZh": "火焰驱动的轻机枪，可用铝热剂充能。",
+    "nameZh": "暴走轻机枪",
+    "aliasesZh": [
+      "暴走"
+    ]
   },
   "g7-scout": {
-    "descriptionZh": "使用轻型弹药的半自动神射手步枪。"
+    "descriptionZh": "使用轻型弹药的半自动神射手步枪。",
+    "nameZh": "G7 侦察枪",
+    "aliasesZh": [
+      "G7"
+    ]
   },
   "triple-take": {
-    "descriptionZh": "三枪管神射手步枪。"
+    "descriptionZh": "三枪管神射手步枪。",
+    "nameZh": "三重式狙击枪",
+    "aliasesZh": [
+      "三重",
+      "Triple Take"
+    ]
   },
   "30-30-repeater": {
-    "descriptionZh": "使用重型弹药的半自动连发步枪。"
+    "descriptionZh": "使用重型弹药的半自动连发步枪。",
+    "nameZh": "30-30 连发枪",
+    "aliasesZh": [
+      "3030"
+    ]
   },
   "bocek-compound-bow": {
-    "descriptionZh": "按住射击键可提高威力。"
+    "descriptionZh": "按住射击键可提高威力。",
+    "nameZh": "波塞克复合弓",
+    "aliasesZh": [
+      "波塞克",
+      "弓"
+    ]
   },
   "charge-rifle": {
-    "descriptionZh": "充能光束狙击步枪。"
+    "descriptionZh": "充能光束狙击步枪。",
+    "nameZh": "充能步枪",
+    "aliasesZh": [
+      "滋崩"
+    ]
   },
   "longbow-dmr": {
-    "descriptionZh": "半自动狙击步枪。"
+    "descriptionZh": "半自动狙击步枪。",
+    "nameZh": "长弓精确步枪",
+    "aliasesZh": [
+      "长弓"
+    ]
   },
   "kraber-50-cal-sniper": {
-    "descriptionZh": "威力强劲的栓动狙击步枪。"
+    "descriptionZh": "威力强劲的栓动狙击步枪。",
+    "nameZh": "克雷贝尔 .50 口径狙击枪",
+    "aliasesZh": [
+      "克雷贝尔",
+      "大狙"
+    ]
   },
   "sentinel": {
-    "descriptionZh": "栓动狙击步枪。"
+    "descriptionZh": "栓动狙击步枪。",
+    "nameZh": "哨兵狙击枪",
+    "aliasesZh": [
+      "哨兵"
+    ]
   },
   "eva-8-auto": {
-    "descriptionZh": "全自动霰弹枪。"
+    "descriptionZh": "全自动霰弹枪。",
+    "nameZh": "EVA-8 自动霰弹枪",
+    "aliasesZh": [
+      "EVA8"
+    ]
   },
   "mastiff-shotgun": {
-    "descriptionZh": "威力强劲的半自动霰弹枪。"
+    "descriptionZh": "威力强劲的半自动霰弹枪。",
+    "nameZh": "獒犬霰弹枪",
+    "aliasesZh": [
+      "獒犬"
+    ]
   },
   "mozambique-shotgun": {
-    "descriptionZh": "三枪管霰弹手枪。"
+    "descriptionZh": "三枪管霰弹手枪。",
+    "nameZh": "莫桑比克霰弹枪",
+    "aliasesZh": [
+      "莫桑比克"
+    ]
   },
   "peacekeeper": {
-    "descriptionZh": "杠杆式霰弹枪。"
+    "descriptionZh": "杠杆式霰弹枪。",
+    "nameZh": "和平捍卫者",
+    "aliasesZh": [
+      "PK"
+    ]
   },
   "re-45-burst": {
-    "descriptionZh": "自动扳机式三连发充能手枪。"
+    "descriptionZh": "自动扳机式三连发充能手枪。",
+    "nameZh": "RE-45 爆裂手枪",
+    "aliasesZh": [
+      "RE45"
+    ]
   },
   "p2020": {
-    "descriptionZh": "半自动手枪。"
+    "descriptionZh": "半自动手枪。",
+    "nameZh": "P2020 半自动手枪",
+    "aliasesZh": [
+      "2020"
+    ]
   },
   "wingman": {
-    "descriptionZh": "大威力左轮手枪。"
+    "descriptionZh": "大威力左轮手枪。",
+    "nameZh": "辅助手枪",
+    "aliasesZh": [
+      "小帮手",
+      "Wingman"
+    ]
   }
 }

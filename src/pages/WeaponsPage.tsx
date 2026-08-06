@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { DatabaseToolbar, EmptyState, PageHeader } from '../components/Common'
 import { DetailDrawer } from '../components/DetailDrawer'
-import { attachmentMedia, weapons } from '../data'
+import { attachmentMedia, attachments, weapons } from '../data'
 import type { Weapon } from '../types'
 import { matchesSearch } from '../utils'
 
@@ -22,21 +22,29 @@ export function WeaponsPage() {
   const [query, setQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('全部')
   const [selectedWeapon, setSelectedWeapon] = useState<Weapon | null>(null)
+  const corruptedById = useMemo(() => new Map(attachments.items.map((item) => [item.id, item])), [])
 
   const filtered = useMemo(() => weapons.items.filter((weapon) => {
     const categoryMatch = selectedCategory === '全部' || weapon.category === selectedCategory
     return categoryMatch && matchesSearch([
       weapon.name,
       weapon.nameZh,
+      ...(weapon.aliasesZh ?? []),
       weapon.category,
       weapon.ammo,
+      weapon.ammoZh,
       weapon.description,
       weapon.descriptionZh,
       weapon.lootStatus,
       ...weapon.fireModes,
       ...weapon.attachments,
+      ...(weapon.attachmentsZh ?? []),
+      ...(weapon.corruptedAttachmentIds ?? []).flatMap((id) => {
+        const attachment = corruptedById.get(id)
+        return attachment ? [attachment.name, attachment.nameZh, ...attachment.aliasesZh] : []
+      }),
     ], query)
-  }), [query, selectedCategory])
+  }), [corruptedById, query, selectedCategory])
 
   useEffect(() => {
     const close = (event: KeyboardEvent) => event.key === 'Escape' && setSelectedWeapon(null)
@@ -74,7 +82,7 @@ export function WeaponsPage() {
                 {weapon.media && <img src={weapon.media.src} alt="" loading="lazy" decoding="async" />}
               </div>
               <div className="record-copy">
-                <span>{weapon.ammo}</span>
+                <span>{weapon.ammoZh || weapon.ammo}</span>
                 <h2>{weapon.nameZh || weapon.name}</h2>
                 {weapon.nameZh && <p>{weapon.name}</p>}
                 <dl className="weapon-quick-stats">
@@ -106,7 +114,7 @@ export function WeaponsPage() {
               </figure>
             )}
             <dl className="fact-line weapon-facts">
-              <div><dt>弹药</dt><dd>{selectedWeapon.ammo}</dd></div>
+              <div><dt>弹药</dt><dd>{selectedWeapon.ammoZh || selectedWeapon.ammo}</dd></div>
               <div><dt>射击模式</dt><dd>{selectedWeapon.fireModes.join(' / ') || '—'}</dd></div>
               <div><dt>战利品状态</dt><dd>{selectedWeapon.lootStatus || '地面战利品'}</dd></div>
             </dl>
@@ -120,19 +128,39 @@ export function WeaponsPage() {
             <section className="drawer-section">
               <h3>弹匣容量</h3>
               <div className="value-chips">{selectedWeapon.magazineSizes?.length ? selectedWeapon.magazineSizes.map((size, index) => <span key={`${size}-${index}`}>{size}</span>) : <span>来源未提供</span>}</div>
+              {selectedWeapon.corruptedMagazineSize && <p className="corrupted-mag-note">腐化红弹匣：{selectedWeapon.corruptedMagazineSize} 发</p>}
             </section>
             <section className="drawer-section">
               <h3>可用配件</h3>
               <div className="attachment-list">
                 {selectedWeapon.attachments.length
-                  ? selectedWeapon.attachments.map((item) => (
+                  ? selectedWeapon.attachments.map((item, index) => (
                     <span key={item}>
                       {attachmentMedia[item] && <img src={attachmentMedia[item].src} alt="" loading="lazy" />}
-                      {item}
+                      {selectedWeapon.attachmentsZh?.[index] ?? item}
                     </span>
                   ))
                   : <span>来源未提供</span>}
               </div>
+            </section>
+            <section className="drawer-section compatible-corrupted">
+              <h3>兼容腐化配件</h3>
+              {selectedWeapon.corruptedAttachmentIds?.length ? (
+                <div>
+                  {selectedWeapon.corruptedAttachmentIds.map((id) => {
+                    const attachment = corruptedById.get(id)
+                    if (!attachment) return null
+                    return (
+                      <article key={id}>
+                        <span>{attachment.slotZh}</span>
+                        <h4>{attachment.nameZh}</h4>
+                        <p><b>收益</b>{attachment.buffZh}</p>
+                        <p><b>代价</b>{attachment.drawbackZh}</p>
+                      </article>
+                    )
+                  })}
+                </div>
+              ) : <p className="drawer-note">当前武器不接受地面腐化配件，或属于预装配件的空投武器。</p>}
             </section>
           </>
         )}

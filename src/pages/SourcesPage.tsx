@@ -1,10 +1,13 @@
 import { Link } from '../components/AppLink'
-import { dataSnapshot, legends, maps, news, weapons } from '../data'
+import { attachments, dataSnapshot, legends, maps, news, season, weapons } from '../data'
 import { formatVerifiedAt } from '../utils'
 
 const datasets = [
+  { code: 'S30', title: '赛季 30.0 规则', dataset: season, countLabel: `${season.highlights.length} 组已上线改动` },
   { code: 'LG', title: '英雄与技能', dataset: legends, countLabel: `${legends.items.length} 英雄 / ${dataSnapshot.counts.abilities} 核心技能` },
+  { code: 'UP', title: '英雄护甲天赋', dataset: legends, countLabel: `${dataSnapshot.counts.upgrades} 项 / 蓝紫甲各二选一` },
   { code: 'WP', title: '枪械', dataset: weapons, countLabel: `${weapons.items.length} 件武器` },
+  { code: 'AT', title: '腐化配件', dataset: attachments, countLabel: `${attachments.items.length} 件 / 精确属性卡示例` },
   { code: 'MP', title: '地图', dataset: maps, countLabel: `${maps.items.length} 张地图记录` },
   { code: 'RX', title: '官方新闻', dataset: news, countLabel: `${news.items.length} 条完整分页及 featured 记录` },
 ]
@@ -22,7 +25,7 @@ export function SourcesPage() {
       <section className="snapshot-card">
         <div><span>CURRENT SNAPSHOT</span><b>{dataSnapshot.season}</b></div>
         <div><span>VERIFIED AT</span><b>{formatVerifiedAt(dataSnapshot.verifiedAt)}</b></div>
-        <div><span>STATIC RECORDS</span><b>{dataSnapshot.counts.legends + dataSnapshot.counts.weapons + dataSnapshot.counts.maps + dataSnapshot.counts.news}</b></div>
+        <div><span>STATIC RECORDS</span><b>{dataSnapshot.counts.legends + dataSnapshot.counts.upgrades + dataSnapshot.counts.weapons + dataSnapshot.counts.attachments + dataSnapshot.counts.maps + dataSnapshot.counts.news}</b></div>
         <i />
       </section>
 
@@ -48,8 +51,9 @@ export function SourcesPage() {
           <span className="eyebrow">SCOPE 01</span>
           <h2>什么叫“全量”</h2>
           <ul>
-            <li>英雄：当前正式可用名册，每位 3 项核心技能。</li>
+            <li>英雄：当前正式可用名册，每位 3 项核心技能与 4 项护甲升级天赋。</li>
             <li>枪械：当前武器目录的 7 个分类，不包含投掷物和活动限定变体。</li>
+            <li>腐化配件：30.0 正式上线的 5 种，兼容范围按武器槽位计算；精确示例保留属性卡来源。</li>
             <li>地图：当前与历史正式地图，按大逃杀、Mixtape/其他、竞技场历史分类。</li>
             <li>新闻：EA API 完整分页列表及独立 featured，按 slug 去重，不复制全文。</li>
           </ul>

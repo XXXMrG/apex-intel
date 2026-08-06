@@ -1,9 +1,9 @@
 {
   "meta": {
-    "gameVersion": "Season 29 map catalogue; current pools plus retired Arenas/history",
-    "fetchedAt": "2026-07-31T17:00:50Z",
-    "sourceName": "The Apex Legends Wiki map catalogue",
-    "sourceUrl": "https://apexlegends.wiki.gg/wiki/Map",
+    "gameVersion": "Season 30 · Marked (30.0 launch snapshot)",
+    "fetchedAt": "2026-08-06T09:30:00Z",
+    "sourceName": "Wiki map catalogue + EA Marked map update",
+    "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
     "license": "CC BY-NC-SA 4.0",
     "count": 34
   },
@@ -12,7 +12,7 @@
       "id": "broken-moon",
       "name": "Broken Moon",
       "mode": "Battle Royale",
-      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "status": "当前不在 Season 30 常规大逃杀轮换",
       "releaseDate": "2022-11-01",
       "description": "Broken Moon is a map released in Season 15 located on Cleo, the moon of the planet Boreas.",
       "source": {
@@ -21,13 +21,29 @@
         "revision": 118117,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "残月",
+      "aliasesZh": [
+        "破碎月亮"
+      ],
+      "modeZh": "大逃杀",
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "status"
+        ],
+        "noteZh": "Season 30 地图池按 EA 30.0 官方补丁记录。"
       }
     },
     {
       "id": "e-district",
       "name": "E-District",
       "mode": "Battle Royale",
-      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "status": "Season 30 大逃杀常规轮换",
       "releaseDate": "2024-08-06",
       "description": "E-District is a map released in Season 22 located in Suotamo, a large city on Gaea.",
       "source": {
@@ -36,13 +52,29 @@
         "revision": 122039,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "电能区",
+      "aliasesZh": [
+        "电区"
+      ],
+      "modeZh": "大逃杀",
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "status"
+        ],
+        "noteZh": "Season 30 地图池按 EA 30.0 官方补丁记录。"
       }
     },
     {
       "id": "kings-canyon",
       "name": "Kings Canyon",
       "mode": "Battle Royale",
-      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "status": "当前不在 Season 30 常规大逃杀轮换",
       "releaseDate": "2019-02-04",
       "description": "Kings Canyon is a map for Apex Legends located on the planet Solace.",
       "source": {
@@ -51,13 +83,30 @@
         "revision": 118126,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "诸王峡谷",
+      "aliasesZh": [
+        "王者峡谷",
+        "KC"
+      ],
+      "modeZh": "大逃杀",
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "status"
+        ],
+        "noteZh": "Season 30 地图池按 EA 30.0 官方补丁记录。"
       }
     },
     {
       "id": "olympus",
       "name": "Olympus",
       "mode": "Battle Royale",
-      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "status": "当前不在 Season 30 常规大逃杀轮换",
       "releaseDate": "2020-11-04",
       "description": "Olympus is a map released in Season 7 that was originally located on the planet Psamathe. It was moved to Págos in Season 27.",
       "source": {
@@ -66,13 +115,27 @@
         "revision": 125454,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "奥林匹斯",
+      "aliasesZh": [],
+      "modeZh": "大逃杀",
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "status"
+        ],
+        "noteZh": "Season 30 地图池按 EA 30.0 官方补丁记录。"
       }
     },
     {
       "id": "storm-point",
       "name": "Storm Point",
       "mode": "Battle Royale",
-      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "status": "Season 30 大逃杀常规轮换",
       "releaseDate": "2021-11-02",
       "description": "Storm Point is a map released in Season 11 located on the planet Gaea.",
       "source": {
@@ -81,13 +144,27 @@
         "revision": 118119,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "风暴点",
+      "aliasesZh": [],
+      "modeZh": "大逃杀",
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "status"
+        ],
+        "noteZh": "Season 30 地图池按 EA 30.0 官方补丁记录。"
       }
     },
     {
       "id": "world-s-edge",
       "name": "World's Edge",
       "mode": "Battle Royale",
-      "status": "当前 BR 地图 · 轮换随赛季变化",
+      "status": "Season 30 常规轮换 · 重点重制",
       "releaseDate": "2019-10-01",
       "description": "World's Edge is a map introduced in Season 3 located on the planet Talos.",
       "source": {
@@ -96,6 +173,27 @@
         "revision": 118125,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
+      },
+      "nameZh": "世界尽头",
+      "aliasesZh": [
+        "世界边缘",
+        "WE"
+      ],
+      "modeZh": "大逃杀",
+      "descriptionZh": "第 30 赛季转为极光夜景；新增东部聚落、战场营地与树木聚落，分拣工厂和建筑工地回归，大莫德移动至山崩上方。",
+      "seasonOverride": {
+        "name": "EA Marked Patch Notes",
+        "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+        "publishedAt": "2026-08-03",
+        "verifiedAt": "2026-08-06",
+        "patch": "30.0",
+        "fields": [
+          "nameZh",
+          "aliasesZh",
+          "status",
+          "descriptionZh"
+        ],
+        "noteZh": "世界尽头夜间重制按 EA 30.0 官方补丁记录。"
       }
     },
     {
@@ -111,7 +209,10 @@
         "revision": 118190,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "气压计",
+      "aliasesZh": [],
+      "modeZh": "Control"
     },
     {
       "id": "caustic-treatment",
@@ -126,7 +227,10 @@
         "revision": 118191,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "腐蚀疗法",
+      "aliasesZh": [],
+      "modeZh": "Control"
     },
     {
       "id": "hammond-labs",
@@ -141,7 +245,10 @@
         "revision": 118192,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "哈蒙德实验室",
+      "aliasesZh": [],
+      "modeZh": "Control"
     },
     {
       "id": "lava-siphon",
@@ -156,7 +263,10 @@
         "revision": 118193,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "熔岩虹吸",
+      "aliasesZh": [],
+      "modeZh": "Control"
     },
     {
       "id": "production-yard",
@@ -171,7 +281,10 @@
         "revision": 118194,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "生产庭院",
+      "aliasesZh": [],
+      "modeZh": "Control"
     },
     {
       "id": "thunderdome",
@@ -186,7 +299,12 @@
         "revision": 121749,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "雷霆堡",
+      "aliasesZh": [
+        "雷霆穹顶"
+      ],
+      "modeZh": "Control / Gun Run / Team Deathmatch / Lockdown"
     },
     {
       "id": "autumn-estates",
@@ -201,7 +319,10 @@
         "revision": 118206,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "秋季庄园",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "fragment-east",
@@ -216,7 +337,10 @@
         "revision": 118196,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "碎片东部",
+      "aliasesZh": [],
+      "modeZh": "Gun Run / Team Deathmatch"
     },
     {
       "id": "monument",
@@ -231,7 +355,10 @@
         "revision": 118197,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "纪念碑",
+      "aliasesZh": [],
+      "modeZh": "Gun Run / Team Deathmatch / Lockdown"
     },
     {
       "id": "skull-town",
@@ -246,7 +373,10 @@
         "revision": 118198,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "骷髅镇",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "perpetual-core",
@@ -261,7 +391,10 @@
         "revision": 118199,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "永恒核心",
+      "aliasesZh": [],
+      "modeZh": "Gun Run / Team Deathmatch / Lockdown"
     },
     {
       "id": "wattson-s-pylon",
@@ -276,7 +409,10 @@
         "revision": 118200,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "沃特森的拦截塔",
+      "aliasesZh": [],
+      "modeZh": "Gun Run / Team Deathmatch"
     },
     {
       "id": "zeus-station",
@@ -291,7 +427,10 @@
         "revision": 118201,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "宙斯站",
+      "aliasesZh": [],
+      "modeZh": "Gun Run / Team Deathmatch / Lockdown"
     },
     {
       "id": "habitat-4",
@@ -306,7 +445,10 @@
         "revision": 54344,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "4 号栖息地",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "overflow",
@@ -321,7 +463,10 @@
         "revision": 118202,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "溢出",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "party-crasher",
@@ -336,7 +481,10 @@
         "revision": 3627,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "派对破坏者",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "phase-runner",
@@ -351,7 +499,10 @@
         "revision": 117919,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "相位穿梭器",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "encore",
@@ -366,7 +517,12 @@
         "revision": 63783,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "安可",
+      "aliasesZh": [
+        "返场"
+      ],
+      "modeZh": "竞技场"
     },
     {
       "id": "drop-off",
@@ -381,7 +537,10 @@
         "revision": 13129,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "装卸区",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "the-dome",
@@ -396,7 +555,10 @@
         "revision": 117771,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "圆顶",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "high-desert",
@@ -411,7 +573,10 @@
         "revision": 117748,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "高漠地",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "velvet-oasis",
@@ -426,7 +591,10 @@
         "revision": 117775,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "天鹅绒绿洲",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "artillery-battery",
@@ -441,7 +609,10 @@
         "revision": 117729,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "火炮",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "golden-gardens",
@@ -456,7 +627,10 @@
         "revision": 117745,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "金色花园",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "thermal-station",
@@ -471,7 +645,10 @@
         "revision": 118285,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "热能站",
+      "aliasesZh": [],
+      "modeZh": "竞技场"
     },
     {
       "id": "firing-range",
@@ -486,7 +663,10 @@
         "revision": 125446,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "射击场",
+      "aliasesZh": [],
+      "modeZh": "训练"
     },
     {
       "id": "the-wall",
@@ -501,7 +681,10 @@
         "revision": 117773,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "城墙",
+      "aliasesZh": [],
+      "modeZh": "Gun Run (historical)"
     },
     {
       "id": "winter-express",
@@ -516,7 +699,10 @@
         "revision": 118981,
         "fetchedAt": "2026-07-31T17:00:50Z",
         "license": "CC BY-NC-SA 4.0"
-      }
+      },
+      "nameZh": "冬季快车",
+      "aliasesZh": [],
+      "modeZh": "Limited-time mode"
     }
   ]
 }

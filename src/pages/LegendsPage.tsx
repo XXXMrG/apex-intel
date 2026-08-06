@@ -25,11 +25,13 @@ export function LegendsPage() {
     const searchMatch = matchesSearch([
       legend.name,
       legend.nameZh,
+      ...(legend.aliasesZh ?? []),
       legend.title,
       legend.class,
       legend.description,
       legend.descriptionZh,
       ...legend.abilities.flatMap((ability) => [ability.name, ability.description, ability.descriptionZh]),
+      ...(legend.upgrades?.flatMap((tier) => tier.options.flatMap((option) => [option.name, option.nameZh, option.description])) ?? []),
     ], query)
     return classMatch && searchMatch
   }), [query, selectedClass])
@@ -45,8 +47,8 @@ export function LegendsPage() {
       <PageHeader
         eyebrow="LEGEND ARCHIVE / COMPLETE ROSTER"
         title="英雄与技能"
-        description="当前可用英雄完整名册。每位英雄收录职业、发布日期与被动、战术、终极三项核心技能。"
-        meta={<span className="heading-meta">{legends.items.length} LEGENDS · {legends.items.reduce((n, item) => n + item.abilities.length, 0)} ABILITIES</span>}
+        description="当前可用英雄完整名册。每位英雄收录核心技能，以及蓝甲、紫甲各二选一的护甲升级天赋分支。"
+        meta={<span className="heading-meta">{legends.items.length} LEGENDS · 112 ARMOR UPGRADES</span>}
       />
       <DatabaseToolbar
         query={query}
@@ -120,6 +122,36 @@ export function LegendsPage() {
                 </article>
               ))}
             </div>
+            <section className="upgrade-panel" aria-label="护甲升级天赋">
+              <header>
+                <div><span>ARMOR UPGRADE TREE</span><h3>护甲天赋选择</h3></div>
+                <small>每档二选一</small>
+              </header>
+              <div className="upgrade-track" aria-hidden="true"><i /><b /><i /></div>
+              {selectedLegend.upgrades?.map((tier) => (
+                <article className={`upgrade-tier tier-${tier.armorTier}`} key={`${selectedLegend.id}-${tier.armorLevel}`}>
+                  <div className="tier-marker">
+                    <span>LEVEL {tier.armorLevel}</span>
+                    <strong>{tier.armorTier === 'blue' ? '蓝甲升级' : '紫甲升级'}</strong>
+                  </div>
+                  <div className="upgrade-options">
+                    {tier.options.map((option) => (
+                      <div className="upgrade-option" key={`${tier.armorLevel}-${option.branch}`}>
+                        <span>分支 {option.branch}</span>
+                        <h4>{option.nameZh || option.name}</h4>
+                        {option.nameZh && <b>{option.name}</b>}
+                        <p>{option.descriptionZh ?? option.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </article>
+              ))}
+              {selectedLegend.upgradeSource && (
+                <a className="upgrade-source" href={selectedLegend.upgradeSource.url} target="_blank" rel="noreferrer">
+                  天赋来源 · Wiki revision {selectedLegend.upgradeSource.revision ?? 'EA 30.0 override'} ↗
+                </a>
+              )}
+            </section>
           </>
         )}
       </DetailDrawer>

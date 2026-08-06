@@ -1,5 +1,5 @@
 import { Link } from '../components/AppLink'
-import { dataSnapshot, legends, maps, news, weapons } from '../data'
+import { attachments, dataSnapshot, legends, maps, news, season, weapons } from '../data'
 import { formatDate, formatVerifiedAt } from '../utils'
 
 const databaseLinks = [
@@ -23,10 +23,10 @@ export function HomePage() {
         <div className="hero-copy">
           <span className="eyebrow">FIELD MANUAL / {dataSnapshot.season.toUpperCase()}</span>
           <h1><span>作战资料，</span><br /><span>先于枪声抵达。</span></h1>
-          <p>完整整理 Apex Legends 当前英雄、技能、枪械、地图与 EA 官方情报。每条数据保留来源与核验时间。</p>
+          <p>第 {season.season} 赛季 {season.name} 已上线。这里整理当前英雄天赋、枪械、腐化配件、地图与 EA 官方规则，每条数据保留来源与核验时间。</p>
           <div className="hero-actions">
-            <Link className="action-primary" to="/legends">进入资料库 <span>→</span></Link>
-            <Link className="action-secondary" to="/news">查看最新改动</Link>
+            <Link className="action-primary" to="/season">查看 30.0 改动 <span>→</span></Link>
+            <Link className="action-secondary" to="/legends">英雄与护甲天赋</Link>
           </div>
         </div>
         <div className="hero-intel" style={lead?.image ? { backgroundImage: `url("${lead.image}")` } : undefined}>
@@ -38,6 +38,12 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      <Link className="season-command-strip" to="/season">
+        <span>LIVE / PATCH {season.patch}</span>
+        <strong>{attachments.items.length} 种腐化配件 · {dataSnapshot.counts.upgrades} 项护甲天赋 · 世界尽头夜间重制</strong>
+        <b>打开赛季作战简报 ↗</b>
+      </Link>
 
       <section className="database-index" aria-label="资料库入口">
         {databaseLinks.map((item, index) => (
@@ -59,7 +65,7 @@ export function HomePage() {
           </header>
           <div className="integrity-stats">
             <div><span>英雄</span><b>{legends.items.length}</b><small>应收录 28</small></div>
-            <div><span>核心技能</span><b>{dataSnapshot.counts.abilities}</b><small>每位英雄 3 项</small></div>
+            <div><span>护甲天赋</span><b>{dataSnapshot.counts.upgrades}</b><small>28 位英雄 × 4 项</small></div>
             <div><span>枪械</span><b>{weapons.items.length}</b><small>7 个分类</small></div>
             <div><span>核验时间</span><b className="date-value">{formatVerifiedAt(dataSnapshot.verifiedAt)}</b><small>静态快照</small></div>
           </div>

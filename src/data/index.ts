@@ -1,16 +1,18 @@
+import attachmentsJson from './attachments.json'
 import legendsJson from './legends.json'
 import mapsJson from './maps.json'
 import mediaJson from './media-manifest.json'
 import newsJson from './news.json'
+import seasonJson from './season.json'
 import weaponsJson from './weapons.json'
 import legendTranslationsJson from './translations-legends.zh-CN.json'
 import mapTranslationsJson from './translations-maps.zh-CN.json'
 import newsTranslationsJson from './translations-news.zh-CN.json'
 import weaponTranslationsJson from './translations-weapons.zh-CN.json'
-import type { Dataset, Legend, MapRecord, MediaAsset, NewsItem, Weapon } from '../types'
+import type { CorruptedAttachment, Dataset, Legend, MapRecord, MediaAsset, NewsItem, SeasonRecord, Weapon } from '../types'
 
 type LegendTranslation = { descriptionZh: string; abilities: Record<string, string> }
-type DescriptionTranslation = { descriptionZh: string }
+type DescriptionTranslation = { descriptionZh: string; nameZh?: string; aliasesZh?: string[] }
 type NewsTranslation = { titleZh: string; summaryZh: string }
 type MediaManifest = {
   legends: Record<string, MediaAsset>
@@ -31,6 +33,11 @@ const rawWeapons = weaponsJson as Dataset<Weapon>
 const rawMaps = mapsJson as Dataset<MapRecord>
 const rawNews = newsJson as Dataset<NewsItem>
 
+export const season = seasonJson as SeasonRecord
+export const attachments = attachmentsJson as Dataset<CorruptedAttachment> & {
+  translationPolicy: { familyNameZh: string; familyNameEn: string; statusZh: string; aliasesZh: string[] }
+}
+
 export const legends: Dataset<Legend> = {
   ...rawLegends,
   items: rawLegends.items.map((legend) => ({
@@ -49,6 +56,8 @@ export const weapons: Dataset<Weapon> = {
   ...rawWeapons,
   items: rawWeapons.items.map((weapon) => ({
     ...weapon,
+    nameZh: weaponTranslations[weapon.id]?.nameZh ?? weapon.nameZh,
+    aliasesZh: weaponTranslations[weapon.id]?.aliasesZh ?? weapon.aliasesZh,
     descriptionZh: weaponTranslations[weapon.id]?.descriptionZh,
     media: media.weapons[weapon.id],
   })),
@@ -58,7 +67,9 @@ export const maps: Dataset<MapRecord> = {
   ...rawMaps,
   items: rawMaps.items.map((map) => ({
     ...map,
-    descriptionZh: mapTranslations[map.id]?.descriptionZh,
+    nameZh: mapTranslations[map.id]?.nameZh ?? map.nameZh,
+    aliasesZh: mapTranslations[map.id]?.aliasesZh ?? map.aliasesZh,
+    descriptionZh: map.descriptionZh ?? mapTranslations[map.id]?.descriptionZh,
     media: media.maps[map.id],
   })),
 }
@@ -70,16 +81,21 @@ export const news: Dataset<NewsItem> = {
   items: rawNews.items.map((item) => ({ ...item, ...newsTranslations[item.id] })),
 }
 
+const sourceDates = [legends.meta.fetchedAt, weapons.meta.fetchedAt, maps.meta.fetchedAt, news.meta.fetchedAt, attachments.meta.fetchedAt, season.meta.fetchedAt]
+  .filter(Boolean)
+  .sort()
+
 export const dataSnapshot = {
-  season: legends.meta.gameVersion,
-  verifiedAt: [legends.meta.fetchedAt, weapons.meta.fetchedAt, maps.meta.fetchedAt, news.meta.fetchedAt]
-    .filter(Boolean)
-    .sort()
-    .at(0) ?? '',
+  season: `Season ${season.season} · ${season.name}`,
+  patch: season.patch,
+  verifiedAt: sourceDates[sourceDates.length - 1] ?? '',
+  oldestSourceAt: sourceDates[0] ?? '',
   counts: {
     legends: legends.items.length,
     abilities: legends.items.reduce((total, legend) => total + legend.abilities.length, 0),
+    upgrades: legends.items.reduce((total, legend) => total + (legend.upgrades?.reduce((n, tier) => n + tier.options.length, 0) ?? 0), 0),
     weapons: weapons.items.length,
+    attachments: attachments.items.length,
     maps: maps.items.length,
     news: news.items.length,
   },
