@@ -124,18 +124,39 @@ assert.deepEqual(
   ['30-30 Repeater', 'Kraber .50-Cal Sniper', 'L-STAR EMG'],
 )
 assert.equal(weapons.items.find((weapon) => weapon.id === 'g7-scout').bodyDamage, 33)
+assert.equal(weapons.items.find((weapon) => weapon.id === 'g7-scout').headDamage, 53)
+assert.equal(weapons.items.find((weapon) => weapon.id === 'g7-scout').legDamage, 25)
 assert.deepEqual(weapons.items.find((weapon) => weapon.id === 'g7-scout').magazineSizes, [10, 12, 14, 16])
 assert.equal(weapons.items.find((weapon) => weapon.id === '30-30-repeater').bodyDamage, 51)
+assert.equal(weapons.items.find((weapon) => weapon.id === '30-30-repeater').headDamage, 82)
+assert.equal(weapons.items.find((weapon) => weapon.id === '30-30-repeater').legDamage, 43)
+assert.deepEqual(weapons.items.find((weapon) => weapon.id === '30-30-repeater').magazineSizes, [10])
+assert.equal(weapons.items.find((weapon) => weapon.id === '30-30-repeater').infiniteReserve, true)
+assert.equal(weapons.items.find((weapon) => weapon.id === '30-30-repeater').stockpileSize, '∞')
+assert.deepEqual(weapons.items.find((weapon) => weapon.id === '30-30-repeater').damageModes.map((mode) => mode.id), [
+  'standard', 'standard-charged', 'shatter-caps-charged',
+])
 assert.equal(weapons.items.find((weapon) => weapon.id === 'alternator-smg').bodyDamage, 18)
+assert.equal(weapons.items.find((weapon) => weapon.id === 'alternator-smg').headDamage, 23)
+assert.equal(weapons.items.find((weapon) => weapon.id === 'alternator-smg').legDamage, 14)
 assert.deepEqual(weapons.items.find((weapon) => weapon.id === 'alternator-smg').magazineSizes, [18, 20, 22, 26])
 assert.equal(weapons.items.find((weapon) => weapon.id === 'r-99-smg').bodyDamage, 12)
+assert.equal(weapons.items.find((weapon) => weapon.id === 'r-99-smg').headDamage, 16)
+assert.equal(weapons.items.find((weapon) => weapon.id === 'r-99-smg').legDamage, 10)
 assert.equal(weapons.items.find((weapon) => weapon.id === 're-45-burst').bodyDamage, 16)
+assert.equal(weapons.items.find((weapon) => weapon.id === 're-45-burst').headDamage, 24)
+assert.equal(weapons.items.find((weapon) => weapon.id === 're-45-burst').legDamage, 14)
 assert.deepEqual(weapons.items.find((weapon) => weapon.id === 're-45-burst').magazineSizes, [15, 18, 21, 24])
+assert.deepEqual(weapons.items.find((weapon) => weapon.id === 'hemlok-breach-ar').damage, { body: 21, head: 29, legs: 16 })
 for (const weaponId of ['hemlok-breach-ar', 'alternator-smg', 'r-99-smg', 're-45-burst', 'g7-scout', '30-30-repeater']) {
   const override = weapons.items.find((weapon) => weapon.id === weaponId).seasonOverride
   assert.equal(override.patch, '30.0')
   assert.match(override.url, /^https:\/\/www\.ea\.com\//)
   assert.ok(override.fields.length > 0)
+  const derivation = weapons.items.find((weapon) => weapon.id === weaponId).damageDerivation
+  assert.ok(derivation.headMultiplier > 0 && derivation.legMultiplier > 0)
+  assert.match(derivation.multiplierSourceUrl, /^https:\/\/apexlegends\.wiki\.gg\//)
+  assert.equal(derivation.verifiedAt, '2026-08-08')
 }
 assert.equal(weapons.items.find((weapon) => weapon.id === 'r-99-smg').corruptedMagazineSize, 33)
 
@@ -150,6 +171,12 @@ for (const attachment of attachments.items) {
   assert.ok(attachment.compatibleWeaponIds.length && attachment.compatibleWeaponIds.every((id) => weaponIds.has(id)))
   assert.ok(attachment.verifiedExamples.length && attachment.verifiedExamples.every((example) => example.stats.length && example.evidence))
 }
+const rapidStock = attachments.items.find((attachment) => attachment.id === 'rapid-sniper-stock')
+const rapidStockRate = rapidStock.verifiedExamples.flatMap((example) => example.stats).find((stat) => stat.labelZh === '射速')
+assert.equal(rapidStockRate.delta, '+22')
+assert.doesNotMatch(rapidStockRate.delta, /RPM|%/, 'game-card score must not be relabeled as RPM or percent')
+assert.equal(weapons.items.find((weapon) => weapon.id === 'r-99-smg').damageDerivation.headMultiplier, 1.3)
+assert.equal(weapons.items.find((weapon) => weapon.id === '30-30-repeater').damageDerivation.headMultiplier, 1.6)
 
 assert.equal(season.season, 30)
 assert.equal(season.patch, '30.0')

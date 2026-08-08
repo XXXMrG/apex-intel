@@ -1,7 +1,7 @@
 {
   "meta": {
     "gameVersion": "Season 30 · Marked (30.0 launch snapshot)",
-    "fetchedAt": "2026-08-06T09:30:00Z",
+    "fetchedAt": "2026-08-08T03:56:19Z",
     "sourceName": "Wiki stat snapshot + EA Marked 30.0 patch overrides",
     "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
     "license": "CC BY-NC-SA 4.0",
@@ -132,12 +132,12 @@
         "Breach Charge"
       ],
       "bodyDamage": 21,
-      "headDamage": "官方未公布",
-      "legDamage": "官方未公布",
+      "headDamage": 29,
+      "legDamage": 16,
       "damage": {
         "body": 21,
-        "head": "官方未公布",
-        "legs": "官方未公布"
+        "head": 29,
+        "legs": 16
       },
       "rpm": 462,
       "magazineSizes": [
@@ -191,7 +191,15 @@
           "head",
           "legs"
         ],
-        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
+        "noteZh": "身体伤害与明确列出的弹匣／空投字段按 EA 30.0 覆盖；爆头、腿部及蓄力模式使用已标注来源的既有倍率衍生，页面会与官方直出值分层显示。"
+      },
+      "damageDerivation": {
+        "headMultiplier": 1.4,
+        "legMultiplier": 0.75,
+        "roundingZh": "按游戏伤害卡片显示规则四舍五入到整数",
+        "basisZh": "EA 30.0 最新身体伤害 × wiki.gg 历史表中最近一次可核验的有效命中倍率（优先使用更新后的头部伤害反推，避免读取陈旧主表）",
+        "multiplierSourceUrl": "https://apexlegends.wiki.gg/wiki/Hemlok_Breach_AR",
+        "verifiedAt": "2026-08-08"
       }
     },
     {
@@ -319,12 +327,12 @@
         "Auto"
       ],
       "bodyDamage": 18,
-      "headDamage": "官方未公布",
-      "legDamage": "官方未公布",
+      "headDamage": 23,
+      "legDamage": 14,
       "damage": {
         "body": 18,
-        "head": "官方未公布",
-        "legs": "官方未公布"
+        "head": 23,
+        "legs": 14
       },
       "rpm": 600,
       "magazineSizes": [
@@ -380,7 +388,15 @@
           "legs",
           "magazines"
         ],
-        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
+        "noteZh": "身体伤害与明确列出的弹匣／空投字段按 EA 30.0 覆盖；爆头、腿部及蓄力模式使用已标注来源的既有倍率衍生，页面会与官方直出值分层显示。"
+      },
+      "damageDerivation": {
+        "headMultiplier": 1.25,
+        "legMultiplier": 0.8,
+        "roundingZh": "按游戏伤害卡片显示规则四舍五入到整数",
+        "basisZh": "EA 30.0 最新身体伤害 × wiki.gg 历史表中最近一次可核验的有效命中倍率（优先使用更新后的头部伤害反推，避免读取陈旧主表）",
+        "multiplierSourceUrl": "https://apexlegends.wiki.gg/wiki/Alternator_SMG",
+        "verifiedAt": "2026-08-08"
       }
     },
     {
@@ -452,12 +468,12 @@
         "Auto"
       ],
       "bodyDamage": 12,
-      "headDamage": "官方未公布",
-      "legDamage": "官方未公布",
+      "headDamage": 16,
+      "legDamage": 10,
       "damage": {
         "body": 12,
-        "head": "官方未公布",
-        "legs": "官方未公布"
+        "head": 16,
+        "legs": 10
       },
       "rpm": 1080,
       "magazineSizes": [
@@ -500,7 +516,6 @@
         "tactical-laser",
         "agile-standard-stock"
       ],
-      "corruptedMagazineSize": 33,
       "seasonOverride": {
         "name": "EA Marked Patch Notes",
         "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
@@ -512,7 +527,16 @@
           "head",
           "legs"
         ],
-        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
+        "noteZh": "身体伤害与明确列出的弹匣／空投字段按 EA 30.0 覆盖；爆头、腿部及蓄力模式使用已标注来源的既有倍率衍生，页面会与官方直出值分层显示。"
+      },
+      "corruptedMagazineSize": 33,
+      "damageDerivation": {
+        "headMultiplier": 1.3,
+        "legMultiplier": 0.8,
+        "roundingZh": "按游戏伤害卡片显示规则四舍五入到整数",
+        "basisZh": "EA 30.0 最新身体伤害 × wiki.gg 历史表中最近一次可核验的有效命中倍率（优先使用更新后的头部伤害反推，避免读取陈旧主表）",
+        "multiplierSourceUrl": "https://apexlegends.wiki.gg/wiki/R-99_SMG",
+        "verifiedAt": "2026-08-08"
       }
     },
     {
@@ -865,12 +889,12 @@
         "Single"
       ],
       "bodyDamage": 33,
-      "headDamage": "官方未公布",
-      "legDamage": "官方未公布",
+      "headDamage": 53,
+      "legDamage": 25,
       "damage": {
         "body": 33,
-        "head": "官方未公布",
-        "legs": "官方未公布"
+        "head": 53,
+        "legs": 25
       },
       "rpm": 246,
       "magazineSizes": [
@@ -925,7 +949,15 @@
           "magazines",
           "supply"
         ],
-        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
+        "noteZh": "身体伤害与明确列出的弹匣／空投字段按 EA 30.0 覆盖；爆头、腿部及蓄力模式使用已标注来源的既有倍率衍生，页面会与官方直出值分层显示。"
+      },
+      "damageDerivation": {
+        "headMultiplier": 1.6,
+        "legMultiplier": 0.75,
+        "roundingZh": "按游戏伤害卡片显示规则四舍五入到整数",
+        "basisZh": "EA 30.0 最新身体伤害 × wiki.gg 历史表中最近一次可核验的有效命中倍率（优先使用更新后的头部伤害反推，避免读取陈旧主表）",
+        "multiplierSourceUrl": "https://apexlegends.wiki.gg/wiki/G7_Scout",
+        "verifiedAt": "2026-08-08"
       }
     },
     {
@@ -989,16 +1021,16 @@
         "Single"
       ],
       "bodyDamage": 51,
-      "headDamage": "碎片弹理论 70（56×1.25）",
-      "legDamage": "官方未公布",
+      "headDamage": 82,
+      "legDamage": 43,
       "damage": {
         "body": 51,
-        "head": "碎片弹理论 70（56×1.25）",
-        "legs": "官方未公布"
+        "head": 82,
+        "legs": 43
       },
       "rpm": 139,
       "magazineSizes": [
-        50
+        10
       ],
       "currentLootTier": "空投补给武器",
       "lootStatus": "空投补给武器",
@@ -1029,7 +1061,6 @@
         "穿颅器膛线"
       ],
       "corruptedAttachmentIds": [],
-      "stockpileSize": 50,
       "seasonOverride": {
         "name": "EA Marked Patch Notes",
         "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
@@ -1042,9 +1073,48 @@
           "legs",
           "magazines",
           "supply",
-          "stockpile"
+          "infiniteReserve",
+          "damageModes"
         ],
-        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
+        "noteZh": "身体伤害与明确列出的弹匣／空投字段按 EA 30.0 覆盖；爆头、腿部及蓄力模式使用已标注来源的既有倍率衍生，页面会与官方直出值分层显示。"
+      },
+      "infiniteReserve": true,
+      "stockpileSize": "∞",
+      "damageModes": [
+        {
+          "id": "standard",
+          "nameZh": "常规弹（未蓄力）",
+          "body": 51,
+          "head": 82,
+          "legs": 43,
+          "noteZh": "51 为 EA 30.0 公布值；头部按 2025-03 最新 43→69 的有效 ×1.6 倍率、腿部按既有 ×0.85 倍率取整。"
+        },
+        {
+          "id": "standard-charged",
+          "nameZh": "常规弹（满蓄力）",
+          "body": 69,
+          "head": 110,
+          "legs": 59,
+          "noteZh": "按 30-30 既有满蓄力 +36% 与最新有效 ×1.6 爆头倍率计算；属于公式衍生值。"
+        },
+        {
+          "id": "shatter-caps-charged",
+          "nameZh": "碎片弹（满蓄力）",
+          "body": 56,
+          "head": 70,
+          "legs": null,
+          "pellets": 7,
+          "damagePerPellet": 8,
+          "noteZh": "EA 30.0 公布 7 弹丸、满蓄力每弹丸 8；70 为既有碎片弹 ×1.25 爆头倍率衍生总值。"
+        }
+      ],
+      "damageDerivation": {
+        "headMultiplier": 1.6,
+        "legMultiplier": 0.85,
+        "roundingZh": "按游戏伤害卡片显示规则四舍五入到整数",
+        "basisZh": "EA 30.0 最新身体伤害 × wiki.gg 历史表中最近一次可核验的有效命中倍率（优先使用更新后的头部伤害反推，避免读取陈旧主表）",
+        "multiplierSourceUrl": "https://apexlegends.wiki.gg/wiki/30-30_Repeater",
+        "verifiedAt": "2026-08-08"
       }
     },
     {
@@ -1510,12 +1580,12 @@
         "Burst (3)"
       ],
       "bodyDamage": 16,
-      "headDamage": "官方未公布",
-      "legDamage": "官方未公布",
+      "headDamage": 24,
+      "legDamage": 14,
       "damage": {
         "body": 16,
-        "head": "官方未公布",
-        "legs": "官方未公布"
+        "head": 24,
+        "legs": 14
       },
       "rpm": null,
       "magazineSizes": [
@@ -1566,7 +1636,15 @@
           "legs",
           "magazines"
         ],
-        "noteZh": "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。"
+        "noteZh": "身体伤害与明确列出的弹匣／空投字段按 EA 30.0 覆盖；爆头、腿部及蓄力模式使用已标注来源的既有倍率衍生，页面会与官方直出值分层显示。"
+      },
+      "damageDerivation": {
+        "headMultiplier": 1.5,
+        "legMultiplier": 0.9,
+        "roundingZh": "按游戏伤害卡片显示规则四舍五入到整数",
+        "basisZh": "EA 30.0 最新身体伤害 × wiki.gg 历史表中最近一次可核验的有效命中倍率（优先使用更新后的头部伤害反推，避免读取陈旧主表）",
+        "multiplierSourceUrl": "https://apexlegends.wiki.gg/wiki/RE-45_Burst",
+        "verifiedAt": "2026-08-08"
       }
     },
     {

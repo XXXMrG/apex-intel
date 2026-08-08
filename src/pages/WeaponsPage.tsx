@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { DatabaseToolbar, EmptyState, PageHeader } from '../components/Common'
+import { Link } from '../components/AppLink'
 import { DetailDrawer } from '../components/DetailDrawer'
 import { attachmentMedia, attachments, weapons } from '../data'
 import type { Weapon } from '../types'
@@ -60,6 +61,11 @@ export function WeaponsPage() {
         description="覆盖当前全部七类武器。伤害、射速、弹匣与配件字段仅展示已核实的当前赛季数据。"
         meta={<span className="heading-meta">{weapons.items.length} WEAPONS · 7 CLASSES</span>}
       />
+      <Link to="/gunsmith" className="gunsmith-launch-band">
+        <span>S30 PLAYGROUND</span>
+        <strong>进入枪械实验台：组合配件并计算伤害、击杀枪数与理论 TTK</strong>
+        <b>OPEN LAB →</b>
+      </Link>
       <DatabaseToolbar
         query={query}
         onQueryChange={setQuery}

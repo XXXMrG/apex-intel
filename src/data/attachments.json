@@ -1,7 +1,7 @@
 {
   "meta": {
     "gameVersion": "Season 30 · Marked (launch snapshot)",
-    "fetchedAt": "2026-08-06T09:30:00Z",
+    "fetchedAt": "2026-08-08T03:56:19Z",
     "sourceName": "EA Marked Patch Notes + launch-day in-game stat cards",
     "sourceUrl": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
     "license": "EA official facts; gameplay-card values retained as attributed observations",
@@ -31,8 +31,8 @@
         "name": "EA Marked Patch Notes",
         "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
         "publishedAt": "2026-08-03",
-        "verifiedAt": "2026-08-06",
-        "fetchedAt": "2026-08-06T09:30:00Z",
+        "verifiedAt": "2026-08-08",
+        "fetchedAt": "2026-08-08T03:56:19Z",
         "license": "EA official facts; gameplay card observations attributed in each example"
       },
       "id": "overflowing-magazine",
@@ -99,8 +99,8 @@
         "name": "EA Marked Patch Notes",
         "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
         "publishedAt": "2026-08-03",
-        "verifiedAt": "2026-08-06",
-        "fetchedAt": "2026-08-06T09:30:00Z",
+        "verifiedAt": "2026-08-08",
+        "fetchedAt": "2026-08-08T03:56:19Z",
         "license": "EA official facts; gameplay card observations attributed in each example"
       },
       "id": "headseeker-barrel",
@@ -156,8 +156,8 @@
         "name": "EA Marked Patch Notes",
         "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
         "publishedAt": "2026-08-03",
-        "verifiedAt": "2026-08-06",
-        "fetchedAt": "2026-08-06T09:30:00Z",
+        "verifiedAt": "2026-08-08",
+        "fetchedAt": "2026-08-08T03:56:19Z",
         "license": "EA official facts; gameplay card observations attributed in each example"
       },
       "id": "tactical-laser",
@@ -214,8 +214,8 @@
         "name": "EA Marked Patch Notes",
         "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
         "publishedAt": "2026-08-03",
-        "verifiedAt": "2026-08-06",
-        "fetchedAt": "2026-08-06T09:30:00Z",
+        "verifiedAt": "2026-08-08",
+        "fetchedAt": "2026-08-08T03:56:19Z",
         "license": "EA official facts; gameplay card observations attributed in each example"
       },
       "id": "agile-standard-stock",
@@ -285,8 +285,8 @@
         "name": "EA Marked Patch Notes",
         "url": "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
         "publishedAt": "2026-08-03",
-        "verifiedAt": "2026-08-06",
-        "fetchedAt": "2026-08-06T09:30:00Z",
+        "verifiedAt": "2026-08-08",
+        "fetchedAt": "2026-08-08T03:56:19Z",
         "license": "EA official facts; gameplay card observations attributed in each example"
       },
       "id": "rapid-sniper-stock",
@@ -318,7 +318,7 @@
             },
             {
               "labelZh": "射速",
-              "delta": "+22 RPM"
+              "delta": "+22"
             },
             {
               "labelZh": "换弹时间",
@@ -329,7 +329,7 @@
               "delta": "+10"
             }
           ],
-          "evidence": "EA Marked Patch Notes 官方 Triple Take 属性卡截图"
+          "evidence": "EA Marked 官方 Triple Take 属性卡截图；射速 +22 为游戏内属性卡分值，不冒充 RPM"
         }
       ]
     }

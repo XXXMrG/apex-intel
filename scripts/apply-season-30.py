@@ -15,6 +15,7 @@ DATA = ROOT / "src" / "data"
 RESEARCH = ROOT / "research"
 VERSION = "Season 30 · Marked (30.0 launch snapshot)"
 FETCHED_AT = "2026-08-06T09:30:00Z"
+WEAPON_FETCHED_AT = "2026-08-08T03:56:19Z"
 PATCH_URL = "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes"
 
 
@@ -109,14 +110,53 @@ ATTACHMENT_ZH = {
     "Disruptor Rounds": "干扰器弹药", "Kinetic Feeder": "动能供弹器", "Graffiti Mod": "涂鸦模组",
 }
 
-# Exact values published in the 30.0 patch notes override any launch-day wiki lag.
+# EA 30.0 publishes the changed body values. Head/leg values below are
+# derived with the latest effective hit-location multipliers recoverable from
+# wiki.gg's change history (rather than its stale lead table) and Apex's nearest-integer display rounding. Keeping the derivation explicit
+# avoids mixing old body damage with a current-season card.
 WEAPON_OVERRIDES = {
-    "hemlok-breach-ar": {"body": 21, "head": "官方未公布", "legs": "官方未公布"},
-    "alternator-smg": {"body": 18, "head": "官方未公布", "legs": "官方未公布", "magazines": [18, 20, 22, 26]},
-    "r-99-smg": {"body": 12, "head": "官方未公布", "legs": "官方未公布"},
-    "re-45-burst": {"body": 16, "head": "官方未公布", "legs": "官方未公布", "magazines": [15, 18, 21, 24]},
-    "g7-scout": {"body": 33, "head": "官方未公布", "legs": "官方未公布", "magazines": [10, 12, 14, 16], "supply": False},
-    "30-30-repeater": {"body": 51, "head": "碎片弹理论 70（56×1.25）", "legs": "官方未公布", "magazines": [50], "supply": True, "stockpile": 50},
+    "hemlok-breach-ar": {"body": 21, "head": 29, "legs": 16, "multipliers": [1.4, 0.75]},
+    "alternator-smg": {"body": 18, "head": 23, "legs": 14, "multipliers": [1.25, 0.8], "magazines": [18, 20, 22, 26]},
+    "r-99-smg": {"body": 12, "head": 16, "legs": 10, "multipliers": [1.3, 0.8]},
+    "re-45-burst": {"body": 16, "head": 24, "legs": 14, "multipliers": [1.5, 0.9], "magazines": [15, 18, 21, 24]},
+    "g7-scout": {"body": 33, "head": 53, "legs": 25, "multipliers": [1.6, 0.75], "magazines": [10, 12, 14, 16], "supply": False},
+    "30-30-repeater": {
+        "body": 51,
+        "head": 82,
+        "legs": 43,
+        "multipliers": [1.6, 0.85],
+        "magazines": [10],
+        "supply": True,
+        "infiniteReserve": True,
+        "damageModes": [
+            {
+                "id": "standard",
+                "nameZh": "常规弹（未蓄力）",
+                "body": 51,
+                "head": 82,
+                "legs": 43,
+                "noteZh": "51 为 EA 30.0 公布值；头部按 2025-03 最新 43→69 的有效 ×1.6 倍率、腿部按既有 ×0.85 倍率取整。",
+            },
+            {
+                "id": "standard-charged",
+                "nameZh": "常规弹（满蓄力）",
+                "body": 69,
+                "head": 110,
+                "legs": 59,
+                "noteZh": "按 30-30 既有满蓄力 +36% 与最新有效 ×1.6 爆头倍率计算；属于公式衍生值。",
+            },
+            {
+                "id": "shatter-caps-charged",
+                "nameZh": "碎片弹（满蓄力）",
+                "body": 56,
+                "head": 70,
+                "legs": None,
+                "pellets": 7,
+                "damagePerPellet": 8,
+                "noteZh": "EA 30.0 公布 7 弹丸、满蓄力每弹丸 8；70 为既有碎片弹 ×1.25 爆头倍率衍生总值。",
+            },
+        ],
+    },
     "l-star-emg": {"supply": True},
     "kraber-50-cal-sniper": {"supply": True},
 }
@@ -201,7 +241,7 @@ def apply():
 
     weapons = load(DATA / "weapons.json")
     weapons["meta"].update({
-        "gameVersion": VERSION, "fetchedAt": FETCHED_AT,
+        "gameVersion": VERSION, "fetchedAt": WEAPON_FETCHED_AT,
         "sourceName": "Wiki stat snapshot + EA Marked 30.0 patch overrides", "sourceUrl": PATCH_URL,
     })
     compat = {}
@@ -229,16 +269,36 @@ def apply():
         if "legs" in override:
             weapon["damage"]["legs"] = override["legs"]
             weapon["legDamage"] = override["legs"]
+        weapon.pop("stockpileSize", None)
+        weapon.pop("infiniteReserve", None)
+        weapon.pop("damageModes", None)
+        weapon.pop("damageDerivation", None)
         if "magazines" in override:
             weapon["magazineSizes"] = override["magazines"]
-        if "stockpile" in override:
-            weapon["stockpileSize"] = override["stockpile"]
+        if override.get("infiniteReserve"):
+            weapon["infiniteReserve"] = True
+            weapon["stockpileSize"] = "∞"
+        if "damageModes" in override:
+            weapon["damageModes"] = override["damageModes"]
+        if "multipliers" in override:
+            head_multiplier, leg_multiplier = override["multipliers"]
+            weapon["damageDerivation"] = {
+                "headMultiplier": head_multiplier,
+                "legMultiplier": leg_multiplier,
+                "roundingZh": "按游戏伤害卡片显示规则四舍五入到整数",
+                "basisZh": "EA 30.0 最新身体伤害 × wiki.gg 历史表中最近一次可核验的有效命中倍率（优先使用更新后的头部伤害反推，避免读取陈旧主表）",
+                "multiplierSourceUrl": weapon["source"]["url"],
+                "verifiedAt": "2026-08-08",
+            }
         supply = bool(override.get("supply", weapon.get("supplyDrop", False)))
         weapon["supplyDrop"] = supply
         weapon["lootStatus"] = weapon["currentLootTier"] = "空投补给武器" if supply else "地面标准战利品"
         if weapon["id"] in {"hemlok-breach-ar", "alternator-smg", "r-99-smg", "re-45-burst", "g7-scout", "30-30-repeater"}:
-            fields = [key for key in override if key in {"body", "head", "legs", "magazines", "supply", "stockpile"}]
-            weapon["seasonOverride"] = season_override(fields, "武器字段按 EA 30.0 上线补丁覆盖；未公布的爆头／腿部衍生伤害不冒充官方数值。")
+            fields = [key for key in override if key in {"body", "head", "legs", "magazines", "supply", "infiniteReserve", "damageModes"}]
+            weapon["seasonOverride"] = season_override(
+                fields,
+                "身体伤害与明确列出的弹匣／空投字段按 EA 30.0 覆盖；爆头、腿部及蓄力模式使用已标注来源的既有倍率衍生，页面会与官方直出值分层显示。",
+            )
     dump(DATA / "weapons.json", weapons)
     dump(RESEARCH / "weapons.json", weapons)
 

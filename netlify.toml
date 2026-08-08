@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "22.12.0"
 
+# Wouter uses client-side routes; keep direct links such as /gunsmith reloadable.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 [[headers]]
   for = "/assets/*"
   [headers.values]

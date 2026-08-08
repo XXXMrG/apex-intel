@@ -78,6 +78,23 @@ export interface WeaponDamage {
   legs: number | string | null
 }
 
+export interface WeaponDamageMode extends WeaponDamage {
+  id: string
+  nameZh: string
+  noteZh?: string
+  pellets?: number
+  damagePerPellet?: number
+}
+
+export interface WeaponDamageDerivation {
+  headMultiplier: number
+  legMultiplier: number
+  roundingZh: string
+  basisZh: string
+  multiplierSourceUrl: string
+  verifiedAt: string
+}
+
 export interface Weapon {
   id: string
   name: string
@@ -88,13 +105,16 @@ export interface Weapon {
   ammoZh?: string | null
   fireModes: string[]
   damage: WeaponDamage
+  damageModes?: WeaponDamageMode[]
+  damageDerivation?: WeaponDamageDerivation
   bodyDamage?: number | string | null
   headDamage?: number | string | null
   legDamage?: number | string | null
   rpm?: number | string | null
   magazineSizes?: Array<number | string> | null
   corruptedMagazineSize?: number | string | null
-  stockpileSize?: number | null
+  stockpileSize?: number | string | null
+  infiniteReserve?: boolean
   lootStatus?: string | null
   currentLootTier?: string | null
   supplyDrop?: boolean

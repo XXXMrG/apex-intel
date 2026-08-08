@@ -9,6 +9,7 @@ const navigation = [
   { to: '/season', code: 'S30', label: '赛季' },
   { to: '/legends', code: 'LG', label: '英雄' },
   { to: '/weapons', code: 'WP', label: '枪械' },
+  { to: '/gunsmith', code: 'LAB', label: '枪匠' },
   { to: '/maps', code: 'MP', label: '地图' },
   { to: '/news', code: 'RX', label: '情报' },
   { to: '/community', code: 'CO', label: '社区' },

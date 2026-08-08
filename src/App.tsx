@@ -1,6 +1,7 @@
 import { Route, Switch } from 'wouter'
 import { Shell } from './components/Shell'
 import { CommunityPage } from './pages/CommunityPage'
+import { GunsmithPage } from './pages/GunsmithPage'
 import { HomePage } from './pages/HomePage'
 import { LegendsPage } from './pages/LegendsPage'
 import { MapsPage } from './pages/MapsPage'
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/season" component={SeasonPage} />
         <Route path="/legends" component={LegendsPage} />
         <Route path="/weapons" component={WeaponsPage} />
+        <Route path="/gunsmith" component={GunsmithPage} />
         <Route path="/maps" component={MapsPage} />
         <Route path="/news" component={NewsPage} />
         <Route path="/community" component={CommunityPage} />
